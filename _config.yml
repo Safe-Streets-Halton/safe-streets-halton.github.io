@@ -20,6 +20,3 @@ twitter_username: HaltonStreets
 facebook_username: HaltonStreets
 instagram_username: SafeStreetsHalton
 tiktok_username: SafeStreetsHalton
-sass:
-  style: compact
-  sass_dir: "./_scss"
