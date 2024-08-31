@@ -1,0 +1,64 @@
+@import 'variables.scss';
+@import 'theme.scss';
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 128px;
+    gap: 76px;
+
+    height: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1664px;    
+}
+
+.header-logo {
+    width: 64px;
+    height: 64px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.site-nav {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    height: 26px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    a {
+        color: #000;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,32 @@
+@import 'variables.scss';
+@import 'theme.scss';
+@import 'header.scss';
+@import 'home.scss';
+
+body {
+    font-family: "Roboto Flex", sans-serif;
+    background: #fff;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-width: 0 0 0 1px;
+
+    list-style: none;
+
+    .svg-icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        fill: #000;
+        padding-right: 5px;
+        vertical-align: text-top;
+    }
+    .username {
+        display: none;
+    }
+}
+

@@ -3,13 +3,22 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ site.title }}</h1>
-  {%- endif -%}
-
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+  <section class="top-content">
+    <div class="top-content__container">
+      <img class="top-content__main-image" />
+      <div class="top-content__text">
+        <h1 class="displayMedium">Safer Streets for <span class="emphasis--green">all</span> in Halton Region</h1>
+        <p>Safe Streets Halton is a community-run organization with volunteers across Halton Region. Our mission is to
+          eliminate traffic deaths and improve the quality of life in Halton Region by enabling residents to safely and
+          comfortably use sustainable and active modes of transportation.</p>
+        <p class="emphasis-block">We believe you should be able to travel safely, whether you walk, cycle, or drive.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -27,8 +36,6 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+  {%- endif -%} -->
 
 </div>
