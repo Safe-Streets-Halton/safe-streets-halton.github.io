@@ -71,3 +71,23 @@ body {
         text-decoration: none;
     }
 }
+
+.social-media-list {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+
+    list-style: none;
+
+    .svg-icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        fill: #000;
+        padding-right: 5px;
+        vertical-align: text-top;
+    }
+    .username {
+        display: none;
+    }
+}
