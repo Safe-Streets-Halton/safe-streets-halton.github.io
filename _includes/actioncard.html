@@ -1,6 +1,6 @@
 <div class="action-card">
     <img class="action-card__image" src="{{ include.image }}" />
-    <div class="displaySmall">{{ include.title }}</div>
+    <a href="{{include.link}}" class="action-card__title displaySmall">{{ include.title }}</a>
     <div class="action-card__content">{{include.description }}</div>
-    <button class="action-card__button button button--green-transparent">{{include.buttonText}}</button>
+    <button onclick="window.location.href='{{include.link}}'" class="action-card__button button button--green-transparent">{{include.buttonText}}</button>
 </div>

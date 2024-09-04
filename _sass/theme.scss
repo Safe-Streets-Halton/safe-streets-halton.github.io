@@ -110,6 +110,13 @@ p {
         height: 80px;
     }
 
+    &__title {
+        text-decoration: none;
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
+    }
+
     &__content {
         font-family: 'Roboto Flex';
         font-style: normal;

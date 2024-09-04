@@ -18,24 +18,15 @@ layout: default
     </div>
   </section>
   <section class="action-card-section">
-    {% include actioncard.html 
-      image="/assets/headerImage.webp"
-      title="Let your councillor know you support Street Safety!" 
-      description="Sign our petition and let your councillor know that you support safer streets!" 
-      buttonText="Sign Here"
-    %}
-    {% include actioncard.html 
-      image="/assets/headerImage.webp"
-      title="Test Title" 
-      description="Hello World" 
-      buttonText="Sign Up!"
-    %}
-    {% include actioncard.html 
-      image="/assets/headerImage.webp"
-      title="Test Title" 
-      description="Hello World" 
-      buttonText="Sign Up!"
-    %}
+    {%  for action in page.actions %} 
+      {% include actioncard.html 
+        image=action.image
+        title=action.title
+        description=action.description
+        buttonText=action.buttonText
+        link=action.link
+      %}
+    {% endfor %}
   </section>
 
   <!-- {%- if site.posts.size > 0 -%}
