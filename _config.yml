@@ -5,7 +5,6 @@ collections:
   posts:
     title: News
     output: true
-    permalink: /news/:path
   uploads:
     title: Uploads
     output: true
