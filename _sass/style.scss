@@ -17,10 +17,15 @@ main {
     display: flex;
     gap: 16px;
     flex-direction: row;
+    justify-content: flex-end;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-width: 0 0 0 1px;
 
+    
     list-style: none;
+
+    padding-inline-start: 0;
+    padding-left: 20px;
 
     .svg-icon {
         width: 16px;

@@ -48,10 +48,17 @@
         text-decoration: none;
     }
 
-    &__trigger {
-        display: none;
-    }
     &__menu-icon {
+        display: none;
+        mask-image: url('/assets/hamburger-menu.svg');
+        mask-position: center;
+        mask-repeat: no-repeat;
+        background-color: black;
+        width: 24px;
+        height: 24px;
+    }
+
+    &__trigger {
         display: none;
     }
     &__links {
@@ -111,6 +118,16 @@
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
             transform-origin: top center;
             animation: 0.2s nav-enter-anim;
+        }
+
+        &__trigger:checked ~ label[for="site-nav__trigger"] &__menu-icon {
+            mask-image: url('/assets/x-mark.svg');
+        }
+        
+        .social-media-list {
+            border-left: none;
+            padding-left: 0;
+            justify-content: center;
         }
     }
 }
