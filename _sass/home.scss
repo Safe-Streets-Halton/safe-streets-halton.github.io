@@ -55,7 +55,15 @@
     }
 }
 
-.action-card-section, .news-card-section {
+
+.news-card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.action-card-section, .news-card-section__items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

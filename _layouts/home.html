@@ -30,15 +30,20 @@ layout: default
   </section>
   {%- if site.posts.size > 0 -%}
   <section class="news-card-section">
-    {%- for post in site.posts limit:2 -%}
-      {% assign postUrl = post.url | relative_url %}
-      {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
-      {% include newscard.html 
-        title=post.title
-        excerpt=postExcerpt
-        href=postUrl
-      %}    
-    {%- endfor -%}
+    <div class="news-card-section__items">
+      {%- for post in site.posts limit:2 -%}
+        {% assign postUrl = post.url | relative_url %}
+        {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+        {% include newscard.html 
+          title=post.title
+          excerpt=postExcerpt
+          href=postUrl
+        %}    
+      {%- endfor -%}
+    </div>
+    <button onclick="window.location.href='/news'" class="action-card__button button button--dark-transparent-black">
+      More News
+    </button>
   </section>
   {%- endif -%}
 
