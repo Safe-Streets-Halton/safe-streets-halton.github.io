@@ -44,8 +44,7 @@ Fiscally, road widening is not sustainable; it is an expensive project to underg
 
 When speaking of cities that are a “pedestrian’s paradise” or “the best and safest place to bike and drive” European cities often come to mind; specifically Copenhagen and towns in the Netherlands. Our response is generally “we’re not them” but guess what – [they were just like us](https://globaldesigningcities.org/publication/global-street-design-guide/streets/pedestrian-priority-spaces/pedestrian-only-streets/pedestrian-streets-case-study-stroget-copenhagen/).
 
-![](https://globaldesigningcities.org/wp-content/uploads/2017/01/4-stadsing-dir-1953-KSA-stadsingeni%C3%B8rens-direktorat-1000x734.jpg)![Copenhagen_2011_43419-1.png](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683110470-B91PXSDZUG9FXRHK9GPL/Copenhagen_2011_43419-1.png?format=750w)
-
+![](https://globaldesigningcities.org/wp-content/uploads/2017/01/4-stadsing-dir-1953-KSA-stadsingeni%C3%B8rens-direktorat-1000x734.jpg)![Copenhagen_2011_43419-1.png](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683110470-B91PXSDZUG9FXRHK9GPL/Copenhagen_2011_43419-1.png?format=750w)\
 images from [Global Designing Cities Initiative](https://globaldesigningcities.org/publication/global-street-design-guide/streets/pedestrian-priority-spaces/pedestrian-only-streets/pedestrian-streets-case-study-stroget-copenhagen/)
 
 Before 1962, all streets in Copenhagen were used predominantly for vehicles. Very similar to us, Copenhageners lived by the automobile. One of the city’s main streets was becoming increasingly congested, and road widening was the most popular solution. However, it was also proposed that the street be pedestrianized, making its predominant use for people on foot.
@@ -54,8 +53,7 @@ The general public didn’t believe it was possible. “Pedestrian streets will 
 
 Now, [Strøget](https://en.wikipedia.org/wiki/Str%C3%B8get) is the longest pedestrian street in the world.
 
-![amsterdam_2.jpeg](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683249899-9IEEOSYWJSV15X2G8DZ8/amsterdam_2.jpeg?format=300w)![amsterdam_1.jpeg](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683250195-25OPSQ7FQTJF8IJ50189/amsterdam_1.jpeg?format=300w)
-
+![amsterdam_2.jpeg](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683249899-9IEEOSYWJSV15X2G8DZ8/amsterdam_2.jpeg?format=300w)![amsterdam_1.jpeg](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683250195-25OPSQ7FQTJF8IJ50189/amsterdam_1.jpeg?format=300w)\
 Image from [cycling professor](https://twitter.com/fietsprofessor/status/1245317779672236035)
 
 Need another example? We can look at how the Netherlands went from having a[traffic death rate 20% higher than the United States](https://usa.streetsblog.org/2013/02/20/the-origins-of-hollands-stop-murdering-children-street-safety-movement/)to a traffic death rate 60% below the USA by 2008. In 1971, 3300 people died from traffic violence, with 500 of those people being children. One was the child of a respected journalist who wrote a series of articles with the first having the headline, “Stop de Kindermoord” meaning “Stop the Child Murder”. Reading the articles, residents were concerned about the type of city they were creating and decided to get involved. “Stop the Child Murder” became the name of the advocacy organization that fought for safer streets and improvements to transit through various protests and demonstrations. That is how the Amsterdam of today came to be. The Netherlands is now recognized by drivers as[“the best place to drive a car”](https://dailyhive.com/vancouver/best-place-in-the-world-to-be-a-driver-netherlands), largely because there are excellent alternatives to driving such as cycling and public transit.
@@ -73,3 +71,39 @@ When driving we tend to drive at the speed we “feel” the road is. Speed limi
 This can be done in an aesthetically pleasing way that increases the attractiveness of the neighbourhood. Those on foot and behind the wheel benefit!
 
 ![](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/b704aac7-0c35-4c64-8386-d7ee55f7e0a1/high-street-neighbourhood-town-human-settlement-city-1600097-pxhere.com.jpg?format=2500w)
+
+## Improved standards for walking and cycling infrastructure
+
+The future of Halton is a place where infrastructure standards are in place to prioritize and protect the most vulnerable road users. Policies and standards can allow every resurfacing project to transform our roads into safe spaces for everyone, while also identifying areas that should be improved outside of renewal projects. They can help prioritize planning and budgeting decisions to help Halton Region become a leader in safer infrastructure.
+
+These policies should include, but are not limited to:
+
+* Improvements in intersection design, making it safer for all modes of transportation to interact at this highly significant point of conflict.
+
+* Sidewalk and bike lane standards that create infrastructure that is accessible to people of all ages and abilities
+
+* Street furniture, canopy, and bike parking standards that help make walking and cycling an easy choice
+
+![Missing Middle Live-Work Housing](https://cdn.aarp.net/content/dam/aarp/livable-communities/housing/2020/1140x665-live-work.imgcache.rev.web.700.408.jpg)\
+image from[AARP](https://www.aarp.org/livable-communities/housing/info-2020/slideshow-missing-middle-housing.html)
+
+## Removal of exclusionary zoning
+
+Land use has a direct impact on how we get around. Increased density and mixed-use developments bring more opportunities to a city, and promote more equitable access to those opportunities whether or not you have a car. Every step Halton Region takes toward more inclusionary zoning policies will have a positive impact on the safety of our streets, and quality of life for all residents.
+
+# What Success Looks Like
+
+We know we will have succeeded when:
+
+* Children can play in the streets without their parents’ concern
+
+
+* The number of fatalities on our roads drops to zero, and serious injuries are a thing of the past
+
+* Walking, cycling, transit, and driving are all seen as safe ways to get around regardless of your age or ability
+
+* Everyone has equal access to amenities, enabling them to live, work, and play within their own community
+
+We at Safe Streets Halton will work towards realising this future.
+
+**[Join us and help create a region that puts residents’ health and safety first.](https://www.safestreetshalton.ca/get-involved)**
