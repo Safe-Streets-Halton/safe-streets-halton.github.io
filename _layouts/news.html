@@ -2,13 +2,15 @@
 layout: default
 ---
 <div class="news">
-    {%- for post in site.posts -%}
-        {% assign postUrl = post.url | relative_url %}
-        {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
-        {% include newscard.html 
-            title=post.title
-            excerpt=postExcerpt
-            href=postUrl
-        %}
-    {%- endfor -%}
+    <section class="article-list">    
+        {%- for post in site.news -%}
+            {% assign postUrl = post.url | relative_url %}
+            {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+            <div class="article-list-item">
+                <img src="{{ post.banner }}" />
+                <a href="{{ postUrl }}"><h2>{{ post.title }}</h2></a>
+                <p>{{ postExcerpt }}</p>
+            </div>
+        {%- endfor -%}
+    </section>
 </div>
