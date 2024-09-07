@@ -1,8 +1,7 @@
 ---
 title: Home
-position: 1
+position: 0
 layout: home
-nav-order: 0
 actions:
 - title: Let your councillor know you support Street Safety!
   image: "/assets/headerImage.webp"

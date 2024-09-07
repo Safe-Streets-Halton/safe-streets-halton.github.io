@@ -1,7 +1,6 @@
 ---
 title: Contact Us
-position: 0
+position: 4
 layout: page
-nav-order: 2
 ---
 
