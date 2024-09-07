@@ -2,7 +2,7 @@
     <div class="header-content">
         {%- assign default_paths = site.pages | sort: 'nav-order' | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
-        <img alt="Safe Streets Halton Logo" src="/assets/Social_Avatar_512x512.png" class="header-logo" />    
+        <a href="/"><img alt="Safe Streets Halton Logo" src="/assets/Social_Avatar_512x512.png" class="header-logo" /></a>
         <nav class="site-nav">            
             <input type="checkbox" id="site-nav__trigger" class="site-nav__trigger" />
             <label for="site-nav__trigger">
