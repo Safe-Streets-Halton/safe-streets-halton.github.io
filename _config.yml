@@ -2,10 +2,10 @@
 title: Safe Streets Halton
 timezone: EST
 collections:
-  posts:
-    title: Posts
-    output: true
   news:
+    title: News
+    output: true
+  posts:
     title: Posts
     output: true
   uploads:
