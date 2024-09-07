@@ -28,10 +28,10 @@ layout: default
       %}
     {% endfor %}
   </section>
-  {%- if site.posts.size > 0 -%}
+  {%- if site.news.size > 0 -%}
   <section class="news-card-section">
     <div class="news-card-section__items">
-      {%- for post in site.posts limit:2 -%}
+      {%- for post in site.news limit:2 -%}
         {% assign postUrl = post.url | relative_url %}
         {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
         {% include newscard.html 
