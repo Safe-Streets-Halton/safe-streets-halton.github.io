@@ -3,6 +3,7 @@ title: It’s time for change
 date: 2024-04-30 00:00:00 -05:00
 banner: "/uploads/a-14-mg28olyfghi.webp"
 layout: post
+excerpt: The start of the pandemic saw an increase in the number of people trying to walk and cycle. Whether it be for exercise, to safely spend time with friends, or to explore the neighbourhood that they no longer have to commute far from. As restrictions were lifted, however, people quickly remembered why they didn’t bike or walk around their cities more often.
 ---
 
 # Key Points
