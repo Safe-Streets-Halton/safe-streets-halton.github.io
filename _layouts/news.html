@@ -1,3 +1,14 @@
+---
+layout: default
+---
 <div class="news">
-    
+    {%- for post in site.posts -%}
+        {% assign postUrl = post.url | relative_url %}
+        {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+        {% include newscard.html 
+            title=post.title
+            excerpt=postExcerpt
+            href=postUrl
+        %}
+    {%- endfor -%}
 </div>
