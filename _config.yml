@@ -2,12 +2,10 @@
 title: Safe Streets Halton
 timezone: EST
 collections:
-  news:
-    title: Posts
-    output: true
   posts:
-    title: Posts
+    title: News
     output: true
+    permalink: /news/:path
   uploads:
     title: Uploads
     output: true
