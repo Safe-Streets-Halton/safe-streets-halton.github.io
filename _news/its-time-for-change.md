@@ -1,6 +1,7 @@
 ---
 title: It’s time for change
 date: 2024-04-30 00:00:00 -05:00
+banner-image: "/uploads/a-14-mg28olyfghi.webp"
 layout: post
 ---
 
