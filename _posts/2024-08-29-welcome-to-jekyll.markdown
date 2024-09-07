@@ -2,8 +2,6 @@
 title: Welcome to Jekyll!
 date: 2024-08-29 23:03:11 -05:00
 categories:
-- jekyll
-- update
 layout: post
 ---
 
