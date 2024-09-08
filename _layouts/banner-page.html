@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="banner-post">
+
+  <header class="banner-header" style="background-image: url('{{page.banner}}');">
+    <div class="banner-header__blur-filter"></div>
+    <h1 class="banner-header__phrase">{{ page.phrase | escape }}</h1>
+  </header>
+
+  <div class="banner-post-content">
+    {{ content }}
+  </div>
+
+</article>

@@ -3,14 +3,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8px;
+    
+    padding: 0 8px;
 }
 .post-header {
     max-width: $readableContentMaxWidth;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    width: 100%;    
 }
 .post-content {
     max-width: $readableContentMaxWidth;

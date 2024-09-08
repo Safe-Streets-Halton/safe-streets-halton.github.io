@@ -2,7 +2,9 @@
 title: About Us
 permalink: "/about/"
 position: 3
-layout: page
+layout: banner-page
+phrase: Health and Safety above all else.
+banner: /uploads/crosswalk-banner.webp
 ---
 
 ## Our Mission
