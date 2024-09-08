@@ -23,7 +23,7 @@
 
     margin: 0 auto;
     width: 100%;
-    max-width: 1664px;    
+    max-width: 1664px;
 }
 
 .header-logo {
@@ -141,5 +141,42 @@
     to {
         transform: scaleY(1);        
         opacity: 1;
+    }
+}
+
+.announcement-banner {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+    margin: 0 auto;
+    width: 100%;
+    min-height: 80px;
+    background: $sshGreen;    
+
+    &__content {        
+        display: flex;
+        column-gap: 24px;
+        row-gap: 4px;
+        flex-wrap: wrap;
+        max-width: $readableContentMaxWidth;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    &__text {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    &__icon {
+        font-size: 24px;
+        @media (max-width: 800px) {
+            display: none;
+        }
     }
 }

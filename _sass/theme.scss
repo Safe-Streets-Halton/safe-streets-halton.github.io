@@ -99,6 +99,34 @@ a {
         }
     }
 
+    &--light-transparent-white {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+
+        width: 111px;
+        height: min-content;
+
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        color: white;
+        font-weight: 400;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        &:active {
+            background: rgba(255, 255, 255, 0.4);
+        }
+    }
+
     &--dark-transparent-black {
         display: flex;
         flex-direction: row;
