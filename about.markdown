@@ -20,3 +20,25 @@ We act as a group where safe streets and active transportation advocates can col
 ## Our Vision
 
 A region with zero traffic deaths and serious injuries. A region where walking and cycling are not only a safe option, but a compelling way of getting around. Kids playing in the streets, neighbours and friends having chance encounters, improved health and cleaner air.
+
+## What we believe in
+
+### Integrity
+
+We operate in a manner that promotes honesty, transparency, and respect.
+
+### Sustainability
+
+We do our part in the fight against climate change and look at problems and solutions through an environmental lens.
+
+### Equity, Diversity, and Inclusivity
+
+We believe in creating a welcome environment for people of all stripes and embracing diversity. Through our work, we strive to amplify the voices of the underrepresented and marginalized with the [Halton Region EDI Charter](https://www.hedroundtable.com/charter) as a guide.
+
+### Compassion
+
+The desire to help those in our community is our primary source of motivation; all of our work will focus on the outcomes for the people who work, live, and play in Halton Region.
+
+### Leadership
+
+We work to inspire and educate others, and take initiative in realizing our vision.
