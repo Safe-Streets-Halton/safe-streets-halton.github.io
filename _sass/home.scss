@@ -29,7 +29,7 @@
         row-gap: 8px;
 
         min-width: 324px;
-        max-width: 1680px;
+        max-width: $readableContentMaxWidth;
     }
 
     &__main-image {
@@ -70,4 +70,5 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    max-width: $readableContentMaxWidth;
 }
