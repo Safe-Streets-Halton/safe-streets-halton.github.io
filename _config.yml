@@ -11,6 +11,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+announcement:
+  show: yes
+  icon: 📢
+  text: Join our Annual General Meeting on May 30th!
+  link: /get-involved
+  action: Learn More
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
