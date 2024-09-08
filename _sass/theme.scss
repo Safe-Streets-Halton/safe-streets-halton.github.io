@@ -1,6 +1,15 @@
 @import 'variables.scss';
 
-.displayMedium {
+h1, .displayLarge {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 53px;
+    color: #000000;
+}
+
+h2, .displayMedium {
     font-family: 'Roboto Flex';
     font-style: normal;
     font-weight: 500;
@@ -9,7 +18,7 @@
     color: #000000;
 }
 
-.displaySmall {
+h3, .displaySmall {
     font-family: 'Roboto Flex';
     font-style: normal;
     font-weight: 500;
@@ -38,10 +47,14 @@
 p {
     font-family: 'Roboto Flex';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
     color: #000000;
+}
+
+a {
+    color: $sshGreen;
 }
 
 .button { 

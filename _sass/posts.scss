@@ -1,0 +1,19 @@
+@import 'variables.scss';
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post-header {
+    max-width: $readableContentMaxWidth;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.post-content {
+    max-width: $readableContentMaxWidth;
+    img {
+        max-width: 80%;        
+    }
+}
