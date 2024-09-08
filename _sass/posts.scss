@@ -13,7 +13,12 @@
 }
 .post-content {
     max-width: $readableContentMaxWidth;
+    p:has(img) {
+        text-align: center;
+    }
     img {
-        max-width: 80%;        
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 }
