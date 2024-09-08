@@ -12,10 +12,10 @@ collections:
     title: Uploads
     output: true
 announcement:
-  show: yes
-  icon: 📢
+  show: true
+  icon: "\U0001F4E2"
   text: Join our Annual General Meeting on May 30th!
-  link: /get-involved
+  link: "/get-involved"
   action: Learn More
 plugins:
 - jekyll-feed
