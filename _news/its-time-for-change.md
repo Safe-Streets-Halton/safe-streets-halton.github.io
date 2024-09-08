@@ -55,20 +55,20 @@ images from [Global Designing Cities Initiative](https://globaldesigningcities.o
 
 Before 1962, all streets in Copenhagen were used predominantly for vehicles. Very similar to us, Copenhageners lived by the automobile. One of the city’s main streets was becoming increasingly congested, and road widening was the most popular solution. However, it was also proposed that the street be pedestrianized, making its predominant use for people on foot.
 
-The general public didn’t believe it was possible. “Pedestrian streets will never work in Scandanavia”, and “No cars means no customers and no customers means no business” were typical responses (sound familiar?).
+The general public didn’t believe it was possible. “Pedestrian streets will never work in Scandinavia”, and “No cars means no customers and no customers means no business” were typical responses (sound familiar?).
 
 Now, [Strøget](https://en.wikipedia.org/wiki/Str%C3%B8get) is the longest pedestrian street in the world.
 
 ![amsterdam_2.jpeg](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683249899-9IEEOSYWJSV15X2G8DZ8/amsterdam_2.jpeg?format=300w)![amsterdam_1.jpeg](https://images.squarespace-cdn.com/content/v1/624d1887e70f262c57482b3a/1650683250195-25OPSQ7FQTJF8IJ50189/amsterdam_1.jpeg?format=300w)\
 Image from [cycling professor](https://twitter.com/fietsprofessor/status/1245317779672236035)
 
-Need another example? We can look at how the Netherlands went from having a[traffic death rate 20% higher than the United States](https://usa.streetsblog.org/2013/02/20/the-origins-of-hollands-stop-murdering-children-street-safety-movement/)to a traffic death rate 60% below the USA by 2008. In 1971, 3300 people died from traffic violence, with 500 of those people being children. One was the child of a respected journalist who wrote a series of articles with the first having the headline, “Stop de Kindermoord” meaning “Stop the Child Murder”. Reading the articles, residents were concerned about the type of city they were creating and decided to get involved. “Stop the Child Murder” became the name of the advocacy organization that fought for safer streets and improvements to transit through various protests and demonstrations. That is how the Amsterdam of today came to be. The Netherlands is now recognized by drivers as[“the best place to drive a car”](https://dailyhive.com/vancouver/best-place-in-the-world-to-be-a-driver-netherlands), largely because there are excellent alternatives to driving such as cycling and public transit.
+Need another example? We can look at how the Netherlands went from having a [traffic death rate 20% higher than the United States ](https://usa.streetsblog.org/2013/02/20/the-origins-of-hollands-stop-murdering-children-street-safety-movement/)to a traffic death rate 60% below the USA by 2008. In 1971, 3300 people died from traffic violence, with 500 of those people being children. One was the child of a respected journalist who wrote a series of articles with the first having the headline, “Stop de Kindermoord” meaning “Stop the Child Murder”. Reading the articles, residents were concerned about the type of city they were creating and decided to get involved. “Stop the Child Murder” became the name of the advocacy organization that fought for safer streets and improvements to transit through various protests and demonstrations. That is how the Amsterdam of today came to be. The Netherlands is now recognized by drivers as [“the best place to drive a car”](https://dailyhive.com/vancouver/best-place-in-the-world-to-be-a-driver-netherlands), largely because there are excellent alternatives to driving such as cycling and public transit.
 
 # What we Need
 
 We need to change the way we think about our streets. Below are three key actions that can help us get closer to reaching vision zero.
 
-![](https://streetsillustrated.seattle.gov/wp-content/uploads/2017/05/chicane.jpg)image from[Seattle Right Of Way Manual](https://streetsillustrated.seattle.gov/design-standards/trafficcalming/)
+![](https://streetsillustrated.seattle.gov/wp-content/uploads/2017/05/chicane.jpg)image from [Seattle Right Of Way Manual](https://streetsillustrated.seattle.gov/design-standards/trafficcalming/)
 
 ## **Improved Street Design**
 
@@ -91,7 +91,7 @@ These policies should include, but are not limited to:
 * Street furniture, canopy, and bike parking standards that help make walking and cycling an easy choice
 
 ![Missing Middle Live-Work Housing](https://cdn.aarp.net/content/dam/aarp/livable-communities/housing/2020/1140x665-live-work.imgcache.rev.web.700.408.jpg)\
-image from[AARP](https://www.aarp.org/livable-communities/housing/info-2020/slideshow-missing-middle-housing.html)
+Image from [AARP](https://www.aarp.org/livable-communities/housing/info-2020/slideshow-missing-middle-housing.html)
 
 ## Removal of exclusionary zoning
 
