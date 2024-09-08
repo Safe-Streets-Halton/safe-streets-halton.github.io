@@ -4,7 +4,7 @@ permalink: "/about/"
 position: 3
 layout: banner-page
 phrase: Health and Safety above all else.
-banner: /uploads/crosswalk-banner.webp
+banner: "/uploads/crosswalk-banner.webp"
 ---
 
 ## Our Mission
