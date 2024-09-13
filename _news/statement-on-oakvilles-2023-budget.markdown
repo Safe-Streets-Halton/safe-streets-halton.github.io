@@ -1,16 +1,17 @@
 ---
 title: Statement on Oakville’s 2023 Budget
 date: 2022-02-28 21:16:00 -05:00
+banner: "/uploads/oakville_big_banner.webp"
 layout: page
 ---
 
 On Monday, February 27th, Oakville council made strives towards creating a more accessible transportation system following a report from Safe Streets Halton volunteers.
 
-**Free Transit For Youth and Seniors: **First, we would like to congratulate and thank the councillors that supported making transit a more accessible option for youth and seniors. Through our advocacy, town council made an informed decision based on existing data from neighbouring municipalities and went a step beyond them.
+**Free Transit For Youth and Seniors:** First, we would like to congratulate and thank the councillors that supported making transit a more accessible option for youth and seniors. Through our advocacy, town council made an informed decision based on existing data from neighbouring municipalities and went a step beyond them.
 
-**Increased Funding for Active Transportation and Traffic Calming Initiatives: **Oakville council is increasing funding for its active transportation (walking, cycling) and traffic calming initiatives. This funding will go towards making Oakville a safer place for all while encouraging healthier transportation habits.
+**Increased Funding for Active Transportation and Traffic Calming Initiatives:** Oakville council is increasing funding for its active transportation (walking, cycling) and traffic calming initiatives. This funding will go towards making Oakville a safer place for all while encouraging healthier transportation habits.
 
-**Safety Improvements: **We would like to thank council for recognizing the importance of creating accessible and safe spaces all times of the year. We welcome the improvements to snow clearing and path lighting that will come from this budget. We hope to see more work done in these areas in the future.
+**Safety Improvements:** We would like to thank council for recognizing the importance of creating accessible and safe spaces all times of the year. We welcome the improvements to snow clearing and path lighting that will come from this budget. We hope to see more work done in these areas in the future.
 
 These decisions demonstrate council's commitment to investing in changes that support improved mobility, equity, and climate action. We look forward to seeing further commitments from council to making Oakville a safer and healthier town for all.
 
