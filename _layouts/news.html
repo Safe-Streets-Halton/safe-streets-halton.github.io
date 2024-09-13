@@ -4,7 +4,8 @@ layout: default
 
 <div class="news">
     <section class="article-list">    
-        {%- for post in site.news -%}
+        {%- assign news_data = site.news | sort: 'date' | reverse -%}
+        {%- for post in news_data -%}
             {% assign postUrl = post.url | relative_url %}
             {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
             <div class="article-list-item">
