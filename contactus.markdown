@@ -1,6 +1,6 @@
 ---
 title: Contact Us
-permalink: contact-us
+permalink: /contact-us
 position: 4
 layout: page
 ---

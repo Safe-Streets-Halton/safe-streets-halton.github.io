@@ -1,6 +1,6 @@
 ---
 title: About Us
-permalink: "/about/"
+permalink: "/about"
 position: 3
 layout: banner-page
 phrase: Health and Safety above all else.
