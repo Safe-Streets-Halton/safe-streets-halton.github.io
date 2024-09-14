@@ -71,6 +71,7 @@ a {
     padding: 0px;
     gap: 20px;
     padding-top: 20px;
+    padding: 8px;
 }
 
 .layout-row {    
@@ -92,12 +93,12 @@ a {
 
     &__align-stretch {
         align-items: stretch;
-    }
+    }    
 }
 
 .section-content {
     max-width: $readableContentMaxWidth;
-    width: 100%;
+    width: 100%;    
 }
 
 .button { 
@@ -297,5 +298,16 @@ a {
         margin-block-end: 0;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
+    }
+}
+
+.content-side-image--right {
+    flex: 1; 
+    background-color: gray;     
+    background-position: center; 
+    background-size: cover;
+
+    @media (max-width: 800px) {
+        display: none;
     }
 }
