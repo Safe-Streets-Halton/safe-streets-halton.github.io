@@ -4,7 +4,8 @@ layout: home
 actions:
 - title: Bike Lanes
   image: "/assets/headerImage.webp"
-  description: Tell the province that they shouldn't say where bike lanes can or cannot be built!
+  description: Tell the province that they shouldn't say where bike lanes can or cannot
+    be built!
   buttonText: Sign Here
   link: https://www.cycleto.ca/ilovebikelanes
 - title: Hello World
