@@ -2,6 +2,7 @@
 title: It's Not Just 5 Minutes
 layout: default-readable-width
 ---
+
 # It's Not Just Five Minutes
 Every year lives are altered or lost due to cars driving in the bike lane or other bike lane obstructions. 
 * In Burlington, during construction on Plains Rd W, a man was riding to work, and due to misplaced construction pylons, sustained an injury that left his left arm with reduced mobility over a year later. 
