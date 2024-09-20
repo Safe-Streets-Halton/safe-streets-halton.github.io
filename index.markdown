@@ -2,17 +2,11 @@
 position: 0
 layout: home
 actions:
-- title: Let your councillor know you support Street Safety!
+- title: Bike Lanes
   image: "/assets/headerImage.webp"
-  description: Sign our petition and let your councillor know that you support safer
-    streets!
+  description: Tell the province that they shouldn't say where bike lanes can or cannot be built!
   buttonText: Sign Here
-  link: "/"
-- title: Hello World
-  image: "/assets/headerImage.webp"
-  description: This is a test description for an action item. Keep it short and sweet.
-  buttonText: Click me!
-  link: "/"
+  link: https://www.cycleto.ca/ilovebikelanes
 - title: Hello World
   image: "/assets/headerImage.webp"
   description: This is a test description for an action item. Keep it short and sweet.
