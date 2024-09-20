@@ -1,12 +1,6 @@
 ---
 title: Safe Streets Halton
 timezone: EST
-header_pages:
-- /campaigns/not-five-minutes
-- /get-involved
-- /news
-- /about
-- /contact-us
 collections:
   news:
     title: News
@@ -17,6 +11,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+header_pages:
+- "/campaigns/not-five-minutes"
+- "/get-involved"
+- "/news"
+- "/about"
+- "/contact-us"
 announcement:
   show: true
   icon: "\U0001F4E2"
@@ -31,7 +31,7 @@ description: Write an awesome description for your new site here. You can edit t
   results) and in your feed.xml site description.
 baseurl: ''
 url: ''
-permalink: /:categories/:title
+permalink: "/:categories/:title"
 twitter_username: HaltonStreets
 facebook_username: HaltonStreets
 instagram_username: SafeStreetsHalton
