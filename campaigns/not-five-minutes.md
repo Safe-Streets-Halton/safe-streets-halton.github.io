@@ -1,6 +1,9 @@
 ---
 title: It's Not Just 5 Minutes
 layout: default
+redirect_from:
+- "/NotFiveMinutes"
+- "/Not5Minutes"
 ---
 
 # It's Not Just Five Minutes
