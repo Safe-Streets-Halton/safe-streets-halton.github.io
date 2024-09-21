@@ -2,6 +2,7 @@
 title: Statement on Burlington’s 2023 Budget
 date: 2023-02-17 21:31:00 -05:00
 banner: "/uploads/burlington_big_banner.webp"
+layout: post
 ---
 
 On Tuesday, February 14th, Burlington City Council took more steps towards improving the accessibility and attractiveness of our transportation systems in three areas: cycling & walking, transit, and improved use of public space.

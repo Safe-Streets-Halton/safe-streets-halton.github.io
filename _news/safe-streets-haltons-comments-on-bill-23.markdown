@@ -1,7 +1,7 @@
 ---
 title: Safe Streets Halton’s Comments on Bill 23
 date: 2024-09-12 21:12:00 -05:00
-layout: page
+layout: post
 ---
 
 Please see below for our submitted comments on the provincial government’s Bill 23, More Homes Built Faster Act.

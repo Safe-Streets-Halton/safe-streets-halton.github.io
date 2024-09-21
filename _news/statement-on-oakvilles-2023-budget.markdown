@@ -2,7 +2,7 @@
 title: Statement on Oakville’s 2023 Budget
 date: 2022-02-28 21:16:00 -05:00
 banner: "/uploads/oakville_big_banner.webp"
-layout: page
+layout: post
 ---
 
 On Monday, February 27th, Oakville council made strives towards creating a more accessible transportation system following a report from Safe Streets Halton volunteers.
