@@ -10,7 +10,8 @@ actions:
   link: https://www.cycleto.ca/ilovebikelanes
 - title: It's Not Just 5 Minutes
   image: "/assets/headerImage.webp"
-  description: Blocking a bike lane can be deadly. Learn more and print out our "Bike Lane Ticket" to help stop bike lane obstructions. 
+  description: Blocking a bike lane can be deadly. Learn more and print out our "Bike
+    Lane Ticket" to help stop bike lane obstructions.
   buttonText: Learn More
   link: "/campaigns/not-five-minutes"
 ---
