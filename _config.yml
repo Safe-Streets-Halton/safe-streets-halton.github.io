@@ -20,7 +20,7 @@ header_pages:
 announcement:
   show: false
   icon: "\U0001F4E2"
-  text: Join our Annual General Meeting on May 30th!
+  text: The province is restricting bike lanes in Halton Region
   link: "/get-involved"
   action: Learn More
 plugins:
