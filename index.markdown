@@ -4,8 +4,7 @@ layout: home
 actions:
 - title: Stop the Province from Blocking Bike Lane Creation
   image: "/uploads/plains-gorton-ave-intersection.png"
-  description: Tell the province that they shouldn't say where bike lanes can or cannot
-    be built!
+  description: Tell the province that they shouldn't say where bike lanes can or cannot be built!
   buttonText: Sign Here
   link: https://www.cycleto.ca/ilovebikelanes
 - title: It's Not Just 5 Minutes
