@@ -4,7 +4,7 @@ date: 2023-12-12 21:21:00 -05:00
 categories:
 - press release
 banner: "/uploads/burlington_big_banner.webp"
-layout: page
+layout: post
 ---
 
 Burlington’s council has shown where their priorities lie regarding the safety of our residents via the 2024 Budget process. Despite the advocacy of groups like Safe Streets Halton, and the support of councillors Nisan and Stolte, it was a battle to get safety investments added to the budget. In the end, there were victories for road safety, but as was seen, there are still challenges that lie ahead.
@@ -20,7 +20,3 @@ Before casting her vote, Councillor Kearns commented that “in the real world�
 For this budget, it is understandable that Burlington City Council was in a difficult position. However, when cuts to necessary infrastructure investments are made, this short-term relief will result in long-term costs (in this case, up to $20 million in debt payments, and more injuries). When a position that is supposed to help save lives is considered last when reassessing the budget, that does not show the public that road safety is a priority.
 
 While this council has made further progress than those before it, there is still work to be done. City council needs to recognize and address the need for sensible and sustainable investment in the safety of its residents.
-
-—
-
-Safe Streets Halton is a community-based organization dedicated to the elimination of all traffic-related deaths and serious injuries in Halton Region. We believe you should be able to travel safely, whether you decide to walk, cycle, or drive.
