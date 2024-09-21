@@ -1,6 +1,6 @@
 ---
 title: It's Not Just 5 Minutes
-layout: default-readable-width
+layout: default
 ---
 
 # It's Not Just Five Minutes
