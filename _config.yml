@@ -36,5 +36,6 @@ twitter_username: HaltonStreets
 facebook_username: HaltonStreets
 instagram_username: SafeStreetsHalton
 tiktok_username: SafeStreetsHalton
+email: info@safestreetshalton.ca
 whitelist:
 - jekyll-redirect-from

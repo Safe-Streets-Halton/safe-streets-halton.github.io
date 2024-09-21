@@ -48,3 +48,36 @@ main {
         display: none;
     }
 }
+
+footer {
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.2);
+    margin-top: 32px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .footer__container {
+        max-width: $readableContentMaxWidth;        
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 32px;
+        row-gap: 16px;
+    }
+
+    .footer__left {
+        flex: 1;
+    }
+
+    .social-media-list {
+        border-left: none;
+        padding-left: 0;
+        justify-content: center;
+        flex: 1;
+    }
+}
