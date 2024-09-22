@@ -1,6 +1,6 @@
 ---
 title: Safe Streets Halton
-timezone: EST
+timezone: Pacific/Pago_Pago
 collections:
   news:
     title: News
@@ -29,8 +29,8 @@ plugins:
 - jekyll-redirect-from
 description: Safe Streets Halton is a grass-roots organization on a mission to eliminate
   all traffic-related deaths and serious injuries in Halton, Ontario.
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 permalink: "/:categories/:title"
 twitter_username: HaltonStreets
 facebook_username: HaltonStreets
