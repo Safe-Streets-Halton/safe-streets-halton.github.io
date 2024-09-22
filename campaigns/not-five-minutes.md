@@ -1,11 +1,13 @@
 ---
 title: It's Not Just 5 Minutes
-layout: default
 redirect_from:
 - "/NotFiveMinutes"
 - "/notfiveminutes"
 - "/Not5Minutes"
 - "/not5minutes"
+description: Every year lives are altered or lost due to cars driving in the bike
+  lane or other bike lane obstructions.
+layout: default
 ---
 
 # It's Not Just Five Minutes
