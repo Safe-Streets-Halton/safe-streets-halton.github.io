@@ -17,4 +17,8 @@ The provincial government is [considering ways to restrict active transportation
 \
 We need to see more, not less, ways for people to safely get around their cities to travel for work, to come home and to enjoy their daily lives.
 
-Sign [Cycle Toronto's Petition](https://www.cycleto.ca/ilovebikelanes) and [Contact your MPP](https://www.ola.org/en/members/current#views-exposed-form-current-members-current-members-grid) to let them know **you want safer streets in Ontario**.
+## Take Action
+
+* Sign [Cycle Toronto's Petition](https://www.cycleto.ca/ilovebikelanes) 
+
+* [Contact your MPP](https://www.ola.org/en/members/current#views-exposed-form-current-members-current-members-grid) to let them know **you want safer streets in Ontario **and to keep these decisions in the hands of communities.
