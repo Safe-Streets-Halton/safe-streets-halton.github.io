@@ -12,6 +12,7 @@ collections:
     title: Uploads
     output: true
 header_pages:
+- "/campaigns/we-want-safer-streets-ontario"
 - "/campaigns/not-five-minutes"
 - "/get-involved"
 - "/news"
