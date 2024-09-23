@@ -19,6 +19,6 @@ We need to see more, not less, ways for people to safely get around their cities
 
 ## Take Action
 
-* Sign [Cycle Toronto's Petition](https://www.cycleto.ca/ilovebikelanes) 
+* Sign [Cycle Toronto's Petition](https://www.cycleto.ca/ilovebikelanes)
 
-* [Contact your MPP](https://www.ola.org/en/members/current#views-exposed-form-current-members-current-members-grid) to let them know **you want safer streets in Ontario **and to keep these decisions in the hands of communities.
+* [Contact your MPP](https://www.ola.org/en/members/current#views-exposed-form-current-members-current-members-grid) to let them know **you want safer streets in Ontario** and to keep these decisions in the hands of communities.
