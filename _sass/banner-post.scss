@@ -1,0 +1,57 @@
+@import 'variables.scss';
+.banner-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.banner-header {
+
+    max-width: $readableContentMaxWidth;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+    align-items: center;
+    width: 100%;    
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    max-width: 100vw;
+    padding: 50px 0;
+
+    &__blur-filter {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(4px);
+        z-index: 0;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .banner-header__phrase {
+        width: $readableContentMaxWidth;
+        color: white;        
+        z-index: 0;
+        padding: 0 8px;
+    }
+}
+.banner-post-content {
+    max-width: $readableContentMaxWidth;
+    width: 100%;
+    p, h1,h2,h3 {
+        padding: 0 8px;
+    }
+    p:has(img) {
+        text-align: center;
+    }
+    img {
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}

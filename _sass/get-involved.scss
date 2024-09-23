@@ -1,0 +1,43 @@
+@import 'variables.scss';
+
+.get-involved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    padding-top: 20px;
+    padding: 8px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        max-width: $readableContentMaxWidth;
+    }
+}
+
+.get-involved-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px;
+}
+
+.get-involved-item {
+    display: grid;
+    grid-template-rows: 80px auto;
+
+    text-align: center;
+
+    width: 180px;
+    img {
+        grid-row: 1;
+        width: 100%;
+        height: 100%;
+    }    
+
+}

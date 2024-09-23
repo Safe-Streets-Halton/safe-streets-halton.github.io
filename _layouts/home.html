@@ -1,0 +1,71 @@
+---
+layout: base-layout
+---
+
+<div class="home">
+  {{ content }}
+
+  <section class="top-content">
+    <div class="top-content__container">
+      <img src="/assets/homepage.png" class="top-content__main-image" />
+      <div class="top-content__text">
+        <h1 class="displayMedium">Safer Streets for <span class="emphasis--green">all</span> in Halton Region</h1>
+        <p>Safe Streets Halton is a community-run organization with volunteers across Halton Region. Our mission is to
+          eliminate traffic deaths and improve the quality of life in Halton Region by enabling residents to safely and
+          comfortably use sustainable and active modes of transportation.</p>
+        <p class="emphasis-block">We believe you should be able to travel safely, whether you walk, cycle, or drive.</p>
+      </div>
+    </div>
+  </section>
+  <section class="action-card-section">
+    {%  for action in page.actions %} 
+      {% include actioncard.html 
+        image=action.image
+        title=action.title
+        description=action.description
+        buttonText=action.buttonText
+        link=action.link
+      %}
+    {% endfor %}
+  </section>
+  {%- if site.news.size > 0 -%}
+  <section class="news-card-section">
+    <div class="news-card-section__items">
+      {%- assign newsPosts = site.news | sort: 'date' | reverse -%}
+      {%- for post in newsPosts limit:2 -%}
+        {% assign postUrl = post.url | relative_url %}
+        {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+        {% include newscard.html 
+          title=post.title
+          excerpt=postExcerpt
+          href=postUrl
+        %}    
+      {%- endfor -%}
+    </div>
+    <button onclick="window.location.href='/news'" class="action-card__button button button--dark-transparent-black">
+      More News
+    </button>
+  </section>
+  {%- endif -%}
+
+  <!-- {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%} -->
+
+</div>

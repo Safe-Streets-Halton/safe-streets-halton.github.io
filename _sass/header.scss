@@ -1,0 +1,182 @@
+@import 'variables.scss';
+@import 'theme.scss';
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 128px;
+    gap: 76px;
+
+    height: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1664px;
+}
+
+.header-logo {
+    width: 64px;
+    height: 64px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.site-nav {
+    a {
+        color: #000;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+
+        text-decoration: none;
+    }
+
+    &__menu-icon {
+        display: none;
+        mask-image: url('/assets/hamburger-menu.svg');
+        mask-position: center;
+        mask-repeat: no-repeat;
+        background-color: black;
+        width: 24px;
+        height: 24px;
+    }
+
+    &__trigger {
+        display: none;
+    }
+    &__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        height: 26px;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .site-header {
+        padding-left: 16px;
+        padding-right: 16px;
+        background-color: white;
+        z-index: 1;
+        display: block;
+        text-align: left;
+        position: relative;
+        z-index: 1;
+    }
+
+    .site-nav {
+        position: absolute;
+        right: 16px;
+        label[for="site-nav__trigger"] {
+            display: block;
+            cursor: pointer;
+        }
+
+        &__links {
+            display: none;
+        }
+
+        &__menu-icon {
+            display: block;
+        }
+
+        &__trigger:checked ~ &__links {            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;            
+            background-color: white;
+            position: absolute;                  
+            z-index: 2;
+            right: -16px;
+            top: 64px;
+            width: 100vw;
+            height: auto;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            transform-origin: top center;
+            animation: 0.2s nav-enter-anim;
+        }
+
+        &__trigger:checked ~ label[for="site-nav__trigger"] &__menu-icon {
+            mask-image: url('/assets/x-mark.svg');
+        }
+        
+        .social-media-list {
+            border-left: none;
+            padding-left: 0;
+            justify-content: center;
+        }
+    }
+}
+
+@keyframes nav-enter-anim {
+    from {
+        overflow: hidden;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(1);        
+        opacity: 1;
+    }
+}
+
+.announcement-banner {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+    margin: 0 auto;
+    width: 100%;
+    min-height: 80px;
+    background: $sshGreen;    
+
+    &__content {        
+        display: flex;
+        column-gap: 24px;
+        row-gap: 4px;
+        flex-wrap: wrap;
+        max-width: $readableContentMaxWidth;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    &__text {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    &__icon {
+        font-size: 24px;
+        @media (max-width: 800px) {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+@import 'variables.scss';
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 0px;
+        gap: 60px;
+        row-gap: 8px;
+
+        min-width: 324px;
+        max-width: $readableContentMaxWidth;
+    }
+
+    &__main-image {
+        width: 30vw;
+        min-width: 400px;
+        height: auto;
+        order: 0;
+    }
+
+    &__text {
+        max-width: 800px;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+        flex: 1;
+        order: 1;
+
+    }
+}
+
+
+.news-card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.action-card-section, .news-card-section__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: $readableContentMaxWidth;
+}
