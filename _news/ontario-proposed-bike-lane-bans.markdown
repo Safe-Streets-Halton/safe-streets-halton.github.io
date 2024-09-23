@@ -1,5 +1,5 @@
 ---
-title: Media Statement - Proposed Provincial Bike Lane Bans (Sept. 2024)
+title: Media Statement - Province's Proposed Bike Lane Bans (Sept. 2024)
 date: 2024-09-22 20:06:00 -04:00
 ---
 
