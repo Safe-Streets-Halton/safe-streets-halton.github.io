@@ -1,7 +1,6 @@
 ---
-title: Media Statement - Proposed Bike Lane Bans (Sept. 2024)
+title: Media Statement - Proposed Provincial Bike Lane Bans (Sept. 2024)
 date: 2024-09-22 20:06:00 -04:00
-published: false
 ---
 
 BURLINGTON - Safe Streets Halton, a transportation safety advocacy group, has released the following statement in response to the [proposed provincial law banning the construction of new bike lanes in favour of motor vehicles](https://www.cbc.ca/news/canada/toronto/ontario-government-bike-lanes-1.7328878):
