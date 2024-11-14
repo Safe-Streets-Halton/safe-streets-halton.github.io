@@ -19,6 +19,8 @@ We need to see more, not less, ways for people to safely get around their cities
 
 ## Take Action
 
-* Sign [Cycle Toronto's Petition](https://www.cycleto.ca/ilovebikelanes)
-
 * [Contact your MPP](https://win.newmode.net/safestreetshalton/our-safety-our-streets-our-choice) to let them know **you want safer streets in Ontario** and to keep these decisions in the hands of communities.
+
+* Sign our [Change.org Petition](https://www.change.org/p/oppose-the-province-wide-bike-lane-ban)
+
+[![ontario-bike-lane-ban-change-petition-share.jpg](/uploads/ontario-bike-lane-ban-change-petition-share.jpg)](https://www.change.org/p/oppose-the-province-wide-bike-lane-ban)
