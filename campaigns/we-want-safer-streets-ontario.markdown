@@ -6,6 +6,8 @@ redirect_from:
 - "/saferstreetsontario"
 - "/WeWantSaferStreetsOntario"
 - "/wewantsaferstreetsontario"
+- "/BikeLaneBan"
+- "/bikelaneban"
 layout: default
 ---
 
