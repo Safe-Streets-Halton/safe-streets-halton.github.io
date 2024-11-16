@@ -1,5 +1,5 @@
 ---
-title: Safer Streets in Ontario
+title: Stop the Bike Lane Ban
 date: 2024-09-22 18:41:00 -04:00
 redirect_from:
 - "/SaferStreetsOntario"
@@ -10,7 +10,7 @@ redirect_from:
 - "/bikelaneban"
 layout: default
 ---
-<h1> We Want Safer Streets in Ontario </h1>
+<h1> Tell The Province You Want Safer Streets</h1>
 <div class="layout-row layout-row__align-stretch">        
     <div style="flex: 2;">        
         <p>
