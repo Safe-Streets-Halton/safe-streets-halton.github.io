@@ -10,19 +10,28 @@ redirect_from:
 - "/bikelaneban"
 layout: default
 ---
-
-# We Want Safer Streets in Ontario
-
-The provincial government is [considering ways to restrict active transportation across Ontario](https://globalnews.ca/news/10765855/ontario-legislation-restrict-bike-lanes-city-streets/) by limiting where and how cities can make safety improvements.
-
-**This will impact us all:** from families that want safer streets for cycling to school, to the people who want to ride a bike on a sunny day or to work. Bike lanes are a space-efficient and effective way to encourage sustainable commuting, and discouraging this will lead to more deaths and unsafe road conditions. Moreover, given Halton Region's rapid population increase, implementing this law will limit how we can respond to our growth-related infrastructure needs. \
-\
-We need to see more, not less, ways for people to safely get around their cities to travel for work, to come home and to enjoy their daily lives.
-
-## Take Action
-
-* [Contact your MPP](https://win.newmode.net/safestreetshalton/our-safety-our-streets-our-choice) to let them know **you want safer streets in Ontario** and to keep these decisions in the hands of communities.
-
-* Sign our [Change.org Petition](https://www.change.org/p/oppose-the-province-wide-bike-lane-ban)
-
-[![ontario-bike-lane-ban-change-petition-share.jpg](/uploads/ontario-bike-lane-ban-change-petition-share.jpg)](https://www.change.org/p/oppose-the-province-wide-bike-lane-ban)
+<h1> We Want Safer Streets in Ontario </h1>
+<div class="layout-row layout-row__align-stretch">        
+    <div style="flex: 2;">        
+        <p>
+        The provincial government has <a href="https://globalnews.ca/news/10765855/ontario-legislation-restrict-bike-lanes-city-streets/">put forward Bill 212 </a> 
+        which will restrict active transportation across Ontario by limiting where and how cities can make safety improvements.<br/><br/>    
+        <b>This will impact us all:</b> from families that want safer streets for cycling to school, to the people who want to ride a bike on a sunny day or to work. 
+        Bike lanes are a space-efficient and effective way to encourage sustainable commuting, and discouraging this will lead to more deaths and unsafe road condit0ions. 
+        Moreover, given Halton Region's rapid population increase, implementing this law will limit how we can respond to our growth-related infrastructure needs.<br/><br/>
+        We need to see more, not less, ways for people to safely get around their cities to travel for work, to come home and to enjoy their daily lives.        
+        </p>
+        <h2>Take Action</h2>
+        <ul>
+            <li>
+                <a href="https://win.newmode.net/safestreetshalton/our-safety-our-streets-our-choice">Contact your MPP</a> to let them know <b>you want safer streets in Ontario</b> and to keep these decisions in the hands of communities.
+            </li>
+            <li>Sign our <a href="https://www.change.org/p/oppose-the-province-wide-bike-lane-ban">Change.org Petition</a></li>
+        </ul>
+    </div>
+    <div style="flex: 1">
+        <a href="https://www.change.org/p/oppose-the-province-wide-bike-lane-ban">
+            <img src="/uploads/ontario-bike-lane-ban-change-petition-share.jpg" style="object-fit: scale-down; width: 400px" alt="change.org petition banner">
+        </a>
+    </div>
+</div>
