@@ -23,7 +23,6 @@ defaults:
     image: "/assets/Social_Avatar_512x512.png"
 header_pages:
 - "/campaigns/we-want-safer-streets-ontario"
-- "/campaigns/not-five-minutes"
 - "/get-involved"
 - "/news"
 - "/about"
