@@ -14,7 +14,7 @@ layout: default
 <div class="layout-row layout-row__align-stretch">        
     <div style="flex: 2;">        
         <p>
-        The provincial government has <a href="https://globalnews.ca/news/10765855/ontario-legislation-restrict-bike-lanes-city-streets/">put forward Bill 212 </a> 
+        The provincial government has <a href="https://ottawa.citynews.ca/2024/10/21/reducing-gridlock-bill-ontario-bike-lanes-highway-construction/">put forward Bill 212 </a> 
         which will restrict active transportation across Ontario by limiting where and how cities can make safety improvements.<br/><br/>    
         <b>This will impact us all:</b> from families that want safer streets for cycling to school, to the people who want to ride a bike on a sunny day or to work. 
         Bike lanes are a space-efficient and effective way to encourage sustainable commuting, and discouraging this will lead to more deaths and unsafe road condit0ions. 
