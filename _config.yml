@@ -30,8 +30,9 @@ header_pages:
 announcement:
   show: true
   icon: "\U0001F4E2"
-  danger_level: danger # options: normal, warning, danger
-  text: The Government of Ontario is restricting how we make our streets safe in Halton Region
+  danger_level: danger
+  text: The Government of Ontario is restricting how we make our streets safe in Halton
+    Region
   link: "/campaigns/we-want-safer-streets-ontario"
   action: Learn More
 plugins:
