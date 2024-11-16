@@ -31,12 +31,10 @@ header_pages:
 announcement:
   show: true
   icon: "\U0001F4E2"
-  danger: true
-  warning: false
-  normal: false
+  danger_level: danger # options: normal, warning, danger
   text: Stop the Province-wide Bike Lane Ban!
   link: "/campaigns/we-want-safer-streets-ontario"
-  action: Sign the Petition
+  action: Learn More
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
