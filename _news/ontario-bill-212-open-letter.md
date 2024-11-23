@@ -1,11 +1,13 @@
 ---
 title: Joint Letter Regarding Bill 212 and its Effect on Traffic Safety and the Environment
-date: 2024-11-23 12:45:00 -04:00
-excerpt: A joint-open letter from local Halton Region organizations expressing concern and opposition to the bike lane restrictions placed in Bill 212.
+date: 2024-11-23 11:45:00 -05:00
+excerpt: A joint-open letter from local Halton Region organizations expressing concern
+  and opposition to the bike lane restrictions placed in Bill 212.
 layout: post
 banner: "/assets/Bill212-OpenLetter.png"
 image: "/assets/Bill212-OpenLetter.png"
 ---
+
 [PDF Version](../assets/ON-Bill-212-open-letter.pdf)
 
 As representatives for [Safe Streets Halton](https://www.safestreetshalton.ca/), [Oakvillegreen](https://www.oakvillegreen.org/), [BurlingtonGreen](https://www.burlingtongreen.org/), [Halton Hills Climate Action](https://www.haltonhillsclimateaction.com/), and [Halton Environmental Network](https://www.haltonenvironment.ca/), we are writing to express our concern for the recently tabled Bill 212. The changes in this bill will restrict municipalities’ response to growth-related infrastructure needs, put residents at risk, limit sustainable transportation options and harm the environment.
