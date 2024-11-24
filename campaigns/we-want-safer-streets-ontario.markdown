@@ -24,10 +24,11 @@ layout: default
         </p>
         <h2>Take Action</h2>
         <ul>
+            <li><a href="https://win.newmode.net/stop-bill-212">Call your MPP</a></li>
+            <li>Sign our <a href="https://www.change.org/p/oppose-the-province-wide-bike-lane-ban">Change.org Petition</a></li>            
             <li>
-                <a href="https://win.newmode.net/safestreetshalton/our-safety-our-streets-our-choice">Contact your MPP</a> to let them know <b>you want safer streets in Ontario</b> and to keep these decisions in the hands of communities.
-            </li>
-            <li>Sign our <a href="https://www.change.org/p/oppose-the-province-wide-bike-lane-ban">Change.org Petition</a></li>
+                <a href="https://win.newmode.net/safestreetshalton/our-safety-our-streets-our-choice">Email your MPP</a> to let them know <b>you want safer streets in Ontario</b> and to keep these decisions in the hands of communities.
+            </li>            
         </ul>
     </div>
     <div style="flex: 1">
