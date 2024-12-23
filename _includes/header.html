@@ -22,7 +22,7 @@
     </div>    
 </header>
 {%- if site.announcement and site.announcement.show -%}
-    <section class="announcement-banner">
+    <section class="announcement-banner {{ site.announcement.danger_level }}">
         <div class="announcement-banner__content">
             <div class="announcement-banner__icon">{{site.announcement.icon}}</div>
             <p class="announcement-banner__text">{{site.announcement.text}}</p>

@@ -179,4 +179,11 @@
             display: none;
         }
     }
+
+    &.danger {
+        background-color: #ad2c2c;
+    }
+    &.warning {
+        background-color: #ac9520;
+    }
 }

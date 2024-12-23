@@ -11,17 +11,28 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: news
+  values:
+    layout: post
+- scope:
+    path: ''
+  values:
+    image: "/assets/Social_Avatar_512x512.png"
 header_pages:
 - "/campaigns/we-want-safer-streets-ontario"
-- "/campaigns/not-five-minutes"
 - "/get-involved"
 - "/news"
 - "/about"
 - "/contact-us"
 announcement:
-  show: true
+  show: false
   icon: "\U0001F4E2"
-  text: The province is restricting how we make our streets safe in Halton Region
+  danger_level: danger
+  text: The Government of Ontario is restricting how we make our streets safe in Halton
+    Region
   link: "/campaigns/we-want-safer-streets-ontario"
   action: Learn More
 plugins:
