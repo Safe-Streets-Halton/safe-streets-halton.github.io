@@ -3,6 +3,7 @@ title: Director of Fundraising
 date: 2025-01-05 11:10:00 -05:00
 categories:
 - board of directors
+layout: post
 ---
 
 ***Join the Safe Streets Halton Board of Directors***
