@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  volunteer-postings:
+    title: Volunteer Postings
+    output: true
 defaults:
 - scope:
     path: ''
