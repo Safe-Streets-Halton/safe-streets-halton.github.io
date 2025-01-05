@@ -68,11 +68,11 @@ The Volunteer Services Team will be responsible for:
 
 * The satisfaction of helping volunteers directly contribute to creating safer streets and inspiring community change.
 
-**Ready to lead and inspire?\
-**Don’t miss this opportunity to be part of something transformative! Learn more about us at[ safestreetshalton.ca](https://safestreetshalton.ca).
+**Ready to lead and inspire?**\
+Don’t miss this opportunity to be part of something transformative! Learn more about us at[ safestreetshalton.ca](https://safestreetshalton.ca).
 
-**How to Apply:\
-**For more information or to apply, please complete our online application form \[Insert Form Link\]. The form includes sections for your contact information and a message about your interest in the role. Submitting a resume is optional. Board elections will take place at our Annual General Meeting in May.
+**How to Apply:**\
+For more information or to apply, please complete our online application form \[Insert Form Link\]. The form includes sections for your contact information and a message about your interest in the role. Submitting a resume is optional. Board elections will take place at our Annual General Meeting in May.
 
 **Note: **This is a volunteer position and is not compensated.
 
