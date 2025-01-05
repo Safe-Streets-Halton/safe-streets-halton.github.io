@@ -3,6 +3,7 @@ title: Director of Volunteer Services
 date: 2025-01-05 11:08:00 -05:00
 categories:
 - board of directors
+layout: post
 ---
 
 ***Join the Safe Streets Halton Board of Directors***
