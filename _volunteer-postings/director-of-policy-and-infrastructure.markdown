@@ -1,6 +1,8 @@
 ---
 title: Director of Policy & Infrastructure
 date: 2025-01-05 11:22:00 -05:00
+categories:
+- board of directors
 ---
 
 ***Join the Safe Streets Halton Board of Directors***
