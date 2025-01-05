@@ -68,3 +68,13 @@ The Fundraising Team will focus on:
 * Connections with donors, sponsors, and community partners.
 
 * The satisfaction of knowing your efforts are driving meaningful, life-saving change.
+
+**Ready to make an impact?**\
+Help Safe Streets Halton grow by providing the resources we need to achieve our vision of safer streets for all. Learn more about us at [safestreetshalton.ca](https://safestreetshalton.ca).
+
+**How to Apply:\
+**To apply, please complete our online application form \[Insert Form Link\]. The form includes sections for your contact information and a message about your interest in the role. Submitting a resume is optional. Board elections will take place at our Annual General Meeting in May.
+
+**Note: **This is a volunteer position and is not compensated.
+
+Together, we can create a community where everyone feels safe and empowered to walk, cycle, and live freely.
