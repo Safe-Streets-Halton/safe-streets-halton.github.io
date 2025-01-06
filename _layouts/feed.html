@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="">
+    <section class="">
+        {% capture sortField %}
+        {{page.sort | default: 'title'}}
+        {% endcapture %}
+        {%- assign item_data = site[page.collection] | sort: sortField | reverse -%}
+        {%- for post in item_data -%}
+            {% assign postUrl = post.url | relative_url %}
+            {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+            <div class="">
+                <div class=""> 
+                    <a href="{{ postUrl }}"><h2>{{ post.title }}</h2></a>
+                    <div>
+                        {%- for category in post.categories -%}
+                            <span>{{category}}</span>
+                        {%- endfor -%}
+                    </div>
+                    <p>{{ postExcerpt }}</p>
+                </div>
+            </div>
+        {%- endfor -%}
+    </section>
+</div>
