@@ -74,6 +74,6 @@ Don’t miss this opportunity to be part of something transformative! Learn more
 **How to Apply:**\
 For more information or to apply, please complete our online application form \[Insert Form Link\]. The form includes sections for your contact information and a message about your interest in the role. Submitting a resume is optional. Board elections will take place at our Annual General Meeting in May.
 
-**Note: **This is a volunteer position and is not compensated.
+**Note:** This is a volunteer position and is not compensated.
 
 Together, we can create a community where everyone feels safe and empowered to walk, cycle, and live freely.
