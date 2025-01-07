@@ -12,8 +12,8 @@ application-link: https://docs.google.com/forms/d/e/1FAIpQLSd6BxpEfuxOMB_EYOWDUT
 
 Are you passionate about transforming public infrastructure into safer, more inclusive environments? Do you have a keen interest in policy development and infrastructure design? Safe Streets Halton invites you to join our Board of Directors as the **Director of Policy & Infrastructure**!
 
-**About Safe Streets Halton:\
-**We are a grassroots advocacy organization working to end traffic deaths and serious injuries while promoting walking, cycling, and public transit improvements in Halton Region. As an organization that values data-driven advocacy, we strive to design safe, equitable transportation infrastructure for all.
+**About Safe Streets Halton:**
+We are a grassroots advocacy organization working to end traffic deaths and serious injuries while promoting walking, cycling, and public transit improvements in Halton Region. As an organization that values data-driven advocacy, we strive to design safe, equitable transportation infrastructure for all.
 
 ## Role Overview
 As the Director of Policy & Infrastructure, you will chair the **Policy and Infrastructure Committee**, a team that will serve as the knowledge base for the organization. Working alongside a Policy Lead and Infrastructure Design Lead, you will guide the committee’s efforts in developing research-backed policy recommendations, reviewing infrastructure designs, and advocating for safer transportation networks. Your leadership will also help establish the Tactical Urbanism Program in collaboration with municipal groups.
