@@ -564,6 +564,24 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin: revert;
 }
 
+input[type='text'] {
+  border-radius: 0.25rem;
+  border-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+input[type='text']:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(68 122 56 / var(--tw-border-opacity, 1));
+  outline-color: #447A38;
+}
+
 .container {
   width: 100%;
 }
@@ -606,6 +624,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   position: fixed;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -618,12 +640,25 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   display: none;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .grow {
   flex-grow: 1;
 }
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -638,6 +673,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -648,6 +687,14 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .text-center {

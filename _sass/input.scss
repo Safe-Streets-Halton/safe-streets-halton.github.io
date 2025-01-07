@@ -8,6 +8,18 @@
   blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     margin: revert;
   }
+  input[type='text'] {
+    @apply 
+    border-gray-500 
+    border-solid 
+    border-2 
+    rounded
+    px-2
+    py-1
+    focus:border-colorPrimary
+    focus:outline-colorPrimary
+    ;
+  }
 }
 
 @tailwind components;
@@ -15,6 +27,9 @@
   .poppins {
     font-family: 'Poppins';
   }
+
+  
+
 }
 
 @tailwind utilities;

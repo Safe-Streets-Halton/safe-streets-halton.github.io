@@ -4,6 +4,14 @@ layout: default
 
 <div class="">
     <h1 >{{page.title}}</h1>
+    
+    <!-- <form class="flex flex-row gap-4">
+        <label class="grow flex flex-row items-center justify-start gap-2">
+            Search
+            <input type="text" class="grow" name="search" placeholder="search by category, name, keywords" />
+        </label>
+        <input type="submit" class="button button--dark-transparent-black"/>
+    </form> -->
     <section class="flex flex-col gap-4">
         {% capture sortField %}
         {{page.sort | default: 'title'}}
