@@ -1,6 +1,6 @@
 ---
-title: Volunteer Postings
+title: Volunteer Opportunities
 layout: feed
 collection: volunteer-postings
-title: Volunteer Opportunities
 ---
+
