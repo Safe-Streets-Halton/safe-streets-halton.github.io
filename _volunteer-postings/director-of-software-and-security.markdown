@@ -3,17 +3,19 @@ title: Director of Software & Security
 date: 2025-01-05 11:24:00 -05:00
 categories:
 - board of directors
+- long-term commitment
+application-link: https://docs.google.com/forms/d/e/1FAIpQLSd6BxpEfuxOMB_EYOWDUT98IGKdUw0mYjdWiBDpBnzdZ9RTCQ/viewform?usp=dialog
 ---
 
 ***Join the Safe Streets Halton Board of Directors***
 
 Do you have a passion for technology and security? Are you excited about finding innovative ways to improve organizational efficiency through technology? Safe Streets Halton is seeking a **Director of Software & Security** to build and lead a team focused on creating cost-effective technology solutions, improving organizational efficiencies, and ensuring our digital infrastructure is secure as we grow.
 
-**About Safe Streets Halton:\
-**We are an advocacy organization dedicated to ending traffic deaths and serious injuries while promoting safer cycling, walking, and public transit in Halton Region. As Safe Streets Halton continues to expand, we need a forward-thinking individual to ensure that our technological infrastructure supports our mission while maintaining the highest standards of security and efficiency.
+**About Safe Streets Halton:**\
+We are an advocacy organization dedicated to ending traffic deaths and serious injuries while promoting safer cycling, walking, and public transit in Halton Region. As Safe Streets Halton continues to expand, we need a forward-thinking individual to ensure that our technological infrastructure supports our mission while maintaining the highest standards of security and efficiency.
 
-**Role Overview:\
-**As the Director of Software & Security, you will be responsible for building and leading a team that develops and implements technology solutions tailored to the needs of Safe Streets Halton. Your work will include website development, software creation for internal use, and ensuring our organization’s digital security as we scale. You will work closely with other board members to identify areas where technology can support advocacy efforts, improve efficiencies, and enhance communication. This is a key role in ensuring that Safe Streets Halton remains a secure and technologically advanced organization.
+## Role Overview
+As the Director of Software & Security, you will be responsible for building and leading a team that develops and implements technology solutions tailored to the needs of Safe Streets Halton. Your work will include website development, software creation for internal use, and ensuring our organization’s digital security as we scale. You will work closely with other board members to identify areas where technology can support advocacy efforts, improve efficiencies, and enhance communication. This is a key role in ensuring that Safe Streets Halton remains a secure and technologically advanced organization.
 
 **Key Responsibilities:**
 
@@ -67,12 +69,5 @@ Do you have a passion for technology and security? Are you excited about finding
 
 * The satisfaction of knowing that your work enables Safe Streets Halton to run more efficiently and securely, advancing our mission.
 
-**Ready to lead our technological transformation and ensure the security of our digital operations?\
-**Help us build a secure, efficient, and technology-driven organization. Learn more about us at [safestreetshalton.ca](https://safestreetshalton.ca).
-
-**How to Apply:\
-**To apply, please complete our online application form \[Insert Form Link\]. The form includes sections for your contact information and a message about your interest in the role. Submitting a resume is optional. Board elections will take place at our Annual General Meeting in May.
-
-**Note: **This is a volunteer position and is not compensated
-
-Together, we can create a community where everyone feels safe and empowered to walk, cycle, and live freely.
+**Ready to lead our technological transformation?**\
+Help us build a secure, efficient, and technology-driven organization. Learn more about us at [safestreetshalton.ca](https://safestreetshalton.ca).

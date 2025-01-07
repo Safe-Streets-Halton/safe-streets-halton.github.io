@@ -3,7 +3,8 @@ title: Director of Volunteer Services
 date: 2025-01-05 11:08:00 -05:00
 categories:
 - board of directors
-layout: post
+- long-term commitment
+application-link: https://docs.google.com/forms/d/e/1FAIpQLSd6BxpEfuxOMB_EYOWDUT98IGKdUw0mYjdWiBDpBnzdZ9RTCQ/viewform?usp=dialog
 ---
 
 ***Join the Safe Streets Halton Board of Directors***
@@ -13,7 +14,7 @@ Are you passionate about creating safer streets and building a strong, connected
 **About Safe Streets Halton:**\
 We are an advocacy organization dedicated to ending traffic deaths and serious injuries while promoting cycling, walking, and public transit improvements in Halton Region. Volunteers are at the heart of our mission, and we’re looking for a dynamic leader to enhance our volunteer program.
 
-**Role Overview:**\
+## Role Overview
 As the Director of Volunteer Services, you will develop and lead the Volunteer Services Team. Starting from scratch, your goal will be to establish a team of at least three dedicated members to foster a positive and welcoming environment for volunteers while driving key initiatives to recruit, engage, and retain passionate individuals committed to our mission. You’ll play a critical role in shaping the future of volunteerism at Safe Streets Halton.
 
 The Volunteer Services Team will be responsible for:
@@ -36,6 +37,8 @@ The Volunteer Services Team will be responsible for:
 
 * Create strategies to improve the volunteer experience and foster long-term commitment.
 
+* Be elected as a member of the Board of Directors
+
 **Qualities/Skills:**
 
 * Strong team-building abilities.
@@ -51,6 +54,8 @@ The Volunteer Services Team will be responsible for:
 * Must not be bankrupt and must be able to manage property under Canadian law.
 
 * Must be an active member of Safe Streets Halton.
+
+* Must be an elected member of the board of directors.
 
 **Time Commitment:**
 
@@ -70,10 +75,3 @@ The Volunteer Services Team will be responsible for:
 
 **Ready to lead and inspire?**\
 Don’t miss this opportunity to be part of something transformative! Learn more about us at[ safestreetshalton.ca](https://safestreetshalton.ca).
-
-**How to Apply:**\
-For more information or to apply, please complete our online application form \[Insert Form Link\]. The form includes sections for your contact information and a message about your interest in the role. Submitting a resume is optional. Board elections will take place at our Annual General Meeting in May.
-
-**Note:** This is a volunteer position and is not compensated.
-
-Together, we can create a community where everyone feels safe and empowered to walk, cycle, and live freely.

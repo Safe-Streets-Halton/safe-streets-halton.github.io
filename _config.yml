@@ -22,6 +22,11 @@ defaults:
     layout: post
 - scope:
     path: ''
+    type: volunteer-postings
+  values:
+    layout: volunteer-posting
+- scope:
+    path: ''
   values:
     image: "/assets/Social_Avatar_512x512.png"
 header_pages:

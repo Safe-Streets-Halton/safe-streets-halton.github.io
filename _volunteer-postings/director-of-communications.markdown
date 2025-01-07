@@ -3,6 +3,7 @@ title: Director of Communications
 date: 2025-01-05 11:16:00 -05:00
 categories:
 - board of directors
+application-link: https://docs.google.com/forms/d/e/1FAIpQLSd6BxpEfuxOMB_EYOWDUT98IGKdUw0mYjdWiBDpBnzdZ9RTCQ/viewform?usp=dialog
 ---
 
 *Join the Safe Streets Halton Board of Directors*
@@ -57,6 +58,8 @@ The Communications Team will focus on:
 
 * Must be an active member of Safe Streets Halton.
 
+* Be elected as a member of the Board of Directors
+
 **Time Commitment:**
 
 * 1–2 hours per week for general responsibilities.
@@ -75,10 +78,3 @@ What You’ll Gain:
 
 **Ready to amplify change?**\
 Bring your expertise to Safe Streets Halton and help us communicate our vision of safer, more sustainable communities. Learn more about us at [safestreetshalton.ca](https://safestreetshalton.ca).
-
-**How to Apply:**\
-To apply, please complete our online application form \[Insert Form Link\]. The form includes sections for your contact information and a message about your interest in the role. Submitting a resume is optional. Board elections will take place at our Annual General Meeting in May.
-
-**Note:** This is a volunteer position and is not compensated.
-
-Together, we can create a community where everyone feels safe and empowered to walk, cycle, and live freely.

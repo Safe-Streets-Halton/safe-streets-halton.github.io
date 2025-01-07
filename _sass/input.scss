@@ -20,6 +20,9 @@
     focus:outline-colorPrimary
     ;
   }
+  b, strong {
+    @apply font-bold;
+  }
 }
 
 @tailwind components;
@@ -27,9 +30,6 @@
   .poppins {
     font-family: 'Poppins';
   }
-
-  
-
 }
 
 @tailwind utilities;
