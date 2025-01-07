@@ -4,7 +4,7 @@ date: 2025-01-05 11:08:00 -05:00
 categories:
 - board of directors
 - volunteer services
-tags: 
+tags:
 - events
 - recruitment
 application-link: https://docs.google.com/forms/d/e/1FAIpQLSd6BxpEfuxOMB_EYOWDUT98IGKdUw0mYjdWiBDpBnzdZ9RTCQ/viewform?usp=dialog
