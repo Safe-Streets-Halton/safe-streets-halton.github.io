@@ -3,7 +3,7 @@ title: Director of Software & Security
 date: 2025-01-05 11:24:00 -05:00
 categories:
 - board of directors
-- long-term commitment
+- software
 application-link: https://docs.google.com/forms/d/e/1FAIpQLSd6BxpEfuxOMB_EYOWDUT98IGKdUw0mYjdWiBDpBnzdZ9RTCQ/viewform?usp=dialog
 ---
 

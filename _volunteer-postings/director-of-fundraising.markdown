@@ -3,6 +3,8 @@ title: Director of Fundraising
 date: 2025-01-05 11:10:00 -05:00
 categories:
 - board of directors
+- fundraising
+- finance
 application-link: https://docs.google.com/forms/d/e/1FAIpQLSd6BxpEfuxOMB_EYOWDUT98IGKdUw0mYjdWiBDpBnzdZ9RTCQ/viewform?usp=dialog
 ---
 
