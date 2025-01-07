@@ -3,11 +3,13 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
-        fontFamily: {
-            sans: ['Poppins', 'sans-serif']
-        }
-    }
-},
+      colors: {
+        colorPrimary: '#447A38'
+      },
+      fontFamily: {
+        sans: ["Roboto Flex", "sans-serif"],
+      },
+    },
+  },
   plugins: [],
-}
-
+};
