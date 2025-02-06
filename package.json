@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npx @tailwindcss/cli -i ./_sass/input.css -o ./assets/style.css --watch",
+    "tailwind": "npx @tailwindcss/cli -i ./_sass/input.css -o ./assets/style.css --watch",
     "jekyll": "bundle exec jekyll serve --watch"
   },
 
