@@ -1,39 +1,5 @@
 @import 'variables.scss';
 
-h1, .displayLarge {
-    font-family: 'Roboto Flex';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 80px;
-    color: #000000;
-}
-h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-h2, .displayMedium {
-    font-family: 'Roboto Flex';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-    line-height: 53px;
-    color: #000000;
-}
-h2 {
-    margin-bottom: 10px;;
-}
-
-h3, .displaySmall {
-    font-family: 'Roboto Flex';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-
 .emphasis {
     text-decoration: underline;
 }
