@@ -94,7 +94,19 @@
 
     /* Custom button styles */
   .btn-primary {
-    @apply text-white bg-colorPrimary py-4 px-10 rounded-sm text-center font-normal transition duration-300 ease-in-out hover:bg-colorPrimary/90;
+    @apply 
+      text-white 
+      bg-colorPrimary 
+      py-4 
+      px-10 
+      rounded-sm 
+      text-center 
+      font-normal 
+      transition 
+      duration-300 
+      ease-in-out
+      inline-block
+      hover:bg-colorPrimary/90;
   }
 
   /* Custom emphasis block styles */
