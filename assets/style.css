@@ -537,6 +537,9 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
+  .z-0 {
+    z-index: 0;
+  }
   .z-1 {
     z-index: 1;
   }
@@ -564,11 +567,23 @@
   .my-0 {
     margin-block: calc(var(--spacing) * 0);
   }
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
+  .mb-1 {
+    margin-bottom: calc(var(--spacing) * 1);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .block {
     display: block;
@@ -593,6 +608,14 @@
   }
   .table {
     display: table;
+  }
+  .size-3 {
+    width: calc(var(--spacing) * 3);
+    height: calc(var(--spacing) * 3);
+  }
+  .size-4 {
+    width: calc(var(--spacing) * 4);
+    height: calc(var(--spacing) * 4);
   }
   .h-fit {
     height: fit-content;
@@ -758,6 +781,9 @@
   .border-gray-500 {
     border-color: var(--color-gray-500);
   }
+  .bg-\[center_top_rem\] {
+    background-color: center top rem;
+  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -791,11 +817,74 @@
   .bg-green-800 {
     background-color: var(--color-green-800);
   }
+  .bg-\[url\(\/assets\/\)\] {
+    background-image: url(/assets/);
+  }
+  .bg-\[url\(\/assets\/beach-bike-ride-photo\.JPG\)\] {
+    background-image: url(/assets/beach-bike-ride-photo.JPG);
+  }
+  .bg-\[url\(\/assets\/palladium-way-group-photo\.jpg\)\] {
+    background-image: url(/assets/palladium-way-group-photo.jpg);
+  }
   .bg-cover {
     background-size: cover;
   }
+  .bg-\[center_top\] {
+    background-position: center top;
+  }
+  .bg-\[center_top_-2\.5rem\] {
+    background-position: center top -2.5rem;
+  }
+  .bg-\[center_top_-3rem\] {
+    background-position: center top -3rem;
+  }
+  .bg-\[center_top_-13rem\] {
+    background-position: center top -13rem;
+  }
+  .bg-\[center_top_-16rem\] {
+    background-position: center top -16rem;
+  }
+  .bg-\[center_top_-20rem\] {
+    background-position: center top -20rem;
+  }
+  .bg-\[center_top_-2rem\] {
+    background-position: center top -2rem;
+  }
+  .bg-\[center_top_-4rem\] {
+    background-position: center top -4rem;
+  }
+  .bg-\[center_top_-5rem\] {
+    background-position: center top -5rem;
+  }
+  .bg-\[center_top_-6rem\] {
+    background-position: center top -6rem;
+  }
+  .bg-\[center_top_-8rem\] {
+    background-position: center top -8rem;
+  }
+  .bg-\[center_top_-14rem\] {
+    background-position: center top -14rem;
+  }
+  .bg-\[center_top_-18rem\] {
+    background-position: center top -18rem;
+  }
+  .bg-\[center_top_1rem\] {
+    background-position: center top 1rem;
+  }
+  .bg-\[center_top_20rem\] {
+    background-position: center top 20rem;
+  }
+  .bg-\[center_top_2rem\] {
+    background-position: center top 2rem;
+  }
   .bg-center {
     background-position: center;
+  }
+  .bg-top {
+    background-position: top;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);
@@ -836,6 +925,21 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
+  .py-13 {
+    padding-block: calc(var(--spacing) * 13);
+  }
+  .py-16 {
+    padding-block: calc(var(--spacing) * 16);
+  }
+  .py-17 {
+    padding-block: calc(var(--spacing) * 17);
+  }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
   }
@@ -849,12 +953,32 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
   .text-4xl\/14 {
     font-size: var(--text-4xl);
+    line-height: calc(var(--spacing) * 14);
+  }
+  .text-5xl\/14 {
+    font-size: var(--text-5xl);
     line-height: calc(var(--spacing) * 14);
   }
   .leading-6 {
@@ -872,6 +996,10 @@
   .font-light {
     --tw-font-weight: var(--font-weight-light);
     font-weight: var(--font-weight-light);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
   }
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
@@ -913,6 +1041,10 @@
   }
   .blur {
     --tw-blur: blur(8px);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .brightness-50 {
+    --tw-brightness: brightness(50%);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .filter {
