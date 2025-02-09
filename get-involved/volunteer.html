@@ -18,25 +18,30 @@ collection: volunteer-postings
     <section class="max-w-readable w-full p-4">
         <div class="flex flex-col gap-4 w-full">
             <h2>Opportunties</h2>
-            {% capture sortField %}
-            {{page.sort | default: 'title'}}
-            {% endcapture %}
-            {%- assign item_data = site[page.collection] | sort: sortField | reverse -%}
-            {%- for post in item_data -%}
-                {% assign postUrl = post.url | relative_url %}
-                {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
-                <div class="flex flex-col gap-1"> 
-                    <a href="{{ postUrl }}" class="hover:underline w-fit"><h2 class="w-fit text-2xl leading-6">{{ post.title }}</h2></a>
-                    <div class="flex flex-row gap-2 items-center">
-                        {%- for category in post.categories -%}
-                            <span class="inline-block font-light bg-colorPrimary p-2 rounded-md text-white">{{category}}</span>
-                        {%- endfor -%}
+            <div class="grid grid-cols-1 gap-4">
+                {% capture sortField %}
+                {{page.sort | default: 'title'}}
+                {% endcapture %}
+                {%- assign item_data = site[page.collection] | sort: sortField | reverse -%}
+                {%- for post in item_data -%}
+                    {% assign postUrl = post.url | relative_url %}
+                    {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+                    <div class="flex border border-gray-300 flex-col gap-1 rounded-md px-4 py-6"> 
+                        <a href="{{ postUrl }}" class="hover:underline w-fit"><h2 class="w-fit text-2xl leading-[100%] m-0">{{ post.title }}</h2></a>
+                        <ul class="list-disc flex flex-row m-0 p-0 pl-5 gap-8 items-center">
+                            {%- for category in post.categories -%}
+                                <li class="font-light rounded-md text-black">{{category}}</li>
+                            {%- endfor -%}
+                        </ul>
+                        {%- if post.showExcerpt -%}
+                            <p class="font-normal text-reg">{{ postExcerpt }}</p>
+                        {%- endif -%}
+                        {%- if post.application-link -%}
+                            <a class="btn-primary inline-block w-fit" href="{{ post.application-link }}">Apply</a>                                                
+                        {%- endif -%}
                     </div>
-                    {%- if post.showExcerpt -%}
-                        <p class="font-normal text-reg">{{ postExcerpt }}</p>
-                    {%- endif -%}
-                </div>
-            {%- endfor -%}
+                {%- endfor -%}
+            </div>
         </div>
     </section>
 </div>
