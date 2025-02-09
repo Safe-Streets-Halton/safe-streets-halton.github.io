@@ -617,11 +617,17 @@
     width: calc(var(--spacing) * 4);
     height: calc(var(--spacing) * 4);
   }
+  .h-6 {
+    height: calc(var(--spacing) * 6);
+  }
   .h-fit {
     height: fit-content;
   }
   .h-full {
     height: 100%;
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
   }
   .w-fit {
     width: fit-content;
@@ -781,6 +787,9 @@
   .border-gray-500 {
     border-color: var(--color-gray-500);
   }
+  .bg-\[\#5865F2\] {
+    background-color: #5865F2;
+  }
   .bg-\[center_top_rem\] {
     background-color: center top rem;
   }
@@ -817,6 +826,12 @@
   .bg-green-800 {
     background-color: var(--color-green-800);
   }
+  .bg-purple-700 {
+    background-color: var(--color-purple-700);
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
   .bg-\[url\(\/assets\/\)\] {
     background-image: url(/assets/);
   }
@@ -825,6 +840,9 @@
   }
   .bg-\[url\(\/assets\/palladium-way-group-photo\.jpg\)\] {
     background-image: url(/assets/palladium-way-group-photo.jpg);
+  }
+  .bg-contain {
+    background-size: contain;
   }
   .bg-cover {
     background-size: cover;
@@ -835,20 +853,11 @@
   .bg-\[center_top_-2\.5rem\] {
     background-position: center top -2.5rem;
   }
-  .bg-\[center_top_-3rem\] {
-    background-position: center top -3rem;
-  }
-  .bg-\[center_top_-13rem\] {
-    background-position: center top -13rem;
-  }
-  .bg-\[center_top_-16rem\] {
-    background-position: center top -16rem;
-  }
-  .bg-\[center_top_-20rem\] {
-    background-position: center top -20rem;
-  }
   .bg-\[center_top_-2rem\] {
     background-position: center top -2rem;
+  }
+  .bg-\[center_top_-3rem\] {
+    background-position: center top -3rem;
   }
   .bg-\[center_top_-4rem\] {
     background-position: center top -4rem;
@@ -862,11 +871,20 @@
   .bg-\[center_top_-8rem\] {
     background-position: center top -8rem;
   }
+  .bg-\[center_top_-13rem\] {
+    background-position: center top -13rem;
+  }
   .bg-\[center_top_-14rem\] {
     background-position: center top -14rem;
   }
+  .bg-\[center_top_-16rem\] {
+    background-position: center top -16rem;
+  }
   .bg-\[center_top_-18rem\] {
     background-position: center top -18rem;
+  }
+  .bg-\[center_top_-20rem\] {
+    background-position: center top -20rem;
   }
   .bg-\[center_top_1rem\] {
     background-position: center top 1rem;
@@ -885,6 +903,12 @@
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
+  }
+  .fill-current {
+    fill: currentColor;
+  }
+  .fill-white {
+    fill: var(--color-white);
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);
@@ -948,6 +972,9 @@
   }
   .text-center {
     text-align: center;
+  }
+  .align-middle {
+    vertical-align: middle;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -1045,6 +1072,10 @@
   }
   .brightness-50 {
     --tw-brightness: brightness(50%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
+  .brightness-200 {
+    --tw-brightness: brightness(200%);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
   .filter {
