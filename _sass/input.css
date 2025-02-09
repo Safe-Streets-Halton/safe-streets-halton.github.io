@@ -106,7 +106,7 @@
       duration-300 
       ease-in-out
       inline-block
-      hover:bg-colorPrimary/90;
+      hover:brightness-125
   }
 
   /* Custom emphasis block styles */
