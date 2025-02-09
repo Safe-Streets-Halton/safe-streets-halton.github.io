@@ -377,6 +377,7 @@
       --font-mono--font-variation-settings
     );
     --color-colorPrimary: #447a38;
+    --container-readable: var(--container-4xl);
   }
 }
 @layer base {
@@ -590,8 +591,17 @@
   .h-full {
     height: 100%;
   }
+  .w-fit {
+    width: fit-content;
+  }
   .w-full {
     width: 100%;
+  }
+  .max-w-4xl {
+    max-width: var(--container-4xl);
+  }
+  .max-w-readable {
+    max-width: var(--container-readable);
   }
   .flex-grow {
     flex-grow: 1;
@@ -668,6 +678,9 @@
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
   .text-center {
     text-align: center;

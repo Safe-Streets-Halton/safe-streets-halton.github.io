@@ -2,6 +2,7 @@
 
 @theme {
   --color-colorPrimary: #447a38;
+  --container-readable: var(--container-4xl);
 
   --font-sans: Roboto Flex, sans-serif;
 }

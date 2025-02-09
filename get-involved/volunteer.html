@@ -2,38 +2,41 @@
 title: Volunteer
 layout: base-layout
 hidden: true
+collection: volunteer-postings
 ---
 
-<div class="membership-page page-layout-column">
-    <section class="section-content layout-row layout-row__nowrap layout-row__align-stretch" style="min-height: 50vh;">        
-        <div class="sub-content" style="flex: 2;">
-            <h1>Become a Volunteer</h1>
-            <p class="emphasis-block">Our volunteers are essential to our success</p>
-            <button class="button button--green-transparent" onclick="window.location.href='https://discord.gg/5Vnb7ZUtQQ'">Join Our Discord Server</button>
-            <h2>How You Can Help</h2>
-            <ul>
-                <li>Speaking to the media</li>
-                <li>Website Development</li>
-                <li>Research and Writing</li>
-                <li>Graphic Design</li>
-                <li>Event Organization</li>
-            </ul>
-            <h2>Structure</h2>            
-            <ul>
-                <li>Want to focus your attention on your town only? We've got municipal groups for that!</li>
-                <li>Graphics, video, or writing your jam? Join our Media and Comms group</li>
-                <li>Policy nerd? Welcome aboard!</li>
-            </ul>                                
-            <p>If you're a member, you're able to join the Board of Directors or a Committee.</p>
-            <h2>Join Us</h2>
-            <p>
-                We have a virtual meeting on the first Tuesday of every month via Discord, and meeting as needed otherwise (virtual or in-person).
-            </p>
-            <button class="button button--green-transparent" onclick="window.location.href='https://discord.gg/5Vnb7ZUtQQ'">Join Our Discord Server</button>
-        </div>        
-        <div
-            class="content-side-image--right"
-            style="background-image: url('/assets/bicycle-riding.jpg');">
-        </div>        
+<div class="flex flex-col items-center">
+    <section class="max-w-readable w-full p-4">
+        <h1>Volunteer</h1>
+        <p class="emphasis-block">Our volunteers are essential to our success</p>
+        <p>
+            We have a virtual meeting on the first Tuesday of every month via Discord, and meeting as needed otherwise (virtual or in-person).
+        </p>
+        <button class="button button--green-transparent" onclick="window.location.href='https://discord.gg/5Vnb7ZUtQQ'">Join Our Discord Server</button>            
+        <p>If you're a member, you're able to join the Board of Directors or a Committee.</p>        
+    </section>
+    <section class="max-w-readable w-full p-4">
+        <div class="flex flex-col gap-4 w-full">
+            <h2>Opportunties</h2>
+            {% capture sortField %}
+            {{page.sort | default: 'title'}}
+            {% endcapture %}
+            {%- assign item_data = site[page.collection] | sort: sortField | reverse -%}
+            {%- for post in item_data -%}
+                {% assign postUrl = post.url | relative_url %}
+                {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+                <div class="flex flex-col gap-1"> 
+                    <a href="{{ postUrl }}" class="hover:underline w-fit"><h2 class="w-fit text-2xl leading-6">{{ post.title }}</h2></a>
+                    <div class="flex flex-row gap-2 items-center">
+                        {%- for category in post.categories -%}
+                            <span class="inline-block font-light bg-colorPrimary p-2 rounded-md text-white">{{category}}</span>
+                        {%- endfor -%}
+                    </div>
+                    {%- if post.showExcerpt -%}
+                        <p class="font-normal text-reg">{{ postExcerpt }}</p>
+                    {%- endif -%}
+                </div>
+            {%- endfor -%}
+        </div>
     </section>
 </div>
