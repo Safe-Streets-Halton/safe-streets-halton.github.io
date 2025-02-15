@@ -63,3 +63,9 @@ tiktok_username: SafeStreetsHalton
 email: info@safestreetshalton.ca
 whitelist:
 - jekyll-redirect-from
+csv_reader:
+    converters:
+      - all
+    liberal_parsing: true
+    headers: true
+    encoding: utf-8
