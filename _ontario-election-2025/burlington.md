@@ -1,5 +1,5 @@
 ---
-title: Burlington Election Candidates
-file: "Burlington"
-
+title: Burlington
+election: ontario2025
+riding: Burlington
 ---

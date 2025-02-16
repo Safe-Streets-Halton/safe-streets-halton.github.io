@@ -1,0 +1,19 @@
+---
+title: Election Survey Results
+layout: default
+---
+<h1>{{page.title}}</h1>
+<section>    
+    {% assign election = page.election %}
+    {% assign riding = page.riding %}
+    {% for candidate in site.data.elections[election][riding] %}
+        <h2>{{riding.name}}</h2>
+        <p>{{riding.description}}</p>
+        
+        {% for question in site.data.elections[election].questions %}
+            <h3>{{question.heading}}</h3>
+            <p>{{question.content}}</p>
+            <p></p>
+        {% endfor %}
+    {% endfor %}    
+</section>
