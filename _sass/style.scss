@@ -1,11 +1,11 @@
-@import 'variables.scss';
-@import 'theme.scss';
-@import 'header.scss';
-@import 'home.scss';
-@import 'news.scss';
-@import 'posts.scss';
-@import 'banner-post.scss';
-@import 'get-involved.scss';
+@use 'variables.scss' as *;
+@use 'theme.scss' as *;
+@use 'header.scss' as *;
+@use 'home.scss' as *;
+@use 'news.scss' as *;
+@use 'posts.scss' as *;
+@use 'banner-post.scss' as *;
+@use 'get-involved.scss' as *;
 
 body {
     font-family: "Roboto Flex", sans-serif;
