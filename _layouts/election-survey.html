@@ -7,14 +7,14 @@ layout: default
     {% assign election = page.election %}
     {% assign riding = page.riding %}
     {% for candidate in site.data.elections[election][riding] %}
+    <div>
         <div class="flex flex-row items-center align-middle gap-2 mb-4">
             <h2>{{candidate["Candidate"] | downcase | capitalize_words}}</h2>
             <span>{{candidate["Political Party"]}}</span>
         </div>                
-        {% assign i = 0 %}
-        {% for question in site.data.elections[election].questions %}
-            {% assign i = i | plus: 1 %}
-            <div class="even:bg-gray-300 p-4">
+        {% assign i = 1 %}
+        {% for question in site.data.elections[election].questions %}            
+            <div class="p-4 border-b-gray-400 border-b-1 not-last:mb-2 last:mb-0">
                 <h3>{{question.heading}}</h3>
                 <div class="flex flex-row items-start justify-start gap-8">                
                     <div class="flex-[1]">                    
@@ -22,10 +22,12 @@ layout: default
                     </div>
                     <div class="flex-[1]">
                         {% assign responseKey = "Response" | append: i %}
-                        <p>{{candidate[responseKey]}}</p>
+                        <div class="font-light">{{candidate[responseKey]}}</div>
                     </div>
                 </div>
-            </div>                        
+            </div>
+            {% assign i = i | plus: 1 %}
         {% endfor %}
-    {% endfor %}    
+    </div>
+    {% endfor %}        
 </section>
