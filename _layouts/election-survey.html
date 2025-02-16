@@ -18,11 +18,11 @@ layout: default
                 <h3>{{question.heading}}</h3>
                 <div class="flex flex-row items-start justify-start gap-8">                
                     <div class="flex-[1]">                    
-                        <div class="font-medium">{{question.content}}</div>
+                        <div class="font-light">{{question.content}}</div>
                     </div>
                     <div class="flex-[1]">
                         {% assign responseKey = "Response" | append: i %}
-                        <div class="font-light">{{candidate[responseKey]}}</div>
+                        <div class="font-normal">{{candidate[responseKey]}}</div>
                     </div>
                 </div>
             </div>
