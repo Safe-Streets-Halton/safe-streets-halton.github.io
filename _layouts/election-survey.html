@@ -11,7 +11,7 @@ layout: default
         {% assign partyName = candidate["Political Party"] %}
         {% assign politicalParty = site.data.elections.parties | where: "name", partyName | first %}        
     <div>
-        <div class="grid grid-cols-[auto_minmax(min-content,4fr)] grid-rows-1 items-center gap-8 mb-4">
+        <div class="flex flex-row flex-wrap items-center gap-8 mb-4 p-4">
             {% assign logoUrl = politicalParty['logo-white'] |  default: politicalParty.logo %}
             {% if politicalParty and logoUrl %}
                 <img src="{{logoUrl}}" class="p-1 w-29 h-29 object-contain bg-[{{politicalParty['colour']}}]" alt="{{politicalParty.name}} logo">
@@ -26,13 +26,13 @@ layout: default
         </div>                
         {% assign i = 1 %}
         {% for question in site.data.elections[election].questions %}            
-            <div class="p-4 border-b-gray-400 border-b-1 last:mb-2 last:border-b-0">
-                <h3>{{question.heading}}</h3>
-                <div class="flex flex-row items-start justify-start gap-8">                
-                    <div class="flex-[1]">                    
+            <div class=" border-b-gray-400 border-b-1 last:mb-2 last:border-b-0 py-4">
+                <h3 class="p-4">{{question.heading}}</h3>
+                <div class="flex flex-row items-start justify-start gap-y-8 gap-x-4 flex-wrap max-w-max">
+                    <div class="flex-[1] min-w-sm px-4">                    
                         <div class="font-light">{{question.content}}</div>
                     </div>
-                    <div class="flex-[1]">
+                    <div class="flex-[1] min-w-sm px-4">
                         {% assign responseKey = "Response" | append: i %}
                         {% if candidate[responseKey] %}
                         <q class="font-normal">{{candidate[responseKey]}}</q>
