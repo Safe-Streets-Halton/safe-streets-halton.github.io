@@ -1025,6 +1025,17 @@
       margin-bottom: calc(var(--spacing) * 0);
     }
   }
+  .last\:mb-2 {
+    &:last-child {
+      margin-bottom: calc(var(--spacing) * 2);
+    }
+  }
+  .last\:border-b-0 {
+    &:last-child {
+      border-bottom-style: var(--tw-border-style);
+      border-bottom-width: 0px;
+    }
+  }
   .even\:bg-gray-100 {
     &:nth-child(even) {
       background-color: var(--color-gray-100);

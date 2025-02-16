@@ -3,10 +3,10 @@ title: Election Survey Results
 layout: default
 ---
 <h1>{{page.title}}</h1>
-<section>    
+<section class="flex flex-col gap-4">    
     {% assign election = page.election %}
     {% assign riding = page.riding %}
-    {% assign candidatesList = site.data.elections[election][riding] | where_exp: "item","item['Survey Sent'] == 'y'" %}
+    {% assign candidatesList = site.data.elections[election][riding] | where_exp: "item","item['Survey Sent'] == 'y'" %}    
     {% for candidate in candidatesList %}                
         {% assign partyName = candidate["Political Party"] %}
         {% assign politicalParty = site.data.elections.parties | where: "name", partyName | first %}        
@@ -26,7 +26,7 @@ layout: default
         </div>                
         {% assign i = 1 %}
         {% for question in site.data.elections[election].questions %}            
-            <div class="p-4 border-b-gray-400 border-b-1 not-last:mb-2 last:mb-0">
+            <div class="p-4 border-b-gray-400 border-b-1 last:mb-2 last:border-b-0">
                 <h3>{{question.heading}}</h3>
                 <div class="flex flex-row items-start justify-start gap-8">                
                     <div class="flex-[1]">                    
