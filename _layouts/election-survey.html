@@ -6,11 +6,23 @@ layout: default
 <section>    
     {% assign election = page.election %}
     {% assign riding = page.riding %}
-    {% for candidate in site.data.elections[election][riding] %}
+    {% assign candidatesList = site.data.elections[election][riding] | where_exp: "item","item['Survey Sent'] == 'y'" %}
+    {% for candidate in candidatesList %}                
+        {% assign partyName = candidate["Political Party"] %}
+        {% assign politicalParty = site.data.elections.parties | where: "name", partyName | first %}        
     <div>
-        <div class="flex flex-row items-center align-middle gap-2 mb-4">
-            <h2>{{candidate["Candidate"] | downcase | capitalize_words}}</h2>
-            <span>{{candidate["Political Party"]}}</span>
+        <div class="grid grid-cols-[auto_minmax(min-content,4fr)] grid-rows-1 items-center gap-8 mb-4">
+            {% assign logoUrl = politicalParty['logo-white'] |  default: politicalParty.logo %}
+            {% if politicalParty and logoUrl %}
+                <img src="{{logoUrl}}" class="p-1 w-29 h-29 object-contain bg-[{{politicalParty['colour']}}]" alt="{{politicalParty.name}} logo">
+            {% endif %}
+            <div class="h-fit">
+                <h2 class="mt-0">{{candidate["Candidate"] | downcase | capitalize_words}}</h2>
+                <div>{{candidate["Political Party"]}}</div>            
+                {% if candidate["Website"] %}
+                    <a href="{{candidate['Website']}}" class="text-blue-500 hover:text-blue-700">Website</a>
+                {% endif %}
+            </div>
         </div>                
         {% assign i = 1 %}
         {% for question in site.data.elections[election].questions %}            
@@ -22,7 +34,11 @@ layout: default
                     </div>
                     <div class="flex-[1]">
                         {% assign responseKey = "Response" | append: i %}
-                        <div class="font-normal">{{candidate[responseKey]}}</div>
+                        {% if candidate[responseKey] %}
+                        <q class="font-normal">{{candidate[responseKey]}}</q>
+                        {% else %}
+                        <div class="italic">No response</div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
