@@ -1,4 +1,5 @@
 ---
-title: Oakville North-Burlington Election Candidates
-name: "Oakville North-Burlington"
+title: Oakville North-Burlington
+election: ontario2025
+riding: Oakville_North-Burlington
 ---

@@ -7,13 +7,25 @@ layout: default
     {% assign election = page.election %}
     {% assign riding = page.riding %}
     {% for candidate in site.data.elections[election][riding] %}
-        <h2>{{riding.name}}</h2>
-        <p>{{riding.description}}</p>
-        
+        <div class="flex flex-row items-center align-middle gap-2 mb-4">
+            <h2>{{candidate["Candidate"] | downcase | capitalize_words}}</h2>
+            <span>{{candidate["Political Party"]}}</span>
+        </div>                
+        {% assign i = 0 %}
         {% for question in site.data.elections[election].questions %}
-            <h3>{{question.heading}}</h3>
-            <p>{{question.content}}</p>
-            <p></p>
+            {% assign i = i | plus: 1 %}
+            <div class="even:bg-gray-300 p-4">
+                <h3>{{question.heading}}</h3>
+                <div class="flex flex-row items-start justify-start gap-8">                
+                    <div class="flex-[1]">                    
+                        <div class="font-medium">{{question.content}}</div>
+                    </div>
+                    <div class="flex-[1]">
+                        {% assign responseKey = "Response" | append: i %}
+                        <p>{{candidate[responseKey]}}</p>
+                    </div>
+                </div>
+            </div>                        
         {% endfor %}
     {% endfor %}    
 </section>
