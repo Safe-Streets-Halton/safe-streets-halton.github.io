@@ -669,6 +669,21 @@
   .max-h-39 {
     max-height: calc(var(--spacing) * 39);
   }
+  .max-h-\[25\%\] {
+    max-height: 25%;
+  }
+  .max-h-\[25vh\] {
+    max-height: 25vh;
+  }
+  .max-h-\[30vh\] {
+    max-height: 30vh;
+  }
+  .max-h-\[50\%\] {
+    max-height: 50%;
+  }
+  .max-h-auto {
+    max-height: auto;
+  }
   .max-h-min {
     max-height: min-content;
   }
@@ -947,6 +962,12 @@
   }
   .object-contain {
     object-fit: contain;
+  }
+  .object-cover {
+    object-fit: cover;
+  }
+  .object-top {
+    object-position: top;
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);

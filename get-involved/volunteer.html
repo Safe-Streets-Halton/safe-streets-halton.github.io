@@ -6,12 +6,13 @@ collection: volunteer-postings
 ---
 
 <div class="flex flex-col items-center">
-    <div class="relative z-0 flex flex-row justify-center w-full bg-[center_top_-2.5rem] py-17 bg-cover bg-no-repeat bg-[url(/assets/palladium-way-group-photo.jpg)]">                
-        <div class="max-w-readable z-1 flex flex-col items-center justify-start">
+    <div class="relative z-0 flex flex-row justify-center w-full max-w-readable max-h-[25vh] py-17">                
+        <div class="max-w-readable z-2 flex flex-col items-center justify-start">
             <h1 class="text-white text-5xl/14 font-bold">Volunteer</h1>
             <div class="text-2xl font-bold text-green-100">Real Change Starts Locally</div>
         </div>        
-        <div class="absolute z-0 inset-0 bg-black opacity-60 w-full h-full"></div>
+        <div class="absolute z-1 inset-0 bg-black opacity-60 w-full h-full"></div>
+        <img src="/assets/palladium-way-group-photo.jpg" alt="" class="absolute z-0 inset-0 object-cover object-top w-full h-full"/>
     </div>
     <section class="max-w-readable w-full p-4 align-middle">                
         <p>
@@ -45,7 +46,7 @@ collection: volunteer-postings
                         <a href="{{ postUrl }}" class="hover:underline w-fit"><h2 class="w-fit text-2xl leading-[100%] m-0">{{ post.title }}</h2></a>
                         <ul class="list-disc flex flex-row m-0 p-0 pl-5 gap-8 items-center">
                             {%- for category in post.categories -%}
-                                <li class="font-light rounded-md text-black">{{category}}</li>
+                                <!-- <li class="font-light rounded-md text-black">{{category}}</li> -->
                             {%- endfor -%}
                         </ul>
                         {%- if post.showExcerpt -%}
