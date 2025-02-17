@@ -1,0 +1,20 @@
+---
+title: Elections
+layout: default
+---
+
+<section>
+<h1> Elections </h1>
+<ul>
+    {% for election in site.data.elections.info %}
+        <li>
+            <a href="{{ election.url }}">{{ election.name }}</a>        
+            <ul>
+            {% for item in site.ontario-election-2025 %}
+                <li ><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
+</section>

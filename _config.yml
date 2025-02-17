@@ -14,6 +14,10 @@ collections:
   volunteer-postings:
     title: Volunteer Postings
     output: true
+  ontario-election-2025:
+    title: Ontario Election 2025
+    output: true
+    permalink: /elections/ontario-2025/:name
 defaults:
 - scope:
     path: ''
@@ -29,6 +33,11 @@ defaults:
     path: ''
   values:
     image: "/assets/Social_Avatar_512x512.png"
+- scope:
+    path: ''
+    type: ontario-election-2025
+  values:
+    layout: election-survey
 header_pages:
 - "/get-involved"
 - "/news"
@@ -58,3 +67,8 @@ tiktok_username: SafeStreetsHalton
 email: info@safestreetshalton.ca
 whitelist:
 - jekyll-redirect-from
+csv_reader:
+    converters:
+      - all
+    headers: true
+    encoding: utf-8

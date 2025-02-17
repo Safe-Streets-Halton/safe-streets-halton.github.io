@@ -1,0 +1,61 @@
+---
+title: Election Survey Results
+layout: default
+---
+<h1>{{page.title}}</h1>
+<section class="flex flex-col gap-4">    
+    <h2>Transportation Survey Results</h2>
+    <p>
+        The following are the results of the transportation survey sent to candidates in the "{{page.riding |  replace: '_',' ' }}" riding for the {{page.election}} election.
+        <br/>        
+    </p>
+    <span class="font-medium">Select a candidate to view their responses to the survey questions.</span>
+    {% assign election = page.election | replace: ' ','_' %}
+    {% assign riding = page.riding %}
+    {% assign candidatesList = site.data.elections[election][riding] | where_exp: "item","item['Survey Sent'] == 'y'" %}    
+    {% for candidate in candidatesList %}                
+        {% assign partyName = candidate["Political Party"] %}
+        {% assign politicalParty = site.data.elections.parties | where: "name", partyName | first %}        
+    <details name="candidate">
+        {% assign logoUrl = politicalParty['logo-white'] |  default: politicalParty.logo %}
+        <summary class="p-4 bg-[{{politicalParty['colour']}}] text-white cursor-pointer rounded">
+            {% if politicalParty and logoUrl %}
+                <img src="{{logoUrl}}" class="inline p-1 w-14 h-14 object-contain bg-[{{politicalParty['colour']}}]" alt="{{politicalParty.name}} logo">
+            {% endif %}
+            <span class="text-lg font-medium ml-2">{{candidate["Candidate"] | downcase | capitalize_words}}</span>
+        </summary>
+        <div class="flex flex-row flex-wrap items-center gap-8 mb-4 p-4">            
+            {% if politicalParty and logoUrl %}
+                <img src="{{logoUrl}}" class="p-1 w-29 h-29 object-contain bg-[{{politicalParty['colour']}}]" alt="{{politicalParty.name}} logo">
+            {% endif %}
+            <div class="h-fit">
+                <h2 class="mt-0">{{candidate["Candidate"] | downcase | capitalize_words}}</h2>
+                <div>{{candidate["Political Party"]}}</div>            
+                {% if candidate["Website"] %}
+                    <a href="{{candidate['Website']}}" class="text-blue-500 hover:text-blue-700">Website</a>
+                {% endif %}
+            </div>
+        </div>                
+        {% assign i = 1 %}
+        {% for question in site.data.elections[election].questions %}            
+            <div class=" border-b-gray-400 border-b-1 last:mb-2 last:border-b-0 py-4">
+                <h3 class="p-4">{{question.heading}}</h3>
+                <div class="flex flex-row items-start justify-start gap-y-8 gap-x-4 flex-wrap max-w-max">
+                    <div class="flex-[1] min-w-sm px-4">                    
+                        <div class="font-light">{{question.content}}</div>
+                    </div>
+                    <div class="flex-[1] min-w-sm px-4">
+                        {% assign responseKey = "Response" | append: i %}
+                        {% if candidate[responseKey] %}
+                        <q class="font-normal">{{candidate[responseKey]}}</q>
+                        {% else %}
+                        <div class="italic">No response</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% assign i = i | plus: 1 %}
+        {% endfor %}
+    </details>
+    {% endfor %}        
+</section>

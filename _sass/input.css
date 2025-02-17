@@ -1,0 +1,117 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-colorPrimary: #447a38;
+  --container-readable: var(--container-4xl);
+
+  --font-sans: Roboto Flex, sans-serif;
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@utility poppins {
+  font-family: 'Poppins';
+}
+
+@layer base {
+  ul, ol, menu {
+    list-style: revert;
+    margin: revert;
+    padding: revert;
+  }
+  blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+    margin: revert;
+  }
+  input[type='text'] {
+    @apply 
+    border-gray-500 
+    border-solid 
+    border-2 
+    rounded-sm
+    px-2
+    py-1
+    focus:border-colorPrimary
+    focus:outline-colorPrimary
+    ;
+  }
+  b, strong {
+    @apply font-bold;
+  }
+
+  a {
+    @apply text-colorPrimary;
+  }
+
+
+  h1, .displayLarge {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+  }
+  h1 {
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+
+  h2, .displayMedium {
+      font-family: 'Roboto Flex';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 45px;
+      line-height: 53px;
+      color: #000000;
+  }
+  h2 {
+      margin-bottom: 10px;
+  }
+
+  h3, .displaySmall {
+      font-family: 'Roboto Flex';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+  }
+
+    /* Custom button styles */
+  .btn-primary {
+    @apply 
+      text-white 
+      bg-colorPrimary 
+      py-4 
+      px-10 
+      rounded-sm 
+      text-center 
+      font-normal 
+      transition 
+      duration-300 
+      ease-in-out
+      inline-block
+      hover:brightness-125
+  }
+
+  /* Custom emphasis block styles */
+  .emphasis-block {
+    @apply text-lg font-semibold text-gray-700;
+  }
+}

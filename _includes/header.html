@@ -1,5 +1,5 @@
 <header class="site-header" role="banner">
-    <div class="header-content">
+    <div class="header-content relative">
         {%- assign default_paths = site.pages | sort: 'position' | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         <a href="/"><img alt="Safe Streets Halton Logo" src="/assets/Social_Avatar_512x512.png" class="header-logo" /></a>

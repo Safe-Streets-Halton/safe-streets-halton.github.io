@@ -1,0 +1,15 @@
+- name: Green Party of Ontario GPO
+  logo: /assets/provincial-parties/gpo.png
+  logo-white: /assets/provincial-parties/gpo-white.png
+  colour: "#2F772F"
+- name: Ontario Liberal Party
+  logo: /assets/provincial-parties/olp.png
+  logo-white: /assets/provincial-parties/olp-white.png
+  colour: "#E81E25"
+- name: Ontario NDP/NPD
+  logo: /assets/provincial-parties/ondp.svg
+  logo-white: /assets/provincial-parties/ondp-white.svg
+  colour: "#FA6400"
+- name: PC Party of Ontario
+  logo-white: /assets/provincial-parties/opc-logo-white.png
+  colour: "#2C64AB"

@@ -1,5 +1,5 @@
-@import 'variables.scss';
-@import 'theme.scss';
+@use 'variables.scss' as *;
+@use 'theme.scss' as *;
 
 .site-header {
     display: flex;
@@ -111,10 +111,11 @@
             background-color: white;
             position: absolute;                  
             z-index: 2;
-            right: -16px;
-            top: 64px;
+            right: -2rem;            
+            top: 3.25rem;
             width: 100vw;
             height: auto;
+            padding-top: 1.5rem;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
             transform-origin: top center;
             animation: 0.2s nav-enter-anim;
