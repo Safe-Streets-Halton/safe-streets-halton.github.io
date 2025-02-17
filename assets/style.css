@@ -525,6 +525,9 @@
   .collapse {
     visibility: collapse;
   }
+  .visible {
+    visibility: visible;
+  }
   .absolute {
     position: absolute;
   }
@@ -576,8 +579,14 @@
   .mt-0 {
     margin-top: calc(var(--spacing) * 0);
   }
+  .mr-1 {
+    margin-right: calc(var(--spacing) * 1);
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
+  }
+  .mr-4 {
+    margin-right: calc(var(--spacing) * 4);
   }
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
@@ -599,6 +608,9 @@
   }
   .block {
     display: block;
+  }
+  .contents {
+    display: contents;
   }
   .flex {
     display: flex;
@@ -888,9 +900,16 @@
   .rounded-md {
     border-radius: var(--radius-md);
   }
+  .rounded-sm {
+    border-radius: var(--radius-sm);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
   }
   .border-b-1 {
     border-bottom-style: var(--tw-border-style);
@@ -900,8 +919,15 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-solid {
+    --tw-border-style: solid;
+    border-style: solid;
+  }
   .border-gray-300 {
     border-color: var(--color-gray-300);
+  }
+  .border-gray-500 {
+    border-color: var(--color-gray-500);
   }
   .border-b-black {
     border-bottom-color: var(--color-black);
@@ -938,6 +964,9 @@
   }
   .bg-colorPrimary {
     background-color: var(--color-colorPrimary);
+  }
+  .bg-green-300 {
+    background-color: var(--color-green-300);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -981,8 +1010,14 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
+  }
+  .py-1 {
+    padding-block: calc(var(--spacing) * 1);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
@@ -1010,6 +1045,9 @@
   }
   .align-middle {
     vertical-align: middle;
+  }
+  .poppins {
+    font-family: 'Poppins';
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -1171,6 +1209,16 @@
       @media (hover: hover) {
         text-decoration-line: underline;
       }
+    }
+  }
+  .focus\:border-colorPrimary {
+    &:focus {
+      border-color: var(--color-colorPrimary);
+    }
+  }
+  .focus\:outline-colorPrimary {
+    &:focus {
+      outline-color: var(--color-colorPrimary);
     }
   }
   .md\:flex-row {
