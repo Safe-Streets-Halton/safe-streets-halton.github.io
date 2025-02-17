@@ -1,4 +1,5 @@
 ---
 title: Oakville Election Candidates
-file: "Oakville"
+election: Ontario 2025
+riding: Oakville
 ---

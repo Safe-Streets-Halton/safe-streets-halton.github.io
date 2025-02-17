@@ -4,7 +4,13 @@ layout: default
 ---
 <h1>{{page.title}}</h1>
 <section class="flex flex-col gap-4">    
-    {% assign election = page.election %}
+    <h2>Transportation Survey Results</h2>
+    <p>
+        The following are the results of the transportation survey sent to candidates in the "{{page.riding |  replace: '_',' ' }}" riding for the {{page.election}} election.
+        <br/>        
+    </p>
+    <span class="font-medium">Select a candidate to view their responses to the survey questions.</span>
+    {% assign election = page.election | replace: ' ','_' %}
     {% assign riding = page.riding %}
     {% assign candidatesList = site.data.elections[election][riding] | where_exp: "item","item['Survey Sent'] == 'y'" %}    
     {% for candidate in candidatesList %}                

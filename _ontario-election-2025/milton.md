@@ -1,5 +1,5 @@
 ---
 title: Milton Election Candidates 
-file: "Milton"
-
+riding: Milton
+election: Ontario 2025
 ---

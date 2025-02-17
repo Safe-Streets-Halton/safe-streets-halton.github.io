@@ -1,4 +1,5 @@
 ---
 title: Wellington-Halton Hills Election Candidates
-file: "Wellington-Halton Hills" 
+riding: Wellington-Halton_Hills
+election: Ontario 2025
 ---
