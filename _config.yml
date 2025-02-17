@@ -5,6 +5,10 @@ collections:
   news:
     title: News
     output: true
+  ontario-election-2025:
+    title: Ontario Election 2025
+    output: true
+    permalink: "/elections/ontario-2025/:name"
   posts:
     title: Posts
     output: true
@@ -14,10 +18,6 @@ collections:
   volunteer-postings:
     title: Volunteer Postings
     output: true
-  ontario-election-2025:
-    title: Ontario Election 2025
-    output: true
-    permalink: /elections/ontario-2025/:name
 defaults:
 - scope:
     path: ''
@@ -68,7 +68,7 @@ email: info@safestreetshalton.ca
 whitelist:
 - jekyll-redirect-from
 csv_reader:
-    converters:
-      - all
-    headers: true
-    encoding: utf-8
+  converters:
+  - all
+  headers: true
+  encoding: utf-8
