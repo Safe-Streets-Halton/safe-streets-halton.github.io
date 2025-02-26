@@ -45,9 +45,10 @@ header_pages:
 - "/contact-us"
 announcement:
   show: true
-  icon: "🗳️"
+  icon: "\U0001F5F3️"
   danger_level: none
-  text: We asked candidates where they stand on transportation & safety. Read their responses.
+  text: We asked candidates where they stand on transportation & safety. Read their
+    responses.
   link: "/elections/ontario-2025"
   action: Learn More
 plugins:
