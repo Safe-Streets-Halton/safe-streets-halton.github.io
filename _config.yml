@@ -44,7 +44,7 @@ header_pages:
 - "/about"
 - "/contact-us"
 announcement:
-  show: true
+  show: false
   icon: "\U0001F5F3️"
   danger_level: none
   text: We asked candidates where they stand on transportation & safety. Read their
