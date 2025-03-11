@@ -5,11 +5,18 @@ collections:
   news:
     title: News
     output: true
+  ontario-election-2025:
+    title: Ontario Election 2025
+    output: true
+    permalink: "/elections/ontario-2025/:name"
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
+    output: true
+  volunteer-postings:
+    title: Volunteer Postings
     output: true
 defaults:
 - scope:
@@ -19,21 +26,30 @@ defaults:
     layout: post
 - scope:
     path: ''
+    type: volunteer-postings
+  values:
+    layout: volunteer-posting
+- scope:
+    path: ''
   values:
     image: "/assets/Social_Avatar_512x512.png"
+- scope:
+    path: ''
+    type: ontario-election-2025
+  values:
+    layout: election-survey
 header_pages:
-- "/campaigns/we-want-safer-streets-ontario"
 - "/get-involved"
 - "/news"
 - "/about"
 - "/contact-us"
 announcement:
   show: false
-  icon: "\U0001F4E2"
-  danger_level: danger
-  text: The Government of Ontario is restricting how we make our streets safe in Halton
-    Region
-  link: "/campaigns/we-want-safer-streets-ontario"
+  icon: "\U0001F5F3️"
+  danger_level: none
+  text: We asked candidates where they stand on transportation & safety. Read their
+    responses.
+  link: "/elections/ontario-2025"
   action: Learn More
 plugins:
 - jekyll-feed
@@ -51,3 +67,8 @@ tiktok_username: SafeStreetsHalton
 email: info@safestreetshalton.ca
 whitelist:
 - jekyll-redirect-from
+csv_reader:
+  converters:
+  - all
+  headers: true
+  encoding: utf-8

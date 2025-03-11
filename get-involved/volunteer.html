@@ -2,38 +2,62 @@
 title: Volunteer
 layout: base-layout
 hidden: true
+collection: volunteer-postings
 ---
 
-<div class="membership-page page-layout-column">
-    <section class="section-content layout-row layout-row__nowrap layout-row__align-stretch" style="min-height: 50vh;">        
-        <div class="sub-content" style="flex: 2;">
-            <h1>Become a Volunteer</h1>
-            <p class="emphasis-block">Our volunteers are essential to our success</p>
-            <button class="button button--green-transparent" onclick="window.location.href='https://discord.gg/5Vnb7ZUtQQ'">Join Our Discord Server</button>
-            <h2>How You Can Help</h2>
+<div class="flex flex-col items-center">
+    <div class="relative z-0 flex flex-row justify-center w-full max-w-readable max-h-[25vh] py-17">                
+        <div class="max-w-readable z-2 flex flex-col items-center justify-start">
+            <h1 class="text-white text-5xl/14 font-bold">Volunteer</h1>
+            <div class="text-2xl font-bold text-green-100">Real Change Starts Locally</div>
+        </div>        
+        <div class="absolute z-1 inset-0 bg-black opacity-60 w-full h-full"></div>
+        <img src="/assets/palladium-way-group-photo.jpg" alt="" class="absolute z-0 inset-0 object-cover object-top w-full h-full"/>
+    </div>
+    <section class="max-w-readable w-full p-4 align-middle">                
+        <p>
+            Do you:<br/>
             <ul>
-                <li>Speaking to the media</li>
-                <li>Website Development</li>
-                <li>Research and Writing</li>
-                <li>Graphic Design</li>
-                <li>Event Organization</li>
+                <li>Want to make a difference in your community?</li>
+                <li>Have a passion for design, engineering, or event planning?</li>
+                <li>Want to learn new skills?</li>
+                <li>Want to meet new people?</li>
             </ul>
-            <h2>Structure</h2>            
-            <ul>
-                <li>Want to focus your attention on your town only? We've got municipal groups for that!</li>
-                <li>Graphics, video, or writing your jam? Join our Media and Comms group</li>
-                <li>Policy nerd? Welcome aboard!</li>
-            </ul>                                
-            <p>If you're a member, you're able to join the Board of Directors or a Committee.</p>
-            <h2>Join Us</h2>
-            <p>
-                We have a virtual meeting on the first Tuesday of every month via Discord, and meeting as needed otherwise (virtual or in-person).
-            </p>
-            <button class="button button--green-transparent" onclick="window.location.href='https://discord.gg/5Vnb7ZUtQQ'">Join Our Discord Server</button>
-        </div>        
-        <div
-            class="content-side-image--right"
-            style="background-image: url('/assets/bicycle-riding.jpg');">
-        </div>        
+            Take a look at the opportunities below or join the conversation on our Discord server! <br/><br/>
+            <a class="inline-block relative rounded-md p-2 bg-[#5865F2] text-white" href='https://discord.gg/5Vnb7ZUtQQ'>
+                <span alt="Discord Logo" class="bg-white w-6 h-6 align-middle inline-block mr-2 fill-current" style="mask-image: url(/assets/discord.svg); mask-position: center; mask-repeat: no-repeat;"></span>
+                Join our Discord Server
+            </a>                                  
+        </p>
+    </section>
+    <section class="max-w-readable w-full p-4">
+        <div class="flex flex-col gap-4 w-full">
+            <h2 class="m-0 mb-2">Opportunties</h2>
+            <p>More opportunities are available and will soon be listed. Join our Discord or <a href="/contact-us">Contact Us</a> to see how you can get involved.</p>
+            <div class="grid grid-cols-1 gap-4">
+                {% capture sortField %}
+                {{page.sort | default: 'title'}}
+                {% endcapture %}
+                {%- assign item_data = site[page.collection] | sort: sortField | reverse -%}
+                {%- for post in item_data -%}
+                    {% assign postUrl = post.url | relative_url %}
+                    {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
+                    <div class="flex border border-gray-300 flex-col gap-1 rounded-md px-4 py-6"> 
+                        <a href="{{ postUrl }}" class="hover:underline w-fit"><h2 class="w-fit text-2xl leading-[100%] m-0">{{ post.title }}</h2></a>
+                        <ul class="list-disc flex flex-row m-0 p-0 pl-5 gap-8 items-center">
+                            {%- for category in post.categories -%}
+                                <!-- <li class="font-light rounded-md text-black">{{category}}</li> -->
+                            {%- endfor -%}
+                        </ul>
+                        {%- if post.showExcerpt -%}
+                            <p class="font-normal text-reg">{{ postExcerpt }}</p>
+                        {%- endif -%}
+                        {%- if post.application-link -%}
+                            <a class="btn-primary inline-block w-fit" href="{{ post.application-link }}">Apply</a>                                                
+                        {%- endif -%}
+                    </div>
+                {%- endfor -%}
+            </div>
+        </div>
     </section>
 </div>
