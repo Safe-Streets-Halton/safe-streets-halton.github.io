@@ -15,7 +15,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-  volunteer:
+  volunteer-postings:
     title: Volunteer Postings
     output: true
     permalink: get-involved/volunteer/:path
