@@ -15,9 +15,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-  volunteer-postings:
+  volunteer:
     title: Volunteer Postings
     output: true
+    permalink: get-involved/:path
 defaults:
 - scope:
     path: ''
