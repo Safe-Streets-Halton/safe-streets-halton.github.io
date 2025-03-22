@@ -42,7 +42,7 @@ collection: volunteer-postings
                 {%- for post in item_data -%}
                     {% assign postUrl = post.url | relative_url %}
                     {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
-                    <a href="{{ postUrl }}">
+                    <a href="{{ postUrl | relative_url }}">
                     <div class="flex border border-gray-300 flex-col gap-1 rounded-md px-4 py-6 hover:bg-gray-100 hover:border-gray-400 transition-colors duration-200"> 
                         <h2 class="w-fit text-2xl leading-[100%] m-0">{{ post.title }}</h2>
                         <ul class="list-none flex flex-row m-0 p-0 gap-8 gap-y-2 items-start flex-wrap mt-2">
