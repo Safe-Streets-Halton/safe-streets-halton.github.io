@@ -18,7 +18,6 @@ collections:
   volunteer:
     title: Volunteer Postings
     output: true
-    permalink: get-involved
 defaults:
 - scope:
     path: ''
