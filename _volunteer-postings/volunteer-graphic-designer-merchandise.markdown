@@ -1,5 +1,5 @@
 ---
-title: Volunteer Graphic Designer (Merchandise)
+title: Volunteer Graphics Designer (Merchandise)
 date: 2025-03-22 15:49:00 -04:00
 categories:
 - communications

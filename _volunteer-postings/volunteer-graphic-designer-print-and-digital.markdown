@@ -1,5 +1,5 @@
 ---
-title: Volunteer Graphic Designer (Print & Digital)
+title: Volunteer Graphics Designer (Print & Digital)
 date: 2025-03-22 15:47:00 -04:00
 categories:
 - communications
