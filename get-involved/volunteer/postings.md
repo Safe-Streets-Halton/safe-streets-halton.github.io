@@ -1,6 +1,6 @@
 ---
 title: Volunteer Opportunities
-collection: volunteer-postings
+collection: volunteer
 redirect_from:
 - "/volunteer"
 layout: feed
