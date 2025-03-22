@@ -10,7 +10,8 @@ tags:
 **Location:** Remote / Halton Region
 **Time Commitment:** Flexible; project‑based (2–5 hours per project)
 
-**About Us:**
+## **About Us:**
+
 Safe Streets Halton is a grassroots community initiative dedicated to promoting road safety and fostering respect among all road users.
 
 ## What You’ll Do:
@@ -26,4 +27,5 @@ Safe Streets Halton is a grassroots community initiative dedicated to promoting 
 * Receive recognition for your contribution
 
 ## How to Apply:
+
 Email volunteer@safestreetshalton.ca with the subject line “Volunteer Graphic Designer (Print & Digital)” to express your interest.
