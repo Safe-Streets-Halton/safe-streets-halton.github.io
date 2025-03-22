@@ -44,17 +44,17 @@ collection: volunteer-postings
                     {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
                     <div class="flex border border-gray-300 flex-col gap-1 rounded-md px-4 py-6"> 
                         <a href="{{ postUrl }}" class="hover:underline w-fit"><h2 class="w-fit text-2xl leading-[100%] m-0">{{ post.title }}</h2></a>
-                        <ul class="list-disc flex flex-row m-0 p-0 pl-5 gap-8 items-center">
+                        <ul class="list-disc flex flex-row m-0 p-0 gap-8 gap-y-2 items-start flex-wrap mt-2">
                             {%- for category in post.categories -%}
-                                <!-- <li class="font-light rounded-md text-black">{{category}}</li> -->
+                                <li class="font-light rounded-4xl m-0 text-white bg-colorPrimary px-2 py-0.5 text-nowrap">{{category}}</li>
                             {%- endfor -%}
                         </ul>
                         {%- if post.showExcerpt -%}
                             <p class="font-normal text-reg">{{ postExcerpt }}</p>
                         {%- endif -%}
-                        {%- if post.application-link -%}
+                        <!-- {%- if post.application-link -%}
                             <a class="btn-primary inline-block w-fit" href="{{ post.application-link }}">Apply</a>                                                
-                        {%- endif -%}
+                        {%- endif -%} -->
                     </div>
                 {%- endfor -%}
             </div>
