@@ -7,8 +7,8 @@ tags:
 - events
 ---
 
-**📅Date:** Wednesday, April 2, 2025
-**🕰️Time:** Setup at 5:30pm; Event runs from 6:30pm to 8:30pm
+**📅Date:** Wednesday, April 2, 2025\
+**🕰️Time:** Setup at 5:30pm; Event runs from 6:30pm to 8:30pm\
 **📍Location:** Art Gallery of Burlington
 
 **About the Event:**  
