@@ -1,5 +1,5 @@
 ---
-title: Volunteer Graphic Designer (Print & Digital)
+title: Volunteer Graphics Designer (Print & Digital)
 date: 2025-03-22 15:47:00 -04:00
 categories:
 - communications
@@ -8,6 +8,7 @@ tags:
 ---
 
 **Location:** Remote / Halton Region
+
 **Time Commitment:** Flexible; project‑based (2–5 hours per project)
 
 ### About Us:
@@ -28,4 +29,4 @@ Safe Streets Halton is a grassroots community initiative dedicated to promoting 
 
 ### How to Apply:
 
-Email volunteer@safestreetshalton.ca with the subject line “Volunteer Graphic Designer (Print & Digital)” to express your interest.
+Email [volunteer@safestreetshalton.ca](mailto:volunteer@safestreetshalton.ca) with the subject line “Volunteer Graphic Designer (Print & Digital)” to express your interest.
