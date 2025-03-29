@@ -23,14 +23,39 @@ layout: default
             {% if politicalParty and logoUrl %}
                 <img src="{{logoUrl}}" class="inline p-1 w-14 h-14 object-contain bg-[{{politicalParty['colour']}}]" alt="{{politicalParty.name}} logo">
             {% endif %}
-            <span class="text-lg font-medium ml-2">{{candidate["Candidate"] | downcase | capitalize_words}}</span>
+            
+            {% comment %}
+            {% Following is a Liquid-native implementation of Title Case, used for Candidate Names. %}
+            {% endcomment %}
+            {% capture candidate_titlecase_name %}
+                {% assign inputs = candidate["Candidate"] | split: ' ' %}
+                {% for input in inputs %}
+                    {% assign x = 0 %}
+                    {% assign y = 0 %}
+                    {% assign input_arr = input | split: '' %}
+                    {% for char in input_arr %}
+                        {% assign char_cap = char | capitalize %}
+                        {% if char_cap == char %}
+                        {% assign x = x | plus: 1 %}
+                        {% endif %}
+                        {% assign y = y | plus: 1 %}
+                    {% endfor %}
+                    {% if x == 0 or x == y %}
+                        {{ input | capitalize }} 
+                    {% else %}
+                        {% assign input_first_letter = input_arr[0] | capitalize %}
+                        {{ input_first_letter }}{{ input | replace_first: input_arr[0], '' }} 
+                    {% endif %}
+                {% endfor %}
+            {% endcapture %}
+            <span class="text-lg font-medium ml-2">{{ candidate_titlecase_name }}</span>
         </summary>
         <div class="flex flex-row flex-wrap items-center gap-8 mb-4 p-4">            
             {% if politicalParty and logoUrl %}
                 <img src="{{logoUrl}}" class="p-1 w-29 h-29 object-contain bg-[{{politicalParty['colour']}}]" alt="{{politicalParty.name}} logo">
             {% endif %}
             <div class="h-fit">
-                <h2 class="mt-0">{{candidate["Candidate"] | downcase | capitalize_words}}</h2>
+                <h2 class="mt-0">{{ candidate_titlecase_name }}</h2>
                 <div>{{candidate["Political Party"]}}</div>            
                 {% if candidate["Website"] %}
                     <a href="{{candidate['Website']}}" class="text-blue-500 hover:text-blue-700">Website</a>
