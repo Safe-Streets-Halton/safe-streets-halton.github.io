@@ -10,12 +10,43 @@
                 </span>
             </label>        
             <div class="site-nav__links">
-                {%- for path in page_paths -%}
-                    {%- assign my_page = site.pages | where: "url", path | first -%}
-                    {%- if my_page.title and my_page.url != "/" and my_page.hidden != true -%}
-                    <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                    {%- endif -%}
-                {%- endfor -%}
+                                {%- for item in page_paths -%}
+                                        {%- comment -%}
+                                            Support two shapes for header_pages:
+                                            - a string path (legacy) or
+                                            - an object with `url` and optional `dropdown` array
+                                        {%- endcomment -%}
+                                        {%- if item.url -%}
+                                            {%- assign page_path = item.url -%}
+                                        {%- else -%}
+                                            {%- assign page_path = item -%}
+                                        {%- endif -%}
+                                                            {%- assign my_page = site.pages | where: "url", page_path | first -%}
+                                                            {%- if my_page == nil -%}
+                                                                {%- assign page_path_slash = page_path | append: '/' -%}
+                                                                {%- assign my_page = site.pages | where: "url", page_path_slash | first -%}
+                                                            {%- endif -%}
+                                        {%- if my_page.title and my_page.url != "/" and my_page.hidden != true -%}
+                                            {%- if item.dropdown -%}
+                                                <div class="nav-item nav-item--has-dropdown">
+                                                    <div class="nav-dropdown-title-container">
+                                                        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                                                                                    <button class="dropdown-toggle" aria-expanded="false" aria-controls="dropdown-{{ forloop.index }}" aria-haspopup="true">
+                                                                                        <span class="caret" aria-hidden="true">▾</span>
+                                                                                        <span class="visually-hidden">Toggle submenu</span>
+                                                                                    </button>
+                                                    </div>
+                                                    <ul id="dropdown-{{ forloop.index }}" class="dropdown-menu" role="menu">
+                                                        {%- for sub in item.dropdown -%}
+                                                            <li role="none"><a role="menuitem" class="dropdown-link" href="{{ sub.url | relative_url }}">{{ sub.title | escape }}</a></li>
+                                                        {%- endfor -%}
+                                                    </ul>
+                                                </div>
+                                            {%- else -%}
+                                                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                                            {%- endif -%}
+                                        {%- endif -%}
+                                {%- endfor -%}
                 {%- include social.html -%}      
             </div>            
         </nav>
@@ -30,3 +61,54 @@
         </div>
     </section>
 {%- endif -%}
+
+<script>
+        // Toggle dropdowns for mobile accessibility
+        (function(){
+            if (!document) return;
+            document.addEventListener('DOMContentLoaded', function(){
+                var buttons = document.querySelectorAll('.dropdown-toggle');
+                buttons.forEach(function(btn){
+                    btn.addEventListener('click', function(e){
+                        var parent = btn.closest('.nav-item--has-dropdown');
+                        if (!parent) return;
+                        var menu = parent.querySelector('.dropdown-menu');
+                        var expanded = btn.getAttribute('aria-expanded') === 'true';
+                        btn.setAttribute('aria-expanded', (!expanded).toString());
+                        parent.classList.toggle('dropdown-open');
+                        if (menu) {
+                            // Explicitly set inline display for reliable mobile behavior
+                            if (expanded) {
+                                menu.style.display = 'none';
+                            } else {
+                                menu.style.display = 'block';
+                            }
+                        }
+                    });
+                });
+                    // Ensure caret/button is only interactive on small screens
+                    function updateDropdownButtonState() {
+                        var isMobile = window.innerWidth <= 800;
+                        buttons.forEach(function(btn){
+                            var caret = btn.querySelector('.caret');
+                            if (isMobile) {
+                                btn.disabled = false;
+                                btn.style.pointerEvents = '';
+                                btn.tabIndex = 0;
+                                btn.removeAttribute('aria-hidden');
+                                if (caret) caret.setAttribute('aria-hidden', 'true');
+                            } else {
+                                // make non-interactive on desktop
+                                btn.disabled = true;
+                                btn.style.pointerEvents = 'none';
+                                btn.tabIndex = -1;
+                                btn.setAttribute('aria-hidden', 'true');
+                                if (caret) caret.setAttribute('aria-hidden', 'true');
+                            }
+                        });
+                    }
+                    updateDropdownButtonState();
+                    window.addEventListener('resize', updateDropdownButtonState);
+            });
+        })();
+</script>

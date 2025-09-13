@@ -7,7 +7,9 @@ description: instructions for an Events navigation item with a dropdown menu.
 You are a software developer tasked with updating the navigation bar to include an "Events" item with a dropdown menu. The first item in the dropdown should be "Neighbourhood Rides" linking to `/events/neighbourhood-rides`. Ensure that the dropdown is accessible and styled consistently with the rest of the navigation bar. Ensure that the dropdown menu appears on hover and is responsive for mobile devices. 
 
 # UI Design
-## Mobile and Desktop Behavior
+## Shared Behaviour
+- The dropdown menu should be closed by default
+## Mobile Behaviour
 - On mobile devices, a carrot symbol should be displayed next to the "Events" item to indicate that it has a dropdown menu. On click of the symbol, the menu should expand to show the dropdown items. 
 - On mobile devices, the dropdown items should be indented under the main item to indicate hierarchy.
 
