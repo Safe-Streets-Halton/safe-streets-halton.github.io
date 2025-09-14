@@ -77,3 +77,5 @@ csv_reader:
   - all
   headers: true
   encoding: utf-8
+exclude:
+  - README.md
