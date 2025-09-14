@@ -44,9 +44,9 @@ header_pages:
 - url: "/news"
 - url: "/about"
 - url: "/events"
-  dropdown:
-    - title: "Neighbourhood Rides"
-      url: "/events/neighbourhood-rides"
+  # dropdown:
+  #   - title: "Neighbourhood Rides"
+  #     url: "/events/neighbourhood-rides"
 - url: "/contact-us"
 announcement:
   show: false
