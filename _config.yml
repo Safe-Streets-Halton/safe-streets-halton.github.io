@@ -40,13 +40,10 @@ defaults:
   values:
     layout: election-survey
 header_pages:
+- url: "/events"
 - url: "/get-involved"
 - url: "/news"
 - url: "/about"
-- url: "/events"
-  # dropdown:
-  #   - title: "Neighbourhood Rides"
-  #     url: "/events/neighbourhood-rides"
 - url: "/contact-us"
 announcement:
   show: false
