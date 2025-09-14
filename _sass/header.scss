@@ -167,7 +167,7 @@
             display: block;
         }
 
-        &__trigger:checked~&__links {
+        &__trigger:checked ~ &__links {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -230,7 +230,7 @@
             }
         }
 
-        &__trigger:checked~label[for="site-nav__trigger"] &__menu-icon {
+        &__trigger:checked ~ label[for="site-nav__trigger"] &__menu-icon {
             mask-image: url('/assets/x-mark.svg');
         }
 
@@ -271,7 +271,6 @@
     align-items: center;
     justify-content: center;
     padding: 0px;
-
     margin: 0 auto;
     width: 100%;
     min-height: 80px;
