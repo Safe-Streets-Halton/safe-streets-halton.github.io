@@ -1,5 +1,6 @@
 ---
+title: Neighbourhood Rides
+permalink: "/events/neighbourhood-rides/"
 layout: page
-title: "Neighbourhood Rides"
-permalink: /events/neighbourhood-rides/
 ---
+

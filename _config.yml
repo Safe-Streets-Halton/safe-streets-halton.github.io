@@ -75,4 +75,4 @@ csv_reader:
   headers: true
   encoding: utf-8
 exclude:
-  - README.md
+- README.md
