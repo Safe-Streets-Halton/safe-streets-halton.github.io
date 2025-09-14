@@ -7,6 +7,10 @@
 name: Deploy Jekyll site to Pages
 
 on:
+  # Runs daily at 2:17 am
+  schedule:
+     - cron: "17 2 * * *"
+
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
@@ -43,6 +47,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install dependencies
+        run: gem install jekyll-ical-tag
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
