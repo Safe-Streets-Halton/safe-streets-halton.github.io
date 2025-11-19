@@ -40,10 +40,11 @@ defaults:
   values:
     layout: election-survey
 header_pages:
-- "/get-involved"
-- "/news"
-- "/about"
-- "/contact-us"
+- url: "/events"
+- url: "/get-involved"
+- url: "/news"
+- url: "/about"
+- url: "/contact-us"
 announcement:
   show: false
   icon: "\U0001F5F3️"
@@ -73,3 +74,5 @@ csv_reader:
   - all
   headers: true
   encoding: utf-8
+exclude:
+- README.md
