@@ -2,8 +2,8 @@
 title: Will Burlington’s 2024 Budget Improve Street Safety?
 date: 2023-12-12 21:21:00 -05:00
 categories:
-- press release
-banner: "/uploads/burlington_big_banner.webp"
+- media release
+image: "/uploads/burlington_big_banner.webp"
 layout: post
 ---
 

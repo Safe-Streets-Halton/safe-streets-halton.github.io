@@ -1,7 +1,7 @@
 ---
 title: Statement on Oakville’s 2023 Budget
 date: 2023-02-28 21:31:00 -05:00
-banner: "/uploads/oakville_big_banner.webp"
+image: "/uploads/oakville_big_banner.webp"
 layout: post
 ---
 

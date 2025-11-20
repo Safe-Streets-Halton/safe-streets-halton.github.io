@@ -1,7 +1,7 @@
 ---
 title: Statement on Burlington’s 2023 Budget
 date: 2023-02-17 21:31:00 -05:00
-banner: "/uploads/burlington_big_banner.webp"
+image: "/uploads/burlington_big_banner.webp"
 layout: post
 ---
 

@@ -4,7 +4,6 @@ date: 2024-11-23 11:45:00 -05:00
 excerpt: A joint-open letter from local Halton Region organizations expressing concern
   and opposition to the bike lane restrictions placed in Bill 212.
 layout: post
-banner: "/assets/Bill212-OpenLetter.png"
 image: "/assets/Bill212-OpenLetter.png"
 ---
 
