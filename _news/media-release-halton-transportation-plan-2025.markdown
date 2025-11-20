@@ -20,5 +20,7 @@ In their delegation, Safe Streets Halton criticised the consultation process as 
 
 Council's motion directs staff to report back in Q1 2026 with options to expedite the plan and identify opportunities to advance implementation timelines for the Adopted Transit Priority Corridor Network and Active Transportation Network.
 
+*You can read Safe Streets Halton's full delegation [here](/uploads/delegations/2025-Regional-Transportation-Plan-Comments.pdf).*
+
 **About Safe Streets Halton**\
 Safe Streets Halton is a grassroots organization on a mission to eliminate all traffic-related deaths and serious injuries in Halton, Ontario.
