@@ -8,13 +8,13 @@ layout: base-layout
         {%- for post in news_data -%}
             {% assign postUrl = post.url | relative_url %}
             {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
-            <div class="flex flex-row gap-x-5 items-center">
+            <div class="flex flex-row gap-x-5 items-center mb-2">
                 <a href="{{ postUrl }}">
-                    <img class="max-w-56 max-h-56 object-cover object-right" src="{{ post.image }}" />
+                    <img class="max-w-48 max-h-48 object-cover object-right" src="{{ post.image }}" />
                 </a>
                 <div class="flex flex-col align-start"> 
                     <a href="{{ postUrl }}"><h2>{{ post.title }}</h2></a>
-                    <p>{{ postExcerpt }}</p>
+                    <p>{{ postExcerpt }}<a href="{{ postUrl }}">..Read More</a></p>
                 </div>
             </div>
         {%- endfor -%}
