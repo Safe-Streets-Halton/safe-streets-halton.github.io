@@ -1,8 +1,9 @@
 ---
-title: 'News Release: Halton Council Directs Staff to Accelerate Transit and Active
+title: 'Media Release: Halton Council Directs Staff to Accelerate Transit and Active
   Transportation Improvements'
 date: 2025-11-19 12:26:00 -05:00
 layout: post
+banner: /assets/news/media-release.png
 ---
 
 **Burlington, ON** – Halton Regional Council voted unanimously on November 13 to accelerate transit and active transportation improvements. The vote directs staff to return with options to speed up implementation timelines in the region's proposed 25-year Integrated Master Plan.
