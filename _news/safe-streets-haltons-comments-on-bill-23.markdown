@@ -1,6 +1,6 @@
 ---
 title: Safe Streets Halton’s Comments on Bill 23
-date: 2024-09-12 21:12:00 -05:00
+date: 2024-09-12 22:12:00 -04:00
 layout: post
 ---
 

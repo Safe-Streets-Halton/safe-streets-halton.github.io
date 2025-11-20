@@ -5,7 +5,7 @@ description: Safe Streets Halton, a transportation safety advocacy group, has re
   a statement in response to the proposed provincial law banning the construction
   of new bike lanes in favour of motor vehicles.
 layout: post
-image: /assets/news/media-release.png
+image: "/assets/news/media-release.png"
 ---
 
 BURLINGTON - Safe Streets Halton, a transportation safety advocacy group, has released the following statement in response to the [proposed provincial law banning the construction of new bike lanes in favour of motor vehicles](https://www.cbc.ca/news/canada/toronto/ontario-government-bike-lanes-1.7328878):
