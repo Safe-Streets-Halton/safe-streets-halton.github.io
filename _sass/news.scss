@@ -4,11 +4,12 @@
     align-items: center;
     padding: 0px;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 20px;        
 }
 
 .article-list {
     flex-grow: 1;
+    max-width: 1200px;
 }
 
 .article-list-item {

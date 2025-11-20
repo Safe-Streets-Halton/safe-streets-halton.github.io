@@ -3,14 +3,16 @@ layout: base-layout
 ---
 
 <div class="news">
-    <section class="article-list">    
+    <section class="grow-[1] max-w-6xl">    
         {%- assign news_data = site.news | sort: 'date' | reverse -%}
         {%- for post in news_data -%}
             {% assign postUrl = post.url | relative_url %}
             {% assign postExcerpt = post.excerpt | strip_html | truncatewords: 24 %}
-            <div class="article-list-item">
-                <img src="{{ post.banner }}" />
-                <div class="article-list-item__content"> 
+            <div class="flex flex-row gap-x-5 items-center">
+                <a href="{{ postUrl }}">
+                    <img class="max-w-56 max-h-56 object-cover object-right" src="{{ post.banner }}" />
+                </a>
+                <div class="flex flex-col align-start"> 
                     <a href="{{ postUrl }}"><h2>{{ post.title }}</h2></a>
                     <p>{{ postExcerpt }}</p>
                 </div>
