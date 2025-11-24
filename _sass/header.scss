@@ -60,6 +60,15 @@
 
     &__trigger {
         display: none;
+        background: none;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+
+        &:focus {
+            outline: 2px solid #000;
+            outline-offset: 2px;
+        }
     }
 
     &__links {
@@ -154,9 +163,8 @@
         position: absolute;
         right: 16px;
 
-        label[for="site-nav__trigger"] {
+        &__trigger {
             display: block;
-            cursor: pointer;
         }
 
         &__links {
@@ -167,7 +175,7 @@
             display: block;
         }
 
-        &__trigger:checked ~ &__links {
+        &__trigger[aria-expanded="true"] ~ &__links {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -230,7 +238,7 @@
             }
         }
 
-        &__trigger:checked ~ label[for="site-nav__trigger"] &__menu-icon {
+        &__trigger[aria-expanded="true"] &__menu-icon {
             mask-image: url('/assets/x-mark.svg');
         }
 

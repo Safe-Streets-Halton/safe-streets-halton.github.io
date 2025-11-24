@@ -3,13 +3,16 @@
         {%- assign default_paths = site.pages | sort: 'position' | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         <a href="/"><img alt="Safe Streets Halton Logo" src="/assets/Social_Avatar_512x512.png" class="header-logo" /></a>
-        <nav class="site-nav">            
-            <input type="checkbox" id="site-nav__trigger" class="site-nav__trigger" />
-            <label for="site-nav__trigger">
-                <span class="site-nav__menu-icon">                    
-                </span>
-            </label>        
-            <div class="site-nav__links">
+        <nav class="site-nav" aria-label="Main navigation">
+            <button
+                id="site-nav__trigger"
+                class="site-nav__trigger"
+                aria-expanded="false"
+                aria-controls="site-nav__links"
+                aria-label="Toggle navigation menu">
+                <span class="site-nav__menu-icon" aria-hidden="true"></span>
+            </button>
+            <div id="site-nav__links" class="site-nav__links">
                                 {%- for item in page_paths -%}
                                         {%- comment -%}
                                             Support two shapes for header_pages:
@@ -68,15 +71,36 @@
 {%- endif -%}
 
 <script>
-// Accessible dropdown menu implementation following WCAG 2.0 guidelines
+// Accessible navigation following WCAG 2.0 guidelines
 (function() {
     'use strict';
-    
+
     if (!document) return;
-    
+
     let currentOpenDropdown = null;
-    
+
     document.addEventListener('DOMContentLoaded', function() {
+        // Mobile menu toggle (ARIA Disclosure Pattern)
+        const mobileMenuButton = document.getElementById('site-nav__trigger');
+        const mobileMenuLinks = document.getElementById('site-nav__links');
+
+        if (mobileMenuButton && mobileMenuLinks) {
+            mobileMenuButton.addEventListener('click', function() {
+                const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+            });
+
+            // Keyboard support (Enter and Space keys)
+            mobileMenuButton.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                    mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+                }
+            });
+        }
+
+        // Dropdown menu implementation
         const dropdownButtons = document.querySelectorAll('.dropdown-toggle');
         
         dropdownButtons.forEach(function(button) {
