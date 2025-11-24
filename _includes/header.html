@@ -65,7 +65,7 @@
         <div class="announcement-banner__content">
             <div class="announcement-banner__icon">{{site.announcement.icon}}</div>
             <p class="announcement-banner__text">{{site.announcement.text}}</p>
-            <button class="button button--light-transparent-white announcement-banner__action" onclick="window.location.href='{{site.announcement.link}}'">{{site.announcement.action}}</button>
+            <a href="{{site.announcement.link}}" class="button button--light-transparent-white announcement-banner__action">{{site.announcement.action}}</a>
         </div>
     </section>
 {%- endif -%}
