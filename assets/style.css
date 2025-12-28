@@ -216,6 +216,24 @@
   .z-2 {
     z-index: 2;
   }
+  .col-\[content\] {
+    grid-column: content;
+  }
+  .col-start-\[content\] {
+    grid-column-start: content;
+  }
+  .col-end-\[content\] {
+    grid-column-end: content;
+  }
+  .row-\[main\] {
+    grid-row: main;
+  }
+  .row-start-\[main\] {
+    grid-row-start: main;
+  }
+  .row-end-\[main\] {
+    grid-row-end: main;
+  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
