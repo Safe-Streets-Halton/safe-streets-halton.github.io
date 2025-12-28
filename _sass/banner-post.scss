@@ -1,14 +1,14 @@
 @use 'variables.scss' as *;
 .banner-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-area: page-banner / fullbleed / footer / fullbleed;
+    display: grid;
+    grid-template: subgrid / subgrid;
     
 }
 .banner-header {
-
+    grid-area: page-banner / fullbleed;
     max-width: $readableContentMaxWidth;
-    display: flex;
+    display: flex;    
     justify-content: center;
     flex-direction: row;    
     align-items: center;
@@ -41,6 +41,7 @@
     }
 }
 .banner-post-content {
+    grid-area: main / content;
     max-width: $readableContentMaxWidth;
     width: 100%;
     p, h1,h2,h3 {

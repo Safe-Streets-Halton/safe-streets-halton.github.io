@@ -19,8 +19,8 @@ body {
         [content-end] 1fr
         [fullbleed-end];
     grid-template-rows:
-        [header] auto 32px 
-        [page-banner] auto
+        [header] 80px
+        [page-banner] auto 32px
         [main] auto 32px
         [footer] auto 
         [footer];
@@ -31,7 +31,8 @@ header {
 }
 
 main {    
-    grid-area: main / fullbleed;
+    grid-row: page-banner / footer;
+    grid-column: fullbleed;
     display: grid;
     grid-template: subgrid / subgrid;
     max-width: 100vw;
