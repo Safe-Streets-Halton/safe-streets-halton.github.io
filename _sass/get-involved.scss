@@ -1,6 +1,7 @@
 @use 'variables.scss' as *;
 
 .get-involved {
+    grid-area: main / content;
     display: flex;
     flex-direction: column;
     align-items: center;

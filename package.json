@@ -1,10 +1,15 @@
 {
   "scripts": {
     "tailwind": "npx @tailwindcss/cli -i ./_sass/input.css -o ./assets/style.css --watch",
-    "jekyll": "bundle exec jekyll serve --watch"
+    "tailwind:build": "npx @tailwindcss/cli -i ./_sass/input.css -o ./assets/style.css --minify",
+    "jekyll": "bundle exec jekyll serve --watch",
+    "dev": "npm-run-all --parallel tailwind jekyll",
+    "build": "npm run tailwind:build && bundle exec jekyll build"
   },
 
   "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "npm-run-all": "^4.1.5",
     "tailwindcss": "^4.0.0"
   }
 }
