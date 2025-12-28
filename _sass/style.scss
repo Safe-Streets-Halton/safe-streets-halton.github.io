@@ -12,12 +12,30 @@ body {
     background: #fff;    
     margin: 0;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 
+        [fullbleed-start] 1fr
+        [content-start] minmax(0, $readableContentMaxWidth) 
+        [content-end] 1fr
+        [fullbleed-end];
+    grid-template-rows:
+        [header-start] 32px 
+        [header-end main-start page-banner-start] auto
+        [page-banner-end] 8px 
+        [main-content-start] auto
+        [main-content-end main-end] 32px 
+        [footer-start] auto 
+        [footer-end];
+}
+
+header {    
+    grid-area: header / fullbleed;
 }
 
 main {
-    flex-grow: 1;
+    grid-area: main / fullbleed;
+    display: grid;
+    grid-template: subgrid;
     max-width: 100vw;
     overflow-x: hidden;
 }
@@ -48,8 +66,8 @@ main {
 }
 
 footer {
+    grid-area: footer / fullbleed;
     border-top: 1px solid rgba($color: #000000, $alpha: 0.2);
-    margin-top: 32px;
     padding: 16px;
     display: flex;
     flex-direction: row;
