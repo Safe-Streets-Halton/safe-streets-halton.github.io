@@ -1,0 +1,30 @@
+.timeline {
+    display: grid;
+    grid-template-columns: 
+        [image-start] minmax(200px, 1fr) [image-end content-start] 
+        minmax(300px, 3fr) [content-end];
+    gap: 16px;
+
+    &-item {    
+        display: contents;
+
+        &__image {
+            grid-column: image;
+            width: 100%;
+            height: auto;
+            background: oklch(64.9% 0.128 146.6);
+        }
+
+        &__content {
+            grid-column: content;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 8px 0px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: [image-start content-start] 1fr [image-end content-end];
+    }
+}
