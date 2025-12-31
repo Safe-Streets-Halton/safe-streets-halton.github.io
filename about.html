@@ -15,35 +15,24 @@ banner: "/uploads/crosswalk-banner.webp"
 
 <h2>Our Impact</h2>
 <div class="timeline" style="justify-self: center;">
-    <div class="timeline-year">2025</div>
-    <div class="timeline-item">
-        <img src="/assets/beach-bike-ride-photo.JPG" class="timeline-item__image"  alt="2022" aria-hidden="true" />
-        <div class="timeline-item__content">
-            <h3>Halton Region Transportation Plan: Protected Bike Lanes by Default</h3>
-            <p>                
-                Successfully advocated for protected bike lanes to become the default standard in Halton Region's transportation planning, ensuring safer infrastructure for cyclists across all municipalities.
-            </p>
-        </div>
-    </div>
-    <div class="timeline-item">
-        <img src="/assets/ballot-vote-photo.jpg" class="timeline-item__image"  alt="2022" aria-hidden="true" />
-        <div class="timeline-item__content">
-            <h3>Halton Region Transportation Plan: Protected Bike Lanes by Default</h3>
-            <p>                
-                Successfully advocated for protected bike lanes to become the default standard in Halton Region's transportation planning, ensuring safer infrastructure for cyclists across all municipalities.
-            </p>
-        </div>
-    </div>
-    <div class="timeline-year">2025</div>
-    <div class="timeline-item">
-        <img src="/assets/ballot-vote-photo.jpg" class="timeline-item__image"  alt="2022" aria-hidden="true" />
-        <div class="timeline-item__content">
-            <h3>Halton Region Transportation Plan: Protected Bike Lanes by Default</h3>
-            <p>                
-                Successfully advocated for protected bike lanes to become the default standard in Halton Region's transportation planning, ensuring safer infrastructure for cyclists across all municipalities.
-            </p>
-        </div>
-    </div>
+    {% assign impactList = site.data.impact | sort: 'date' | reverse%}
+    {% assign impactYear = impactList[0].date | date: "%Y" | strip %}
+    {% for impact in impactList %}
+        {% assign impactYearCurrent = impact.date | date: "%Y" | strip %}
+
+        <!-- Render the year if it's changed from the previous one -->
+        {% if impactYearCurrent != impactYear or forloop.first %}                        
+            {% assign impactYear = impactYearCurrent %}
+            <div class="timeline-year" id="impact-{{impactYear}}">{{ impactYear }}</div>
+        {% endif %}
+        <!-- Render the actual timeline item -->
+        {% include timeline-item.html 
+            image=impact.image 
+            image_alt=impact.image_alt 
+            title=impact.title 
+            content=impact.content
+        %}        
+    {% endfor %}
 </div>
 
 <h2>How we work</h2>
