@@ -3,6 +3,7 @@
     --border-width: 4px;
     --padding-start: 16px;
     --grid-gap: 16px;
+    --marker-diameter: 20px;
 
     margin-top: 32px;
     position: relative;
@@ -12,10 +13,21 @@
     grid-template-columns: 
         [image-start] minmax(200px, 2fr) [image-end content-start] 
         minmax(300px, 4fr) [content-end];
-    gap: var(--grid-gap);
-    border-left: var(--border-width) solid var(--timeline-color);
+    gap: var(--grid-gap);    
     padding-inline-start: var(--padding-start);
     padding-inline-end: calc(16px + var(--border-width));
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0.5lh;
+        left: calc(-1 * var(--border-width));
+        bottom: 0;
+        width: var(--border-width);        
+        background-color: var(--timeline-color);
+        z-index: -1;
+        border-radius: var(--border-width);
+    }
 
     &-year {
         grid-column: image;
@@ -23,10 +35,14 @@
         padding: 4px 8px;
         border-radius: 4px;
         color: var(--timeline-color);
-        padding-inline-start: 0;
+        padding-inline: 0;
+        padding-block: 0;
 
         + .timeline-item {
-            padding-top: 0;            
+            padding-top: 0;
+            &::after {
+                transform: translateY(calc(-0.5 * var(--marker-diameter) - 1lh - 2px));
+            }
         }
     }
 
@@ -37,6 +53,20 @@
         grid-column: 1 / -1;
         padding-bottom: 24px;
         padding-top: 24px;
+
+        &::after {            
+            content: "";
+            display: block;
+            width: var(--marker-diameter);
+            height: var(--marker-diameter);
+            position: absolute;
+            left: calc(-1 * var(--marker-diameter)/2 - var(--border-width) / 2);
+            transform: translateY(calc(-1 * var(--marker-diameter)/2));            
+            border-radius: 50%;
+            border: 4px solid var(--timeline-color);;
+            background-color: white;
+            z-index: 0;
+        }
 
         &__image {
             border-radius: 8px;
