@@ -8,12 +8,11 @@
     margin-top: 32px;
     position: relative;
     width: fit-content;
-    max-width: 1024px;    
+    max-width: 1024px;
     display: grid;
-    grid-template-columns: 
-        [image-start] minmax(200px, 2fr) [image-end content-start] 
-        minmax(300px, 4fr) [content-end];
-    gap: var(--grid-gap);    
+    grid-template-columns:
+        [image-start] minmax(200px, 2fr) [image-end content-start] minmax(300px, 4fr) [content-end];
+    gap: var(--grid-gap);
     padding-inline-start: var(--padding-start);
     padding-inline-end: calc(16px + var(--border-width));
 
@@ -23,7 +22,7 @@
         top: 0.5lh;
         left: calc(-1 * var(--border-width));
         bottom: 0;
-        width: var(--border-width);        
+        width: var(--border-width);
         background-color: var(--timeline-color);
         z-index: -1;
         border-radius: var(--border-width);
@@ -38,8 +37,9 @@
         padding-inline: 0;
         padding-block: 0;
 
-        + .timeline-item {
+        +.timeline-item {
             padding-top: 0;
+
             &::after {
                 transform: translateY(calc(-0.5 * var(--marker-diameter) - 1lh - 2px));
             }
@@ -54,16 +54,17 @@
         padding-bottom: 24px;
         padding-top: 24px;
 
-        &::after {            
+        &::after {
             content: "";
             display: block;
             width: var(--marker-diameter);
             height: var(--marker-diameter);
             position: absolute;
             left: calc(-1 * var(--marker-diameter)/2 - var(--border-width) / 2);
-            transform: translateY(calc(-1 * var(--marker-diameter)/2));            
+            transform: translateY(calc(-1 * var(--marker-diameter)/2));
             border-radius: 50%;
-            border: 4px solid var(--timeline-color);;
+            border: 4px solid var(--timeline-color);
+            ;
             background-color: white;
             z-index: 0;
         }
@@ -72,7 +73,7 @@
             border-radius: 8px;
             grid-column: image;
             width: 100%;
-            aspect-ratio: 4 / 3;            
+            aspect-ratio: 4 / 3;
             object-fit: cover;
             border: 2px solid color-mix(in oklab, var(--timeline-color) 60%, transparent)
         }
@@ -81,23 +82,25 @@
             grid-column: content;
             padding-top: 8px;
 
-            > p, > h3 {
+            >p,
+            >h3 {
                 padding-inline-start: 0;
                 padding-inline-end: 0;
                 margin-block-start: 0;
                 margin-block-end: 0;
             }
-            > h3 {
+
+            >h3 {
                 margin-block-end: 0.5lh;
             }
         }
 
         &:not(:last-child) {
-            border-bottom: 1px solid oklch(0% 0 0 / 0.1);            
+            border-bottom: 1px solid oklch(0% 0 0 / 0.1);
         }
     }
 
     @media (max-width: 768px) {
-        grid-template-columns: [image-start content-start] 1fr [image-end content-end];        
+        grid-template-columns: [image-start content-start] 1fr [image-end content-end];
     }
 }
