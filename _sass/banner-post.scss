@@ -50,7 +50,7 @@
     p:has(img) {
         text-align: center;
     }
-    img {
+    > img {
         max-width: 80%;
         display: block;
         margin: 0 auto;
