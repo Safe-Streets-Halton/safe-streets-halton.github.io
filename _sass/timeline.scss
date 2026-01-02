@@ -1,21 +1,30 @@
 .timeline {
+    // CSS Custom Properties
     --timeline-color: oklch(64.9% 0.128 146.6);
     --border-width: 4px;
     --padding-start: 16px;
     --grid-gap: 16px;
     --marker-diameter: 20px;
 
+    // Layout
     margin-top: 32px;
     position: relative;
     width: fit-content;
     max-width: 1024px;
+    
+    // Grid Configuration
     display: grid;
     grid-template-columns:
-        [image-start] minmax(200px, 2fr) [image-end content-start] minmax(300px, 4fr) [content-end];
+        [image-start] minmax(200px, 2fr) 
+        [image-end content-start] minmax(300px, 4fr) 
+        [content-end];
     gap: var(--grid-gap);
+    
+    // Padding
     padding-inline-start: var(--padding-start);
     padding-inline-end: calc(16px + var(--border-width));
 
+    // Vertical Timeline Bar
     &::before {
         content: '';
         position: absolute;
@@ -24,83 +33,89 @@
         bottom: 0;
         width: var(--border-width);
         background-color: var(--timeline-color);
-        z-index: -1;
         border-radius: var(--border-width);
+        z-index: -1;
     }
 
+    // Year Headers
     &-year {
         grid-column: image;
-        font-weight: bold;
-        padding: 4px 8px;
-        border-radius: 4px;
-        color: var(--timeline-color);
         padding-inline: 0;
         padding-block: 0;
+        font-weight: bold;
+        color: var(--timeline-color);
+        border-radius: 4px;
 
-        +.timeline-item {
+        + .timeline-item {
             padding-top: 0;
 
+            // Adjust the marker position such that it's aligned with the header
             &::after {
                 transform: translateY(calc(-0.5 * var(--marker-diameter) - 1lh - 2px));
             }
         }
     }
 
+    // Timeline Items
     &-item {
         display: grid;
         grid-template-columns: subgrid;
-        row-gap: var(--grid-gap);
         grid-column: 1 / -1;
-        padding-bottom: 24px;
+        row-gap: var(--grid-gap);
         padding-top: 24px;
+        padding-bottom: 24px;
 
+        // Timeline Marker Dot
         &::after {
             content: "";
             display: block;
+            position: absolute;
+            left: calc(-1 * var(--marker-diameter) / 2 - var(--border-width) / 2);
+            transform: translateY(calc(-1 * var(--marker-diameter) / 2));
             width: var(--marker-diameter);
             height: var(--marker-diameter);
-            position: absolute;
-            left: calc(-1 * var(--marker-diameter)/2 - var(--border-width) / 2);
-            transform: translateY(calc(-1 * var(--marker-diameter)/2));
-            border-radius: 50%;
             border: 4px solid var(--timeline-color);
-            ;
+            border-radius: 50%;
             background-color: white;
             z-index: 0;
         }
 
+        // Item Image
         &__image {
-            border-radius: 8px;
             grid-column: image;
             width: 100%;
             aspect-ratio: 4 / 3;
             object-fit: cover;
-            border: 2px solid color-mix(in oklab, var(--timeline-color) 60%, transparent)
+            border: 2px solid color-mix(in oklab, var(--timeline-color) 60%, transparent);
+            border-radius: 8px;
         }
 
+        // Item Content
         &__content {
             grid-column: content;
             padding-top: 8px;
 
-            >p,
-            >h3 {
+            > p,
+            > h3 {
                 padding-inline-start: 0;
                 padding-inline-end: 0;
                 margin-block-start: 0;
                 margin-block-end: 0;
             }
 
-            >h3 {
+            > h3 {
                 margin-block-end: 0.5lh;
             }
         }
 
+        // Separator Line
         &:not(:last-child) {
             border-bottom: 1px solid oklch(0% 0 0 / 0.1);
         }
     }
 
-    @media (max-width: 768px) {
+    // Responsive Layout
+    @container (max-width: 768px) {
         grid-template-columns: [image-start content-start] 1fr [image-end content-end];
     }
 }
