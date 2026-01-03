@@ -115,7 +115,7 @@
     }
 
     // Responsive Layout
-    @container (max-width: 768px) {
+    @media (width <= 768px) {
         grid-template-columns: [image-start content-start] 1fr [image-end content-end];
     }
 }
