@@ -1,0 +1,45 @@
+---
+title: About Us
+permalink: "/about"
+position: 3
+layout: banner-page
+phrase: Health and Safety above all else.
+banner: "/uploads/crosswalk-banner.webp"
+---
+<h2>Our Mission</h2>
+<p>Our mission is to eliminate traffic deaths and improve the quality of life in Halton Region by enabling residents to safely and comfortably use sustainable and active modes of transportation.
+</p>
+
+<h2>Our raison d'être</h2>
+<p>Safe Streets Halton was created out of the desire for all road users to travel safely. Inspired by the <a href="https://usa.streetsblog.org/2020/10/16/best-practices-how-oslo-reached-vision-zero-and-how-your-city-can-too/">success stories of cities</a> that have eliminated traffic-related deaths and serious injuries (i.e. accomplished <a href="https://visionzero.ca/">Vision Zero</a>), we believe that Halton Region is capable of the same transformation. In order for us to reach that goal, a collective voice is needed.</p>
+
+<h2>Our Impact</h2>
+<div class="timeline" style="justify-self: center;">
+    {% assign impactList = site.data.impact | sort: 'date' | reverse%}
+    {% assign impactYear = impactList[0].date | date: "%Y" | strip %}
+    {% for impact in impactList %}
+        {% assign impactYearCurrent = impact.date | date: "%Y" | strip %}
+
+        <!-- Render the year if it's changed from the previous one -->
+        {% if impactYearCurrent != impactYear or forloop.first %}                        
+            {% assign impactYear = impactYearCurrent %}
+            <div class="timeline-year" id="impact-{{impactYear}}">{{ impactYear }}</div>
+        {% endif %}
+        <!-- Render the actual timeline item -->
+        {% include timeline-item.html 
+            image=impact.image 
+            image_alt=impact.image_alt 
+            title=impact.title 
+            content=impact.content
+        %}        
+    {% endfor %}
+</div>
+
+<h2>How we work</h2>
+<p>We act as a group where safe streets and active transportation advocates can collaborate. We commit to being a resource for the public in educating on Vision-Zero strategies. When called upon, we will use our voice as a collective to demand and guide change.</p>
+
+<h2>Our Vision</h2>
+<p>A region with zero traffic deaths and serious injuries. A region where walking and cycling are not only a safe option, but a compelling way of getting around. Kids playing in the streets, neighbours and friends having chance encounters, improved health and cleaner air.</p>
+
+<h2>Equity, Diversity, and Inclusivity</h2>
+<p>We believe in creating a welcome environment for people of all stripes and embracing diversity. Through our work, we strive to amplify the voices of the underrepresented and marginalized with the <a href="https://www.hedroundtable.com/charter">Halton Region EDI Charter</a> as a guide.</p>

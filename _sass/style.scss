@@ -6,12 +6,13 @@
 @use 'posts.scss' as *;
 @use 'banner-post.scss' as *;
 @use 'get-involved.scss' as *;
+@use 'timeline.scss' as *;
 
 body {
     font-family: "Roboto Flex", sans-serif;
     background: #fff;    
     margin: 0;
-    min-height: 100vh;
+    min-height: 100dvh;
     display: grid;
     grid-template-columns: 
         [fullbleed-start] 1fr
