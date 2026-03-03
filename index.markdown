@@ -2,6 +2,13 @@
 title: Home
 position: 0
 actions:
+
+- title: Vision Zero
+  image: "/assets/collision-dots.png"
+  description: Halton Region continues to have avoidable deaths and injuries.
+    Vision Zero policies can help fix this.
+  buttonText: Watch Now
+  link: "/campaigns/vision-zero"
 - title: Tell the Province You Want Safer Streets!
   image: "/uploads/plains-gorton-ave-intersection.png"
   description: Tell the province that they shouldn't say where bike lanes can or cannot
