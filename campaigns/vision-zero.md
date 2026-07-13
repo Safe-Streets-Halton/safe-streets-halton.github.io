@@ -4,7 +4,9 @@ redirect_from:
 - "/visionzero"
 - "/VisionZero"
 - "/Vision-Zero"
-description: The Halton Region in Ontario has historically been slow to improve the safety of our roads – leading to dozens of avoidable deaths, and thousands of injuries. Vision Zero policies can help fix this.
+description: The Halton Region in Ontario has historically been slow to improve the
+  safety of our roads – leading to dozens of avoidable deaths, and thousands of injuries.
+  Vision Zero policies can help fix this.
 layout: default
 ---
 
