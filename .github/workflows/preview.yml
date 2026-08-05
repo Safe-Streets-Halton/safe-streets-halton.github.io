@@ -1,0 +1,146 @@
+name: Preview
+
+on:
+  # Runs on pushes targeting the default branch
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  # Build both the old (target head) and new (with merge) versions of the site
+  build-old:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.base_ref }}
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b  # v1.321.0
+        with:
+          ruby-version: '3.3.6' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v6.0.0
+      - name: Timewarp
+        run: |
+          echo 'time: 2021-01-01T00:00:00.000' >> _timewarp.yml
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --config _timewarp.yml,_config.yml
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          name: old-github-pages-build
+
+  build-new:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b  # v1.321.0
+        with:
+          ruby-version: '3.3.6' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v6.0.0
+      - name: Timewarp
+        run: |
+          echo 'time: 2021-01-01T00:00:00.000' >> _timewarp.yml
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --config _timewarp.yml,_config.yml
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          name: new-github-pages-build
+
+  # produce a list of all urls which changed between build-old and build-new
+  diff:
+    runs-on: ubuntu-latest
+    needs: [build-old, build-new]
+
+    outputs:
+      urls: ${{ steps.changes.outputs.urls }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c  # v8.0.1
+        with:
+          name: new-github-pages-build
+          path: new
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c  # v8.0.1
+        with:
+          name: old-github-pages-build
+          path: old
+
+      - name: Extract
+        run: |
+          echo "Old"
+          (cd old && tar -xf artifact.tar)
+          echo "New"
+          (cd new && tar -xf artifact.tar)
+
+      - name: debug
+        run: |
+          ls *
+
+      - id: changes
+        run: |
+          python3 changed-urls.py old new --prefix=http://localhost:4000/ --output=changes.json --format=json
+          echo "urls=$(cat changes.json)" | tee -a "$GITHUB_OUTPUT"
+
+  # for each changed url, make a screenshot
+  screenshot:
+    runs-on: ubuntu-latest
+    needs: [diff]
+    strategy:
+      matrix:
+        url: ${{ fromJson(needs.diff.outputs.urls) }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b  # v1.321.0
+        with:
+          ruby-version: '3.3.6' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+
+      - name: Preview with Jekyll
+        run: |
+          bundle exec jekyll serve --livereload --port 4000 &
+        env:
+          JEKYLL_ENV: production
+
+      - id: filename
+        run: |
+          echo "filename=screenshot-${{ github.sha }}-${{ github.run_id }}-${{ github.run_number }}-${{ github.job }}.png" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Render screenshots
+        id: screenshot
+        uses: karol-brejna-i/webpage-screenshot-action@v1.1.2
+        with:
+          mode: wholePage
+          url: ${{ matrix.url }}
+          output: ${{ steps.filename.outputs.filename }}
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: ${{ steps.filename.outputs.filename }}
+          path: ${{ steps.filename.outputs.filename }}
+          retention-days: 7
+          archive: false
