@@ -31,13 +31,13 @@ Ahead of the October 26 election, Safe Streets Halton is surveying municipal can
 We're asking every candidate the same set of questions. We encourage you to ask your own candidates – whether they’re the same ones or similar – and see how they answer. 
 
 1. What do you use to get around?
-1. Transit ridership is increasing, and is going to play a key role in how we move around town and Halton Region. How do you envision transit expanding in the future, and what specifically would you look to improve? What will you do to improve transit rider experience and accessibility?
-1. Vision Zero sets out to eliminate all traffic-related deaths and serious injuries. How much progress do you believe [city/town] has made towards achieving Vision Zero, and if elected, what type of action or measures would you implement to achieve it? Feel free to provide any places that have implemented things successfully.
-1. Historically, we have prioritized investment on the movement of cars. If elected, how will you vote on future transportation investments? Are you prepared to vote in favour of spending that will improve the safety of those travelling within the city/town?
-1. Providing a comfortable and accessible experience for street users is important for getting people to walk and cycle more. How will you improve the experience of those walking and cycling on our streets and trails? How will you address barriers such as provincial highways?
-1. Bicycle infrastructure (e.g. protected bike lanes, slower roads, protected intersections) has been shown to improve the safety of cyclists, pedestrians, and drivers. Do you support the expansion of this infrastructure?
-1. How do you see transportation's effect on people's health and the environment (local and global)?
-1. Historically, our land-use patterns have made it more difficult for people to get around without a car. Are there any land-use policy changes that you would make to remedy this issue?
+2. How do you envision transit expanding in the future? What will you do to improve transit rider experience and accessibility?
+3. How far do you believe [city/town] has come towards achieving Vision Zero (eliminating all traffic deaths and serious injuries), and what actions would you take to achieve it?
+5. Will you support transportation investments with a focus on safety?
+6. How will you improve the experience of walking and cycling on our streets and trails? How will you address barriers such as provincial highways?
+7. Do you support expanding bicycle infrastructure, which has been shown to improve the safety of all those travelling?
+8. How do you see transportation's effect on people's health and the environment (local and global)?
+9. Are there any land-use policy changes that you would make to ensure that people can get around without a car?
 
 ## How we'll grade responses
 
