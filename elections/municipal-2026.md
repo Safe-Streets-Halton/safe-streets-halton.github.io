@@ -32,7 +32,7 @@ We're asking every candidate the same set of questions. We encourage you to ask 
 
 1. What do you use to get around?
 2. How do you envision transit expanding in the future? What will you do to improve transit rider experience and accessibility?
-3. How far do you believe [city/town] has come towards achieving Vision Zero (eliminating all traffic deaths and serious injuries), and what actions would you take to achieve it?
+3. How far have we come in regards to achieving Vision Zero (eliminating all traffic deaths and serious injuries), and what actions would you take to achieve it?
 5. Will you support transportation investments with a focus on safety?
 6. How will you improve the experience of walking and cycling on our streets and trails? How will you address barriers such as provincial highways?
 7. Do you support expanding bicycle infrastructure, which has been shown to improve the safety of all those travelling?
