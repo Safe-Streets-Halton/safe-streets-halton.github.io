@@ -1,0 +1,35 @@
+ul#grades {
+    display: grid;
+}
+ul#grades li {
+    width: 100%;
+    height: 100px;
+    display: table-cell;
+}
+
+table#grades {
+    margin-left: auto;
+    margin-right: auto;
+}
+table#grades td {
+    padding: 0.8em;
+    text-align: center;
+    font-weight: bolder;
+}
+table#grades td div {
+    height: 5em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+table#grades #block-ambition {
+    background-image: url("/assets/municipal-election-2026/coins-solid.svg");
+}
+table#grades #block-money {
+    background-image: url("/assets/municipal-election-2026/compass-solid.svg");
+}
+table#grades #block-everyone {
+    background-image: url("/assets/municipal-election-2026/people-group-solid.svg");
+}
+table#grades #block-health {
+    background-image: url("/assets/municipal-election-2026/heart-pulse-solid.svg");
+}
