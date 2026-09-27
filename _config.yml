@@ -46,12 +46,12 @@ header_pages:
 - url: "/about"
 - url: "/contact-us"
 announcement:
-  show: false
+  show: true
   icon: "\U0001F5F3️"
   danger_level: none
   text: We asked candidates where they stand on transportation & safety. Read their
     responses.
-  link: "/elections/ontario-2025"
+  link: "/elections/municipal-2026"
   action: Learn More
 plugins:
 - jekyll-feed
