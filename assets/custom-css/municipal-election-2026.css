@@ -1,35 +1,516 @@
-ul#grades {
-    display: grid;
-}
-ul#grades li {
-    width: 100%;
-    min-height: 6.25rem;
-    display: table-cell;
+/*
+  2026 municipal elections landing page (elections/municipal-2026.md, layout: base-layout).
+  Units: rem for type, spacing, widths and min-heights; em for button padding; unitless line-heights;
+  px only for borders, radii and shadows. Headings are weight 500 except the hero H1 (700).
+*/
+.m26 {
+  --m26-green: #447a38;
+  --m26-green-dark: #2f5627;
+  --m26-green-transparent: rgba(180, 245, 163, 0.4);
+  --m26-overlay: rgba(0, 0, 0, 0.1);
+  --m26-hairline: rgba(0, 0, 0, 0.1);
+  --m26-line: rgba(0, 0, 0, 0.2);
+  --m26-accent-on-dark: oklch(96.2% 0.044 156.743);
+  --m26-width: 75rem;
+
+  /* <main> is a subgrid of the page grid: span its columns, and start at its second row so the
+     hero sits directly under the header / announcement banner with no gap. */
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  min-width: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Flex", sans-serif;
+  color: #000000;
+  overflow-wrap: break-word;
 }
 
-table#grades {
-    margin-left: auto;
-    margin-right: auto;
+html {
+  scroll-behavior: smooth;
 }
-table#grades td {
-    padding: 0.8em;
-    text-align: center;
-    font-weight: bolder;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
-table#grades td div {
-    min-height: 5em;
-    background-repeat: no-repeat;
-    background-position: center;
+
+.m26 :is(h1, h2, h3, p, ul, ol) {
+  margin: 0;
+  padding: 0;
 }
-table#grades #block-ambition {
-    background-image: url("/assets/municipal-election-2026/coins-solid.svg");
+.m26 :is(h1, h2, h3) {
+  color: inherit;
 }
-table#grades #block-money {
-    background-image: url("/assets/municipal-election-2026/compass-solid.svg");
+.m26 :is(ul, ol) {
+  list-style: none;
 }
-table#grades #block-everyone {
-    background-image: url("/assets/municipal-election-2026/people-group-solid.svg");
+.m26 :is(section, article, [id]) {
+  scroll-margin-top: 1rem;
 }
-table#grades #block-health {
-    background-image: url("/assets/municipal-election-2026/heart-pulse-solid.svg");
+.m26 .sv-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Links: green and underlined inline; components override --m26-link */
+.m26 a,
+.m26 a:visited {
+  --m26-link: var(--m26-green);
+  --m26-link-hover: var(--m26-green-dark);
+  color: var(--m26-link);
+  text-decoration: underline;
+}
+.m26 a:hover {
+  color: var(--m26-link-hover);
+}
+.m26 a:focus-visible {
+  outline: 2px solid var(--m26-green);
+  outline-offset: 2px;
+}
+
+/* Hero */
+.m26-hero {
+  grid-area: auto;
+  position: relative;
+  overflow: hidden;
+  min-height: 26rem;
+  display: flex;
+  align-items: flex-end;
+  background: #2b2b2b;
+}
+.m26-hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+  transform: scale(1.05);
+}
+.m26-hero-shade {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.m26-hero-inner {
+  position: relative;
+  width: 100%;
+  max-width: var(--m26-width);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 4rem 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #ffffff;
+}
+.m26-eyebrow {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.m26 .m26-h1 {
+  font-size: clamp(2.25rem, 7vw, 3rem);
+  line-height: 1.167;
+  font-weight: 700;
+}
+.m26-h1-accent {
+  color: var(--m26-accent-on-dark);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.m26-date {
+  font-size: 1.5rem;
+  line-height: 1.167;
+  font-weight: 400;
+}
+.m26-hero-text {
+  max-width: 60ch;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300;
+}
+
+/* On this page */
+.m26-toc {
+  border-bottom: 1px solid var(--m26-hairline);
+}
+.m26-toc-inner {
+  max-width: var(--m26-width);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+.m26-toc-label {
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.4286;
+  font-weight: 500;
+}
+/* Phones: label on its own line above the jump buttons */
+@media (max-width: 37.5em) {
+  .m26-toc-label {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+}
+.m26 a.m26-btn-quiet,
+.m26 a.m26-btn-quiet:visited {
+  --m26-link: #000000;
+  --m26-link-hover: #000000;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 1em 2em;
+  border-radius: 5px;
+  background: var(--m26-overlay);
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.167;
+  font-weight: 500;
+}
+.m26 a.m26-btn-quiet:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+/* Body */
+.m26-body {
+  max-width: var(--m26-width);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 3rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.m26-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.m26 .m26-h2 {
+  font-size: clamp(1.75rem, 7vw, 2.8125rem);
+  line-height: 1.178;
+  font-weight: 500;
+}
+.m26-accent {
+  color: var(--m26-green);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.m26 .m26-h3 {
+  font-size: 1.5rem;
+  line-height: 1.167;
+  font-weight: 400;
+}
+.m26 .m26-text {
+  max-width: 72ch;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300;
+}
+
+/* Get Ready to Vote */
+.m26-offices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(12rem, 100%), 1fr));
+  gap: 1rem;
+}
+.m26-offices li {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--m26-hairline);
+  border-radius: 4px;
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 500;
+}
+.m26-official {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  gap: 1rem;
+}
+.m26 a.m26-card,
+.m26 a.m26-card:visited {
+  --m26-link: #000000;
+  --m26-link-hover: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.25rem;
+  border: 1px solid var(--m26-line);
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+.m26 a.m26-card:hover {
+  border-color: var(--m26-green);
+}
+.m26-card-name {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 500;
+}
+.m26-card-link {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--m26-green);
+  text-decoration: underline;
+  text-underline-offset: 0.1875rem;
+}
+.m26 .m26-note {
+  max-width: 72ch;
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  background: var(--m26-green-transparent);
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300;
+}
+.m26-note strong {
+  font-weight: 500;
+}
+
+/* Candidate survey: city cards */
+.m26-cities {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+  gap: 1.5rem;
+}
+.m26-city {
+  border: 1px solid var(--m26-hairline);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.m26-city-banner {
+  position: relative;
+  aspect-ratio: 1920 / 563;
+  background: var(--m26-green);
+}
+.m26-city-banner img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+}
+.m26 .m26-city-name {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1rem;
+  color: #ffffff;
+  font-size: clamp(1.75rem, 5vw, 2.8125rem);
+  line-height: 1.178;
+  font-weight: 500;
+}
+.m26-city-body {
+  padding: 1.25rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.m26-city-label {
+  font-size: 0.875rem;
+  line-height: 1.4286;
+  font-weight: 500;
+}
+.m26-pages {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(5.5rem, 40%), 1fr));
+  gap: 0.5rem;
+}
+.m26 a.m26-wardmap,
+.m26 a.m26-wardmap:visited {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 0.5em 1em;
+  border: 1px solid var(--m26-line);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.2857;
+  font-weight: 400;
+}
+.m26 a.m26-chip,
+.m26 a.m26-chip:visited {
+  --m26-link: #000000;
+  --m26-link-hover: #000000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 0.75em 0.5em;
+  border-radius: 5px;
+  background: var(--m26-green-transparent);
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.167;
+  font-weight: 500;
+}
+.m26 a.m26-chip:hover {
+  background: rgba(180, 245, 163, 0.8);
+}
+
+/* How we score responses */
+.m26-score {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.m26-cats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  gap: 1rem;
+}
+.m26-cat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border: 1px solid var(--m26-hairline);
+  border-radius: 4px;
+}
+.m26-cat-ico {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--m26-green);
+}
+.m26-cat-label {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+/* Questions you can ask */
+.m26-questions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+.m26-questions-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.m26-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.m26-qlist {
+  display: flex;
+  flex-direction: column;
+}
+.m26-q {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--m26-hairline);
+}
+.m26-q-num {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: var(--m26-green);
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 500;
+}
+.m26-q-text {
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300;
+  overflow-wrap: anywhere;
+}
+
+/* Milton and Halton Hills panel */
+.m26-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2rem clamp(1rem, 4vw, 2rem);
+  border-radius: 4px;
+  background: var(--m26-green);
+  color: #ffffff;
+}
+.m26-panel-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 60ch;
+}
+.m26 .m26-panel-h {
+  font-weight: 500;
+}
+.m26-panel .m26-text {
+  max-width: none;
+}
+.m26 a.m26-btn-light,
+.m26 a.m26-btn-light:visited {
+  --m26-link: #000000;
+  --m26-link-hover: #000000;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 0.5em 1.5em;
+  border-radius: 4px;
+  background: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  text-wrap: balance;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.m26 a.m26-btn-light:hover {
+  background: rgba(255, 255, 255, 0.88);
+}
+.m26 a.m26-btn-light:focus-visible {
+  outline-color: #ffffff;
+  outline-offset: 3px;
+}
+
+.m26 .m26-footnote {
+  max-width: 72ch;
+  font-size: 0.875rem;
+  line-height: 1.7143;
+  font-weight: 300;
+  font-style: italic;
 }
