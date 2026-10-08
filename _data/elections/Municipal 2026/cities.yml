@@ -1,0 +1,10 @@
+# Per-city settings used by the municipal survey pages.
+#
+# wards          Number of wards. Controls the Ward 1 ... Ward N buttons on every page for that city.
+# ward_map_url   Where "Not sure of your ward?" sends people.
+Burlington:
+  wards: 6
+  ward_map_url: https://www.burlington.ca/en/council-and-city-administration/find-your-councillor-ward.aspx
+Oakville:
+  wards: 7
+  ward_map_url: https://www.oakville.ca/community-events/in-my-neighbourhood/

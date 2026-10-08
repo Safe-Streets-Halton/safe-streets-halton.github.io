@@ -9,6 +9,10 @@ collections:
     title: Ontario Election 2025
     output: true
     permalink: "/elections/ontario-2025/:name"
+  municipal-election-2026:
+    title: Municipal Election 2026
+    output: true
+    permalink: "/elections/municipal-2026/:path/"
   posts:
     title: Posts
     output: true
@@ -39,6 +43,13 @@ defaults:
     type: ontario-election-2025
   values:
     layout: election-survey
+- scope:
+    path: ''
+    type: municipal-election-2026
+  values:
+    layout: municipal-survey
+    custom_css:
+    - municipal-survey
 header_pages:
 - url: "/events"
 - url: "/get-involved"

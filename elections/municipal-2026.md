@@ -24,6 +24,31 @@ Be sure you [register to vote with Elections Ontario](https://www.registertovote
 Not sure which city you're in? Check the [Halton Region elections page](https://www.halton.ca/the-region/regional-council-and-committees/municipal-elections) for an overview.
 
 
+## Candidate survey responses {#survey-responses}
+
+Here is what the candidates told us. Choose your city, then your ward or the mayor's race.
+
+### Burlington {#burlington}
+
+[Mayor](/elections/municipal-2026/burlington/mayor/) ·
+[Ward 1](/elections/municipal-2026/burlington/ward-1/) ·
+[Ward 2](/elections/municipal-2026/burlington/ward-2/) ·
+[Ward 3](/elections/municipal-2026/burlington/ward-3/) ·
+[Ward 4](/elections/municipal-2026/burlington/ward-4/) ·
+[Ward 5](/elections/municipal-2026/burlington/ward-5/) ·
+[Ward 6](/elections/municipal-2026/burlington/ward-6/)
+
+### Oakville {#oakville}
+
+[Mayor](/elections/municipal-2026/oakville/mayor/) ·
+[Ward 1](/elections/municipal-2026/oakville/ward-1/) ·
+[Ward 2](/elections/municipal-2026/oakville/ward-2/) ·
+[Ward 3](/elections/municipal-2026/oakville/ward-3/) ·
+[Ward 4](/elections/municipal-2026/oakville/ward-4/) ·
+[Ward 5](/elections/municipal-2026/oakville/ward-5/) ·
+[Ward 6](/elections/municipal-2026/oakville/ward-6/) ·
+[Ward 7](/elections/municipal-2026/oakville/ward-7/)
+
 ## Questions you can ask
 
 Ahead of the October 26 election, Safe Streets Halton is surveying municipal candidates in Burlington and Oakville on their positions on transit, road safety, and active transportation. We'll be sharing what we learn so residents can make an informed choice at the ballot box.

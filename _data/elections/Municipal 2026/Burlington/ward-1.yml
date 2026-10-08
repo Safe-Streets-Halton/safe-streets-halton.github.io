@@ -1,0 +1,106 @@
+# Burlington Ward 1
+#
+# One file per page. A page has one or more races (Oakville wards have two). Each race lists its candidates.
+# Candidates are shown alphabetically by name, whatever order they are listed in here.
+#
+# Example race with every field filled in (copy it, then delete the leading "# "):
+#
+# races:
+#   - id: race-ward                 # Unique on the page. Used for links and "Jump to" anchors.
+#     title: Ward Councillor        # Heading for the race (shown only when the page has two or more races).
+#     note: Sits on Burlington City Council and Halton Regional Council.   # Short line under the heading.
+#     candidates:
+#       - name: Jane Example        # Required.
+#         website: https://example.com    # Optional. Campaign website; omit the line if none.
+#         status: on-time             # on-time | late | late-pending | no-response
+#                                     #   on-time       responded by the deadline, scored
+#                                     #   late          responded after the deadline, scored and posted
+#                                     #   late-pending  responded after the deadline, not yet scored or posted
+#                                     #   no-response   did not respond
+#         received: October 2, 2026   # Date the response arrived, as text. Optional for no-response.
+#         scores:                     # 0 to 4 each. Only for on-time and late. Leave the whole block out for
+#                                     # no-response and late-pending, and also for an on-time or late candidate
+#                                     # whose response is still being scored: the page then shows "Rating in progress"
+#                                     # and their answers, and the scores appear once you add this block.
+#           ambition: 3
+#           money: 2                  # Where the Money Goes
+#           network: 4                # A Network for Everyone
+#           health: 3                 # Health and Environment
+#         responses:                  # Keyed by question id from questions.yml. Use "|" for the text.
+#           transport-mode: |         # A blank line starts a new paragraph.
+#             First paragraph of the answer, exactly as submitted.
+#
+#             Second paragraph.
+#         sent: October 5, 2026       # Optional, no-response only: when the survey was sent ...
+#         followed_up: October 12, 2026   # ... and when we followed up. Both optional.
+#         open: true                  # Optional. Show this candidate expanded when the page loads.
+#
+# A ward with no responses yet: leave "candidates: []" and the page says nothing has been posted.
+
+races:
+  - id: race-ward
+    title: "Ward Councillor"
+    note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
+    candidates:
+      - name: "[Candidate Name J]"
+        website: https://example.com
+        status: on-time
+        received: "[MONTH DAY, 2026]"
+        scores:
+          ambition: 3
+          money: 2
+          network: 4
+          health: 3
+        responses:
+          transport-mode: |
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          transit: |
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+          vision-zero: |
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          safety-investment: |
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+          walking-cycling: |
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
+
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+          bike-infrastructure: |
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          health-environment: |
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          land-use: |
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
+        open: true
+      - name: "[Candidate Name K]"
+        website: https://example.com
+        status: late
+        received: "[MONTH DAY, 2026]"
+        responses:
+          transport-mode: |
+            [Candidate’s response, exactly as submitted.]
+          transit: |
+            [Candidate’s response, exactly as submitted.]
+          vision-zero: |
+            [Candidate’s response, exactly as submitted.]
+          safety-investment: |
+            [Candidate’s response, exactly as submitted.]
+          walking-cycling: |
+            [Candidate’s response, exactly as submitted.]
+          bike-infrastructure: |
+            [Candidate’s response, exactly as submitted.]
+          health-environment: |
+            [Candidate’s response, exactly as submitted.]
+          land-use: |
+            [Candidate’s response, exactly as submitted.]
+      - name: "[Candidate Name L]"
+        status: no-response
+        sent: "[DATE]"
+        followed_up: "[DATE]"

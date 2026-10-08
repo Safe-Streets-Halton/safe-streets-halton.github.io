@@ -1,0 +1,16 @@
+# The four scoring categories, in the order they appear on the survey pages.
+# key   Matches the keys under "scores:" in each candidate's entry (ward-N.yml / mayor.yml).
+# label Shown on the page.
+# icon  Matches an icon in _includes/survey-icon-sprite.html.
+- key: ambition
+  label: Ambition
+  icon: compass
+- key: money
+  label: Where the Money Goes
+  icon: coins
+- key: network
+  label: A Network for Everyone
+  icon: people-group
+- key: health
+  label: Health and Environment
+  icon: heart-pulse

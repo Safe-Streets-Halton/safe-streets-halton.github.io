@@ -1,0 +1,247 @@
+---
+layout: default
+---
+{%- comment -%}
+  Candidate survey responses for one 2026 municipal ballot (a ward or the mayor's race).
+  Front matter: city (Burlington | Oakville), ballot (mayor | ward-1 ... ward-N), title.
+  Data: _data/elections/Municipal 2026/<city>/<ballot>.yml, questions.yml, plus cities.yml and categories.yml.
+{%- endcomment -%}
+{%- assign m26 = site.data.elections.Municipal_2026 -%}
+{%- assign city = page.city -%}
+{%- assign city_slug = city | downcase -%}
+{%- assign city_cfg = m26.cities[city] -%}
+{%- assign city_data = m26[city] -%}
+{%- assign questions = city_data.questions -%}
+{%- assign categories = m26.categories -%}
+{%- assign races = city_data[page.ballot].races -%}
+{%- assign base_url = "/elections/municipal-2026/" | append: city_slug | append: "/" -%}
+{%- if page.ballot == "mayor" -%}
+  {%- assign is_ward = false -%}
+  {%- assign ward_n = "" -%}
+{%- else -%}
+  {%- assign is_ward = true -%}
+  {%- assign ward_n = page.ballot | remove: "ward-" -%}
+  {%- assign ward_i = ward_n | plus: 0 -%}
+{%- endif -%}
+{%- assign show_races = false -%}
+{%- if races.size > 1 -%}{%- assign show_races = true -%}{%- endif -%}
+{%- assign number_words = "zero,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve" | split: "," -%}
+{%- assign question_count = number_words[questions.size] | default: questions.size -%}
+
+{%- comment -%} Flat, alphabetical list of every candidate on the page, for Prev/Next. {%- endcomment -%}
+{%- assign all_ids = "" | split: "" -%}
+{%- assign all_names = "" | split: "" -%}
+{%- for race in races -%}
+  {%- assign sorted = race.candidates | sort_natural: "name" -%}
+  {%- for cand in sorted -%}
+    {%- assign one = race.id | append: "-" | append: forloop.index | split: "§" -%}
+    {%- assign all_ids = all_ids | concat: one -%}
+    {%- assign one = cand.name | split: "§" -%}
+    {%- assign all_names = all_names | concat: one -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- assign gi = -1 -%}
+
+{% include survey-icon-sprite.html %}
+<div class="sv-page">
+<div id="top" class="sv">
+
+<nav aria-label="Breadcrumb" class="sv-crumb">
+<a class="sv-link" href="{{ '/elections' | relative_url }}">Elections</a> <span aria-hidden="true">›</span> <a class="sv-link" href="{{ '/elections/municipal-2026' | relative_url }}">2026 Municipal</a> <span aria-hidden="true">›</span> <a class="sv-link" href="{{ '/elections/municipal-2026#' | append: city_slug | relative_url }}">{{ city }}</a> <span aria-hidden="true">›</span> <span aria-current="page">{% if is_ward %}Ward {{ ward_n }}{% else %}Mayor{% endif %}</span>
+</nav>
+
+<header class="sv-header">
+<h1 class="sv-h1">{{ page.title }}</h1>
+{%- if is_ward %}
+<p class="sv-text sv-intro">These are the responses we received from every ward candidate on the Ward {{ ward_n }} ballot, in alphabetical order. Open a candidate to read their answers to all {{ question_count }} questions, in their own words.</p>
+{%- else %}
+<p class="sv-text sv-intro">Every {{ city }} voter elects the mayor, whatever their ward. These are the responses we received from every mayoral candidate, in alphabetical order. Open a candidate to read their answers to all {{ question_count }} questions, in their own words.</p>
+{%- endif %}
+<nav aria-labelledby="sv-pages-label" class="sv-pages">
+<p id="sv-pages-label" class="sv-pages-label">{{ city }} candidates:</p>
+<div class="sv-pages-grid">
+<a class="sv-link sv-wardmap" href="{{ city_cfg.ward_map_url }}">Not sure of your ward?</a>
+<a class="sv-chip"{% unless is_ward %} aria-current="page"{% endunless %} href="{{ base_url | append: 'mayor/' | relative_url }}">Mayor</a>
+{%- for w in (1..city_cfg.wards) %}
+<a class="sv-chip"{% if is_ward and w == ward_i %} aria-current="page"{% endif %} href="{{ base_url | append: 'ward-' | append: w | append: '/' | relative_url }}">Ward {{ w }}</a>
+{%- endfor %}
+</div>
+</nav>
+</header>
+
+{%- if is_ward %}
+<aside aria-label="Mayoral race" class="sv-callout">
+<p class="sv-text sv-callout-text"><strong>You’ll also vote for mayor.</strong> Mayoral candidates are on the same ballot in every {{ city }} ward, so their responses have their own page.</p>
+<a class="sv-btn" href="{{ base_url | append: 'mayor/' | relative_url }}">See Mayoral Candidates</a>
+</aside>
+{%- endif %}
+
+<section aria-labelledby="sv-legend-h" class="sv-legend">
+<h2 id="sv-legend-h" class="sv-h-legend">How to Read the Scores</h2>
+<p class="sv-text sv-intro">Each response was scored from 0 to 4 in four categories. Filled icons show the score: three filled icons = 3 out of 4. <a class="sv-link" href="{{ '/elections/municipal-2026#how-well-grade-responses' | relative_url }}">How we grade responses</a></p>
+<ul class="sv-legend-grid">
+{%- for cat in categories %}
+<li class="sv-legend-item"><svg class="sv-ico is-on sv-ico-legend" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ cat.icon }}"/></svg><span class="sv-legend-label">{{ cat.label }}</span></li>
+{%- endfor %}
+</ul>
+</section>
+
+{%- if show_races %}
+<nav aria-label="Races on this ballot" class="sv-jump">
+<span class="sv-jump-label">Jump to:</span>
+{%- for race in races %}
+<a class="sv-jump-link" href="#{{ race.id }}">{{ race.title }}</a>
+{%- endfor %}
+</nav>
+{%- endif %}
+
+{%- for race in races %}
+{%- assign sorted = race.candidates | sort_natural: "name" %}
+{%- if is_ward %}
+  {%- if show_races %}{%- capture race_short %}{{ race.title }}, Ward {{ ward_n }}{% endcapture %}{%- else %}{%- capture race_short %}Ward {{ ward_n }} Councillor{% endcapture %}{%- endif %}
+{%- else %}
+  {%- capture race_short %}Mayor of {{ city }}{% endcapture %}
+{%- endif %}
+<section id="{{ race.id }}" class="sv-race">
+<div class="sv-race-head">
+{%- if show_races %}
+<h2 class="sv-h-race">{{ race.title }}</h2>
+{%- endif %}
+<p class="sv-text">{{ race.note }}</p>
+</div>
+
+{%- if sorted.size == 0 %}
+<p class="sv-text sv-empty">We haven’t posted responses for this {% if is_ward %}ward{% else %}race{% endif %} yet.</p>
+{%- endif %}
+
+{%- for cand in sorted %}
+{%- assign gi = gi | plus: 1 -%}
+{%- assign cid = race.id | append: "-" | append: forloop.index -%}
+{%- assign status = cand.status -%}
+{%- assign responded = false -%}
+{%- assign late = false -%}
+{%- if status == "on-time" or status == "late" %}{% assign responded = true %}{% endif -%}
+{%- if status == "late" or status == "late-pending" %}{% assign late = true %}{% endif -%}
+{%- assign rated = false -%}
+{%- if responded and cand.scores %}{% assign rated = true %}{% endif -%}
+{%- if responded %}
+  {%- capture date_line %}Response received {{ cand.received }}{% endcapture %}
+{%- else %}
+  {%- if status == "late-pending" %}{%- capture date_line %}Response received {{ cand.received }}{% endcapture %}{%- else %}{%- assign date_line = "No response received" -%}{%- endif %}
+{%- endif %}
+<details id="{{ cid }}" class="sv-cand"{% if cand.open %} open{% endif %}>
+<summary class="sv-summary">
+<span class="sv-who">
+<svg class="sv-chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
+<span class="sv-who-text">
+<span class="sv-name">{{ cand.name | escape }}</span>
+<span class="sv-dateline"><span>{{ date_line | escape }}</span>{% if late %}<span class="sv-badge">Late</span>{% endif %}</span>
+</span>
+</span>
+{%- if rated %}
+<span class="sv-scores">
+{%- for cat in categories %}
+{%- assign score = cand.scores[cat.key] | default: 0 | plus: 0 %}
+<span class="sv-score-group" title="{{ cat.label }}: {{ score }} of 4"><span class="sv-sr">{{ cat.label }}: {{ score }} out of 4.</span>{% include survey-dots.html icon=cat.icon score=score size="sv-ico-sm" %}</span>
+{%- endfor %}
+</span>
+{%- elsif responded %}
+<span class="sv-side sv-side-pending">Rating in progress</span>
+{%- elsif status == "late-pending" %}
+<span class="sv-side sv-side-pending">Responded after the deadline</span>
+{%- else %}
+<span class="sv-side sv-side-none">Did not respond to the survey</span>
+{%- endif %}
+</summary>
+
+<div class="sv-body">
+{%- if responded %}
+<div class="sv-resp">
+<div class="sv-meta">
+<span class="sv-meta-label">Candidate for {{ race_short }}</span>
+<span class="sv-dateline"><span>{{ date_line | escape }}</span>{% if late %}<span class="sv-badge">Late</span>{% endif %}</span>
+{%- if cand.website %}
+<a class="sv-link sv-text sv-site" href="{{ cand.website }}">Campaign website</a>
+{%- endif %}
+</div>
+{%- if rated %}
+<dl class="sv-breakdown">
+{%- for cat in categories %}
+{%- assign score = cand.scores[cat.key] | default: 0 | plus: 0 %}
+<div class="sv-bd-item">
+<dt class="sv-bd-label">{{ cat.label }}</dt>
+<dd class="sv-bd-score">{% include survey-dots.html icon=cat.icon score=score size="sv-ico-xs" %}<span class="sv-bd-num">{{ score }}/4</span></dd>
+</div>
+{%- endfor %}
+</dl>
+{%- else %}
+<div class="sv-unrated">
+<p class="sv-unrated-title">Rating in progress</p>
+<p class="sv-text sv-unrated-text">We’re still scoring this response against our rubric. Their answers are below, and we’ll add the scores once they’re ready.</p>
+</div>
+{%- endif %}
+</div>
+
+<ol class="sv-qa">
+{%- for q in questions %}
+{%- assign resp = cand.responses[q.id] | default: "" | strip -%}
+{%- assign paras = resp | split: "
+
+" %}
+<li id="{{ cid }}-q{{ q.number }}" class="sv-q">
+<h3 class="sv-q-title"><span class="sv-q-num">Q{{ q.number }}.</span> {{ q.text | escape }}</h3>
+<div id="{{ cid }}-q{{ q.number }}-a" class="sv-answer" data-q="{{ q.number }}">
+{%- if resp == "" %}
+<p class="sv-noanswer">No response to this question.</p>
+{%- else %}
+{%- for para in paras %}{% assign para = para | strip %}{% if para != "" %}
+<p>{{ para | escape }}</p>
+{%- endif %}{% endfor %}
+{%- endif %}
+</div>
+</li>
+{%- endfor %}
+</ol>
+
+<nav aria-label="Jump within these responses" class="sv-bar">
+<div class="sv-bar-qs">
+{%- for q in questions %}
+<a class="sv-qchip" href="#{{ cid }}-q{{ q.number }}" title="Question {{ q.number }}"><span class="sv-sr">Question </span><span aria-hidden="true">Q</span>{{ q.number }}</a>
+{%- endfor %}
+</div>
+<div class="sv-bar-nav">
+{%- if gi > 0 %}
+{%- assign pi = gi | minus: 1 %}
+<a class="sv-navbtn" href="#{{ all_ids[pi] }}" title="Previous candidate: {{ all_names[pi] | escape }}"><svg class="sv-navico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"/></svg><span class="sv-navtxt">Prev</span><span class="sv-sr">Previous candidate: {{ all_names[pi] | escape }}</span></a>
+{%- else %}
+<span class="sv-navbtn is-disabled" aria-hidden="true"><svg class="sv-navico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"/></svg><span class="sv-navtxt">Prev</span></span>
+{%- endif %}
+{%- assign ni = gi | plus: 1 %}
+{%- if ni < all_ids.size %}
+<a class="sv-navbtn" href="#{{ all_ids[ni] }}" title="Next candidate: {{ all_names[ni] | escape }}"><span class="sv-navtxt">Next</span><span class="sv-sr">Next candidate: {{ all_names[ni] | escape }}</span><svg class="sv-navico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"/></svg></a>
+{%- else %}
+<span class="sv-navbtn is-disabled" aria-hidden="true"><span class="sv-navtxt">Next</span><svg class="sv-navico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"/></svg></span>
+{%- endif %}
+<a class="sv-navbtn" href="#top" title="Back to top of page"><svg class="sv-navico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5M6 11l6-6 6 6"/></svg><span class="sv-navtxt">Top</span><span class="sv-sr">Back to top of page</span></a>
+</div>
+</nav>
+{%- elsif status == "late-pending" %}
+<div class="sv-pending">
+<p class="sv-pending-title">Responded after the deadline</p>
+<p class="sv-text">This candidate responded after the deadline. All responses are being ranked and posted in order of receipt.</p>
+</div>
+{%- else %}
+<p class="sv-text sv-intro">We sent this candidate our survey{% if cand.sent %} on {{ cand.sent | escape }}{% endif %}{% if cand.followed_up %} and followed up on {{ cand.followed_up | escape }}{% endif %}. We did not receive a response. If one arrives, we’ll add it here.</p>
+{%- endif %}
+<a class="sv-link sv-back" href="#{{ race.id }}">Back to {{ race.title }} candidates</a>
+</div>
+</details>
+{%- endfor %}
+</section>
+{%- endfor %}
+
+<p class="sv-footnote">Safe Streets Halton is a non-partisan organization. We do not endorse any candidate. Responses are published as submitted.</p>
+
+</div>
+</div>
+<script src="{{ '/assets/js/municipal-survey.js' | relative_url }}" defer></script>

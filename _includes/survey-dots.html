@@ -1,0 +1,2 @@
+{%- comment -%} Four icons, the first {{ include.score }} filled. Params: icon, score, size class. {%- endcomment -%}
+{%- for k in (1..4) -%}<svg class="sv-ico {{ include.size }}{% if k <= include.score %} is-on{% endif %}" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ include.icon }}"/></svg>{%- endfor -%}

@@ -1,0 +1,642 @@
+/*
+  Candidate survey pages for the 2026 municipal election (layout: municipal-survey).
+  Units: rem for type, spacing and sizes; em for button padding and media queries;
+  unitless line-heights; px only for borders, radii, shadows and the tap-target floor.
+*/
+:root {
+  --tap-target-min: 44px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.sv-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.sv-page {
+  --sv-green: #447a38;
+  --sv-green-dark: #2f5627;
+  --sv-green-transparent: rgba(180, 245, 163, 0.4);
+  --sv-overlay: rgba(0, 0, 0, 0.1);
+  --sv-hairline: rgba(0, 0, 0, 0.1);
+  --sv-line: rgba(0, 0, 0, 0.2);
+  --sv-empty: rgba(0, 0, 0, 0.14);
+  --sv-gutter: clamp(0.75rem, 4vw, 1.5rem);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.25rem 0 4rem; /* the site column already provides the side gutters */
+  font-family: "Roboto Flex", sans-serif;
+  color: #000000;
+}
+
+.sv {
+  overflow-wrap: break-word;
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sv :is(h1, h2, h3, p, dl, dd, ol, ul) {
+  margin: 0;
+}
+.sv :is(ol, ul) {
+  padding: 0;
+  list-style: none;
+}
+
+.sv-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Links and focus */
+.sv a.sv-link {
+  color: var(--sv-green);
+  text-decoration: underline;
+}
+.sv a.sv-link:hover {
+  color: var(--sv-green-dark);
+}
+.sv a:focus-visible,
+.sv button:focus-visible,
+.sv summary:focus-visible {
+  outline: 2px solid var(--sv-green);
+  outline-offset: 2px;
+}
+
+.sv-text {
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300;
+}
+.sv-intro {
+  max-width: 72ch;
+}
+
+/* Breadcrumb */
+.sv-crumb {
+  font-size: 0.875rem;
+  line-height: 1.4286;
+  font-weight: 300;
+}
+
+/* Header */
+.sv-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.sv .sv-h1 {
+  font-size: clamp(2.25rem, 10vw, 4rem);
+  line-height: 1.25;
+  font-weight: 500;
+}
+.sv-pages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sv-pages-label {
+  font-size: 0.875rem;
+  line-height: 1.4286;
+  font-weight: 500;
+}
+.sv-pages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(5.5rem, 40%), 1fr));
+  gap: 0.5rem;
+  max-width: 40rem;
+}
+.sv a.sv-wardmap {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 0.5em 1em;
+  border: 1px solid var(--sv-line);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.2857;
+  font-weight: 400;
+}
+.sv a.sv-chip,
+.sv a.sv-qchip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: var(--sv-green-transparent);
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.1667;
+  font-weight: 500;
+}
+.sv a.sv-chip {
+  padding: 0.75em 0.5em;
+}
+.sv a.sv-chip[aria-current="page"] {
+  background: var(--sv-green);
+  color: #ffffff;
+}
+
+/* Mayor callout */
+.sv-callout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding: 1rem var(--sv-gutter);
+  border-radius: 4px;
+  background: var(--sv-green-transparent);
+}
+.sv-callout-text {
+  max-width: 60ch;
+}
+.sv-callout-text strong {
+  font-weight: 500;
+}
+.sv a.sv-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 0.5em 1.5em;
+  border-radius: 4px;
+  background: var(--sv-green);
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  text-wrap: balance;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.sv a.sv-btn:hover {
+  background: var(--sv-green-dark);
+}
+
+/* How to read the scores */
+.sv-legend {
+  border: 1px solid var(--sv-hairline);
+  border-radius: 4px;
+  padding: 1.5rem var(--sv-gutter);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.sv .sv-h-legend {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 500;
+}
+.sv-legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  gap: 1rem 2rem;
+  max-width: 40rem;
+}
+.sv-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.sv-legend-label {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+/* Score icons: filled = score, outlined/grey = remaining */
+.sv-ico {
+  flex: none;
+  fill: var(--sv-empty);
+}
+.sv-ico.is-on {
+  fill: var(--sv-green);
+}
+.sv-ico-legend {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.sv-ico-sm {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.sv-ico-xs {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Jump links */
+.sv-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+.sv-jump-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+.sv a.sv-jump-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 1em 2em;
+  border-radius: 5px;
+  background: var(--sv-overlay);
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.1667;
+  font-weight: 500;
+}
+
+/* Races */
+.sv-race {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--sv-line);
+}
+.sv-race-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sv .sv-h-race {
+  font-size: clamp(1.75rem, 7vw, 2.8125rem);
+  line-height: 1.1778;
+  font-weight: 500;
+}
+.sv-empty {
+  max-width: 72ch;
+}
+
+/* Candidates */
+.sv-cand {
+  border: 1px solid var(--sv-line);
+  border-radius: 4px;
+  scroll-margin-top: 1rem;
+}
+.sv-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding: 1rem var(--sv-gutter);
+  min-height: 2.75rem;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.sv-summary::-webkit-details-marker {
+  display: none;
+}
+.sv-summary:hover {
+  background: var(--sv-green-transparent);
+}
+.sv-cand[open] > .sv-summary {
+  background: var(--sv-green-transparent);
+  border-bottom: 1px solid var(--sv-hairline);
+  border-radius: 3px 3px 0 0;
+}
+.sv-who {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1 1 16.25rem;
+  min-width: 0;
+}
+.sv-chev {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: none;
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.2s;
+}
+.sv-cand[open] > .sv-summary .sv-chev {
+  transform: rotate(180deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  .sv-chev {
+    transition: none;
+  }
+}
+.sv-who-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-width: 0;
+}
+.sv-name {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 500;
+  hyphens: auto;
+}
+.sv-dateline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.4286;
+  font-weight: 300;
+}
+.sv-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1667em 0.6667em;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  font-size: 0.75rem;
+  line-height: 1.3333;
+  font-weight: 500;
+}
+.sv-scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 5.5625rem);
+  gap: 0.5rem 1.25rem;
+  flex: 0 1 26rem;
+  min-width: 0;
+}
+.sv-score-group {
+  display: inline-flex;
+  gap: 0.1875rem;
+}
+.sv-side {
+  font-size: 0.875rem;
+  line-height: 1.4286;
+}
+.sv-side-none {
+  font-weight: 400;
+  font-style: italic;
+}
+.sv-side-pending {
+  font-weight: 500;
+}
+
+/* Expanded candidate */
+.sv-body {
+  padding: 1.5rem var(--sv-gutter);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sv-resp {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.sv-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.sv-meta-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.sv-breakdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(9.375rem, 100%), 1fr));
+  gap: 1.5rem 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--sv-hairline);
+  border-radius: 4px;
+}
+.sv-bd-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.sv-bd-label {
+  font-size: 0.875rem;
+  line-height: 1.2857;
+  font-weight: 500;
+}
+.sv-bd-score {
+  display: inline-flex;
+  gap: 0.1875rem;
+  align-items: center;
+}
+.sv-bd-num {
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin-left: 0.375rem;
+}
+
+.sv-unrated {
+  padding: 1rem 1.25rem;
+  border: 1px dashed var(--sv-line);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.sv-unrated-title {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.sv-unrated-text {
+  max-width: 60ch;
+}
+
+/* Questions and answers */
+.sv-qa {
+  display: flex;
+  flex-direction: column;
+}
+.sv-q {
+  scroll-margin-top: 1rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--sv-hairline);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.sv .sv-q-title {
+  max-width: 72ch;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.sv-q-num {
+  color: var(--sv-green);
+}
+.sv-answer {
+  max-width: 72ch;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300;
+}
+.sv-answer.is-collapsed {
+  max-height: 7em;
+  overflow: hidden;
+}
+.sv-noanswer {
+  font-style: italic;
+}
+.sv .sv-readmore {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  min-height: 2.75rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: var(--sv-green);
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.sv .sv-readmore:hover {
+  color: var(--sv-green-dark);
+}
+
+/* Sticky question / candidate bar */
+.sv-bar {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  margin: 0 calc(-1 * var(--sv-gutter));
+  padding: 0.5rem;
+  background: #ffffff;
+  border-top: 1px solid var(--sv-hairline);
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sv-bar-qs {
+  position: relative;
+  flex: 1 1 12rem;
+  min-width: 0;
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.sv a.sv-qchip {
+  flex: none;
+}
+.sv-bar-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+  flex: none;
+}
+.sv .sv-navbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  min-width: var(--tap-target-min);
+  min-height: 2.75rem;
+  box-sizing: border-box;
+  padding: 0 0.5em;
+  border-radius: 5px;
+  background: var(--sv-overlay);
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.1667;
+  font-weight: 500;
+  flex: none;
+}
+.sv .sv-navbtn.is-disabled {
+  opacity: 0.35;
+}
+.sv-navico {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.sv-navtxt {
+  display: inline;
+}
+@media (max-width: 37.5em) {
+  .sv-navtxt {
+    display: none;
+  }
+}
+
+/* No response / late pending */
+.sv-pending {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 72ch;
+}
+.sv-pending-title {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.sv a.sv-back {
+  align-self: flex-start;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.sv-footnote {
+  max-width: 72ch;
+  font-size: 0.875rem;
+  line-height: 1.7143;
+  font-weight: 300;
+  font-style: italic;
+}

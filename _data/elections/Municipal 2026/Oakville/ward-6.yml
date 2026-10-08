@@ -1,0 +1,48 @@
+# Oakville Ward 6
+#
+# One file per page. A page has one or more races (Oakville wards have two). Each race lists its candidates.
+# Candidates are shown alphabetically by name, whatever order they are listed in here.
+#
+# Example race with every field filled in (copy it, then delete the leading "# "):
+#
+# races:
+#   - id: race-ward                 # Unique on the page. Used for links and "Jump to" anchors.
+#     title: Ward Councillor        # Heading for the race (shown only when the page has two or more races).
+#     note: Sits on Burlington City Council and Halton Regional Council.   # Short line under the heading.
+#     candidates:
+#       - name: Jane Example        # Required.
+#         website: https://example.com    # Optional. Campaign website; omit the line if none.
+#         status: on-time             # on-time | late | late-pending | no-response
+#                                     #   on-time       responded by the deadline, scored
+#                                     #   late          responded after the deadline, scored and posted
+#                                     #   late-pending  responded after the deadline, not yet scored or posted
+#                                     #   no-response   did not respond
+#         received: October 2, 2026   # Date the response arrived, as text. Optional for no-response.
+#         scores:                     # 0 to 4 each. Only for on-time and late. Leave the whole block out for
+#                                     # no-response and late-pending, and also for an on-time or late candidate
+#                                     # whose response is still being scored: the page then shows "Rating in progress"
+#                                     # and their answers, and the scores appear once you add this block.
+#           ambition: 3
+#           money: 2                  # Where the Money Goes
+#           network: 4                # A Network for Everyone
+#           health: 3                 # Health and Environment
+#         responses:                  # Keyed by question id from questions.yml. Use "|" for the text.
+#           transport-mode: |         # A blank line starts a new paragraph.
+#             First paragraph of the answer, exactly as submitted.
+#
+#             Second paragraph.
+#         sent: October 5, 2026       # Optional, no-response only: when the survey was sent ...
+#         followed_up: October 12, 2026   # ... and when we followed up. Both optional.
+#         open: true                  # Optional. Show this candidate expanded when the page loads.
+#
+# A ward with no responses yet: leave "candidates: []" and the page says nothing has been posted.
+
+races:
+  - id: race-regional
+    title: "Regional & Town Councillor"
+    note: "Sits on both Oakville Town Council and Halton Regional Council."
+    candidates: []
+  - id: race-town
+    title: "Town Councillor"
+    note: "Sits on Oakville Town Council."
+    candidates: []
