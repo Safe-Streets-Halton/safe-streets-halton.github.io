@@ -12,22 +12,22 @@
   text: "What do you use to get around?"
 - id: transit
   number: 2
-  text: "How do you envision transit expanding in the future? What will you do to improve transit rider experience and accessibility?"
+  text: "Transit ridership is increasing, and is going to play a key role in how we move around Burlington and Halton Region. How do you envision transit expanding in the future, and what specifically would you look to improve? What will you do to improve transit rider experience and accessibility?"
 - id: vision-zero
   number: 3
-  text: "How far have we come in regards to achieving Vision Zero (eliminating all traffic deaths and serious injuries), and what actions would you take to achieve it?"
+  text: "Vision zero sets to eliminate all traffic-related deaths and serious injuries. How much progress do you believe that Burlington has made towards achieving vision zero, and if elected, what type of action or measures would you implement to achieve vision zero? Feel free to provide any places that have implemented things successfully."
 - id: safety-investment
   number: 4
-  text: "Will you support transportation investments with a focus on safety?"
+  text: "Historically, we have prioritized investment on the movement of cars. If elected, how will you vote on future transportation investments? Are you prepared to vote in favour of spending that will improve the safety of those travelling within the city?"
 - id: walking-cycling
   number: 5
-  text: "How will you improve the experience of walking and cycling on our streets and trails? How will you address barriers such as provincial highways?"
+  text: "Providing a comfortable and accessible experience for street users is important for getting people to walk and cycle more. How will you improve the experience of those walking and cycling on our streets and trails? How will you address barriers such as provincial highways?"
 - id: bike-infrastructure
   number: 6
-  text: "Do you support expanding bicycle infrastructure, which has been shown to improve the safety of all those travelling?"
+  text: "Bicycle infrastructure (e.g. protected bike lanes, slower roads, protected intersections) has been shown to improve the safety of cyclists, pedestrians, and drivers. Do you support the expansion of this infrastructure?"
 - id: health-environment
   number: 7
   text: "How do you see transportation’s effect on people’s health and the environment (local and global)?"
 - id: land-use
   number: 8
-  text: "Are there any land-use policy changes that you would make to ensure that people can get around without a car?"
+  text: "Historically, our land-use patterns have made it more difficult for people to get around without a car. Are there any land-use policy changes that you would make to remedy this issue?"

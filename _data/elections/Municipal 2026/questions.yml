@@ -1,0 +1,29 @@
+# Short versions of the survey questions, shown on the elections landing page
+# (elections/municipal-2026.md, "Questions You Can Ask"), shortened so people can scan them quickly.
+# The full questions sent to candidates are in Burlington/questions.yml and Oakville/questions.yml;
+# keep ids and order in sync with those.
+
+- id: transport-mode
+  number: 1
+  text: "What do you use to get around?"
+- id: transit
+  number: 2
+  text: "How do you envision transit expanding in the future? What will you do to improve transit rider experience and accessibility?"
+- id: vision-zero
+  number: 3
+  text: "How far have we come in regards to achieving Vision Zero (eliminating all traffic deaths and serious injuries), and what actions would you take to achieve it?"
+- id: safety-investment
+  number: 4
+  text: "Will you support transportation investments with a focus on safety?"
+- id: walking-cycling
+  number: 5
+  text: "How will you improve the experience of walking and cycling on our streets and trails? How will you address barriers such as provincial highways?"
+- id: bike-infrastructure
+  number: 6
+  text: "Do you support expanding bicycle infrastructure, which has been shown to improve the safety of all those travelling?"
+- id: health-environment
+  number: 7
+  text: "How do you see transportation’s effect on people’s health and the environment (local and global)?"
+- id: land-use
+  number: 8
+  text: "Are there any land-use policy changes that you would make to ensure that people can get around without a car?"

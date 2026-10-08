@@ -7,7 +7,7 @@ custom_css: municipal-election-2026
   Landing page for the 2026 municipal elections.
   Uses base-layout (not default) so the hero can run full width; base-layout already provides <main>.
   Data: _data/elections/Municipal 2026/ (cities.yml for ward counts and ward-map links,
-  categories.yml for the scoring categories, Burlington/questions.yml for the questions).
+  categories.yml for the scoring categories, questions.yml for the general (no city name) questions).
   The survey pages link back to #burlington, #oakville and #how-well-grade-responses on this page.
 {%- endcomment -%}
 {%- assign m26 = site.data.elections.Municipal_2026 -%}
@@ -94,7 +94,7 @@ custom_css: municipal-election-2026
 <img class="m26-photo" src="{{ '/assets/palladium-way-group-photo.jpg' | relative_url }}" alt="Safe Streets Halton volunteers in safety vests at an outreach table" width="1179" height="944" loading="lazy">
 </div>
 <ol class="m26-qlist">
-{%- for q in m26.Burlington.questions %}
+{%- for q in m26.questions %}
 <li class="m26-q"><span class="m26-q-num" aria-hidden="true">{{ forloop.index }}</span><span class="m26-q-text">{{ q.text }}</span></li>
 {%- endfor %}
 </ol>
