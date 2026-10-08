@@ -2,6 +2,10 @@
 title: Safe Streets Halton
 timezone: America/New_York
 collections:
+  municipal-election-2026:
+    title: Municipal Election 2026
+    output: true
+    permalink: "/elections/municipal-2026/:path/"
   news:
     title: News
     output: true
@@ -9,10 +13,6 @@ collections:
     title: Ontario Election 2025
     output: true
     permalink: "/elections/ontario-2025/:name"
-  municipal-election-2026:
-    title: Municipal Election 2026
-    output: true
-    permalink: "/elections/municipal-2026/:path/"
   posts:
     title: Posts
     output: true

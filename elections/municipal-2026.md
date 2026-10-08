@@ -3,6 +3,7 @@ title: 2026 Halton Region Municipal Elections
 layout: base-layout
 custom_css: municipal-election-2026
 ---
+
 {%- comment -%}
   Landing page for the 2026 municipal elections.
   Uses base-layout (not default) so the hero can run full width; base-layout already provides <main>.
