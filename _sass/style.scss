@@ -20,9 +20,9 @@ body {
         [content-end] 1fr
         [fullbleed-end];
     grid-template-rows:
-        [header] 80px
-        [page-banner] auto 32px
-        [main] auto 32px
+        [header] minmax(5rem, auto)
+        [page-banner] auto 2rem
+        [main] auto 2rem
         [footer] auto 
         [footer];
 }
@@ -42,7 +42,7 @@ main {
 
 .social-media-list {
     display: flex;
-    gap: 16px;
+    gap: 1rem;
     flex-direction: row;
     justify-content: flex-end;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -52,11 +52,11 @@ main {
     list-style: none;
 
     padding-inline-start: 0;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 
     .svg-icon {
-        width: 16px;
-        height: 16px;
+        width: 1em;
+        height: 1em;
         fill: #000;
         vertical-align: text-top;
     }
@@ -68,7 +68,7 @@ main {
 footer {
     grid-area: footer / fullbleed;
     border-top: 1px solid rgba($color: #000000, $alpha: 0.2);
-    padding: 16px;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,14 +76,14 @@ footer {
 
     .footer__container {
         max-width: $readableContentMaxWidth;        
-        padding: 16px;
+        padding: 1rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        column-gap: 32px;
-        row-gap: 16px;
+        column-gap: 2rem;
+        row-gap: 1rem;
     }
 
     .footer__left {

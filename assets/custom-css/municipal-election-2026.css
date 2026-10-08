@@ -3,7 +3,7 @@ ul#grades {
 }
 ul#grades li {
     width: 100%;
-    height: 100px;
+    min-height: 6.25rem;
     display: table-cell;
 }
 
@@ -17,7 +17,7 @@ table#grades td {
     font-weight: bolder;
 }
 table#grades td div {
-    height: 5em;
+    min-height: 5em;
     background-repeat: no-repeat;
     background-position: center;
 }

@@ -6,9 +6,9 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 20px;
-    padding-top: 20px;
-    padding: 8px;
+    gap: 1.25rem;
+    padding-top: 1.25rem;
+    padding: 0.5rem;
 
     section {
         display: flex;
@@ -24,17 +24,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 16px;
-    padding: 8px;
+    gap: 1rem;
+    padding: 0.5rem;
 }
 
 .get-involved-item {
     display: grid;
-    grid-template-rows: 80px auto;
+    grid-template-rows: 5rem auto;
 
     text-align: center;
 
-    width: 180px;
+    width: 11.25rem;
     img {
         grid-row: 1;
         width: 100%;
