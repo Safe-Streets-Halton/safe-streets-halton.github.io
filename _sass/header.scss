@@ -6,10 +6,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 128px;
-    gap: 76px;
+    padding: 0.5rem 8rem;
+    gap: 4.75rem;
 
-    height: 80px;
+    min-height: 5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -23,12 +23,12 @@
 
     margin: 0 auto;
     width: 100%;
-    max-width: 1664px;
+    max-width: 104rem;
 }
 
 .header-logo {
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
 
     /* Inside auto layout */
     flex: none;
@@ -42,8 +42,8 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 1rem;
+        line-height: 1.125;
 
         text-decoration: none;
     }
@@ -54,15 +54,15 @@
         mask-position: center;
         mask-repeat: no-repeat;
         background-color: black;
-        width: 24px;
-        height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     &__trigger {
         display: none;
         background: none;
         border: none;
-        padding: 8px;
+        padding: 0.5rem;
         cursor: pointer;
 
         &:focus {
@@ -77,8 +77,8 @@
         justify-content: flex-end;
         align-items: center;
         padding: 0px;
-        gap: 24px;
-        height: 26px;
+        gap: 1.5rem;
+        min-height: 1.625rem;
         /* Inside auto layout */
         flex: none;
         order: 1;
@@ -92,10 +92,10 @@
             .dropdown-toggle {
                 background: none;
                 border: none;
-                padding: 0 4px 0 4px;
+                padding: 0 0.25em 0 0.25em;
                 /* tighten spacing so caret sits close */
                 cursor: pointer;
-                font-size: 16px;
+                font-size: 1rem;
                 /* larger caret button */
                 line-height: 1;
                 vertical-align: middle;
@@ -106,21 +106,21 @@
             .dropdown-menu {
                 display: none;
                 position: absolute;
-                top: calc(100% - 8px);
+                top: calc(100% - 0.5rem);
                 left: 0;
                 background: white;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
                 list-style: none;
-                padding: 8px 0;
-                margin: 8px 0 0 0;
-                min-width: 200px;
+                padding: 0.5rem 0;
+                margin: 0.5rem 0 0 0;
+                min-width: 12.5rem;
                 z-index: 10;
             }
 
             .caret {
-                font-size: 24px;
-                line-height: 16px;
-                margin-left: 4px;
+                font-size: 1.5rem;
+                line-height: 0.667;
+                margin-left: 0.167em;
             }
 
             &:hover .dropdown-menu,
@@ -131,10 +131,10 @@
 
         .dropdown-link {
             display: block;
-            padding: 8px 16px;
+            padding: 0.5rem 1rem;
             color: #000;
             text-decoration: none;
-            font-size: 14px;
+            font-size: 0.875rem;
         }
     }
 
@@ -147,10 +147,10 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (width <= 50em) {
     .site-header {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 1rem;
+        padding-right: 1rem;
         background-color: white;
         z-index: 1;
         display: block;
@@ -161,7 +161,7 @@
 
     .site-nav {
         position: absolute;
-        right: 16px;
+        right: 1rem;
 
         &__trigger {
             display: block;
@@ -204,7 +204,7 @@
 
             .page-link {
                 display: inline-block;
-                padding: 8px 16px;
+                padding: 0.5rem 1rem;
             }
 
             .dropdown-menu {
@@ -226,14 +226,14 @@
 
 
         /* desktop: caret should not be clickable and sit close to the title */
-        @media (min-width: 801px) {
+        @media (width > 50em) {
             .nav-item--has-dropdown .dropdown-toggle {
                 pointer-events: none;
             }
 
             .nav-item--has-dropdown .caret {
-                margin-left: 2px;
-                font-size: 18px;
+                margin-left: 0.111em;
+                font-size: 1.125rem;
                 line-height: 1;
             }
         }
@@ -284,18 +284,18 @@
     padding: 0px;
     margin: 0 auto;
     width: 100%;
-    min-height: 80px;
+    min-height: 5rem;
     background: $sshGreen;
 
     &__content {
         display: flex;
-        column-gap: 24px;
-        row-gap: 4px;
+        column-gap: 1.5rem;
+        row-gap: 0.25rem;
         flex-wrap: wrap;
         max-width: $readableContentMaxWidth;
         justify-content: center;
         align-items: center;
-        padding: 8px;
+        padding: 0.5rem;
     }
 
     &__text {
@@ -304,9 +304,9 @@
     }
 
     &__icon {
-        font-size: 24px;
+        font-size: 1.5rem;
 
-        @media (max-width: 800px) {
+        @media (width <= 50em) {
             display: none;
         }
     }

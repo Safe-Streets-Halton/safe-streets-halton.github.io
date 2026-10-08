@@ -12,8 +12,8 @@
     font-family: 'Roboto Flex';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.167;
     color: #000000;
 }
 
@@ -21,8 +21,8 @@ p, li {
     font-family: 'Roboto Flex';
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 1rem;
+    line-height: 1.75;
 }
 
 .page-layout-column {
@@ -30,15 +30,15 @@ p, li {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 20px;
-    padding-top: 20px;
-    padding: 8px;
+    gap: 1.25rem;
+    padding-top: 1.25rem;
+    padding: 0.5rem;
 }
 
 .layout-row {    
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 1rem;
     align-items: center;
     
     justify-content: flex-start;
@@ -67,8 +67,8 @@ p, li {
     font-family: 'Roboto Flex';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.75rem;
+    line-height: 1.167;
     display: flex;
     align-items: center;
     text-align: center;
@@ -86,7 +86,7 @@ p, li {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 24px;
+        padding: 1em 2em;
     
         background: rgba(180, 245, 163, 0.4);
         border-radius: 5px;
@@ -109,9 +109,9 @@ p, li {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 24px;
+        padding: 1em 2em;
 
-        width: 111px;
+        min-width: 9.25em;
         height: min-content;
 
         background: rgba(255, 255, 255, 0.2);
@@ -137,10 +137,9 @@ p, li {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 12px 24px;
+        padding: 1em 2em;
 
-        width: 111px;
-        height: 38px;
+        min-width: 9.25em;
 
         background: rgba(0, 0, 0, 0.1);
         border-radius: 5px;
@@ -168,10 +167,10 @@ p, li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 360px;
-    height: 300px;
-    gap: 16px;
-    padding: 16px;
+    width: min(100%, 22.5rem);
+    min-height: 18.75rem;
+    gap: 1rem;
+    padding: 1rem;
 
     border-radius: 4px;
     background-color: #fff;
@@ -179,7 +178,7 @@ p, li {
 
     &__image {
         width: 100%;
-        height: 80px;
+        height: 5rem;
         object-fit: cover;
     }
 
@@ -194,8 +193,8 @@ p, li {
         font-family: 'Roboto Flex';
         font-style: normal;
         font-weight: 300;
-        font-size: 16px;
-        line-height: 19px;
+        font-size: 1rem;
+        line-height: 1.188;
 
         color: #000000;
 
@@ -218,10 +217,10 @@ p, li {
     flex-wrap: nowrap;
     align-items: flex-start;
     align-content: center;
-    padding: 24px 32px;
-    gap: 16px;
+    padding: 1.5rem 2rem;
+    gap: 1rem;
 
-    max-width: 1680px;
+    max-width: 105rem;
 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
@@ -235,7 +234,7 @@ p, li {
         flex-direction: row;
         align-items: center;
         padding: 0px;
-        gap: 32px;
+        gap: 2rem;
 
         a {
             text-decoration: none;
@@ -254,7 +253,7 @@ p, li {
         flex-grow: 1;
         text-wrap: wrap;
         max-width: 70vw;
-        min-height: 40px;
+        min-height: 2.5rem;
 
         margin-block-start: 0;
         margin-block-end: 0;
@@ -269,7 +268,7 @@ p, li {
     background-position: center; 
     background-size: cover;
 
-    @media (max-width: 800px) {
+    @media (width <= 50em) {
         display: none;
     }
 }

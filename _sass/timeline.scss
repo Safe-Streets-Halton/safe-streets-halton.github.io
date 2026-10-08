@@ -2,27 +2,27 @@
     // CSS Custom Properties
     --timeline-color: oklch(64.9% 0.128 146.6);
     --border-width: 4px;
-    --padding-start: 16px;
-    --grid-gap: 16px;
-    --marker-diameter: 20px;
+    --padding-start: 1rem;
+    --grid-gap: 1rem;
+    --marker-diameter: 1.25rem;
 
     // Layout
-    margin-top: 32px;
+    margin-top: 2rem;
     position: relative;
     width: fit-content;
-    max-width: 1024px;
+    max-width: 64rem;
     
     // Grid Configuration
     display: grid;
     grid-template-columns:
-        [image-start] minmax(200px, 2fr) 
-        [image-end content-start] minmax(300px, 4fr) 
+        [image-start] minmax(12.5rem, 2fr) 
+        [image-end content-start] minmax(18.75rem, 4fr) 
         [content-end];
     gap: var(--grid-gap);
     
     // Padding
     padding-inline-start: var(--padding-start);
-    padding-inline-end: calc(16px + var(--border-width));
+    padding-inline-end: calc(1rem + var(--border-width));
 
     // Vertical Timeline Bar
     &::before {
@@ -62,8 +62,8 @@
         grid-template-columns: subgrid;
         grid-column: 1 / -1;
         row-gap: var(--grid-gap);
-        padding-top: 24px;
-        padding-bottom: 24px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
 
         // Timeline Marker Dot
         &::after {
@@ -93,7 +93,7 @@
         // Item Content
         &__content {
             grid-column: content;
-            padding-top: 8px;
+            padding-top: 0.5rem;
 
             > p,
             > h3 {
@@ -115,7 +115,7 @@
     }
 
     // Responsive Layout
-    @media (width <= 768px) {
+    @media (width <= 48em) {
         grid-template-columns: [image-start content-start] 1fr [image-end content-end];
     }
 }
