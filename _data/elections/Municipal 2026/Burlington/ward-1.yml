@@ -42,65 +42,51 @@ races:
     title: "Ward Councillor"
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
     candidates:
-      - name: "[Candidate Name J]"
-        website: https://example.com
+      - name: "Cheryl Hurst"
         status: on-time
-        received: "[MONTH DAY, 2026]"
-        scores:
-          ambition: 3
-          money: 2
-          network: 4
-          health: 3
+        received: "September 25, 2026"
         responses:
           transport-mode: |
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            I currently work in a different community and am required to have a vehicle for my job a requirement, so I drive (commute).
           transit: |
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            Transit needs to be reliable and accessible to people so they can get across the city and to neighbouring communities with ease and efficiency. Working with communities on each side to have seamless transfers and connections. Working with the transit staff to use data and ridership to understand routes, number of users during operating hours and fluctuations in needs (older adult, students, commuter’s), accessibility of stops and pickup/ drop off locations, and the needs of people using the transit services.
           vision-zero: |
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            The Vision Zero program that was designed to set out strategies, tools, and city measures to prevent collisions resulting in death or injury can been noted in some a areas that have seen new traffic calming turning lanes/corners to manage excessive speed. There have been the start of the cycling network through the city beginning in the west end. Realizing the Integrated system timeline for 30 years, there is much that still needs to be accomplished. Action that can be more immediate to have positive impact would be to review traffic signal controls to slow traffic down or move it ore efficiently by using data to understand the traffic timing, day use, highway overflow, or even construction needs. Looking at other communities (Hamilton) that have implemented advanced pedestrian crossing before vehicle traffic flows to see how it has lowered pedestrian-vehicle incidents and giving more time to allow accessible crossing. And review of effective traffic calming measures such as road calming tools, traffic circles, reduced speeds, visual signage, roadway design, and enforcement.
           safety-investment: |
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            Safety will always be a priority for any transportation spending.
           walking-cycling: |
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
-
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            Comfort and accessibility are important to people walking and cycling in our community, however, so is efficiency, safety, speed and convenience. Without multi-use trails, proper lighting, reduced risk, change remains challenging. Partnerships, funding and planned budgeting for future investment toward barriers.
           bike-infrastructure: |
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            I support strategy/planning that improves safety and utilizes funds responsibly for the community.
           health-environment: |
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Transportation has large impact on our health and the environment.  Using locally sourced products and services not only financially supports our community, but it lessens the environmental impact from pollution (burning fossil fuels and carbon monoxide), traffic accidents, construction and road maintenance, noise and stress on the environment.  All of these negative impacts have direct implications for individual health, including sleep quality (noise), respiratory and cardiovascular systems (pollution and sedentary lifestyles).
           land-use: |
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
-        open: true
-      - name: "[Candidate Name K]"
-        website: https://example.com
-        status: late
-        received: "[MONTH DAY, 2026]"
+            We have introduced new strategies and tools to work toward a shift in land-use patterns. Policy change needs to be reflective of our community and supporting the current need while planning for the future.
+      - name: "Kelvin Galbraith"
+        status: on-time
+        received: "September 23, 2026"
         responses:
           transport-mode: |
-            [Candidate’s response, exactly as submitted.]
+            I use several things to get around.  I do drive a pick up truck as I tow trailers, boats and plow the snow at my business so it really is a work vehicle for me and my family.  My wife drives a Hybrid van.
+
+            When not driving, I have campaigned my last 2 elections on roller blades and now using a basic scooter.  I am also fortunate enough to live a few blocks from the business that I own and frequently walk to work.
           transit: |
-            [Candidate’s response, exactly as submitted.]
+            I have been an advocate for transit since elected and supported both the free transit for seniors and students.  I would like to see transit expanded in our future to fully service our Go Stations.  We need to fill the last mile traveled with efficient transit service so that people are less reliant on their vehicles and parking is not required at our go stations.  All of our large buses should be accessible with ramps and spaces for wheelchairs.  Front racks for bicycles as well.
           vision-zero: |
-            [Candidate’s response, exactly as submitted.]
+            I do think Burlington has made progress towards vision zero and a great example is the off road bike lanes that were implemented on Plains Road in Aldershot and now safer bike lanes on Prospect street.  I will continue to support the completion of the main cycling spine network through our city which is the Plains road and Fairview corridor.  The next phase on Plains road starts next year running from Waterdown road to Shadeland.
+
+            I would also like to see more overhead crosswalks throughout our city.  I think that crossing guards do not feel entirely safe and should be supported and busy crossings with overhead flashing lights.  We just had one of these implemented on King road at Cherrywood drive.
           safety-investment: |
-            [Candidate’s response, exactly as submitted.]
+            I would not support any further investment in road widening within our city.  This is a recipe for inviting more vehicles into our city when they should remain on the highways.  I will support new investments in cycling infrastructure and walking paths.  After visiting Calgary this summer and observing an entire network of cycling and walking paths, Burlington can do better.  We have a new walking path in Tyandaga that I supported that connects walkers from the Golf course to City View park.  These types of paths are essential for local residents to exercise and enjoy the outdoors in our city.
           walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
+            I believe people would enjoy cycling more if they felt safe.  The off-road bike lanes are essential to this endeavour.  After visiting the Netherlands last year, I observed clearly defined lanes for cycling beside walking lanes.  They also had many parking spaces for bikes at all train stations and local businesses.  I believe we need more visible parking solutions for bikes to that usage is visible and encouraged.
+
+            With regards to our Provincial highway crossings, I have long supported and anticipated a bridge crossing that is in our long term plans for the Brant street area.  We are investing in our east/west bike lanes but also need to consider north/south for the network to really work.  Under bridge crossings need to feel safe moving forward.
           bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
+            I have answered this for the most part above but yes I fully support additional investments in our cycling infrastructure.
           health-environment: |
-            [Candidate’s response, exactly as submitted.]
+            I do find that people that spend too much time in travel and traffic situations are not as happy as those that do not.  A changing work environment and work from home abilities have helped people depend less on long commutes to work.  In my role of Deputy Mayor of Business, and board work with Economic Development, we aim to bring more business and jobs to our local economy so that we have more opportunities for local residents to work.  Living and working in the same community is a dream of many and should be prioritized.
           land-use: |
-            [Candidate’s response, exactly as submitted.]
-      - name: "[Candidate Name L]"
-        status: no-response
-        sent: "[DATE]"
-        followed_up: "[DATE]"
+            I am fully supportive of building intensified communities around our train stations.  This change in land use policy for Ontario started 10 years ago but we haven’t seen the benefits yet as the building industry is currently slumping due to market conditions.  Much of the world has residents living close to train stations to avoid auto dependence.  We in North America are only recently moving in this direction and it will be welcomed.  We cannot expand our roads much further to accommodate more vehicles.  This only places stress on local streets, parking infrastructure and pollution.
+
+            We need to stop building communities that sprawl onto green spaces and create car dependency.  Intensifying from within our cities is the path that I would support moving forward.

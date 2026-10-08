@@ -41,91 +41,86 @@ races:
   - id: race-regional
     title: "Regional & Town Councillor"
     note: "Sits on both Oakville Town Council and Halton Regional Council."
-    candidates:
-      - name: "[Candidate Name E]"
-        website: https://example.com
-        status: on-time
-        received: "[MONTH DAY, 2026]"
-        scores:
-          ambition: 2
-          money: 3
-          network: 3
-          health: 2
-        responses:
-          transport-mode: |
-            [Candidate’s response, exactly as submitted.]
-          transit: |
-            [Candidate’s response, exactly as submitted.]
-          vision-zero: |
-            [Candidate’s response, exactly as submitted.]
-          safety-investment: |
-            [Candidate’s response, exactly as submitted.]
-          walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
-          bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
-          health-environment: |
-            [Candidate’s response, exactly as submitted.]
-          land-use: |
-            [Candidate’s response, exactly as submitted.]
-        open: true
-      - name: "[Candidate Name F]"
-        website: https://example.com
-        status: late
-        received: "[MONTH DAY, 2026]"
-        scores:
-          ambition: 4
-          money: 3
-          network: 4
-          health: 4
-        responses:
-          transport-mode: |
-            [Candidate’s response, exactly as submitted.]
-          transit: |
-            [Candidate’s response, exactly as submitted.]
-          vision-zero: |
-            [Candidate’s response, exactly as submitted.]
-          safety-investment: |
-            [Candidate’s response, exactly as submitted.]
-          walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
-          bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
-          health-environment: |
-            [Candidate’s response, exactly as submitted.]
-          land-use: |
-            [Candidate’s response, exactly as submitted.]
+    candidates: []
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
     candidates:
-      - name: "[Candidate Name G]"
-        website: https://example.com
-        status: late-pending
-        received: "[MONTH DAY, 2026]"
-        open: true
-      - name: "[Candidate Name H]"
-        website: https://example.com
+      - name: "Morgan Elliott"
         status: on-time
-        received: "[MONTH DAY, 2026]"
+        received: "October 4, 2026"
         responses:
           transport-mode: |
-            [Candidate’s response, exactly as submitted.]
+            Like most Oakville residents, I get around town mainly by car. For trips close to home I often walk. I occasionally take Oakville Transit when I need to get across town, and whenever I head to downtown Toronto, for business or leisure, I take the GO Train.
+
+            That means I see our streets from behind the wheel, from the sidewalk, and from a bus or train seat. Each of those views shapes how I think about the questions below. I’m also seeking to represent Ward 3, so my comments are confined to Ward 3. It is the community I would be accountable to, and the one I know well enough to speak about.
           transit: |
-            [Candidate’s response, exactly as submitted.]
+            I will be upfront: I am not a transit expert, and I come to this as an occasional rider rather than a daily one. My answers focus on Ward 3, which is home to the town's main transit hub, the Oakville GO station in Midtown. I would also review the Town’s active transportation master plan (ATMP) as I understand from proponents that there is a lot of planning work that has been done in the document and that it is updated every few years.
+
+            In this area, I would also be supportive of establishing an active transportation advisory committee. Such a committee could offer advice that helps move the more readily achievable improvements forward sooner, while also contributing to the longer-term decisions that lie ahead. For Ward 3, the question I would ask is how well local buses connect our neighbourhoods to that station, to Downtown and to community facilities. The September 2026 change to Route 14/14A, which brought service back to Reynolds Street and linked the Oakville Trafalgar Community Centre and the Central Library, was a step in the right direction. I would want to see how it performs, and hear from riders, before proposing more in this area.
+
+            I also believe that MTO may have or is considered an active transportation overpass to link the GO station and the midtown lands with Oakville Place. I am always open to working with different levels of government, land owners, the railways, and agencies to see what can be done In the meantime, a few improvements look practical and modest in cost:
+
+            • Stop basics: shelters, benches, lighting and prompt snow clearing at the busiest Ward 3 stops.
+
+            • Connections: buses that reliably meet GO trains at Oakville station, and clearer real-time information for riders.
+
+            • Bikes and transit: secure, well-lit bike parking at the Oakville GO station and safe routes to reach it, so cycling to the train is a realistic choice.
+
+            On accessibility, I would rather listen than presume. Ward 3 riders with disabilities, seniors and the town's Accessibility Advisory Committee are best placed to tell Council where the gaps are.
           vision-zero: |
-            [Candidate’s response, exactly as submitted.]
+            No one should be killed or seriously hurt getting around Ward 3, and I share that goal without reservation. How far the town as a whole has come is not something I will try to grade. For Ward 3, I would want to see the collision data for our own streets before judging anyone's work. I would at continuing to pursue Town efforts with traffic calming, pedestrian crossovers, and community safety zones. The province taking speed cameras out of the municipal toolkit puts more weight on street design and the tools that remain.
+
+            Some measures appear low in cost and worth a serious look:
+
+            • Daylighting: keeping parked cars back from corners so drivers and pedestrians can see each other.
+
+            • Signal timing: giving pedestrians a few seconds' head start at busy intersections.
+
+            • Painting or repainting faded sharrows: is low cost and while they do not provide physical separation, they do raise awareness on traffic lanes where bike lanes are not possible
+
+            • Reporting: a plain annual public report on serious collisions, so residents can judge progress for themselves. I would look to town staff and to groups such as yours, for advice on what fits our streets.
           safety-investment: |
-            [Candidate’s response, exactly as submitted.]
+            My honest answer is case by case, with Ward 3 in mind. I would weigh each proposal on its evidence, its cost to taxpayers, and what it does for the people of Ward 3 who use the street, however they travel.
+
+            Safety is among the most basic things a town owes its residents, so yes, I am prepared to vote for spending that makes travel safer. I do not see that as taking a side against drivers. I drive most days, and safer streets serve me behind the wheel as much as on foot. Much of the transportation spending planned for Ward 3 is tied to Midtown, including new streets and new crossings of the QEW. I would look hardest at those proposals, and I would favour projects that fix a known safety problem in the ward at a reasonable cost.
           walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
+            As someone who walks for short trips, I notice the basics first: a missing stretch of sidewalk, a long wait to cross, a path that is not cleared in winter. I would start there. Small fixes are quick and inexpensive, and they help everyone, including people using strollers, walkers and wheelchairs.
+
+            On cycling, I would rely on the people who ride these streets every day. What I hear is that a route is judged by its weakest point: the spot where a bike lane ends, a difficult intersection, a stretch left unswept or uncleared. Those are the places I would start looking at first. Two practical starting points:
+
+            • Close the gaps: fill in short missing links in sidewalks and trails before building entirely new routes.
+
+            • Look after what we have: dependable snow clearing, lighting and wayfinding on the main walking and cycling routes, bike lanes included.
+
+            The QEW is the harder problem and Ward 3 lives with it every day. It separates much of the ward from the rest of town, and the existing crossings, such as Trafalgar Road, are built around interchange traffic rather than people on foot or on bikes. The highway is provincial, so the town cannot solve this alone.
+
+            I would support the walking and cycling crossings near the QEW and the Midtown area. I’d also like to hear from Ward 3 residents which crossings they find most difficult.
           bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
+            I can only speak to Ward 3. There, my answer is yes in principle, where it is well designed, connects to somewhere people want to go, and has been discussed with those who live and work along the route. Cycling is not how I usually get around, so I come to this as a driver and a pedestrian. From behind the wheel, I would rather not share a lane with someone on a bike, and I suspect they feel the same about me. Separation seems better for both of us.
+
+            The live example in our ward is Lakeshore Road East. The town has proposed a continuous multi-use path from Allan Street to Winston Churchill Boulevard, designed to keep existing traffic capacity. That matters, because provincial law now bars municipalities from removing a vehicle lane to add a new bike lane. I am following the proposal with interest, and I want to hear from residents along the route about driveways, crossings and trees before taking a firm position. Where I would like to be useful is on the safety details. A path shared with pedestrians and crossed by many driveways is only as safe as its crossings and I would ask the planners of these routes how the design handles them. I would welcome your members' advice on that, since you know these questions far better than I do.
+
+            In the meantime, two low-cost steps seem worth pursuing in the ward:
+
+            • Keep bike lanes clear: consistent enforcement where vehicles stop or park in a bike lane, since a blocked lane pushes riders out into traffic.
+
+            • Additional edge lines help: especially near schools or community centres like the ones on parts of Devon Rd., Linbrook Rd, & Maple Ave.
+
+            • Start with obvious destinations: safer cycling routes to Ward 3 schools, the Oakville GO station and the Oakville Trafalgar Community Centre, where the need is easiest to demonstrate.
           health-environment: |
-            [Candidate’s response, exactly as submitted.]
+            They are plainly connected. How we get around affects how active we are, the air we breathe, the noise we live with, and how comfortable we feel letting children or older parents travel on their own. Vehicle emissions also contribute to climate change, locally and globally. I see it in my own habits. The walk to a nearby errand is good for me, and the GO Train downtown spares me the drive and the parking.
+
+            Bikes are bikes are carbon neutral and cycling promotes a healthy lifestyle. Cost effective measure pit into place to start building habits, help fights congestion, and provides people viable choices. While many will never ride a bike, it is beneficial to make it attractive and safe for many that are hesitating because it's unsafe.
+
+            I do not think the answer is to tell residents how to travel. Most people in Ward 3 need a car for to get around, as I do. The practical aim is to make the healthier, cleaner choice easy and pleasant for the trips where it makes sense, and let people decide.
           land-use: |
-            [Candidate’s response, exactly as submitted.]
-      - name: "[Candidate Name I]"
-        status: no-response
-        sent: "[DATE]"
-        followed_up: "[DATE]"
+            Land use is among the most consequential things Council decides, and I would approach it with care rather than a prepared list. In Ward 3 the question is, above all, Midtown: just over 100 hectares around the Oakville GO station where the town plans much of its future growth. There is a logic to placing new homes beside the GO station, since those residents are the most likely to leave the car at home. The details are another matter: height, pace, and whether the streets, crossings, schools and parks arrive alongside the buildings. Those matter a great deal to the neighbours and right now, at least one of the proposals does not make sense from an infrastructure, traffic, parkland, and many other perspectives. I would want continue to work with residents before taking firm positions near some of these developments.
+
+            I am also mindful that many residents chose Ward 3 for its established neighbourhoods, from Old Oakville, to Morrison, to Eastlake, to Clearview. Any change there should be gradual and well consulted.
+
+            That said, two modest ideas seem worth exploring in the ward:
+
+            • Walkable from day one: asking that any new Midtown development come with direct, comfortable walking routes to the GO station, Cornwall Road, and elsewhere.
+
+            • Everyday destinations closer to home: making it easier for a smaller shops or businesses to open within walking distance of where people live.

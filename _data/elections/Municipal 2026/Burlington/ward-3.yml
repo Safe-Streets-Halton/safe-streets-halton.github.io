@@ -41,4 +41,148 @@ races:
   - id: race-ward
     title: "Ward Councillor"
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Katy Moore"
+        status: on-time
+        received: "September 24, 2026"
+        responses:
+          transport-mode: |
+            I drive. I live in Lowville, where there's no transit service, so a car is how our family gets around, and that's the reality for much of rural Burlington. But it also gives me a clear view of the problem: in too much of the city, driving is the only realistic choice, even for people who would rather walk, bike or take the bus. My goal is to make those options safe and convenient enough that people choose them because they work, not because they have no alternative.
+          transit: |
+            Burlington Transit is proof that investment works. Ridership hit a record 2.97 million trips in 2023 and climbed to 3.6 million in 2024, helped by the city's expansion of 15-minute service to six routes. People will use transit when it's frequent and reliable. The job now is to build on that momentum, not treat the current network as finished. My priorities:
+
+            Frequency: Expand 15-minute-or-better service beyond the current six routes. A bus every 30 minutes or more isn't a realistic option for most people's daily routine. Frequency is what turns transit from a backup plan into a first choice.
+
+            GO connections: Scheduling matters as much as routing. If a bus reaches Burlington, Appleby or Aldershot GO with too little time to make the train, that rider goes back to driving. I'd push for connection times to be reviewed and tracked as a performance measure.
+
+            Route review: Regularly review routes against where people are actually travelling, especially as new housing comes online, rather than treating the network as fixed.
+
+            Accessible, cleaner buses: The city has started federally funded planning toward a zero-emission fleet, and I want to see it delivered, not left as a study. Low-floor, easy-boarding buses should go first to the busiest routes, where they help the most riders with mobility needs, seniors and families with strollers.
+
+            North Burlington: Council has asked staff to design an on-demand transit pilot. This could be a great solution for the Palmer, Mountainview and the other urban Ward 3 neighborhoods.
+          vision-zero: |
+            For years, Vision Zero appeared in Burlington's strategy documents without a plan behind it. That changed this April, when council directed staff to develop a Vision Zero Road Safety Action Plan and funded a consultant to write it. I support that work. My focus on council would be making sure the plan comes back with measurable targets, a dedicated budget and public annual reporting, so it becomes something the city delivers rather than another report on a shelf. Two things I'd push to include:
+
+            Streets that act like arterials but aren't treated like them: Some residential streets carry heavy cut-through traffic without ever being reclassified, so they don't get the traffic calming, enforcement or design treatment that matches what residents live with every day. The plan should include a way to flag and reassess these streets using collision and traffic data, on a faster cycle than the current multi-year review.
+
+            Smart intersections: Toronto is piloting AI-enabled cameras and sensors at five downtown intersections that adjust signals in real time for drivers, pedestrians and cyclists, building on a University of British Columbia trial that reduced both vehicle and pedestrian delay. I'd want Burlington to test similar technology at a few of our highest-risk intersections, measure the safety results, and expand only if the data supports it.
+          safety-investment: |
+            Yes. I'll vote for transportation spending that makes our streets safer, and I don't see that as being in conflict with fiscal responsibility. The question isn't only how much we spend on roads; it's what we get for it.
+
+            Burlington has a provincial target of 29,000 new homes by 2031. With little greenfield land left, most of that growth will come through intensification in the existing urban area, largely between the QEW and Dundas, without a matching increase in road space. We can't keep adding residents to a car-first network and expect traffic to improve on its own.
+
+            In practice, that means prioritizing capital projects that connect neighbourhoods to downtown and our GO stations without needing a car for every trip; being willing to redirect road budgets to safety and connectivity, even when a project doesn't get to widen a lane as a result; and setting clear measures so projects are judged on whether they reduce collisions and improve access for everyone, not only on whether they move cars faster.
+          walking-cycling: |
+            Comfortable means physically separated from traffic, not a painted line beside it. The city's cycling plan already sets the right standard: a connected “spine network” of protected routes designed for all ages and abilities. My job would be to make sure that standard is built consistently, not watered down project by project.
+
+            The Prospect Street and Graham's Lane corridor is the model: more than six kilometres of protected cycling facilities with upgraded lighting, crosswalks and sidewalks, backed by $3.8 million from the federal Active Transportation Fund alongside the city's own investment. I want more corridors like it, and a network where biking to the grocery store or pharmacy is genuinely easier than driving and parking.
+
+            Provincial highways create two kinds of barriers. The first is physical. Interchanges on the QEW, 403 and 407 are provincial infrastructure the city can't change on its own, but the city can build safe, connected routes right up to those crossings and press the province for safe crossings where the gaps are worst, instead of leaving people to find their own way across.
+
+            The second is regulatory, and it's growing. Bill 212 gave the province approval power over new bike lanes that remove a traffic lane, and Bill 60, passed in November 2025, goes further by barring municipalities from reducing vehicle lanes to add bike lanes except where provincial regulations allow. Burlington has already urged the province to reverse this, and I'd keep up that pressure. Local councils, working with their residents, are best placed to decide how our own streets are designed.
+          bike-infrastructure: |
+            Yes. Protected infrastructure saves lives, and I support expanding it. Where we build it matters just as much. My priority is a connected protected network on the calmer streets that run parallel to our arterials. A street one block off Fairview, lined with homes rather than storefronts, can carry cyclists across the city quickly and safely while keeping them a short ride from the businesses on Fairview itself. This is the case on Prospect Street and Grahams lane which is almost complete. We can see how that is used and use it as a test case prior to investing in more of these corridors.
+
+            That's also the most practical path under current provincial rules. With Bill 60 now restricting the city from converting traffic lanes to bike lanes, parallel routes are where we can build fastest. Where no reasonable parallel route exists, particularly for north-south trips across the QEW and 403, I'll push for protected options on the main roads and for the province to allow them.
+
+            Slower speeds and protected intersections fit the same approach. They work best on residential streets, around schools and parks, and at the key crossing points where the network meets our busiest roads.
+          health-environment: |
+            Transportation shapes both our health and our environment, locally and globally, and the two are closely connected.
+
+            On health: A car-dependent city is a sedentary city. When walking, cycling or transit isn't a realistic choice for daily trips, people lose one of the easiest ways to build activity into their day, with real consequences for heart health, mental health and overall wellbeing. Every trip on foot, by bike or to a bus stop is exercise people get without having to find extra time for it.
+
+            On the environment: Transportation is Ontario's largest source of greenhouse gas emissions, roughly a third of the provincial total. It's also a local issue: traffic affects air quality for residents near busy roads and highways. Fewer car trips is a climate issue and a public health issue at the same time.
+
+            That's why I want new investment focused on safe paths and trails, connected protected routes and reliable transit. Those are the options that get people out of their cars for everyday trips, and that's where the health and environmental benefits come from.
+          land-use: |
+            About half of Burlington is protected rural land under the Greenbelt and Niagara Escarpment plans, and it should stay that way. As a Lowville resident, I know car-free living isn't realistic everywhere. The practical answer is to make the urban area work much better without a car, and to build strong connection points between rural and urban Burlington.
+
+            Dundas Street is that connection line, and there's a foundation to build on. The Dundas/Highway 407 Park & Ride already links drivers to GO Transit, Oakville Transit and Burlington Transit, with more than 400 parking spaces and dedicated bus bays. Plans for widening Dundas include HOV lanes designed to convert to dedicated bus lanes as ridership grows. I'd push to:
+
+            Protect the timeline: Convert those lanes to transit on the schedule already studied, so Dundas doesn't end up as just a wider road.
+
+            Expand park-and-ride: Add capacity at more points along the corridor, not only at the 407.
+
+            Make Dundas a community street, not a dividing line: Once widened, Dundas will be a main arterial, but it shouldn't become a road built for speeding or a hard line between urban and rural Burlington. Between Appleby Line and City View Park, I'd work with Halton Region to design it as a walkable community corridor: continuous paths on both sides, a protected bike lane along one side or a multi-use trail down a landscaped center median, safe crossings at regular intervals, and design speeds suited to a community street rather than a highway. Lower speeds, street trees and landscaped boulevards would also help cut the traffic noise reaching the neighbourhoods along the corridor. Because Dundas is being widened anyway, we can build all of this in from the start without taking space away from drivers. The goal is simple: once the work is finished, getting along Dundas on foot, by bike or by bus should be as easy as driving it.
+
+            Zone for walkable hubs: Allow more mixed-use development around transit hubs south of Dundas and around our three GO stations, so people who take transit arrive somewhere with homes, jobs and services within walking distance, not another car-dependent area.
+      - name: "Kyle Hutton"
+        status: on-time
+        received: "September 21, 2026"
+        responses:
+          transport-mode: |
+            Primarily walking for regular shopping (I live next door to my primary grocery store), daily walks, etc., otherwise by personal vehicle.
+          transit: |
+            We all recognize Burlington Transit is in need of a serious overhaul, in my view one far greater than what has been proposed in the 2026-2030 Strategic Plan. Our service will need to stay competitive and relevant for the broad transit needs of residents, which is why I believe we should be investing into an on-demand service for select areas - we’ve seen it improve ridership in Hamilton and York Region, we know its a good solution for suburban communities, and I believe we can do it without cutting dedicated transit funds. As well, in line with the Strategic Plan, I would like to see implementation of transit signal priority and potentially a dedicated bus lane, preferentially on Brant between the GO Station and the downtown hub, and Guelph between Burlington Mall and the 407 Park & Ride.
+
+            And as always, I would be keen on exploring a regional transit plan to work more closely with our neighbours in Oakville and Milton, particularly as our populations grow. Unified fares/transfers, aligned service planning, shared procurements and maintenance, all things we can start working on now to create a more integrated transit system for the Region’s future.
+          vision-zero: |
+            While I would like to say Burlington has made significant progress towards Vision Zero, I’m not sure I actually can. We’ve directed staff to develop a new road safety strategy next year and allocated some funding for AI software to look at the issue in Budget 2026, but much of this work still feels as early and in-progress - this despite groups like SSH being vocal advocates on pedestrian and road safety for years.
+
+            Of course I commend the City’s work on installing new crosswalks, signage, and other measures, but I’ve also seen the protected intersections for bikes… which then immediately turn into the typical painted lanes we’re used to. I don’t view paint as infrastructure, and if elected I want to see a return to full and proper planning for protected lanes along primary cycling and pedestrian corridors. After all, if we’re going to spend this money, let’s make sure its on something we know will actually reduce potential accidents.
+
+            I would also love to a see greater push on bringing safety measures and upgrades to regional roads, particularly important for communities in Ward 3 which are surrounded by them. You can really tell once you’re north of Fairview how little there is in the way of actual infrastructure to protect non-vehicle users. There’s no reason jurisdiction should be a block on common sense upgrades, considering the Region itself often says they agree.
+          safety-investment: |
+            On Council, I’ll be voting for increased funding to the City’s transit and road safety budgets, though I will be looking for clear, actionable items to be put forward. Unfortunately I think we’ve gotten into the habit of voting to allocate towards vague priorities and wants, but not actually seeing clear timelines for them.
+          walking-cycling: |
+            One idea for improving pedestrian experience we should consider adapting are Guelph’s more active use of designated community safety zones to slow down and calm traffic, recommendations which came out of their Vision Zero strategy dropped last year. CSZs should be more than just signs noting fines increased, but include active traffic calming measures like raised crosswalks, flex posts, and etc. We have some of these measures at some locations, but its very piecemeal and I'd like to see an actual strategy employed, as well as a potential increase in the number of CSZs around the city. I would also consider permanently lowering the speeds along municipal roads like Upper Middle with high student traffic, and working with the Region on Dundas, Guelph Line, and other regional roads to do the same. The safer we make these routes, the better the experience will be.
+
+            I believe this includes addressing increasing concerns around the prevalence of e-scooters and e-bikes on our sidewalks and streets, and unfortunately the many unsafe practices people have witnessed being engaged in. As someone who walks my dog daily on a main road sidewalk where these things whizz by, I completely get it - an action plan, including education and greater enforcement, will need to be put in place.
+
+            The trickiest question here is dealing with the provincial highways, which is outside the City’s direct jurisdiction, even on the crossing roads as they’re all regional save for Walkers, King, and Waterdown. Ideally, increasing the visibility of crossings would be a good start - I know first-hand a single dull streetlight not even overtop an on-ramp crossing isn’t sufficient for safety!
+          bike-infrastructure: |
+            Yes, 100%. Paint is not infrastructure, the fact we sank so much time and effort into drawing lines on roads too many don’t respect is a travesty to me. I won’t pretend it won’t come up serious costs, but long-term infrastructure will only benefit our community.
+          health-environment: |
+            The simple fact is that walking and cycling are far better for your personal health and our community health than driving, even utilizing transit options, ever could be. Often governments talk about working on preventative programs and supports to help our overloaded healthcare system - step one should be building out the infrastructure necessary to get people walking again.
+
+            Reducing local congestion by improving pedestrian pathways or the reliability of transit reduces vehicle emissions directly with each person deciding to walk instead of drive to the store one day. Some will never be on board and sometimes the weather won’t cooperate to make such choices feasible, and anything we do won’t change society or emissions overnight, or in four years, maybe not even a decade. But we can get a headstart as governments and communities and individuals if we start pushing on these issues now rather than sitting around for another five years discussing strategies for it.
+          land-use: |
+            Burlington is a city shaped by single-family zoning and its consequences, with a road network designed almost entirely for a car-centric culture, and we see the consequences of it. Not just on road safety, but directly on community cohesion - it often feels that even being a street over is an entirely separate world. How are we supposed to create a community safety action plans in such a fractured space?
+
+            Thankfully, I think the next decades of growth will be denser and more cohesive, with a focus on building up communities of families with shared concerns and infrastructure. To do this we’ll need to protect recent zoning and bylaw changes which encourage ‘missing middle’ density across the City of Burlington, get more affordable homes for families inside communities, and generally take back control of our housing future from the province. The more proactive we are on this file, the less we’ll be forced to take on the giant towers downtown and around transit stations full of one-bedroom apartments which lack any serious planning for accessibility and safety, especially in a community-focused manner.
+
+            Let’s get families into our communities with starter homes, build out the infrastructure necessary to keep them safe no matter the transportation options they take, and create the vibrant city we all want to live in going forward.
+      - name: "Lisa Cooper"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            I drive a F150
+          transit: |
+            I believe we should be purchasing smaller buses for smaller routes that have a low ridership. That way saving on costs but keeping service to those areas. Perhaps going electric would be a savings while also allowing more buses on routes.
+
+            For routes without service, such as Kilbride we could go with an on demand system.
+          vision-zero: |
+            I believe more enforcement of speed limits. Target areas with high speed rates and rotate around the City on a daily basis. Set the precedence that we will not tolerate speeding in our City. Police presence for a month of the start of school and ticket when people are not following the set speed when flashing lights for school zones are enabled.
+          safety-investment: |
+            As our City is getting more condensed, we need to supply reliable transit, expansion of routes including to businesses and industrial employers. Yes I would vote in favour of spending more that would improve safety but also reliability for people to be able to get where there going with ease and safely.
+          walking-cycling: |
+            Enforcement of bikes (whether electric or not) NOT to be riding on sidewalks it’s a safety hazard to both cyclists and pedestrians. We are going to need more bike lanes as our City is expanding. We need the cyclists to be in the bike lanes and pedestrians to be able to feel safe that they are not going to be run into by a bike on the sidewalks.
+
+            As far as barriers for Provincial highways I personally do not know of any, but if it were to come up I believe cooperation between the Provincial and local government should work together.
+          bike-infrastructure: |
+            Yes
+          health-environment: |
+            The more cars on the road the more pollution is in our environment. I lived in Athens for a year when I was younger. The pollution was thick in the City because of the amount of vehicles in the City. Believe me if you can get more cars off the street and people on transit everyone benefits.
+          land-use: |
+            Stop the sprawling development.
+      - name: "Tony Brecknock"
+        status: on-time
+        received: "September 21, 2026"
+        responses:
+          transport-mode: |
+            I use a combination of car, bike, motorcycle and walking
+          transit: |
+            I would look to improve frequency, with smaller electric vehicles on the inner roads with a dial up service as well as scheduled service and bigger buses on the main arteries. Low cost (to free) and frequency/schedule reliability is key.
+          vision-zero: |
+            The progress to achieve Vision Zero is in its preliminary stages, some progress and discussion has been made but in reality little has changed in the one the road experience. If elected I would push to accelerate the progress that has already be outlined.
+          safety-investment: |
+            As long as it is done efficiently and wisely, I am in favour of voting to increase spending on the frequency and type of public transportation within Burlington. Road safety is a problem that must be addressed as soon as possible.
+          walking-cycling: |
+            We live in an extreme climate, we need more shelters, bike storage locations and better integrated snow removal to make our pathways accessible longer. Pedestrian overpasses and bike corridors like the crosstown trails will connect more parts of the city.
+          bike-infrastructure: |
+            Yes, but in an efficient way, simply painting a bike symbol on the road does not constitute a bike 'lane'.
+          health-environment: |
+            Be it local or global, traffic congestion and transportation stress is not only a safety concern it is a mental health problem.
+          land-use: |
+            Yes, our communities are bisected by large highways and multi lane roads that prevent us from using other modes of transportation to cross town and access amenities. Side trails along green spaces like power line corridors while connecting park spaces to amenities as well as pedestrian overpasses will aid us in a way to get across town without needing a vehicle.

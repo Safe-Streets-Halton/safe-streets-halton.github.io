@@ -42,64 +42,79 @@ races:
     title: "Mayor"
     note: "Chairs Burlington City Council and sits on Halton Regional Council."
     candidates:
-      - name: "[Candidate Name A]"
-        website: https://example.com
+      - name: "Marianne Meed Ward"
         status: on-time
-        received: "[MONTH DAY, 2026]"
-        scores:
-          ambition: 3
-          money: 2
-          network: 4
-          health: 3
+        received: "October 4, 2026"
         responses:
           transport-mode: |
-            [Candidate’s response, exactly as submitted.]
+            I walk to work, cycle and take public transit, including the bus and the GO train. For longer distances, I drive a hybrid.
           transit: |
-            [Candidate’s response, exactly as submitted.]
+            I've supported transit my whole life, as a rider and an advocate. I served on the city's first Transit Advisory Committee before I entered public office. Since then I've successfully pushed for better routes, more frequent service on both conventional transit and Handi-Van, and more buses and drivers. Ridership is now over three million rides a year.
+
+            To remove cost as a barrier, I've supported free transit for seniors, low-income residents and children under 12, and for students on evenings and weekends.
+
+            Next, I support a pilot of door-to-door, on-demand service to supplement our fixed routes in areas with low ridership. We once did this with Dial-A-Ride, and new technology makes it more economical and easier to use. I'm also working to improve service to employment areas in partnership with businesses, and have already connected Burlington Transit staff with local employers. And I support more frequency on our busiest routes and at peak times, and more Handi-Van capacity, which is already overstretched.
           vision-zero: |
-            [Candidate’s response, exactly as submitted.]
+            We've made progress, but we aren't there yet. This April, council voted to develop a Vision Zero Road Safety Action Plan: a city-wide plan to eliminate traffic deaths and serious injuries on our roads. It is due by the end of 2027. I voted for it. When it comes back, council will weigh its recommendations with residents and decide which to fund through the budget.
+            I want the plan to identify our highest-collision intersections so we can deal with those first, to show what each recommendation costs and delivers, and to report results publicly, so residents can see what is working.
+            We aren't waiting for the plan to act. We are expanding traffic calming on residential streets to slow drivers down. We chose six school zones for automated speed enforcement, and when the province banned it, I led more than 20 mayors in asking that it be kept in school zones.
           safety-investment: |
-            [Candidate’s response, exactly as submitted.]
+            Yes. City council and I have a track record of investments that put safety first for everyone who uses our streets: pedestrians, cyclists and drivers. Two recent examples are the reconstruction of Plains Road West and, more recently, Prospect Street, with dedicated cycling lanes, signals at intersections, bus lay-bys and pedestrian bump-outs.
+            We do this work together with other road work to find efficiencies, and we've secured funding from other levels of government for these projects, which eases the burden on property taxes. That is how we will do more in future: through partnerships and by making the most of infrastructure dollars.
           walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
+            The recently completed projects on Plains Road West and Prospect Street provide a safer experience for people walking and cycling: protected bike lanes, pavement markings and colours, priority traffic signals, no right turn on red at some intersections, narrower pedestrian crossings, and refuge islands so people can cross in two stages and be safe in the middle.
+            Provincial highways are a real barrier, because the crossings were built for cars. I'll press the Ministry of Transportation to include safe walking and cycling crossings whenever an interchange or bridge is rebuilt.
           bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
+            Do you support the expansion of bicycle infrastructure (protected bike lanes, slower roads, protected intersections)? 
+            Yes. We have approved a cycling master plan, and under our Integrated Mobility Plan the network expands as we repair and rebuild our roads, where it makes sense and connects people to where they need to go.
           health-environment: |
-            [Candidate’s response, exactly as submitted.]
+            They are closely connected. Transportation is one of the largest sources of emissions in our community, and vehicle traffic affects the air we breathe. It also shapes our health directly: people who can walk or cycle for everyday trips are more active, and safer streets mean fewer injuries. For seniors and people who don't drive, good transit and safe sidewalks mean independence.
+            That's why transportation is central to our Climate Plan: better transit, electric buses, public EV charging, and growth focused around our GO stations so more trips can be short ones.
           land-use: |
-            [Candidate’s response, exactly as submitted.]
-        open: true
-      - name: "[Candidate Name B]"
-        website: https://example.com
-        status: late
-        received: "[MONTH DAY, 2026]"
-        scores:
-          ambition: 1
-          money: 1
-          network: 2
-          health: 2
+            Are there any land-use policy changes that you would make to make it easier to get around without a car?  
+            Yes, and we've already made the most important one. We moved Burlington's Urban Growth Centre from the downtown to the Burlington GO station, the only city in Ontario to do so, so that major growth goes where people can live close to frequent transit.
+            The next step is making the areas around our three GO stations complete communities, with homes, shops, services, parks and jobs within walking distance.
+      - name: "Rory Nisan"
+        status: on-time
+        received: "September 24, 2026"
         responses:
           transport-mode: |
-            [Candidate’s response, exactly as submitted.]
+            I drive a 2008 Toyota Camry Hybrid, I take the bus when it makes sense, I walk and I ride my bike.
           transit: |
-            [Candidate’s response, exactly as submitted.]
+            Transit has to be a real choice. Frequency and reliability are critical. As Mayor, I will prioritize more frequent service on our busiest corridors, better connections to our three GO stations, and service that links Burlington with Oakville, Hamilton and Milton so a trip across the region doesn't mean three waits and three fares. I've also advocated for free or reduced fares for youth, because young people who build the transit habit early tend to keep it. For rider experience and accessibility, the basics matter: shelters and benches at stops, stops that are cleared of snow in winter, accurate real time information, and specialized transit that residents with disabilities can depend on. Growing transit costs money, so I'll keep pushing the provincial and federal governments for Burlington's fair share, as I have as Chair of the Ontario Caucus of the Federation of Canadian Municipalities, and I'll measure every investment by the riders it serves.
           vision-zero: |
-            [Candidate’s response, exactly as submitted.]
+            Burlington has made progress, but not enough and not quickly enough. We have plans on paper; residents need results on the street. I supported automated speed enforcement near schools and was disappointed when the province banned it. With cameras off the table for now, Burlington must move faster on physical changes that slow drivers down by design: raised crosswalks, curb extensions, narrower lanes in school zones, and lower speed limits on residential streets. The province has created a Road Safety Initiatives Fund for exactly this kind of work, and Burlington should be first in line for every dollar available. I would also daylight intersections by clearing parking near crosswalks so drivers and pedestrians can see each other, and add leading pedestrian signals at busy crossings. Hoboken, New Jersey used simple, low cost changes like these and has gone years without a traffic death. Finally, I'll publish collision data by location every year, so residents can see where we're improving and where we aren't. I pushed for a Vision Zero plan which has finally been approved and will be created in the next year. I expedited the budget for that plan because we have to do everything we can to prevent tragedies.
           safety-investment: |
-            [Candidate’s response, exactly as submitted.]
+            Yes. I've always said I'm for smart decisions, and few decisions are smarter than preventing a death or serious injury. A single serious collision carries enormous costs for a family, for our health system and emergency services, and for the whole community; safety investments are some of the best value for money a city can make. When I vote on transportation spending, I'll ask three questions: does it make people safer, does it serve the most residents in their daily lives, and does it deliver measurable results? Many of the most effective safety improvements are also the least expensive: paint, curbs, signal timing and better crossings. I won't pit drivers against people who walk, cycle or take transit. Everyone is safer on a well designed street, and most of us are all of those things at different points in the day.
           walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
+            People walk and cycle more when it feels safe and convenient, and in too many parts of Burlington it doesn't. My priorities are closing the gaps in our sidewalk and trail network so routes actually connect; making crossings safer at busy intersections; clearing sidewalks and trails in winter so they're usable year round; and adding lighting, shade and places to rest along key routes, which matters especially for seniors. Our provincial highways are the biggest barrier of all. The QEW, the 403 and the 407 divide our city, and crossing them on foot or by bike can be intimidating or impossible. As Mayor, I'll press the province and the Ministry of Transportation to build safe crossings into every interchange and highway rehabilitation project, and I'll use my relationships at Queen's Park and through FCM to make sure Burlington's needs are at the table before designs are finalized, not after. Specifically, no more on ramps where the cars take priority and there is no safe way to cross.
           bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
+            Yes, where it is well planned and connected. Protected bike lanes, safer intersections and slower speeds on the right streets make everyone safer, including drivers. The key is building a network, not isolated pieces; a bike lane that ends abruptly at a busy intersection doesn't get people riding. I'd prioritize routes that connect neighbourhoods to schools, GO stations, the waterfront and our commercial areas, and I'd work with residents and businesses along each corridor so projects are designed right the first time. Getting it right the first time is also how we respect taxpayers and build lasting public support for the next project. We need to be careful that the infrastructure is working as intended and not "over-designing" which generates complaints from other road users.
           health-environment: |
-            [Candidate’s response, exactly as submitted.]
+            Transportation shapes our health more than most people realize. When walking and cycling are safe, people build activity into their day, which means better physical and mental health for residents of every age. Cleaner transportation also means cleaner air; I've brought forward motions on air quality because residents living near busy roads and highways deserve to breathe clean air. Globally, transportation is one of the largest sources of greenhouse gas emissions. As Deputy Mayor for the Environment, I've worked on Burlington's climate action implementation and on planning our transition to electric buses, supported by federal funding. Practical choices, like a reliable bus, a safe bike route or a sidewalk that connects, are how we reduce emissions and congestion at the same time without making life harder or more expensive for families.
           land-use: |
-            [Candidate’s response, exactly as submitted.]
-      - name: "[Candidate Name C]"
-        website: https://example.com
-        status: late-pending
-        received: "[MONTH DAY, 2026]"
-      - name: "[Candidate Name D]"
-        status: no-response
-        sent: "[DATE]"
-        followed_up: "[DATE]"
+            Yes. For decades Burlington built neighbourhoods where you needed a car for every errand, and we can't undo that overnight; but we can make better decisions going forward. I would focus growth around our GO stations and along major corridors, where frequent transit can serve it, and require new developments to include safe walking and cycling connections, not just parking. I'd support more shops, services and amenities within walking distance of where people live, so picking up a prescription or getting to school doesn't require a drive. And I'll protect what makes Burlington special: our rural areas, our established neighbourhoods and our waterfront. Being deliberate about where density goes, instead of reacting to whatever developers propose, is how we give residents real transportation choices.
+      - name: "Yugalkeesor Ramdhonee"
+        status: on-time
+        received: "October 3, 2026"
+        responses:
+          transport-mode: |
+            Car, sometimes bus
+          transit: |
+            In order to plan for the future, we need to properly understand what the situation is now. I would commission a survey to know what is the ridership on each route and time of day. Then, we can look at changing the routes that are not used well, increase the frequency of the popular routes and create new routes for areas that are underserviced. We should have express routes and bus lanes during rush hour to make riding a bus an efficient way to travel.
+
+            We should also look at the comfort of buses and bus shelters to draw people to taking transit especially during our harsh winters.
+          vision-zero: |
+            I would look at the latest statistics and target the high-risk areas to make changes in street design, speed limits or implement other traffic-calming measures. I would provide incentives for large organizations to promote public transit or car-pooling. However, we need to look at driver related causes, as well. Similar to distracted-driving campaigns, we need to enforce following rules of the road and increase fines for reckless driving.
+          safety-investment: |
+            Yes, I will support the safety of residents in the city. We can invest in building our infrastructure for safety e.g. pedestrian bridges over high-speed roads; optimizing our bus routes to serve where the population is the densest; offering a mix of transit options – buses, shuttles, trains.
+          walking-cycling: |
+            We should invest in pedestrian/cyclist bridges over wide or high-speed roads and intersections. Divided bike lanes are an option for large roads, as well. Existing bridges and fly-overs for highways can be modified for pedestrians and bikes. Also, we can install more crosswalk lights at key intersections without traffic lights. I would also check that street lighting is good especially around the wooded or park areas for safety of all commuters.
+          bike-infrastructure: |
+            I do support this for the safety of all types of travellers. We need to use proper planning to see what infrastructure is best for a specific street.
+          health-environment: |
+            It is well known that traffic pollution is contributing negatively to climate change and people’s health. However, the convenience and pride of owning a car is so highly ingrained in our culture that it would take more than 1 generation to lessen the impact. Changing to electric vehicles, or other energy sources may be faster to reduce climate impact. We may also want to invest in high-speed trains or LRT within city limits to reduce traffic.
+
+            We may also suggest business or our city staff that have occupations that can work remotely to do so and reduce unnecessary daily traffic.
+          land-use: |
+            We cannot infringe on our green belt or conservation areas to build roads. As mentioned before, we can build pedestrian/bike lane bridges for public safety. Also, I would propose bus lanes for faster travel on larger regional roads.

@@ -111,7 +111,7 @@ layout: default
 </div>
 
 {%- if sorted.size == 0 %}
-<p class="sv-text sv-empty">We haven’t posted responses for this {% if is_ward %}ward{% else %}race{% endif %} yet.</p>
+<p class="sv-text sv-empty">We haven’t posted/received responses for this {% if is_ward %}ward{% else %}race{% endif %} yet.</p>
 {%- endif %}
 
 {%- for cand in sorted %}
@@ -194,9 +194,44 @@ layout: default
 {%- if resp == "" %}
 <p class="sv-noanswer">No response to this question.</p>
 {%- else %}
-{%- for para in paras %}{% assign para = para | strip %}{% if para != "" %}
-<p>{{ para | escape }}</p>
-{%- endif %}{% endfor %}
+{%- assign mode = "" -%}
+{%- for para in paras %}{% assign para = para | strip %}{% if para != "" -%}
+{%- comment %} Bullet paragraphs ("• ", "- ", "– ", "* ") group into one <ul>; "12. " style paragraphs group into one <ol>. Anything else is a <p>. Single line breaks become <br> after escaping. {% endcomment -%}
+{%- assign two = para | slice: 0, 2 -%}
+{%- assign pre = para | split: ". " | first -%}
+{%- assign new_mode = "p" -%}
+{%- assign item = para -%}
+{%- if two == "• " or two == "- " or two == "– " or two == "* " -%}
+{%- assign new_mode = "ul" -%}
+{%- assign item = para | slice: 2, para.size | strip -%}
+{%- elsif pre != "" and pre.size <= 3 and para contains ". " and para != pre -%}
+{%- assign pre_num = pre | plus: 0 | append: "" -%}
+{%- if pre_num == pre -%}
+{%- assign new_mode = "ol" -%}
+{%- assign skip = pre.size | plus: 2 -%}
+{%- assign item = para | slice: skip, para.size | strip -%}
+{%- endif -%}
+{%- endif -%}
+{%- if new_mode != mode -%}
+{%- if mode == "ul" %}
+</ul>{% elsif mode == "ol" %}
+</ol>{% endif -%}
+{%- if new_mode == "ul" %}
+<ul class="sv-list">{% elsif new_mode == "ol" %}
+<ol class="sv-list">{% endif -%}
+{%- assign mode = new_mode -%}
+{%- endif -%}
+{%- if mode == "ul" %}
+<li>{{ item | escape | newline_to_br }}</li>
+{%- elsif mode == "ol" %}
+<li value="{{ pre }}">{{ item | escape | newline_to_br }}</li>
+{%- else %}
+<p>{{ para | escape | newline_to_br }}</p>
+{%- endif -%}
+{%- endif %}{% endfor -%}
+{%- if mode == "ul" %}
+</ul>{% elsif mode == "ol" %}
+</ol>{% endif %}
 {%- endif %}
 </div>
 </li>

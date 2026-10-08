@@ -41,4 +41,74 @@ races:
   - id: race-ward
     title: "Ward Councillor"
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Masha Brar"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            I normally use my car, else walk. Sometimes I use a bike or local transit system.
+          transit: |
+            I believe that we need a better transit system. We need more and newer routes, more accessibility for everyone, and more round trip, so more buses as well.
+          vision-zero: |
+            Burlington has made some progress in its goal towards Vision Zero but there is a lot to be done. We need more pedestrian pathways with lights and signs so that the vehicles know when to stop. We need more education of our young children so they know how to navigate the road systems as pedestrians, as cyclists and as drivers in the future.
+          safety-investment: |
+            I would be prepared to vote in favour of spending that will improve the safety of all who travel within Burlington, no matter what mode of transportation they use. That being said, we cannot ignore and neglect the majority of the car users who are commuters travelling to different cities. It has to be a comprehensive plan, where our focus is not solely on one mode of transportation, hoping everyone will adopt it when that becomes more convenient and cars inconvenient. In that situation, we will be creating more driver frustration and that will not be helpful with our Vision Zero.
+          walking-cycling: |
+            Sidewalks. We need to work on our sidewalks more. Make sure they are safe for everyone to walk on. Instead of narrowing the roads, we need to come up with innovative solutions for cyclists- for example exploring converting one side walk or portion thereof into a bike lane. This will keep the bikes in protected spaces; it will lead to less driver frustrations. Also, we need to have better light systems for our pedestrians and cyclists, So that when they need to cross the road, they don't have to keep waiting forever, and that the light is long enough for our seniors to be able to cross as well.
+          bike-infrastructure: |
+            As of now, no I do not support the expansion of the bicycle infrastructure as implemented at Prospect Street. Multiple things. One Province has already asked Toronto to remove the bike lanes; it costed them millions to put and now will cost almost double to remove. The court has also decided that the province has the power to do this. So, at this point by expanding our bike lanes, we are looking at potential higher costs, which the city does not have the funds for. Second, without a robust transit system, we will never have many bike users or pedestrians. We have to remember we are a commuter city with an aging population, and have cold weather most of the year. We do not have too many jobs in Burlington and we are not a small city where we can live in a bubble. So, we have to see what will or won't work for our city, and I strongly believe that our first step has to be a robust transit system that people want to use.
+          health-environment: |
+            There will be a lot of positive and negative health impacts of transportation. We have always been talking about pollution, air and sound from the cars, but we also have mental health issues. With increasing traffic and delay in getting home to relax leads to more stress, frustration and anxiety. We all also know the health benefits of walking and cycling, but we also know that there are safety issues and concerns. So, we need to develop a system where people are able to use the mode of transportation they prefer without the stress and safety concerns. That is why I am transit first person.
+          land-use: |
+            I have not done a study on this so I cannot comment on what can or cannot be done in Burlington. While Burlington will grow, we have to grow in a way that is sustainable, while maintaining our core essence. I do not think I can comment more on this without doing proper research.
+      - name: "Sean Campbell"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            Like many residents in Ward 2, I use a combination of methods depending on where I am heading. For daily errands and moving around our core neighborhoods like downtown and the waterfront, walking and cycling are my go to options whenever possible. For longer trips across the city or connecting to regional transit hubs like the Burlington GO station, I rely on driving and Burlington Transit. Experiencing our streets from behind the wheel, from a saddle, and as a pedestrian gives me a firsthand look at where our infrastructure works and where it falls short.
+          transit: |
+            As Burlington grows, our transit network needs to shift from a system that feels like an afterthought to the backbone of our local mobility. I envision a future where transit is frequent, reliable, and seamlessly connected across Halton Region and the GTHA.
+
+            To get there, I would prioritize:
+
+            - Increased Frequency: Expanding 15 minute peak service to more high demand corridors so riders do not need to consult a timetable.
+
+            -  First and Last Mile Solutions: Improving local micro mobility, sidewalks, and bike paths leading to transit stops.
+
+            - Rider Experience and Accessibility: Ensuring every bus stop has adequate shelter, lighting, and real time digital tracking. We must also continue upgrading our fleet with low floor, fully accessible buses and maintain barrier free boarding paths, while supporting affordable fare initiatives for seniors, youth, and low income residents.
+          vision-zero: |
+            Burlington has taken important initial steps through our Integrated Mobility Plan and targeted safety reviews, but we have a long way to go before our streets truly feel safe for everyone. Too many intersections and corridors still prioritize vehicle throughput over human life. If elected, I would implement
+
+            • Proactive Engineering: Moving away from reactive traffic calming and building protected infrastructure, such as protected intersections and narrowed crossing distances, by default.
+
+            • Automated Speed Enforcement: Expanding camera programs, particularly around school zones and high risk residential corridors.
+
+            • Lower Default Speeds: Reducing speed limits on residential and downtown commercial streets where vulnerable road users mix heavily with cars. Cities like Edmonton and Toronto have made meaningful strides by systematically redesigning high collision corridors and lowering speed limits city wide, proving that political will saves lives. Globally, cities like Oslo have virtually eliminated pedestrian fatalities by removing cars from core areas and aggressively redesigning street geometries.
+          safety-investment: |
+            Yes, absolutely. I am fully prepared to vote in favour of capital and operational spending that prioritizes safety over pure vehicle speed. For decades, municipal budgets have disproportionately favored asphalt expansion for private automobiles.
+
+            Moving forward, every transportation dollar we spend should be evaluated through a safety and equity lens. If a road reconstruction project comes before council, safety features for pedestrians, cyclists, and transit users, such as sidewalks, protected bike lanes, and raised crosswalks, must not be treated as optional nice to haves or value engineered out to save a few dollars. They must be core components of the budget.
+          walking-cycling: |
+            To get more people walking and cycling, active transportation needs to feel safe, intuitive, and continuous. In Ward 2, we need to fill missing sidewalk gaps, improve trail maintenance, including better winter clearing so paths are usable year round, and install better lighting and wayfinding. Provincial highways, like the QEW and Highway 403, pose massive physical barriers that fracture our neighborhoods and make north south active travel treacherous. To address this, we must -
+
+            • Partner closely with the province and regional authorities to ensure that any overpass or interchange reconstruction includes wide, completely separated multi use paths and protected crossings.
+
+            • Push for aesthetic and safety upgrades on crossings like Brant Street and Guelph Line so pedestrians and cyclists are not squeezed against high speed highway off ramps.
+          bike-infrastructure: |
+            Yes, I strongly support the expansion of protected bicycle infrastructure. Data consistently shows that painted lines on busy roads do not protect people; we need physically separated infrastructure that buffers vulnerable road users from heavy vehicle traffic.
+
+            When we build safe networks, people of all ages and abilities feel comfortable choosing a bike for short trips, which reduces traffic congestion and parking pressures in Ward 2. Implementing traffic calmed neighborhoods and protected intersections creates a predictable environment that ultimately benefits drivers as well, reducing erratic maneuvers and unexpected conflicts.
+          health-environment: |
+            Transportation is deeply tied to both public health and environmental sustainability. From a health perspective, car centric design breeds a sedentary lifestyle, while vehicle emissions contribute significantly to local air pollution, worsening respiratory issues like asthma in our community. Safe walking, cycling, and transit infrastructure naturally integrate physical activity into daily life while reducing roadway stress. Globally and locally, transportation is one of the largest contributors to greenhouse gas emissions. If we are serious about meeting Burlington's climate action targets, we cannot simply swap every gas powered car for an electric one and call it a day; we have to fundamentally reduce car dependency by making sustainable modes the most convenient, attractive, and healthy choices available.
+          land-use: |
+            To fix how we move, we have to fix how we build. Low density, single use sprawl forces reliance on the automobile.
+
+            If elected, I would champion land use policies that promote complete communities, which are areas where residents can access daily needs like groceries, parks, work, and schools within a 15 minute walk or roll from their front door. Specifically, we need to
+
+            • Support sensible, human scale infill and mixed use development along transit corridors, particularly around the downtown and GO transit station areas in Ward 2.
+
+            • Eliminate rigid minimum parking requirements for new developments near major transit lines, allowing developers to build more housing and community oriented space instead of massive asphalt parking lots.
+
+            • Ensure that new planning approvals require developers to integrate active transportation connections right from the design phase, rather than retrofitting them later.

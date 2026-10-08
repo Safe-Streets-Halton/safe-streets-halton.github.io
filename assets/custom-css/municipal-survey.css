@@ -513,6 +513,38 @@ html {
   line-height: 1.75;
   font-weight: 300;
 }
+.sv-answer p,
+.sv-answer li {
+  overflow-wrap: anywhere;
+}
+.sv .sv-answer ul.sv-list,
+.sv .sv-answer ol.sv-list {
+  max-width: 72ch;
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+.sv .sv-answer ul.sv-list {
+  list-style: disc outside;
+}
+.sv .sv-answer ol.sv-list {
+  list-style: decimal outside;
+}
+.sv .sv-answer ul.sv-list > li,
+.sv .sv-answer ol.sv-list > li {
+  display: list-item;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+.sv .sv-answer ul.sv-list > li + li,
+.sv .sv-answer ol.sv-list > li + li {
+  margin-top: 0.5rem;
+}
 .sv-answer.is-collapsed {
   max-height: 7em;
   overflow: hidden;

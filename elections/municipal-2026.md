@@ -20,7 +20,7 @@ custom_css: municipal-election-2026
 <p class="m26-eyebrow">Halton Region · Municipal Elections</p>
 <h1 class="m26-h1">Your Streets Are on the <span class="m26-h1-accent">Ballot</span></h1>
 <p class="m26-date">Election Day: <time datetime="2026-10-26">Monday, October 26, 2026</time></p>
-<p class="m26-hero-text">Whether you care about housing, transit, schools or community services, voting this October is the most impactful way to change how your neighbourhood grows to fit your needs.</p>
+<p class="m26-hero-text">Whether you walk, cycle, take transit or drive, you deserve to get around Halton safely. Find out where your candidates stand, and vote for streets that work for everyone.</p>
 </div>
 </header>
 <nav class="m26-toc" aria-label="On this page">

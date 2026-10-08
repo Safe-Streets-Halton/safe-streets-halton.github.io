@@ -41,8 +41,128 @@ races:
   - id: race-regional
     title: "Regional & Town Councillor"
     note: "Sits on both Oakville Town Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Vick Walia"
+        status: on-time
+        received: "September 23, 2026"
+        responses:
+          transport-mode: |
+            For most of my day-to-day travel, I use a car, largely because of the nature of my work in real estate, which requires me to travel throughout Oakville and the surrounding area. I also walk for shorter trips when practical.
+
+            I have been an Oakville resident for 14 years and have watched the development of North Oakville take place firsthand. Over that time, I have seen significant growth in our neighbourhoods, along with the increasing pressure that growth has placed on our roads, intersections and transportation infrastructure.
+
+            Driving throughout the community also gives me a first hand understanding of the congestion, speeding, difficult intersections and pedestrian-safety concerns residents raise with me. I believe our goal should be to provide residents with safe, practical and reliable transportation choices, whether they drive, walk, cycle or use public transit.
+          transit: |
+            As Oakville continues to grow, particularly in North Oakville, transit must become a practical, reliable alternative for everyday travel.
+
+            I support moving forward with Oakville’s planned Bus Rapid Transit network, including the Trafalgar Road and Dundas Street BRT corridors. These major routes have the potential to create a strong transit backbone, connecting North Oakville with Oakville GO, Midtown, employment areas and neighbouring municipalities.
+
+            But rapid transit corridors alone are not enough. We need frequent and reliable local buses that connect neighbourhoods to those corridors. Oakville’s Transportation Master Plan already calls for a Frequent Transit Network, better GO connections and expanded on-demand services.
+
+            I would prioritize frequency, reliable connections, accessible bus stops and shelters, safer walking routes to transit, real-time information, and continued improvement of on-demand and specialized transit.
+
+            Most importantly, transit investment must keep pace with development. We should use ridership and growth data to measure whether investments are actually reducing wait times, improving connectivity and making transit a realistic choice for Oakville residents.
+          vision-zero: |
+            I believe the reference to Burlington in this question was intended to refer to Oakville.
+
+            Oakville has already taken important steps consistent with Vision Zero principles. The Town’s current Speed Survey Program typically conducts approximately 150 speed surveys each year, largely in response to residents’ concerns about speeding.
+
+            We already collect significant amounts of data. My focus would be on ensuring that this data translates into timely and measurable action.
+
+            I would support using speed surveys, collision data and resident reports to identify problem areas, particularly around schools, pedestrian crossings and neighbourhood streets. Depending on the evidence, solutions could include traffic calming, safer crossings, intersection improvements, better lighting and appropriate road-design changes.
+
+            I would also push for greater transparency. Residents should be able to see where studies have been conducted, what the results were, what action is recommended, and when that action will be implemented.
+
+            Vision Zero should not simply be an objective on paper. The measure of success should be whether our streets are actually becoming safer and serious injuries and fatalities are being reduced.
+          safety-investment: |
+            Yes. I am prepared to support transportation investments where there is a demonstrated safety need and a clear public benefit.
+
+            Transportation funding should not be viewed simply as cars versus bicycles versus pedestrians versus transit. A properly designed transportation network needs to safely accommodate all of them.
+
+            I would evaluate projects based on evidence, safety, usage, cost, accessibility and the needs of the surrounding community.
+
+            Where data demonstrates that an intersection, crossing, school zone, trail connection or roadway creates an unacceptable safety risk, I believe Council has a responsibility to act.
+
+            At the same time, taxpayers deserve accountability. Major transportation investments should have measurable objectives so Council and residents can determine whether they actually improved safety and mobility.
+          walking-cycling: |
+            Walking and cycling infrastructure works best when it forms a connected network rather than ending unexpectedly or leaving residents at unsafe crossings.
+
+            I would prioritize missing sidewalk and trail connections, safer pedestrian crossings, appropriate lighting, accessible curb design and better connections between neighbourhoods, parks, schools, commercial areas and transit.
+
+            Major roads and highway crossings can become significant barriers. Where responsibility involves another level of government or agency, the Town should not simply say that the issue is outside its jurisdiction. Councillors should advocate, coordinate and bring the responsible organizations together to find practical solutions.
+
+            My approach would be to identify the most significant gaps and safety risks first and develop a prioritized implementation plan based on data and community input.
+          bike-infrastructure: |
+            I support expanding safe cycling infrastructure where it improves safety, creates meaningful connections and is appropriate for the road and surrounding community.
+
+            There should not be a one size fits, all approach. A busy, higher speed arterial road may require significantly greater separation and protection than a quiet residential street.
+
+            The objective should be to build a connected network that people of different ages and abilities can use safely, rather than isolated pieces of infrastructure that begin and end without connecting residents to destinations.
+
+            I would look at collision and speed data, road design, pedestrian activity, schools, transit connections and community input when considering individual projects.
+
+            Safety should be the starting point, but implementation should also be practical, evidence-based and responsive to how each street is actually used.
+          health-environment: |
+            Transportation affects much more than how quickly we get from one place to another.
+
+            Safe walking and cycling opportunities can make physical activity part of everyday life. Reliable transit can improve access to employment, education, recreation and services for residents who cannot or choose not to drive.
+
+            Transportation choices also affect congestion, air quality and the amount of land and infrastructure required to move a growing population.
+
+            For me, the goal is balance. Residents should have realistic alternatives to driving when those alternatives make sense, while recognizing that many families, seniors, workers and people with mobility needs will continue to depend on vehicles.
+
+            Good transportation planning should improve safety, accessibility, health and environmental outcomes while still allowing people to choose the transportation option that works for them.
+          land-use: |
+            Transportation and land-use planning must work together.
+
+            As Oakville grows, new communities should be designed so residents can safely reach schools, parks, shops, community facilities and transit without requiring a car for every trip. That means connected streets, sidewalks and trails, safe crossings and development patterns that make everyday destinations reasonably accessible.
+
+            I also believe growth needs to occur alongside the infrastructure required to support it. Approving density without sufficient roads, transit, schools, parks and community facilities simply transfers the consequences of poor planning to existing residents.
+
+            I support thoughtful, transit-supportive growth in appropriate locations, but not a one-size-fits-all approach to intensification.
+
+            Growth should make neighbourhoods more connected and livable, not create additional congestion and infrastructure pressures without a clear plan to address them.
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
-    candidates: []
+    candidates:
+      - name: "Zulfi Malik"
+        status: on-time
+        received: "October 2, 2026"
+        responses:
+          transport-mode: |
+            I primarily drive, like many residents in Ward 7. But I also recognize that not everyone drives or has access to a car. Whether someone is driving, walking, cycling or taking transit, they should be able to get around Oakville safely and conveniently.
+          transit: |
+            As Oakville grows, transit needs to keep up. For me, the biggest priorities are reliability, frequency and better connections between our neighbourhoods, GO stations, schools, shopping areas and other major destinations.
+
+            I would also like to see a better experience at the bus stop itself; more shelters, seating, lighting, real-time information and accessible stops. If we want more people to use transit, we have to make it a practical and convenient option.
+          vision-zero: |
+            Road safety is something residents regularly bring up, especially speeding and pedestrian safety. I support a practical approach: identify where collisions and near-misses are happening and address those areas with the right solution. That could mean traffic calming, safer crossings, better lighting and signage, changes to road design, education or targeted enforcement. I don't think the answer is simply handing out more tickets. The bigger goal should be preventing dangerous situations before they happen, especially around schools, parks and residential neighbourhoods.
+          safety-investment: |
+            Yes. If an investment can demonstrate that it will meaningfully improve safety, I am prepared to support it.
+
+            At the same time, I believe residents expect Council to spend their tax dollars responsibly. I would look at the actual safety need, expected use, cost and benefit of a project before voting for it.
+
+            Our roads need to work for drivers, but they also need to be safe for pedestrians, cyclists, transit users, seniors, children and people with disabilities. We should be able to accomplish both.
+          walking-cycling: |
+            The biggest thing is making sure people actually feel safe. That means addressing missing sidewalk and cycling connections, improving crossings and lighting, maintaining our trails and making sure new developments connect properly with the rest of the community.
+
+            We also have places where major roads and highways create barriers for pedestrians and cyclists. The Town needs to work with Halton Region and the Province where necessary to find safer ways to connect those areas.
+
+            Accessibility also has to be part of the conversation. Our sidewalks, trails and crossings should work for seniors, families with strollers and residents with mobility challenges.
+          bike-infrastructure: |
+            Yes, where they make sense and can genuinely improve safety. I don't believe every street requires the same solution. A busy, higher-speed road may benefit from protected bike lanes, while a residential street may be better served by traffic calming or lower speeds.
+
+            I would look at each area individually and consider safety, traffic flow, connectivity, emergency access and the needs of the surrounding community.
+
+            The goal should be simple: people who choose to cycle should be able to do so safely, without unnecessarily creating problems elsewhere in the transportation network.
+          health-environment: |
+            Transportation affects both our health and our environment. If people have safe opportunities to walk or cycle, it makes physical activity a more natural part of everyday life. Better public transit can also give residents an alternative to driving for every trip and help reduce congestion and emissions.
+
+            But those alternatives have to actually work. We can't simply tell people to drive less when the bus doesn't come frequently enough or there isn't a safe walking or cycling connection. I want to give residents better choices rather than dictate how they should travel.
+          land-use: |
+            I think we need to plan communities where people don't necessarily have to get into their car for every single trip.
+
+            That means connecting housing with transit, parks, schools, shops and everyday services and making sure new development includes the infrastructure needed to support it. At the same time, growth needs to be thoughtful. I don't support density simply for the sake of density. New development should make sense for the area, have the infrastructure to support it and respect existing neighbourhoods.
+
+            For me, the goal is creating complete communities where residents have more choices in how they get around while protecting the quality of life that people value in Oakville.

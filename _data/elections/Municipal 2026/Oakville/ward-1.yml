@@ -45,4 +45,90 @@ races:
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
-    candidates: []
+    candidates:
+      - name: "Alexandra Caldwell"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            My family uses all modes of transportation. We’re fortunate to live in Bronte Village, where shops, restaurants, doctors, veterinarians and many other amenities are within walking distance. We walk every day, both for everyday errands and for leisure along the waterfront. We also regularly walk all the way to downtown Oakville and occasionally cycle there.
+
+            My daughter and I love cycling, and my husband uses local buses and GO Transit to get to work every day. Through these everyday experiences, we’re very familiar with the transportation options available to us, what works well and where improvements are needed.
+          transit: |
+            I want transit to become a convenient choice for more residents. That means frequent, reliable service, good connections to GO trains and neighbouring communities, and routes that serve everyday destinations such as shops, workplaces and community centres.
+
+            I would support reviewing our hub-and-spoke approach to bus service and exploring whether a more connected grid, or a combination of the two approaches, could improve availability, convenience and travel times. Connections to GO stations remain important, but residents also need practical ways to travel across town. Any review should consider riders’ experiences, demand, transfer times and costs.
+
+            For Ward 1, I would advocate for better connections between our neighbourhoods, Bronte GO and local amenities, with attention to evening and weekend needs.
+
+            Accessibility must cover the entire journey: getting to the stop, waiting comfortably, boarding and reaching the destination. I would prioritise accessible sidewalks and curb cuts, seating and shelters, clear service information, and reliable specialised transit. Listening directly to riders and people with disabilities would help identify where improvements are most needed.
+          vision-zero: |
+            Oakville has taken concrete steps through its Neighbourhood Traffic Safety Program. The Town’s 2025 update reported traffic calming on nine streets and measures in front of eight schools. These are useful steps, but progress toward Vision Zero must ultimately be measured by reductions in deaths and serious injuries. I would want to review collision trends before claiming that we are close to achieving that goal. (oakville.ca <https://www.oakville.ca/town-hall/news-notices/2025-news-releases-archive/council-receives-2025-neighbourhood-traffic-safety-program-update/?utm_source=chatgpt.com>)
+
+            My customer service and safety background in aviation has taught me the importance of identifying risks before someone gets hurt. I would support safer crossings, traffic calming, better visibility at intersections and street designs that encourage appropriate speeds, particularly near schools, parks and seniors’ residences.
+
+            I would also advocate for clear public reporting on collision trends and the results of safety improvements, working with Town staff, Halton Region and police on their respective responsibilities.
+          safety-investment: |
+            Yes, I would support spending that improves safety for people travelling throughout Oakville, whether they walk, cycle, take transit or drive.
+
+            I would assess projects based on safety, accessibility, connectivity and long-term value. Fiscal responsibility includes preventing injuries and incorporating improvements into planned roadwork where possible. I would prioritise dangerous locations and gaps in the network, with clear budgets and measurable outcomes.
+          walking-cycling: |
+            I would focus on making routes continuous, comfortable and useful. A sidewalk that ends abruptly or a cycling route that leads into an unsafe intersection can undermine an otherwise good network.
+
+            In Ward 1, I would champion better north–south connections and links between neighbourhoods, the waterfront, parks and everyday destinations. Priorities would include accessible curb cuts, safer crossings, well-maintained surfaces, benches, shade and appropriate lighting. Construction plans must also maintain safe, accessible pedestrian routes.
+
+            For barriers such as the QEW, I would press for coordinated work with the Province and Halton Region on safer crossings and protected connections. These improvements need to be included early in bridge and interchange planning, with clear responsibility for funding and delivery.
+          bike-infrastructure: |
+            Yes. I support a connected cycling network, including protected bike lanes and safer intersections where appropriate, alongside lower-speed neighbourhood routes.
+
+            The goal should be routes that people of different ages and abilities feel comfortable using. As someone who cycles with my daughter, I understand how much a safe, continuous route matters. I would prioritise closing gaps and connecting homes with schools, transit, shops and community facilities.
+
+            Designs should also account for pedestrians, accessible bus stops, deliveries, emergency access and ongoing maintenance.
+          health-environment: |
+            Transportation shapes how active we can be, how safely we move around and how easily we stay connected to our community. I see safe walking and cycling routes as investments in everyday well-being, and accessible transit as essential to independence.
+
+            My aim would be to make more everyday trips possible without a car, helping reduce transportation emissions and making our streets more pleasant. For me, this connects directly to protecting green spaces and creating a healthier community for the next generation.
+          land-use: |
+            I support planning neighbourhoods where more daily needs can be reached close to home. Living in Bronte Village, I experience the benefits of this every day. That includes a thoughtful mix of housing, local shops, services and community spaces, connected by walking routes, cycling infrastructure and reliable transit.
+
+            I would support reviewing policies that unnecessarily separate homes from everyday amenities or create indirect pedestrian routes. Growth should be matched with transportation capacity, infrastructure and public services, with meaningful resident input.
+
+            My support for a library and community hub in West Oakville reflects this approach: bringing more opportunities to learn, gather and access services closer to where people live. Complete communities require both homes and the amenities that make daily life work.
+      - name: "David Imrie"
+        status: on-time
+        received: "September 21, 2026"
+        responses:
+          transport-mode: |
+            Car, bike and Go…For the past 15 years 2-3 bike trips around the world, seeing how other countries handle cycling. We in Canada seem reluctant to adopt/consider successful practices in other parts of The World.
+          transit: |
+            Nick, a complex challenge…need to think out of the box, plan from the user experience to destination, spread transit money wisely….currently taxes subsidize  82% of the fare box, must integrate peak transit needs with other times with more innovative solutions I have seen in other parts of the world
+          vision-zero: |
+            Nick, as a doctor I have sen ab]nd treated the unnecessary injuries….but, I believe an important under-utilized action is public education…..stop, look , listed, before you cross….wearing of black close at night without lights by scooters and bibles (How do parents permit this type of exposure for their young?)
+          safety-investment: |
+            Yes, but spend 1- Wisely ... .eg Speers Road has a cycle lane that is dangerous for cyclists…too many entrances with competing cares…rare to see a cyclist…millions spent on a wasted build out needs on Lakeshore and Rebecca. Instead….no racks for bicycle safe storage at Go, must think of the continuous user experience, not a fragmented expensive, wasteful expenditure
+          bike-infrastructure: |
+            Tes, but spend wisely where needed, practical and enhances user experience…..the “customer experience” first and build to accommodate that reality
+          health-environment: |
+            I am a doctor….we all need more exercise, not more pills….more walking, cycling, running …..with reinforcing infrastructure
+          land-use: |
+            I am including a pamphlet outlining my two major concerns….Wise Spending and where unplanned growth is taking Oakville….Voters need to address the life changes that unbridled growth brings, discuss, understand, debate…The Feds have been bringing so many  Newcomers that Canada cannot accommodate but the consequences are Local….homelessness, crime, inadequate infrastructure, healthcare strain.
+      - name: "Pierce Lang"
+        status: on-time
+        received: "September 22, 2026"
+        responses:
+          transport-mode: |
+            I drive now. I used to cycle regularly, but two years ago I was struck by a car while riding in the bike lane near Joseph Brant Hospital. That experience has obviously influenced how I view cycling and road safety.
+          transit: |
+            It depends on how far into the future we're looking. I can see a point where light rail transit connects Milton, Oakville and Burlington, but I think we're still some distance away from that becoming reality. In the meantime, I'd like to see practical improvements that make public transit more comfortable and accessible. For example, bus shelters designed to provide heating in the winter and cooling in the summer could make a meaningful difference, particularly for seniors, families and people who rely on transit every day. Making the overall transit experience more comfortable is an important part of encouraging people to use it.
+          vision-zero: |
+            I believe the Town of Oakville has done a reasonable job of implementing measures to manage traffic and provide access for active transportation. Having cycled throughout Oakville for many years, I will always consider transportation decisions through the lens of a cyclist. My own experience has given me a very personal understanding of the risks cyclists face and the importance of designing infrastructure with those risks in mind.
+          safety-investment: |
+            Safety is one of my top priorities. At the same time, I believe transportation decisions need to balance safety with practical considerations and the needs of everyone using our roads, including pedestrians, cyclists, transit users and drivers. We also have a responsibility to make decisions that are financially responsible and make sense for the taxpayer.
+          walking-cycling: |
+            Having cycled through Oakville for many years, I believe there is already decent access for cyclists to cross the QEW.I've safely travelled up and down Bronte Road on my bike many times. The corridor beneath the highway connecting North Service Road and Lyons Lane is also a valuable connection for pedestrian and cycling traffic. That doesn't mean there isn't room for improvement, but I think we should also recognize and make better use of the infrastructure that already exists.
+          bike-infrastructure: |
+            I view this issue through the lens of someone who has personally experienced a cycling accident that resulted in life-altering injuries. Safety has to be a fundamental consideration.At the same time, we need effective traffic patterns that work for everyone. That means looking at whether every road is the right place for dedicated cycling infrastructure or whether some routes may be better suited to bicycle traffic than others. Bridge Road, for example, may provide an opportunity to accommodate bicycle traffic in a way that could be preferable to directing cyclists along Lakeshore Road or Rebecca Street.
+          health-environment: |
+            I believe active transportation is an absolute necessity for a growing community. However, decisions about how we implement it need to be informed by people who understand the challenges firsthand.That means listening to cyclists, pedestrians, transit users and residents who experience these transportation networks every day, while also considering the broader needs of the community.
+          land-use: |
+            I wish I had a simple answer to this one. In many parts of Oakville, particularly established neighbourhoods, the available land is already spoken for.That's why I think the implementation of active transportation needs to be done with intention. We need to identify opportunities when roads, parks and other public infrastructure are being redesigned rather than trying to retrofit every existing neighbourhood after the fact. In terms of Oakville's development, and certainly in Ward 1, we may be somewhat past the point where we can easily incorporate active transportation into a blank slate. That makes it even more important to be strategic about the opportunities we do have.

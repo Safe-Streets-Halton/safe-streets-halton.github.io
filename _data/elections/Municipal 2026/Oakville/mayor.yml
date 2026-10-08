@@ -42,81 +42,257 @@ races:
     title: "Mayor"
     note: "Chairs Oakville Town Council and sits on Halton Regional Council."
     candidates:
-      - name: "[Candidate Name A]"
-        website: https://example.com
+      - name: "Arvind Choudhary"
         status: on-time
-        received: "[MONTH DAY, 2026]"
-        scores:
-          ambition: 3
-          money: 2
-          network: 4
-          health: 3
+        received: "September 25, 2026"
         responses:
           transport-mode: |
-            [Candidate’s response, exactly as submitted.]
+            Most days, my car. I want to be straight with you about that rather than dress it up.
+
+            I also walk a great deal. This campaign has me on foot in neighbourhoods almost every evening, which is the best transportation study anyone could ask for. You learn very quickly which sidewalks simply stop, which corners you cannot see around, and which crossings people avoid. I use the trails, I take the GO train into Toronto, and I have spent time on Oakville Transit during this campaign because I did not want to talk about the bus network without sitting on it.
+
+            So my default is the car, like it is for most people here. I do not think that is a moral failing of residents. It is the result of how we built this town, and it is exactly the thing I would like to work on.
           transit: |
-            [Candidate’s response, exactly as submitted.]
+            My commitment is a single measurable promise: from any corner of Oakville, a resident should be able to reach Bronte GO or Oakville GO within 15 minutes. That is commitment 24 in my platform, and I chose it because it is easy to measure and hard to fake. When transit is genuinely faster than circling for parking, people choose it without being lectured.
+
+            Two other commitments sit beside it. Commitment 26 connects every place of worship in town to the bus network, because for many seniors and newcomers that weekly trip is the most important journey of the week and today many of them cannot make it without asking someone for a ride. Commitment 27 works with Metrolinx and private operators on direct links to the campuses our students actually attend.
+
+            On the rider experience, frequency and reliability come first. A bus every thirty minutes is something you plan your whole day around. A bus every ten minutes is something you simply take. Everything else follows from that.
+
+            Then there is the part of the trip that is not the bus. Shelters and seating. Lighting you can read a phone by. Snow cleared at the stop and at the curb ramp, not just on the road beside it. A safe crossing to reach the stop in the first place. Real time information that is actually right. Fares that work sensibly across GO and our neighbouring systems. Level and accessible boarding, and specialized transit that can be booked without a fight for people who need door to door service.
+
+            I will also publish service standards and report publicly on whether we hit them. That is commitment 6 in my platform and it applies to transit as much as to permits and potholes. Residents should know not only that a bus will come, but when, and how often we fail at it.
           vision-zero: |
-            [Candidate’s response, exactly as submitted.]
+            Honestly? Some progress, and not enough.
+
+            Oakville has done the paperwork side reasonably well. There are plans, school zone programs, some lower speeds and some improved crossings. But the only number that matters is the number of people killed and seriously hurt, and it has not fallen the way it should in a town that says it is pursuing Vision Zero. We have treated safety as a program that competes for funding. Vision Zero asks us to treat it as a design standard that everything else has to meet.
+
+            If elected, this is what I would push for.
+
+            Design rather than signs. People drive the speed a road invites them to drive. Narrower lanes, raised crossings, tighter turning corners and shorter crossing distances do more than any posted number on its own.
+
+            Lower speeds where people live and where children walk, backed by design so the limit is credible instead of optional.
+
+            Clear corners at intersections, so a driver can see a child before the child steps off the curb. Hoboken, New Jersey did this across the entire city with paint, planters and bollards, and went several years without a single traffic death. It is cheap, it is fast, and it works.
+
+            The worst locations first, chosen from our own collision data, with that data published every year so residents can see what we fixed and what we did not.
+
+            Crossings where people actually cross, including between signals when the distance between them is unreasonable. Expecting someone to walk four hundred metres out of their way is a policy that fails every time.
+
+            A safety review on every road project before it is built, not after somebody is hurt on it.
+
+            Oslo and Helsinki are worth studying because both reached a full year with no pedestrian or cyclist deaths at all, using lower speeds, street redesign and removing conflict rather than adding warnings.
+
+            One more thing, said plainly. Many of the roads where the worst collisions happen in Oakville are regional roads, not town roads. I will not use that as an excuse. I will use the seat this town holds at Halton Region, and I will be noisy about it.
           safety-investment: |
-            [Candidate’s response, exactly as submitted.]
+            Yes. I am prepared to vote for spending that makes travel in this town safer, and I will.
+
+            My principle is that safety is not an extra line that gets cut when the budget tightens. It belongs inside the project. When a street is being resurfaced or reconstructed, that is the cheapest moment in twenty years to fix the crossing, the corner and the lane width, and skipping it is not a saving. It is a bill we hand to someone else later, usually in an ambulance.
+
+            I will also be honest about my lens, because you should know it before you vote. I come from thirty years of reading balance sheets, and I have committed to a full audit of town spending. I will ask what a project buys and whether the evidence says it works. Safety spending passes that test easily. Most of it is low cost and high return. What I will not do is treat a protected crossing as a luxury while treating a turning lane as a necessity. That habit is how we got here.
           walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
+            Start with the unglamorous things, because they are what stop people. Sidewalks that end halfway down a block. Curb ramps that point into a puddle. Snow cleared onto the footpath. Crossings with no shade, no bench and no place to rest. Lighting that gives out exactly where the trail gets quiet. Fix those and you change who feels able to leave the house on foot, particularly seniors, children and anyone using a mobility device.
+
+            Then the network. Our trails are one of the genuinely great things about this town. The problem is the gaps, because a trail with a gap is not a network, it is a nice walk that ends. I would put real money into closing those gaps and connecting trails to the places people are actually going, which means schools, plazas, GO stations and community centres, not just the scenic route.
+
+            On the big barriers, you have named the real ones. The QEW, the 403 and the 407 cut this town into pieces, and so do the rail corridor and some of our widest arterials. Almost every safe way across them is a bridge or an underpass designed for cars with a strip left over for everyone else.
+
+            The practical answer is timing. Those structures get rebuilt or widened on a schedule, and the moment a bridge or interchange is being redesigned is the one moment a proper walking and cycling crossing costs a fraction of what it would cost alone. Oakville needs to be at the table years early with a design in hand, working with the Province, the Ministry of Transportation and Metrolinx, instead of sending a letter once the tender has closed. That is a Mayor job, and I will do it.
           bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
+            Yes.
+
+            Protected lanes, slower streets and safer intersections make cyclists safer, and the evidence is clear that they make pedestrians and drivers safer too, because they calm the whole street rather than only one lane of it.
+
+            Two things about how I would do it. First, build connected routes rather than scattered pieces. A protected lane that ends at the hardest intersection sends people into traffic at the worst possible moment, and it also hands critics an easy example of infrastructure that nobody uses. Second, talk to the street early and in the open. I have committed to no policy being made behind closed doors, and this file is a good example of why that matters. Nothing turns a neighbourhood against a bike lane faster than the feeling that it appeared overnight without anyone asking.
+
+            Support with a good design and an honest conversation, not support in principle and silence in practice.
           health-environment: |
-            [Candidate’s response, exactly as submitted.]
+            They are the same conversation, and we usually have them separately.
+
+            On health, the most powerful thing a town can build is a place where ordinary daily movement is on foot. Walking to school, to the plaza, to the bus. That is exercise nobody has to schedule. The reverse is also true. Where driving is the only option, we get less activity, worse air along our busiest roads, constant noise, and a quiet kind of isolation for teenagers who cannot drive yet and seniors who have stopped. Then there is the plainest health effect of all, which is that people are killed and seriously injured on our roads, and every one of those is a family changed permanently.
+
+            On the environment, transportation is one of the largest local sources of emissions we actually influence. The cleanest trip is the one short enough to walk, and the second cleanest is the one somebody takes on a bus that was already running. Locally it shows up in our creeks too, through road salt, runoff from wide areas of pavement and the stormwater pressure our older neighbourhoods are already feeling. That is why stormwater and creek flooding is commitment 44 in my platform, and why protecting the green fabric of this town, the canopy, the creeks, the trails and the shoreline, is commitment 42.
+
+            Every trip we make easier on foot, on a bike or on a bus is a small win on all of it at once.
           land-use: |
-            [Candidate’s response, exactly as submitted.]
-        open: true
-      - name: "[Candidate Name B]"
-        website: https://example.com
-        status: late
-        received: "[MONTH DAY, 2026]"
-        scores:
-          ambition: 1
-          money: 1
-          network: 2
-          health: 2
-        responses:
-          transport-mode: |
-            [Candidate’s response, exactly as submitted.]
-          transit: |
-            [Candidate’s response, exactly as submitted.]
-          vision-zero: |
-            [Candidate’s response, exactly as submitted.]
-          safety-investment: |
-            [Candidate’s response, exactly as submitted.]
-          walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
-          bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
-          health-environment: |
-            [Candidate’s response, exactly as submitted.]
-          land-use: |
-            [Candidate’s response, exactly as submitted.]
-      - name: "[Candidate Name C]"
-        status: no-response
-        sent: "[DATE]"
-        followed_up: "[DATE]"
-      - name: "[Candidate Name D]"
-        website: https://example.com
+            Yes, there are changes I would make, and I will state my position on growth plainly so you can judge it fairly rather than through a headline.
+
+            I am not against density. I am against density approved without the infrastructure to carry it. Midtown is my example, and I have said so publicly and in detail. Eleven towers and thousands of units beside a station nobody has committed to upgrading is not transit oriented development. It is development that is merely near transit, and residents will pay for the difference for thirty years.
+
+            Here is what I would actually do.
+
+            Fix the missing middle first. I have committed to fully slashing town development charges on two and three bedroom townhomes, which is the housing young families can buy and seniors can downsize into without leaving the community they built. That form of housing is also the form that supports walking and transit, because it puts more people within reach of the same bus stop, the same school and the same shops without dropping a tower onto a street that cannot carry one.
+
+            Put density where the town has genuinely planned for it, near the GO stations and along corridors that can carry it, and decide the transit, the schools, the water and the parks in the same decision rather than years afterward. Commitment 17 of my platform ties growth approvals to school capacity for exactly this reason.
+
+            Build main streets that work rather than places you drive between. Kerr Village has been studied for years without delivery, and it is commitment 29 in my platform. A revitalized Kerr, with streetscape, parking that works and support for independent business, is worth more to walkability than a dozen policy statements.
+
+            Require new neighbourhoods to put daily needs within walking distance. A shop, a school, a park and a transit stop, planned in at the start, not added once every household has already bought a second car out of necessity.
+
+            Take an honest look at parking requirements that force every building to be designed around the car before anything else. That single rule shapes more of how this town feels than almost any other line in the planning documents.
+      - name: "Julia Hanna"
         status: on-time
-        received: "[MONTH DAY, 2026]"
+        received: "September 23, 2026"
         responses:
           transport-mode: |
-            [Candidate’s response, exactly as submitted.]
+            I get around Oakville by car. I recognize that residents have different transportation needs, and our town needs to work for people who drive, take transit, walk or cycle.
           transit: |
-            [Candidate’s response, exactly as submitted.]
+            I want transit to be a dependable, convenient choice for getting to work, school, appointments and community activities. As Oakville grows, transit service needs to arrive alongside new housing, with better connections between neighbourhoods and across Halton.
+
+            A good example of this is the BRT, which was one of the original reasons that Dundas/Hwy 5 was expanded. It’s been 14 years since it has been proposed but nothing has come of it. It's time that we work aggressively and collaboratively to finish things we started.
+
+            Building on Oakville Transit’s 2025–2029 Business Plan, I would prioritize more frequent service on busy routes, stronger evening and weekend coverage, and schedules that make connections to GO trains more reliable. North Oakville and Midtown need transit capacity planned and funded alongside development. I would also work with neighbouring municipalities and Metrolinx to improve transfers and evaluate measures such as traffic-signal priority for buses where they would reduce delays.
+
+            The rider experience begins before someone boards a bus. My priorities would include safe crossings, connected sidewalks, accessible boarding areas, shelters, seating, lighting and timely snow clearing at stops. Riders also need accurate arrival information and clear notices when service changes.
+
+            For care-A-van, I would focus on reliable pickup times, easier booking and better coordination with neighbouring accessible transit services. Residents should be able to plan a trip across municipal boundaries with confidence. Maintaining telephone booking and customer support is essential for people who cannot use an app.
+
+            I would involve riders, particularly residents with disabilities, in identifying barriers and setting priorities. Improvements should have a phased funding plan and clear service targets, with public reporting on reliability, unfulfilled trip requests and rider satisfaction. Residents deserve to know what will improve, when it will happen and how it will be paid for.
           vision-zero: |
-            [Candidate’s response, exactly as submitted.]
+            Oakville has made a start through traffic calming, pedestrian crossovers and community safety zones under its Neighbourhood Traffic Safety Program. These are worthwhile steps. Meaningful progress towards Vision Zero must be demonstrated through sustained reductions in deaths and serious injuries, with clear public reporting specific to Oakville.
+
+            If elected, I would bring forward a funded road-safety action plan with named priority locations, implementation dates and measurable targets. Collision records, vehicle speeds, near misses and residents’ experiences should guide that work. We should address dangerous conditions before someone is seriously hurt.
+
+            My priorities would include:
+
+            Safer speeds: Pair appropriate lower speed limits around schools, parks and residential areas with street designs that encourage drivers to slow down, including raised crossings, speed cushions and narrower crossing distances.
+
+            Safer intersections: Improve sightlines, lighting and pedestrian crossings, give pedestrians a head start at appropriate traffic signals, and allow enough crossing time for people with mobility challenges.
+
+            Connected routes: Close sidewalk gaps and improve protected cycling connections and access to transit stops, particularly where people must cross busy roads.
+
+            Accountability: Publish annual deaths and serious injuries, trends over several years, and results before and after safety improvements. Work with Halton Region on regional roads and Halton Police on dangerous driving.
+
+            There are useful examples elsewhere. Austin’s 2024 evaluation reported a 22% reduction in fatal and serious-injury crashes across 22 intersections that received safety improvements, compared with a 1% increase in its comparison group. That provides a practical example of targeted investment supported by public evaluation. City of Austin evaluation.
           safety-investment: |
-            [Candidate’s response, exactly as submitted.]
+            Yes. I will vote in favour of investments that improve safety for people walking, cycling, using mobility devices, taking transit and driving.
+
+            Safety is a quality of life issue and there is no question that it is a priority.
+
+            I would assess transportation proposals on their ability to prevent serious injuries, improve accessibility and help people reach their destinations safely. Sidewalks, safe crossings, protected cycling connections and accessible transit stops should be treated as core transportation infrastructure.
+
+            I am prepared to support changes to how street space is allocated where the evidence demonstrates a safety benefit. That includes projects that give more space or crossing time to pedestrians and cyclists. Preventing a serious injury deserves greater weight than saving a small amount of driving time.
+
+            I would also join the Ontario e-scooter pilot program so that we as a Town can take control over e-scooter regulations from the province. I would then develop an e-scooter and micromobility education and enforcement policy that is practical to implement.
+
+            Lastly, I would prioritize locations with the greatest risks and build safety improvements into scheduled road repairs and reconstruction wherever possible. Each investment should include a clear budget, ongoing maintenance costs and a way to measure results. Residents should be able to see which improvements are funded, when they will be delivered and whether they are working.
           walking-cycling: |
-            [Candidate’s response, exactly as submitted.]
+            I want residents to be able to complete a trip comfortably and safely, whether they are walking to school, using a mobility device, cycling to work or enjoying a trail. My priority would be closing the gaps between neighbourhoods, trails, shopping areas, schools and transit.
+
+            I would work with residents, including people with disabilities, to identify missing sidewalks, difficult crossings and inaccessible trail entrances. Improvements would include smoother surfaces, accessible curb ramps, pedestrian signals, benches, shade and lighting along key routes. Clear signage, secure bicycle parking and safe detours during construction would also make everyday trips easier.
+
+            Maintenance needs to be part of that commitment. I would establish clear priorities for snow and ice removal, sweeping, drainage and surface repairs on walking and cycling routes. On busy shared trails, I would support separating walking and cycling space where needed to reduce conflicts.
+
+            For connections across provincial highways such as the QEW, I would bring a priority list of crossing improvements to Halton Region and Ontario’s Ministry of Transportation and seek agreements on design, funding and delivery. That means protected space on bridges and underpasses, safer crossings at highway ramps and accessible connections at both ends. I would press for these features to be included whenever interchanges or bridges are rebuilt or under repair.
           bike-infrastructure: |
-            [Candidate’s response, exactly as submitted.]
+            Yes. I support expanding this infrastructure and would vote to fund a connected network that people of different ages and abilities can use confidently.
+
+            Oakville already has protected cycling infrastructure on Speers Road between Third Line and Fourth Line, which provides a local foundation to build upon.
+
+            I would prioritize physical separation on busy roads, traffic calming on quieter neighbourhood streets, and intersection designs that reduce conflicts with turning vehicles. Projects should connect useful destinations and close gaps in existing routes. I would support a phased, funded program, coordinate construction with scheduled road work where practical, and include maintenance from the outset. Each project should have clear safety objectives and public reporting on its results.
           health-environment: |
-            [Candidate’s response, exactly as submitted.]
+            Transportation affects the air we breathe, our opportunities to be physically active and our ability to participate in community life. Making walking and cycling safer allows more people to incorporate exercise into everyday trips. Replacing some car journeys can also reduce local air pollution and traffic noise, while lowering the greenhouse gas emissions that contribute to global climate change.
+
+            Access matters as well. Residents should be able to reach healthcare, groceries, work and social activities regardless of whether they drive. Reliable, accessible transportation supports independence and helps people stay connected to their community.
+
+            For Oakville, I would consider health, safety, accessibility and environmental impacts when making transportation investments. That means improving transit and active transportation, protecting trees and green space, and making practical alternatives to driving available for more everyday trips.
           land-use: |
-            [Candidate’s response, exactly as submitted.]
+            Yes. I would support planning and zoning changes that bring homes, jobs and everyday services closer together. That includes allowing more neighbourhood shops, childcare and services in suitable locations, and encouraging developments that combine housing with businesses and community amenities.
+
+            I would support a wider range of housing along frequent transit routes, with growth matched to infrastructure capacity. I would also strengthen development standards to require direct walking and cycling connections between neighbourhoods, schools, parks and transit. Building entrances should be accessible from sidewalks, with safe pedestrian routes through commercial properties.
+
+            These changes would be developed with residents, with attention to heritage, neighbourhood character and the protection of natural spaces.
+      - name: "Rob Burton"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            Like most residents, I get around Oakville by driving, walking our local trails, cycling, and taking Oakville Transit or the GO train.
+
+            I enjoy hearing first-hand experiences from everyone in our community shapes because they inform my decisions. Our system only succeeds when we have many options that are safe, practical, and efficient for the people using it.
+          transit: |
+            Transit is central to how our community moves. We are electrifying our fleet, with more than half our buses electric by the end of 2026, and I will keep pressing Queen's Park and Ottawa for the funding to finish the job. We are also making transit easier to use. Late-night on-demand service from the Oakville GO helps shift workers get home safely after the last bus. Children 12 and under ride free, and seniors and youth ride free every day with PRESTO.
+
+            After vigorous budget committee debate and a close vote, the results of free transit are clear. With more than 5 million boardings, it has expanded opportunities for youth to reach jobs and co-ops, and given seniors reliable travel to appointments and a simple way to stay active in the community.
+
+            My office has looked into this carefully, and as far as we can tell, Oakville is the only municipality in Canada with a permanent, all-day, every-service-day transit program that is free for both seniors and youth. Some communities offer free fares to one age group, or only on certain days or times. But work schedules and appointments don't always line up with the timetable.
+
+            When riders raise a concern with me, my office passes it to Oakville Transit and tracks it, so real rider experience is part of every route review. I am also open to testing more frequent service on select routes, including around GO connections, and reviewing the data to see if it grows ridership. I welcome suggestions from Safe Streets Halton on how we can keep improving.
+          vision-zero: |
+            Council approved our Neighbourhood Traffic Safety Program in 2021, and in 2022 we completed a Vision Zero study to guide it. The program works through traffic calming, pedestrian crossovers, Community Safety Zones, signal upgrades and public education.
+
+            We have made real progress. We have installed dozens of pedestrian crossovers toward a plan of more than 170, and we have been adding Community Safety Zones and calming measures across town. Council also supported automated speed enforcement, a proven tool that the Province ended last November. Our 2025 Transportation Master Plan sets a target to reduce the collision rate on Town roads by 20 per cent by 2051.
+
+            If re-elected, I will keep expanding crossovers, Community Safety Zones and traffic calming, and build safety into every road reconstruction.
+          safety-investment: |
+            Yes. Livable Oakville, our Official Plan, says town roads should be planned as multimodal corridors designed to safely accommodate vehicles, transit, cycling and pedestrians. I have consistently supported the Neighbourhood Traffic Safety Program and the investment behind it, and I will keep doing so. I will vote for the crossovers, calming, signal upgrades and complete-street designs that make our roads safer, and I will bring in provincial and federal partners to stretch those dollars further.
+          walking-cycling: |
+            We have built a strong active-transportation network, with more than 260 km of bike lanes and off-road paths. We added protected bike lanes on Speers Road and a new section of the Crosstown Trail. Our 2025 Transportation Master Plan commits us to a more walkable and cyclable Oakville.
+
+            The hardest barriers are the QEW, the 403 and the rail corridors, and they belong to the Province and Metrolinx. The Minister of Transportation has confirmed that the infrastructure support will be there when we need it, and I will hold the Province to that commitment. I will keep pressing both for safe crossings for people on foot and on bikes, starting with restarting the Kerr Street underpass and securing new QEW crossings in Midtown. I welcome groups like Safe Streets Halton, and any residents who want to join us, in making that case together.
+          bike-infrastructure: |
+            Yes. Protected bike lanes, calmer streets and protected intersections make things safer for cyclists, pedestrians and drivers alike, and the evidence backs that up. We have been building: protected lanes on Speers Road, expanded multi-use trails, and a Silver Bicycle Friendly Community designation. Our 2025 Transportation Master Plan targets a 20 per cent increase in active transportation infrastructure along Town roads by 2041. I support continuing that expansion, prioritizing the connections that close gaps and get people safely to schools, transit and jobs, and using protected intersections and calmer street designs as we rebuild roads.
+          health-environment: |
+            They are inseparable. Transportation is a major source of local emissions, so electrifying our buses and making it easy and safe to walk, cycle and take transit, is climate action and public-health action at once. It means cleaner air, less congestion and healthier, more active residents. It also makes Oakville more affordable, because a family that can rely on transit and safe streets may not need a second car.
+
+            At an Empire Club event last year, a graduate student thanked me for our trail network. After moving to Oakville, she lived so close to a trail that she got on a bike for the first time in more than ten years. That is what good infrastructure does, and it is why I want to keep growing our trails.
+          land-use: |
+            Yes, and we have already started. Our 2025 Transportation Master Plan ties land use and transportation together. It sets a goal that 31 per cent of weekday peak trips are made without a car by 2051, and that 10 per cent of trips are made by walking or cycling by 2041. In Midtown, around the Oakville GO, we are planning a compact, mixed-use neighbourhood with a parking strategy built around transit, not more cars. We have also adopted policies that will enable inclusionary zoning in Midtown and Bronte GO, so new homes near transit can include affordable ones.
+
+            When homes, jobs, shops and services are close together and near frequent transit, owning a car becomes less necessary.
+
+            One step I want to take is encouraging new developments to go above the minimum and provide more bicycle parking for residents. The goal is offering good options to choose from at every stage of life, whether you walk, bike, take transit or drive.
+      - name: "Sean O'Meara"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            I mostly use a mix of car and personal vehicle. I am a frequent user of Go transit as well.
+          transit: |
+            Oakville Transit has experienced tremendous ridership growth. The next challenge is making the system frequent and convenient enough that more residents choose it.
+
+            I moved the budget motion to make Oakville Transit free for youth up to 19 and for seniors because affordability and accessibility matter. Now we need to improve frequency, evening service and connections to GO trains so riders aren't waiting 30 or 60 minutes or watching their bus leave just before their train arrives.
+
+            I also want better connections between north and south Oakville and continued investment in accessible vehicles, stops and infrastructure.
+
+            Transit cannot simply be a service for people who have no alternative. Our objective should be to make it a practical, reliable and attractive choice for more Oakville residents.
+          vision-zero: |
+            Oakville has made some progress, but Vision Zero ultimately has to be judged by outcomes. A serious injury or death on our roads has an enormous impact on families and our entire community.
+
+            I support evidence-based changes where the data demonstrate they make streets safer. We have seen that in Bronte. At Lakeshore and Bronte Road, there were 36 collisions during the previous five years of two-way operation. In the first year following the conversion to one-way operation, there were two—a reduction of more than 70%.
+
+            We should use collision data to identify dangerous intersections and corridors and prioritize improvements such as safer crossings, traffic calming, appropriate speed reductions, protected infrastructure and better street design.
+
+            Vision Zero should not just be a slogan. We need to measure results, identify what works and invest accordingly.
+          safety-investment: |
+            Yes. Transportation investments should be evaluated based on how effectively and safely they move people—not simply cars.
+
+            Oakville still needs major road infrastructure, and I have spent years advocating for projects such as the Wyecroft Road extension and bridge and the Burloak Grade Separation both of which will include bike lanes. My next major infrastructure priority is finally getting the Kerr Street Grade Separation delivered.
+
+            But building transportation infrastructure also means investing in transit, sidewalks, trails, safe crossings and cycling connections.
+
+            I reject the idea that these investments need to compete with one another. A growing Oakville needs a balanced transportation network. I will support investments that have demonstrated safety and mobility benefits, while expecting the Town to measure whether those investments are actually producing better outcomes.
+
+            The objective should be simple: move more people safely, efficiently and reliably.
+          walking-cycling: |
+            People will walk and cycle when the routes are safe, comfortable and actually connect them to where they need to go. Building disconnected pieces of infrastructure is not enough.
+
+            I support filling gaps in Oakville's sidewalk, trail and cycling networks and improving crossings, lighting, accessibility and connections between neighbourhoods, schools, parks, commercial areas and transit.
+
+            Major barriers such as the QEW are particularly important. Those crossings require cooperation with the Province, and the Mayor needs to be an active advocate with Queen's Park and provincial agencies to make sure pedestrian and cycling connectivity is incorporated when infrastructure is rebuilt or expanded.
+
+            Accessibility also has to be built into these projects from the beginning. Whether someone is walking, cycling, using a wheelchair or mobility device, our transportation network should allow them to move around Oakville safely and independently.
+          bike-infrastructure: |
+            Yes, where it is supported by good planning, safety data and the needs of the surrounding community.
+
+            I support expanding safe cycling infrastructure and, particularly, creating connected routes rather than isolated bike lanes that suddenly begin and end. Protected infrastructure makes particular sense on higher-volume or higher-speed corridors where cyclists and vehicles would otherwise be forced to share limited space.
+
+            At the same time, transportation planning needs to recognize that every street is different. The solution on a residential street may be traffic calming and lower speeds, while a major corridor may require physical separation.
+
+            My approach is evidence-based rather than ideological. We should look at collision data, road design, pedestrian and cycling volumes and community needs, and then invest in the solution that makes everyone using that street safer.
+          health-environment: |
+            Transportation has a direct impact on our health, environment and quality of life.
+
+            When residents have safe opportunities to walk or cycle, physical activity becomes part of everyday life. Better transit and active transportation can also reduce congestion, emissions and the amount of time people spend sitting in traffic.
+
+            But environmental transportation policy has to provide realistic alternatives. We cannot simply tell residents to stop driving when their bus comes every 30 or 60 minutes or when they do not have a safe walking or cycling connection to the places they need to get to.

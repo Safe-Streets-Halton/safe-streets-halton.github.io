@@ -41,4 +41,186 @@ races:
   - id: race-ward
     title: "Ward Councillor"
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Chris Carter"
+        status: on-time
+        received: "September 23, 2026"
+        responses:
+          transport-mode: |
+            Most often, I drive. As a father of two, business owner, volunteer and someone who spends a lot of time travelling throughout Burlington, a vehicle is currently the most practical option for many of my trips.
+
+            I’m also a runner and regularly experience Burlington on foot. That gives me a different perspective on intersections, sidewalks, trails and how safe our streets feel when you’re outside of a vehicle.
+
+            I believe our transportation system needs to recognize how people actually live. Cars will remain important, but residents should also have safe, practical and reliable options to walk, cycle or take transit when those options make sense.
+          transit: |
+            The goal should be making transit a genuinely practical alternative for more residents: frequent, reliable, accessible and connected to where people actually need to go.
+
+            I would prioritize service frequency and reliability on high-demand routes, better connections to GO stations and major employment and commercial areas, and stronger first/last-mile connections. I’m also interested in the City's exploration of on-demand transit as a complement to fixed routes.
+
+            Accessibility must remain fundamental. Burlington's conventional buses are accessible, but accessibility is also about stop design, sidewalks, information, scheduling and the entire trip from someone's front door to their destination.
+
+            We should measure success through ridership, reliability, travel times and customer experience, then invest where the data demonstrates demand.
+          vision-zero: |
+            Burlington has made progress on road safety, but Vision Zero ultimately sets a very high standard: eliminating traffic deaths and serious injuries. Until that happens, there is more work to do.
+
+            I support a data-driven approach that identifies where collisions, speeding and near misses are occurring and prioritizes those locations. That can include traffic calming, safer crossings, protected intersections, improved lighting, signal changes, enforcement and road redesign.
+
+            I would put particular emphasis on areas around schools, parks, seniors' facilities and residential neighbourhoods.
+
+            The principle is simple: design and enforcement should respond to demonstrated safety problems, and we should measure whether the interventions actually work.
+          safety-investment: |
+            I don't see transportation as cars versus everyone else.
+
+            I would support investments that demonstrably improve safety, accessibility and mobility for Burlington residents, whether they drive, walk, cycle or use transit.
+
+            Burlington's Integrated Mobility Plan already recognizes that our future transportation network needs to accommodate multiple modes rather than continually widening roads. I support that direction while also recognizing that cars remain necessary for many residents, families and businesses.
+
+            Every project should be evaluated on safety, utilization, congestion, accessibility, cost and measurable community benefit. Good transportation planning should give people more practical choices, not simply make one mode more difficult in an attempt to force another.
+          walking-cycling: |
+            Connectivity is one of the biggest issues.
+
+            A sidewalk, trail or bike lane is far less useful when it suddenly ends or when residents encounter a major barrier such as the QEW, railway corridors or unsafe intersections.
+
+            I support closing strategic gaps in our walking and cycling networks, improving crossings, maintaining infrastructure year-round and prioritizing connections to schools, parks, transit, commercial areas and community facilities.
+
+            The QEW is a particularly significant barrier. Burlington's Cycling Plan already identifies grade-separated highway crossings as part of creating a connected network. These are substantial investments, so I would prioritize projects based on safety, connectivity, expected utilization and opportunities to leverage provincial and federal funding.
+          bike-infrastructure: |
+            Yes, where it is well designed, connected and supported by evidence.
+
+            Burlington currently has 48 kilometres of bike lanes along with multi-use paths, cycling routes and other facilities. I support continuing to build a connected network, particularly where protected infrastructure can address known safety issues or connect important destinations.
+
+            Protected intersections and cycle tracks can improve separation between cyclists and vehicles and reduce potential conflicts. Burlington is already implementing these designs in appropriate locations.
+
+            I don't support installing infrastructure simply to meet a kilometre target. We should consider safety data, demand, connectivity, road capacity and cost. When we invest, it should create infrastructure people can actually use safely and confidently.
+          health-environment: |
+            Transportation has a significant impact on both.
+
+            Walking and cycling create opportunities for physical activity as part of everyday life, while good transit and active transportation can reduce the number of vehicle trips and associated emissions. Burlington reports that vehicle emissions account for nearly 40% of local greenhouse-gas emissions.
+
+            But transportation policy also affects quality of life through commute times, congestion, affordability and access to employment, recreation and services.
+
+            I want Burlington to provide realistic choices. If walking, cycling or transit is safe and convenient, more residents will choose those options without government having to make driving intentionally inconvenient.
+          land-use: |
+            Yes. Transportation and land-use planning have to work together.
+
+            When homes are separated by significant distances from employment, shopping, recreation and services, residents naturally become more dependent on vehicles. As Burlington grows, appropriate mixed-use development around major transit corridors and existing commercial areas can put more daily needs within walking, cycling or transit distance.
+
+            I support appropriate density in the right places, including around transit and established growth areas, while protecting the character of stable neighbourhoods.
+
+            The objective shouldn't be eliminating cars. It should be creating communities where owning a car isn't the only practical way to participate in everyday life.
+      - name: "Olivia Duke"
+        status: on-time
+        received: "September 27, 2026"
+        responses:
+          transport-mode: |
+            I use a mix of transportation depending on where I am going. I primarily drive and walk, and I have also used Burlington Transit.
+
+            Like many Burlington residents, some trips I can reasonably make on foot, while others require a vehicle due to distance, destination, or available transit connections.
+
+            That is why I think the goal should be about choice. Residents should be able to walk, cycle, take transit, or drive safely and practically depending on the trip they need to make. Improving one way of getting around should not require us to dismiss the needs of people using another.
+          transit: |
+            Transit needs to become a practical option for more people and more trips, not simply something we encourage residents to use.
+
+            Burlington Transit reached more than 3.7 million trips in 2025, a new record. As Burlington continues to grow, transit service has to keep pace with that growth.
+
+            For me, the priorities are straightforward: reliability, frequency, better connections, and accessibility.
+
+            Residents need to know that if they choose transit, the bus will come when expected and get them where they need to go within a reasonable amount of time. That means looking closely at routes and demand, improving connections to GO stations and neighbouring transit systems, reducing unnecessary wait and transfer times, and making sure we are putting service where people actually need it.
+
+            I am also open to on-demand transit where it makes sense, particularly in areas or at times when a traditional fixed route may not provide good service or good value. But any new model should come with clear metrics. Is it reducing wait times? Are people using it? Is it reliable? What does it cost per trip? Is the rider experience better?
+
+            Accessibility also means more than stating that an accessible service exists. Can someone book the service when they need it? Can they safely get to the stop? Does it arrive reliably? Can they get to their destination without an unreasonable wait?
+
+            Those are the measures that matter.
+
+            If we are going to ask more residents to consider transit, then we have to make transit something they can reasonably rely on.
+          vision-zero: |
+            Burlington has taken some important steps, but I think we need to be careful not to confuse having a goal with achieving results.
+
+            We have seen traffic calming measures, automated speed enforcement, cycling improvements, and other safety initiatives. In April 2026, Council directed staff to develop a formal Vision Zero Road Safety Action Plan, with the plan and implementation recommendations expected back by the end of 2027.
+
+            For me, the next step is making that commitment measurable.
+
+            I would start with the data. Where are serious collisions happening? Where are residents repeatedly reporting near misses, speeding, or dangerous crossings? Why are those problems occurring? Then we should prioritize the places where changes can make the greatest difference.
+
+            Depending on the location, that could include improved crossings, better lighting and sightlines, traffic calming, safer intersections, pedestrian refuge areas, signal changes, lower speeds, or greater separation between vulnerable road users and vehicles.
+
+            I also want residents to have a clearer way to see what happens after they raise a safety concern. If residents repeatedly identify a dangerous intersection or speeding issue, there should be a way to track the concern, understand how it was assessed, and know what action is being taken.
+
+            That connects directly to the kind of accountability I have been talking about throughout this campaign. Listening is important, but residents should also be able to see what happens next.
+
+            There are examples elsewhere worth learning from. Hoboken, New Jersey, for example, has used street design, intersection changes, lower speeds, and other measures as part of its Vision Zero work. Burlington is not Hoboken, so we should not simply copy another city's approach. We should look at what has worked elsewhere, understand why it worked, and apply the lessons that make sense for Burlington.
+          safety-investment: |
+            Yes. I am prepared to support investments that make our transportation network safer and work better for the people using it.
+
+            I do not see this as cars versus bikes versus pedestrians versus transit. Most of us are different types of road users at different times. We may drive to work, walk through our neighbourhood, have children cycling to school, or have a parent who relies on accessible transit.
+
+            My approach to transportation spending would be the same approach I believe Council should take to spending more broadly.
+
+            What problem are we trying to solve? What does the evidence tell us? What will the investment improve? How many people will benefit? Is there a safety issue we need to address? And are we getting reasonable value for taxpayers?
+
+            Where there is a demonstrated safety problem, particularly involving pedestrians, cyclists, children, seniors, or other vulnerable road users, I am prepared to support appropriate investment to address it.
+
+            At the same time, supporting safer streets should not mean that every project automatically gets approved simply because it is labelled a transportation or safety initiative. Residents should be able to expect clear objectives, responsible spending, and reporting on whether an investment actually achieved what it was intended to achieve.
+
+            That is part of raising the standard for how we make decisions at City Hall.
+          walking-cycling: |
+            For me, one of the biggest issues is whether the network actually connects.
+
+            A bike lane that suddenly ends, a sidewalk that leads to an unsafe crossing, or a trail that cannot safely get someone across a major road does not create a usable transportation network.
+
+            Burlington residents have already identified gaps in active transportation connections, particularly around barriers such as the QEW and rail lines. Burlington's Integrated Mobility Plan also identifies new pedestrian and cycling connections across the QEW and rail corridors as part of the long-term network.
+
+            I would focus first on the gaps and problem areas that prevent people from actually completing a trip safely. That includes safer intersections and crossings, sidewalk and trail maintenance, appropriate lighting, and infrastructure that can be used by people of different ages and abilities.
+
+            Provincial highways are more complicated because Burlington cannot solve those crossings on its own. That requires coordination with the Province, Halton Region, and other transportation agencies.
+
+            As a City and Regional Councillor, I would want us advocating for those improvements when highway interchanges, Regional roads, and other major infrastructure are already being reconstructed.
+
+            That is also an infrastructure planning issue. If we know a road or interchange is going to be rebuilt, we should be thinking about pedestrian, cycling, transit, and accessibility needs at the same time, rather than coming back years later and paying to retrofit what we should have considered from the beginning.
+          bike-infrastructure: |
+            Yes, where the location, road design, safety need, and evidence support it.
+
+            I do not believe every street needs the same solution. Burlington itself recognizes in its Integrated Mobility Plan that transportation solutions need to reflect context and that there is no one-size-fits-all approach.
+
+            On some streets, a protected bike lane may make sense. Somewhere else, the better solution might be a multi-use path, a lower-speed neighbourhood street, an improved intersection, or another design.
+
+            What matters to me is whether the infrastructure creates a connected and genuinely usable network.
+
+            I am particularly interested in intersections because that is where pedestrians, cyclists, and vehicles often come into conflict. If we can make those locations safer through better design, that is worth pursuing.
+
+            I also think we should look for opportunities when roads are already being reconstructed. If a road is being dug up and rebuilt anyway, that is the time to ask whether sidewalks, cycling connections, crossings, accessibility, drainage, lighting, and other infrastructure should be improved at the same time.
+
+            That is safer, more coordinated, and often a better use of taxpayers' money than returning later to redo the same corridor.
+          health-environment: |
+            Transportation affects much more than congestion.
+
+            When people can safely walk or cycle for some of their everyday trips, physical activity becomes part of daily life. Safe and accessible transportation also supports independence, particularly for children, seniors, and people who cannot drive.
+
+            Transportation choices also affect local air quality, greenhouse gas emissions, noise, congestion, and how much land we need for roads and parking.
+
+            At the same time, I think we have to be realistic about Burlington as it exists today. Many families rely on a vehicle, and for many trips there is not currently a practical alternative.
+
+            I do not think the answer is to make driving more difficult simply for the sake of discouraging it. The better approach is to make the alternatives better.
+
+            If someone can safely walk to a neighbourhood destination, cycle to school, reliably take transit to a GO station, or complete a trip without needing their car, that is a positive outcome for congestion, health, and the environment.
+
+            The goal should be to give residents more practical choices.
+          land-use: |
+            Growth and transportation cannot be planned in separate conversations.
+
+            If thousands of new residents are coming to an area, we need to ask how they will get to work, school, groceries, parks, community services, and transit, and whether those connections will actually be there when they move in.
+
+            There is value in directing growth toward areas that can support transit and where people can reach more of their daily needs without making every trip by car. Burlington is already planning significant growth around its GO station Major Transit Station Areas.
+
+            But density by itself does not create a complete community.
+
+            If we approve thousands of new homes without sufficient transportation capacity, sidewalks, crossings, parks, services, or other infrastructure, we have not solved the problem. We have simply added more people to an area without preparing properly for them.
+
+            This is why one of the priorities I have emphasized throughout my campaign is planning growth with infrastructure.
+
+            I support creating communities where more everyday needs are located closer together, where people can safely walk or cycle, and where transit has enough demand to provide useful service.
+
+            But the infrastructure has to follow the growth, and wherever possible it should be planned alongside it.
+
+            For every major growth decision, I think Council should be asking a very basic question: How are the people who will live here actually going to move around, and are we ready for them?

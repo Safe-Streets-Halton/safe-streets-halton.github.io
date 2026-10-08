@@ -41,4 +41,72 @@ races:
   - id: race-ward
     title: "Ward Councillor"
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Bianca Bielski"
+        status: on-time
+        received: "October 2, 2026"
+        responses:
+          transport-mode: |
+            My feet and my vehicle.
+          transit: |
+            Transit needs to become a more reliable and convenient choice for getting around Burlington. I would focus first on frequency, reliability, and connectivity. That means expanding frequent service on the routes with the greatest demand, improving connections between Burlington neighbourhoods and our GO stations, and working with Halton Region and neighbouring municipalities to make regional travel easier.  Ultimately, I would measure success by a simple question: Can a resident get where they need to go, when they need to get there, without having to depend on a car? I want Burlington Transit to be an increasingly practical choice for seniors, students, families, workers, and people with disabilities, while making sure future investments deliver measurable value for taxpayers.
+          vision-zero: |
+            Burlington has made some progress through traffic-calming measures, road safety initiatives, and plans for s speed enforcement in school zones.   Once elected, I would make road safety a priority by taking some of the following actions:
+
+            Target dangerous locations first and prioritize improvements where the evidence shows the greatest risk.
+
+            Reduce vehicle speeds. Expand appropriate traffic-calming measures, including raised crosswalks, speed humps, curb extensions and narrower crossings.
+
+            Make school routes safer. Work with school boards, Halton Region and Halton Regional Police Service to improve crossings, visibility, signage and enforcement around schools and community facilities.
+
+            Protect pedestrians and cyclists. Improve sidewalks, lighting, accessible crossings and cycling infrastructure, with particular attention to seniors, children and people with disabilities.
+          safety-investment: |
+            I am prepared to support transportation investments that make Burlington safer for everyone. We need to maintain our roads, but we also need safer intersections, better crossings, traffic calming, accessible sidewalks, protected cycling routes and more reliable transit.
+          walking-cycling: |
+            If we want people to walk and cycle more, we must make it safe and convenient. I want to see connected sidewalks, protected bike lanes, safer intersections, better lighting, wayfinding and year-round maintenance. And we have to tackle our biggest barriers. The QEW, 403, 407 and rail corridors divide Burlington. I would push for safe, accessible crossings and work with the province to get them built.
+          bike-infrastructure: |
+            I support expanding protected cycling infrastructure where it improves safety, makes sense and is recommended by staff.
+          health-environment: |
+            There is also a significant health benefit to making active transportation easier. If people can safely walk or cycle to work, school, shopping or transit, we are supporting physical activity while reducing vehicle trips.  Once elected, I would support transportation investments that improve safety, mobility and environmental outcomes together.  If we make those alternatives safe, convenient and accessible, people might choose them. That is good for our health, good for Burlington and good for the environment.
+          land-use: |
+            Burlington’s Official Plan moves in a good direction, particularly around Major Transit Station Areas, with policies calling for compact, mixed-use, pedestrian-oriented communities and complete streets.  As I have in the past, I would support land-use policies that encourage complete, mixed-use communities, particularly around our GO stations and major transit corridors. Most importantly, I would want land-use and transportation decisions made together. Land use and transportation must be planned together and that means the right development in the right locations, tied to infrastructure and transportation capacity.
+      - name: "Frank Domenic"
+        status: on-time
+        received: "September 25, 2026"
+        responses:
+          transport-mode: |
+            I mostly drive my hybrid plug in minivan
+          transit: |
+            We need more connecting nodes on our transit lines. Too many transit stops strand people without ways to connect to other parts of the city. Increased ridership needs increased mobility and access.
+          vision-zero: |
+            I believe the city has been moving towards Vision Zero, but in that endeavour has not always made the best choices for overall commuter experience, for cyclists, pedestrians, and drivers alike. We should continue towards Vision Zero with a holistic approach in mind, not one defined by dogma.
+          safety-investment: |
+            For car infrastructure, more charging stations at parking facilities is helpful to encourage e-vehicle adoption. For other transportation, we need to look at routes which connect the various areas of town to ensure people can get to where they need to go, without the inconvenience of multiple transfers which could be solved with more accessible routes.
+          walking-cycling: |
+            One of the largest issues I've noticed walking all through Ward 6 is tree coverage. Our bus stops lack shelter and shade, our sidewalks are fully exposed. This makes the walking experience extremely uncomfortable, which people then avoid when they could otherwise do so. The city needs to hasten its replacement of trees, the waitlist is too long, and we need to add trees to undershaded areas.
+          bike-infrastructure: |
+            Bollards and protective measures for cyclists is important not just for cyclists but for pedestrians and drivers. We need to fix our comms on that. It's not just about supporting it as individuals, but the city needs to show and explain the value behind these improvements.
+          health-environment: |
+            We know the impact of fossil fuels on the environment. We also know the impact on children. Adoption of greener transportation cleans our air and creates a better future citizen. IQ rates rose when we removed lead from gas. The switch to EVs will similarly create a future where less children experience asthma and pollution related distress.
+          land-use: |
+            The entrenched suburban planning of southwestern Ontario has made changes to this a challenge. Where it's possible we need to change how land is utilized to encourage walking. More access to walkable swimming pools, skating rinks, and seniors centers, means less people driving to recreation, and more recreation access for families.
+      - name: "Rowen Fraser"
+        status: on-time
+        received: "September 22, 2026"
+        responses:
+          transport-mode: |
+            Currently I use my vehicle or walking to get most places.
+          transit: |
+            With the new ARGO transit pilot project around the corner, and its success in other municipalities, we can expect to see new on-demand transit features increase our ridership by several percent. With this pilot we will need to look at reshaping the regular routes in the city to better service main arteries while leaving residential pickups to our feeder services. The service in 5 years will look very different than it does today.
+          vision-zero: |
+            Burlington loves to run vision zero studies at the expense of taxpayers. I often hear Vision Zero as if it represents some sort of real change. The only thing I have seen Vision Zero accomplish is lining the wallets of the consultants who do the traffic studies. The latest Vision Zero study will cost taxpayers $300k and isn't due until Q4 2027. With that $300k I could be installing traffic safety features that will save lives now. Problems cannot be resolved by study, we need action. Vision Zero's goal is admirable, but I have not seen it take the steps for concrete action necessary to prevent the deaths it is supposed to be combating.
+          safety-investment: |
+            Road safety is one of my primary concerns in my campaign. We have access to new technologies and mobility devices. These devices need proper regulation so that their riders may be held accountable for their actions on our roads. For vehicle traffic we need a centralized command so that the City, Region, and MTO can share their data in real-time. For cycling and micromobility we need seperated and purpose built infrastructure that increases the viability of non-vehicle options, especially in the warmer months. For transit we need to focus on optimizing existing routes to embrace an on-demand feeder service to turbo charge our ridership numbers.
+          walking-cycling: |
+            I will advocate for a major expansion of separated cycling infrastructure to form a north/south artery for cyclists so they can safely cross the 403. I already have a major project proposal from local cycling advocate Joshua Boniface. I will attach it to this email. This is a preliminary plan and the expected costs could change significantly from the estimates.
+          bike-infrastructure: |
+            Because of the negative effect of protected cycling lanes on major traffic arteries I am advocating for separated infrastructure. This would increase cyclist safety and reduce congestion on major arteries here in Burlington. It may cost slightly more, but the end results are safer roads for everyone and no price can be put on that.
+          health-environment: |
+            Transport has a massive effect on our day to day lives. Vehicle transport is a leading contributor of GHGs in the atmosphere, but it is the most popular here in Burlington. If we are going to make the switch to transit and active transport it will be our responsibility to make those options attractive. Right now we do not create the infrastructure to make this the case. I intend to change that over the next 4 years. Obviously active transport has the best benefit to our cardiovascular health, while vehicle transport represents the convenience option.
+          land-use: |
+            In Burlington there are no major land use policies that can be changed that would have the desired effect on our transport. We must use other methods.

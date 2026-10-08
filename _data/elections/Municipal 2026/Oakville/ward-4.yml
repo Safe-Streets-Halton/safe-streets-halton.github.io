@@ -41,7 +41,67 @@ races:
   - id: race-regional
     title: "Regional & Town Councillor"
     note: "Sits on both Oakville Town Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Roger Lapworth"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            Automobile.
+          transit: |
+            More bus shelters, More routes, More smaller unit buses to take Seniors etc. to & from medical appointments.
+          vision-zero: |
+            Stronger speed enforcement on all major town and all regional roads.  More speed reductions monitors around school and senior home zones and all of the Regions BIAs.  Reduce to 30 kph at all school zones. Stronger enforcement of "STOP" signs and "RIGHT TURN ON RED".  Both of these are being substantially abused.
+          safety-investment: |
+            YES!! and throughout the Region of Halton.
+          walking-cycling: |
+            We need more enforcement to keep bicycles OFF the sidewalks.  The same goes for these new electric scooters etc. Cyclists must keep to the single file rule and they and pedestrians must obey all of the rules of the road.  Same for electric scooter users.
+          bike-infrastructure: |
+            YES!! and throughout the Region of Halton.
+          health-environment: |
+            Almost everybody is in a rush to get to their destination. This is not good for their health. Electric vehicles (zero emissions) should see some improvement in the overall air quality. During and after Covid 19 many employees worked from their respective homes.  This eliminated a lot of travel time to and from their places of work.  This seems to be wearing off now, so any health benefits gained then will probably be lost today. More road infrastructure, wider roads, more HOV lanes etc will hopefully reduce traffic congestion.  Looking forward if space financial support is available I would like to see a TRUCKS only lane on certain highways.  The QEW and Hwy 403 would be a great place to start.
+          land-use: |
+            All I can offer here is that in any new large subdivision the roads should be wide enough for bus access so that nobody has to walk more that a  hundred yards to get to public transit.
+      - name: "Suzan Chong"
+        status: on-time
+        received: "September 20, 2026"
+        responses:
+          transport-mode: |
+            I mostly drive my EV, and I rely a lot on the 407 to get across the region.
+          transit: |
+            We need transit that actually makes sense for daily life. For me, that means better, more reliable connections between local Oakville routes and the larger regional networks so people aren't forced to drive. It has to be practical and accessible, especially for families trying to get to local activities.
+          vision-zero: |
+            We still have a long way to go to eliminate serious traffic injuries. I recently started a petition for traffic calming on my own street in Ward 4 and worked directly with the town's Neighbourhood Traffic Safety team. However, infrastructure alone isn't a silver bullet. On Pilgrims Way, even with newly installed traffic calming measures, we are still seeing dangerous habits during school drop-offs—like U-turns right next to crossing guards and vehicles parking in bike lanes, which completely blocks sightlines for families trying to cross. Reaching Vision Zero requires a comprehensive approach: we need the physical infrastructure, but we also desperately need visible Halton Regional Police presence during peak hours for proactive education, better sign support for our crossing guards, and a commitment from neighbours to keep active routes clear.
+          safety-investment: |
+            Yes, I'd absolutely vote to prioritize safety over just moving cars. My push for traffic calming in my own neighbourhood shows where I stand on this. We need to fund streets that are safe and livable for residents, rather than just building roads designed to move vehicles as fast as possible.
+          walking-cycling: |
+            People will only walk or bike if they genuinely feel safe doing it. In Ward 4, we have excellent local trail networks running through Glen Abbey, like the Taplow Creek or McCraney Creek trails, but they frequently hit massive barriers—whether it's the QEW to the south or busy arterials like Upper Middle Road and Third Line. We desperately need dedicated, safe crossings, like pedestrian bridges or underpasses, so our paths don't just dead-end at fast-moving provincial highways. We have to ensure residents can safely connect across the entire ward without feeling stranded.
+          bike-infrastructure: |
+            Yes, I completely support expanding this infrastructure. But it has to be done right. As we see during school drop-offs on Pilgrims Way, just painting a bike lane isn't enough if people are going to park in it and use it as a drop-off zone. We need protected bike lanes, slower residential roads, and safer intersections so that everyone sharing the road is actually protected and our active routes remain completely clear for walking and cycling students.
+          health-environment: |
+            It's all connected. Supporting EV charging infrastructure, getting cars off the road, and making it easier to walk or bike means cleaner local air and a smaller global carbon footprint. It’s simply a healthier way to build a community.
+          land-use: |
+            We need to build complete neighbourhoods where you don't need a car just to run a simple errand. In ward 4 that is issue where Palermo and Bronte Creek residents need to drive to go get a coffee or grocery shopping. For some it is easier for them to go Fortinos in Burlington than try to go across town to the Sobeys in Oakville. If we mix residential areas with local shops and services, walking or biking becomes the easy, natural choice, which directly addresses the historical land-use issues that have forced people to drive everywhere.
+      - name: "Vandana Giri"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            I prefer walking when a place is within walking distance. For longer trips, I use other transportation depending on where I need to go.
+          transit: |
+            I think transit should be easier, safer, and more reliable for everyone. I would like to see better bus connections, more frequent service, safer bus stops, and better accessibility for seniors and people with disabilities.
+          vision-zero: |
+            Oakville has made some progress, but there is still more work to do. I would support safer intersections, slower speeds in busy areas, better crossings, and traffic calming near schools, parks, and neighbourhoods.
+          safety-investment: |
+            I would support transportation spending that makes travel safer for everyone, including drivers, pedestrians, cyclists, and transit users. Investments should not only focus on cars.
+          walking-cycling: |
+            I would support better sidewalks, safer crossings, protected bike lanes, good lighting, and regular maintenance. The Town should also work with the Province to make it safer to cross areas near major highways.
+          bike-infrastructure: |
+            Yes, I support expanding bicycle infrastructure. Protected bike lanes and safer intersections can help make roads safer for cyclists, pedestrians, and drivers, while giving people more choices for getting around.
+          health-environment: |
+            Transportation affects air quality, traffic, and people’s health. Making it easier to walk, cycle, and take transit can reduce pollution and help people live more active lives.
+          land-use: |
+            I would support land-use planning that makes it easier for people to live closer to shops, schools, parks, and transit. This can give residents more choices and reduce the need to drive for every trip.
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."

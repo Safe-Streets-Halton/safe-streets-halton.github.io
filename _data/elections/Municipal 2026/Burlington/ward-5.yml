@@ -41,4 +41,80 @@ races:
   - id: race-ward
     title: "Ward Councillor"
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Brian Machan"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            My primary means of travel is a personal vehicle.
+          transit: |
+            Public transit needs to be a competitive alternative to driving. Ways I believe transit can do this is by increasing flexibility in its routes. Using new equipment for on-demand service in areas not serviced by regular routes and increasing frequency on existing routes could be helpful.
+          vision-zero: |
+            Based on the 2025 data I have reviewed we are not achieving the results we desire. The number of injuries and deaths increased. This is unacceptable. I am reviewing the Vision Zero plan. If elected, traffic flow and safety are one of my priorities.
+          safety-investment: |
+            As the city continues to grow, we need to be concerned about any increase in congestion. I am in favour of investments that keep the city moving safely.
+          walking-cycling: |
+            I am committed to working with city and regional staff and the pubic to determine where barriers exist in our system. For example, residents have expressed a desire for additional and/or improved lighting on park trails.
+          bike-infrastructure: |
+            I am in support of expanding infrastructure projects that assist residents to travel the municipality safely.
+          health-environment: |
+            Studies involving public transportation have indicated positive health benefits. Walking to and from the stop, standing while riding, and less stress while being a passenger are all benefits. On the other side, more fuel burning vehicles and congestion have more negative impacts on health and the environment. In North America there is a greater love for the automobile. We need to make public transportation a more competitive alternative.
+          land-use: |
+            I would have to consider this. Improvements to the current system to make it a more competitive alternative is where I would begin.
+      - name: "Kristy Dickinson"
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            I use a variety of transportation options depending on where I'm going. Most often I drive because that's what best supports my work, family responsibilities, and volunteer commitments. I also enjoy walking and running throughout Ward 5. While I don’t personally use our public transit system, all of my children have/do. Using different modes of transportation gives me an appreciation for the unique challenges and opportunities each presents.
+          transit: |
+            Burlington's transit system plays an increasingly important role in supporting affordability, reducing congestion, and connecting people to work, school, healthcare and recreation. As our city grows, we need to continue improving reliability, frequency, accessibility and connections between neighbourhoods, GO stations and key destinations. I also believe we need to better understand how residents use transit today and where the greatest gaps exist. Good transit planning starts by understanding the needs of the people who rely on it most.
+          vision-zero: |
+            I fully support the goal of eliminating traffic-related deaths and serious injuries. Achieving that goal requires a systems approach. Safe roads are built through thoughtful engineering, appropriate enforcement, education, and ongoing evaluation. We also need to understand why collisions occur so we can invest in solutions that address the root causes, rather than treating every location or issue the same. Every transportation investment should improve safety for everyone who uses our roads.
+          safety-investment: |
+            I will support transportation investments that improve safety, accessibility and connectivity and are supported by evidence. My role isn't to prioritize one mode of transportation over another. It's to ensure our transportation network works safely and efficiently for everyone—whether they're walking, cycling, using transit or driving. Every investment should have a clear purpose, measurable outcomes and demonstrate value for residents.
+          walking-cycling: |
+            Walking and cycling should be safe, comfortable and accessible transportation choices. That means investing in connected infrastructure, maintaining sidewalks and multi-use paths, improving crossings where needed, and addressing barriers that prevent people from safely reaching destinations. As Burlington continues to grow, we need to think about how neighbourhoods connect—not just by car, but for people of all ages and abilities
+          bike-infrastructure: |
+            I support transportation infrastructure that demonstrably improves safety and accessibility. Decisions about bike lanes, protected intersections or traffic calming should be guided by evidence, community input, and how they contribute to an integrated transportation network. My focus will always be on creating safer streets while considering the needs of all road users.
+          health-environment: |
+            Transportation decisions influence far more than how we get from one place to another. They affect public health, air quality, accessibility, affordability and quality of life. When people have safe and convenient transportation options, they're more likely to incorporate physical activity into their daily lives, reduce congestion and contribute to a healthier community and environment.
+          land-use: |
+            Land use and transportation should be planned together. As Burlington grows, we should continue building complete communities where residents can access schools, parks, shops, recreation, healthcare and transit without needing to drive for every trip. That doesn't eliminate the need for cars, but it gives people more choices and helps reduce congestion over time. Good planning is about creating neighbourhoods that are connected, livable and support a variety of transportation options.
+      - name: "Paul Sharman"
+        status: on-time
+        received: "September 27, 2026"
+        responses:
+          transport-mode: |
+            Drive, walk or ride my bike
+          transit: |
+            Effective and efficient transit is essential to Burlington's future. The question is not whether we need transit—we do. The question is how we make it more convenient, accessible and cost-effective so that many more people choose to use it.
+
+            Burlington spends approximately $37 million annually on transit, while fare revenue covers only a small portion of the cost. Ridership has been growing, but large conventional buses are most heavily used on particular routes and at peak periods, while there is substantial unused capacity at other times and locations.
+
+            I believe the next major opportunity is to complement our fixed-route system with smaller, on-demand vehicles. Council has already directed staff to develop a two-year on-demand transit pilot, and I strongly support moving this approach forward.
+
+            Imagine being able to request a small transit vehicle when you need it and be conveniently connected to a GO station, shopping, recreation, medical appointments or another transit route.
+
+            That could make transit much more attractive to older adults who find fixed-route service difficult to use, commuters needing a last-mile connection to GO, and teenagers who currently depend on parents, bicycles or e-scooters to get around.
+
+            My objective is ambitious: attract thousands of additional daily riders by making transit more responsive to where and when people actually want to travel.
+
+            We should retain frequent conventional service on corridors where ridership supports it, while using smaller on-demand vehicles where they can provide better service at lower cost.
+
+            For riders, that means shorter waits, better connections, easier access and a service designed around their journey. For taxpayers, it means getting much better use from the money we already invest in transit.
+          vision-zero: |
+            Staff have a plan and are working on it.
+          safety-investment: |
+            Absolutely; on demand small busses!
+          walking-cycling: |
+            I support the approved Integrated Mobility Plan
+
+            Have to advocate with and reach agreement with the Ontario Ministry of Transportation.
+          bike-infrastructure: |
+            I support the approved Integrated Mobility Plan which includes development of a network of safe, segregated cycle tracks.
+          health-environment: |
+            Highways that dissect Burlington themselves don’t “emit” carcinogens, but motor vehicles, especially combustion-engine vehicles, produce or contribute to several carcinogenic air pollutants.
+          land-use: |
+            Future development should be mixed use, and if possible bring more retail and services within walking distance of existing communities… 15 minute communities are great.
