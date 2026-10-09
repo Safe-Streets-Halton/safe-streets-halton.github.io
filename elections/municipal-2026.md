@@ -74,6 +74,9 @@ custom_css: municipal-election-2026
 <a class="m26-chip" href="{{ '/elections/municipal-2026/' | append: slug | append: '/ward-' | append: w | append: '/' | relative_url }}">Ward {{ w }}</a>
 {%- endfor %}
 </div>
+{%- if slug == "burlington" %}
+<p class="m26-city-note"><img src="{{ '/assets/partners/ico-burlingtongreen-transparent.png' | relative_url }}" alt="" width="176" height="128" loading="lazy"><span>Check out the survey conducted by our friends at <a href="https://www.burlingtongreen.org/candidate-responses-2026/">BurlingtonGreen</a>!</span></p>
+{%- endif %}
 </div>
 </article>
 {%- endfor %}
