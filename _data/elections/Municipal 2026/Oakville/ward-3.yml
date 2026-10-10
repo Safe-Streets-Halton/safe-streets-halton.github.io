@@ -47,6 +47,7 @@ races:
     note: "Sits on Oakville Town Council."
     candidates:
       - name: "Morgan Elliott"
+        website: "https://www.morganelliott.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:

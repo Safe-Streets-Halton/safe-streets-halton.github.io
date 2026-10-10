@@ -47,6 +47,7 @@ races:
     note: "Sits on Oakville Town Council."
     candidates:
       - name: "Sana Waqar"
+        website: "https://www.sanawaqar.ca/"
         status: on-time
         received: "September 26, 2026"
         scores:

@@ -43,6 +43,7 @@ races:
     note: "Sits on both Oakville Town Council and Halton Regional Council."
     candidates:
       - name: "Vick Walia"
+        website: "https://www.votevickwalia.ca/"
         status: on-time
         received: "September 23, 2026"
         scores:
@@ -132,6 +133,7 @@ races:
     note: "Sits on Oakville Town Council."
     candidates:
       - name: "Zulfi Malik"
+        website: "https://www.zulfimalik.com"
         status: on-time
         received: "October 2, 2026"
         scores:

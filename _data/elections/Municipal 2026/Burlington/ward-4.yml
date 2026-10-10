@@ -43,6 +43,7 @@ races:
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
     candidates:
       - name: "Chris Carter"
+        website: "https://chriscarterofficial.com"
         status: on-time
         received: "September 23, 2026"
         scores:
@@ -114,6 +115,7 @@ races:
 
             The objective shouldn't be eliminating cars. It should be creating communities where owning a car isn't the only practical way to participate in everyday life.
       - name: "Olivia Duke"
+        website: "https://www.oliviaduke.ca/"
         status: on-time
         received: "September 27, 2026"
         scores:

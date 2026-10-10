@@ -43,6 +43,7 @@ races:
     note: "Sits on both Oakville Town Council and Halton Regional Council."
     candidates:
       - name: "Roger Lapworth"
+        website: "https://lapworth.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -68,6 +69,7 @@ races:
           land-use: |
             All I can offer here is that in any new large subdivision the roads should be wide enough for bus access so that nobody has to walk more that a  hundred yards to get to public transit.
       - name: "Suzan Chong"
+        website: "http://www.suzanchong.ca"
         status: on-time
         received: "September 20, 2026"
         scores:
@@ -93,6 +95,7 @@ races:
           land-use: |
             We need to build complete neighbourhoods where you don't need a car just to run a simple errand. In ward 4 that is issue where Palermo and Bronte Creek residents need to drive to go get a coffee or grocery shopping. For some it is easier for them to go Fortinos in Burlington than try to go across town to the Sobeys in Oakville. If we mix residential areas with local shops and services, walking or biking becomes the easy, natural choice, which directly addresses the historical land-use issues that have forced people to drive everywhere.
       - name: "Vandana Giri"
+        website: "https://vandanagiri.com/"
         status: on-time
         received: "October 4, 2026"
         scores:

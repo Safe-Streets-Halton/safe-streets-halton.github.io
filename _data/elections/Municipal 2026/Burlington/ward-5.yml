@@ -43,6 +43,7 @@ races:
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
     candidates:
       - name: "Brian Machan"
+        website: "https://machan.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -68,6 +69,7 @@ races:
           land-use: |
             I would have to consider this. Improvements to the current system to make it a more competitive alternative is where I would begin.
       - name: "Kristy Dickinson"
+        website: "https://votekd.ca"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -93,6 +95,7 @@ races:
           land-use: |
             Land use and transportation should be planned together. As Burlington grows, we should continue building complete communities where residents can access schools, parks, shops, recreation, healthcare and transit without needing to drive for every trip. That doesn't eliminate the need for cars, but it gives people more choices and helps reduce congestion over time. Good planning is about creating neighbourhoods that are connected, livable and support a variety of transportation options.
       - name: "Paul Sharman"
+        website: "https://www.paulsharman.ca/"
         status: on-time
         received: "September 27, 2026"
         scores:

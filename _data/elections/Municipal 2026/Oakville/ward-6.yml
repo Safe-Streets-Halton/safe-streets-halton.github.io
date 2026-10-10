@@ -47,6 +47,7 @@ races:
     note: "Sits on Oakville Town Council."
     candidates:
       - name: "Smita Tulsani"
+        website: "https://smitatulsani.ca/"
         status: on-time
         received: "September 24, 2026"
         scores:

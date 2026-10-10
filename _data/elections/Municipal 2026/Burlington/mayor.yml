@@ -43,6 +43,7 @@ races:
     note: "Chairs Burlington City Council and sits on Halton Regional Council."
     candidates:
       - name: "Marianne Meed Ward"
+        website: "https://votemarianne.ca"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -80,6 +81,7 @@ races:
             Yes, and we've already made the most important one. We moved Burlington's Urban Growth Centre from the downtown to the Burlington GO station, the only city in Ontario to do so, so that major growth goes where people can live close to frequent transit.
             The next step is making the areas around our three GO stations complete communities, with homes, shops, services, parks and jobs within walking distance.
       - name: "Rory Nisan"
+        website: "https://rorynisan.ca/"
         status: on-time
         received: "September 24, 2026"
         scores:
@@ -105,6 +107,7 @@ races:
           land-use: |
             Yes. For decades Burlington built neighbourhoods where you needed a car for every errand, and we can't undo that overnight; but we can make better decisions going forward. I would focus growth around our GO stations and along major corridors, where frequent transit can serve it, and require new developments to include safe walking and cycling connections, not just parking. I'd support more shops, services and amenities within walking distance of where people live, so picking up a prescription or getting to school doesn't require a drive. And I'll protect what makes Burlington special: our rural areas, our established neighbourhoods and our waterfront. Being deliberate about where density goes, instead of reacting to whatever developers propose, is how we give residents real transportation choices.
       - name: "Yugalkeesor Ramdhonee"
+        website: "https://yramdhonee.ca/"
         status: on-time
         received: "October 3, 2026"
         scores:

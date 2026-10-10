@@ -43,6 +43,7 @@ races:
     note: "Sits on both Oakville Town Council and Halton Regional Council."
     candidates:
       - name: "Mackenzie Grant"
+        website: "https://www.mackenziegrant.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -124,6 +125,7 @@ races:
 
             Ultimately, I want to see an Oakville where residents have more choice in how they live and get around. Better land-use planning can help reduce unnecessary car trips, improve access to services and create complete, connected communities without losing sight of the needs of existing residents.
       - name: "Michael Reid"
+        website: "http://michael4oakville.com/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -151,6 +153,7 @@ races:
 
             Oakville needs responsible growth, and not growth first and infrastructure later.
       - name: "Orla Johnston"
+        website: "https://orlajohnston.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -244,6 +247,7 @@ races:
     note: "Sits on Oakville Town Council."
     candidates:
       - name: "Jerome Adamo"
+        website: "http://www.jeromelovesourhome.ca"
         status: on-time
         received: "September 21, 2026"
         scores:
@@ -325,6 +329,7 @@ races:
 
             The goal, of course, is not to eliminate cars. It’s to build complete communities, as I’ve said from the beginning, where people have choices, and where living without a car is not considered unusual or impossible.
       - name: "Matt Ray Smith"
+        website: "https://www.mattraysmith.ca"
         status: on-time
         received: "October 4, 2026"
         scores:

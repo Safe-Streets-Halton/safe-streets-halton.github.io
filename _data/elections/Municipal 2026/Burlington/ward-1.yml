@@ -43,6 +43,7 @@ races:
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
     candidates:
       - name: "Cheryl Hurst"
+        website: "https://www.cherylcommunityburlingtonward1.ca/"
         status: on-time
         received: "September 25, 2026"
         scores:
@@ -68,6 +69,7 @@ races:
           land-use: |
             We have introduced new strategies and tools to work toward a shift in land-use patterns. Policy change needs to be reflective of our community and supporting the current need while planning for the future.
       - name: "Kelvin Galbraith"
+        website: "https://www.kelvingalbraith-ward1.com/"
         status: on-time
         received: "September 23, 2026"
         scores:

@@ -47,6 +47,7 @@ races:
     note: "Sits on Oakville Town Council."
     candidates:
       - name: "Alexandra Caldwell"
+        website: "https://alexandracaldwell.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -100,6 +101,7 @@ races:
 
             My support for a library and community hub in West Oakville reflects this approach: bringing more opportunities to learn, gather and access services closer to where people live. Complete communities require both homes and the amenities that make daily life work.
       - name: "David Imrie"
+        website: "http://votedrimrie.ca"
         status: on-time
         received: "September 21, 2026"
         scores:
@@ -123,6 +125,7 @@ races:
           land-use: |
             I am including a pamphlet outlining my two major concerns….Wise Spending and where unplanned growth is taking Oakville….Voters need to address the life changes that unbridled growth brings, discuss, understand, debate…The Feds have been bringing so many  Newcomers that Canada cannot accommodate but the consequences are Local….homelessness, crime, inadequate infrastructure, healthcare strain.
       - name: "Pierce Lang"
+        website: "http://www.piercelang.ca/"
         status: on-time
         received: "September 22, 2026"
         scores:

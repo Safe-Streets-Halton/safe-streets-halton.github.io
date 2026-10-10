@@ -43,6 +43,7 @@ races:
     note: "Chairs Oakville Town Council and sits on Halton Regional Council."
     candidates:
       - name: "Arvind Choudhary"
+        website: "http://www.arvindchoudhary.ca"
         status: on-time
         received: "September 25, 2026"
         scores:
@@ -136,6 +137,7 @@ races:
 
             Take an honest look at parking requirements that force every building to be designed around the car before anything else. That single rule shapes more of how this town feels than almost any other line in the planning documents.
       - name: "Julia Hanna"
+        website: "https://www.juliahanna.ca/"
         status: on-time
         received: "September 23, 2026"
         scores:
@@ -213,6 +215,7 @@ races:
 
             These changes would be developed with residents, with attention to heritage, neighbourhood character and the protection of natural spaces.
       - name: "Rob Burton"
+        website: "https://www.robburton.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -258,6 +261,7 @@ races:
 
             One step I want to take is encouraging new developments to go above the minimum and provide more bicycle parking for residents. The goal is offering good options to choose from at every stage of life, whether you walk, bike, take transit or drive.
       - name: "Sean O'Meara"
+        website: "http://www.omeara.ca"
         status: on-time
         received: "October 4, 2026"
         scores:

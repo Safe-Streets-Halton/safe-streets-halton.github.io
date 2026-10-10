@@ -43,6 +43,7 @@ races:
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
     candidates:
       - name: "Masha Brar"
+        website: "https://mashaforburlington.ca/"
         status: on-time
         received: "October 4, 2026"
         scores:
@@ -68,6 +69,7 @@ races:
           land-use: |
             I have not done a study on this so I cannot comment on what can or cannot be done in Burlington. While Burlington will grow, we have to grow in a way that is sustainable, while maintaining our core essence. I do not think I can comment more on this without doing proper research.
       - name: "Sean Campbell"
+        website: "https://seancampbell.info/"
         status: on-time
         received: "October 4, 2026"
         scores:

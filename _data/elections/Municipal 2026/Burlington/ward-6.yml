@@ -43,6 +43,7 @@ races:
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
     candidates:
       - name: "Bianca Bielski"
+        website: "https://votebielski.ca/"
         status: on-time
         received: "October 2, 2026"
         scores:
@@ -76,6 +77,7 @@ races:
           land-use: |
             Burlington’s Official Plan moves in a good direction, particularly around Major Transit Station Areas, with policies calling for compact, mixed-use, pedestrian-oriented communities and complete streets.  As I have in the past, I would support land-use policies that encourage complete, mixed-use communities, particularly around our GO stations and major transit corridors. Most importantly, I would want land-use and transportation decisions made together. Land use and transportation must be planned together and that means the right development in the right locations, tied to infrastructure and transportation capacity.
       - name: "Frank Domenic"
+        website: "https://frankdomenic.ca/"
         status: on-time
         received: "September 25, 2026"
         scores:
@@ -101,6 +103,7 @@ races:
           land-use: |
             The entrenched suburban planning of southwestern Ontario has made changes to this a challenge. Where it's possible we need to change how land is utilized to encourage walking. More access to walkable swimming pools, skating rinks, and seniors centers, means less people driving to recreation, and more recreation access for families.
       - name: "Rowen Fraser"
+        website: "http://www.rowrowforcouncil.com"
         status: on-time
         received: "September 22, 2026"
         scores:

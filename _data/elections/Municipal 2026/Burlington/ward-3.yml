@@ -43,6 +43,7 @@ races:
     note: "Burlington ward councillors sit on both Burlington City Council and Halton Regional Council."
     candidates:
       - name: "Katy Moore"
+        website: "http://thirstformoore.ca"
         status: on-time
         received: "September 24, 2026"
         scores:
@@ -112,6 +113,7 @@ races:
 
             Zone for walkable hubs: Allow more mixed-use development around transit hubs south of Dundas and around our three GO stations, so people who take transit arrive somewhere with homes, jobs and services within walking distance, not another car-dependent area.
       - name: "Kyle Hutton"
+        website: "https://www.kylehutton.ca/"
         status: on-time
         received: "September 21, 2026"
         scores:
@@ -182,6 +184,7 @@ races:
           land-use: |
             Stop the sprawling development.
       - name: "Tony Brecknock"
+        website: "https://brecknock.com/"
         status: on-time
         received: "September 21, 2026"
         scores:
