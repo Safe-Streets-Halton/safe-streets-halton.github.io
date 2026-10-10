@@ -156,7 +156,8 @@
         display: block;
         text-align: left;
         position: relative;
-        z-index: 1;
+        /* above the announcement banner so the open nav menu isn't hidden behind it */
+        z-index: 2;
     }
 
     .site-nav {
