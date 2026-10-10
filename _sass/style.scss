@@ -21,6 +21,7 @@ body {
         [fullbleed-end];
     grid-template-rows:
         [header] minmax(5rem, auto)
+        [announcement] auto
         [page-banner] auto 2rem
         [main] auto 2rem
         [footer] auto 

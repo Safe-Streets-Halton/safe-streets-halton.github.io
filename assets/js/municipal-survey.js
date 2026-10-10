@@ -12,7 +12,6 @@
 
   function setCollapsed(answer, button, collapsed) {
     answer.classList.toggle("is-collapsed", collapsed);
-    button.setAttribute("aria-expanded", collapsed ? "false" : "true");
     button.firstChild.nodeValue = collapsed ? "Read more" : "Show less";
   }
 

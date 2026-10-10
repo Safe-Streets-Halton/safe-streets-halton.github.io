@@ -37,7 +37,7 @@ custom_css: municipal-election-2026
 <section id="voting" class="m26-section" aria-labelledby="voting-h">
 <h2 id="voting-h" class="m26-h2">Get Ready to <span class="m26-accent">Vote</span></h2>
 <p class="m26-text">Ontario’s municipal elections are this fall. On your ballot you’ll choose your:</p>
-<ul class="m26-offices">
+<ul class="m26-offices" role="list">
 <li>Mayor</li>
 <li>Regional Councillor</li>
 <li>Local Councillor</li>
@@ -68,10 +68,10 @@ custom_css: municipal-election-2026
 <div class="m26-city-body">
 <p class="m26-city-label">{{ city }} candidates:</p>
 <div class="m26-pages">
-<a class="m26-wardmap" href="{{ cfg.ward_map_url }}">Not sure of your ward?</a>
-<a class="m26-chip" href="{{ '/elections/municipal-2026/' | append: slug | append: '/mayor/' | relative_url }}">Mayor</a>
+<a class="m26-wardmap" href="{{ cfg.ward_map_url }}">Not sure of your ward?<span class="visually-hidden"> {{ city }} ward map</span></a>
+<a class="m26-chip" href="{{ '/elections/municipal-2026/' | append: slug | append: '/mayor/' | relative_url }}">Mayor<span class="visually-hidden">, {{ city }}</span></a>
 {%- for w in (1..cfg.wards) %}
-<a class="m26-chip" href="{{ '/elections/municipal-2026/' | append: slug | append: '/ward-' | append: w | append: '/' | relative_url }}">Ward {{ w }}</a>
+<a class="m26-chip" href="{{ '/elections/municipal-2026/' | append: slug | append: '/ward-' | append: w | append: '/' | relative_url }}">Ward {{ w }}<span class="visually-hidden">, {{ city }}</span></a>
 {%- endfor %}
 </div>
 {%- if slug == "burlington" %}
@@ -84,7 +84,7 @@ custom_css: municipal-election-2026
 <div class="m26-score">
 <h3 id="how-well-grade-responses" class="m26-h3">How We Score Responses</h3>
 <p class="m26-text">Every response is reviewed against a detailed rubric so candidates are assessed consistently and fairly. We don’t publish the rubric itself, but each response is scored from 0 to 4 in the four categories below. Across every category we’re looking for the same thing: real awareness of the issue, and a willingness to act on it – not just supportive language.</p>
-<ul class="m26-cats">
+<ul class="m26-cats" role="list">
 {%- for cat in m26.categories %}
 <li class="m26-cat"><svg class="m26-cat-ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ cat.icon }}"/></svg><span class="m26-cat-label">{{ cat.label }}</span></li>
 {%- endfor %}
@@ -97,7 +97,7 @@ custom_css: municipal-election-2026
 <p class="m26-text">These are the questions we asked every candidate. Ask your own candidates at the door, at a debate or by email – the same ones or your own version – and see how they answer.</p>
 <img class="m26-photo" src="{{ '/assets/palladium-way-group-photo.jpg' | relative_url }}" alt="Safe Streets Halton volunteers in safety vests at an outreach table" width="1179" height="944" loading="lazy">
 </div>
-<ol class="m26-qlist">
+<ol class="m26-qlist" role="list">
 {%- for q in m26.questions %}
 <li class="m26-q"><span class="m26-q-num" aria-hidden="true">{{ forloop.index }}</span><span class="m26-q-text">{{ q.text }}</span></li>
 {%- endfor %}

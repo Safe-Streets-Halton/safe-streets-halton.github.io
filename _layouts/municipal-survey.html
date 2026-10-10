@@ -61,10 +61,10 @@ layout: default
 <nav aria-labelledby="sv-pages-label" class="sv-pages">
 <p id="sv-pages-label" class="sv-pages-label">{{ city }} candidates:</p>
 <div class="sv-pages-grid">
-<a class="sv-link sv-wardmap" href="{{ city_cfg.ward_map_url }}">Not sure of your ward?</a>
-<a class="sv-chip"{% unless is_ward %} aria-current="page"{% endunless %} href="{{ base_url | append: 'mayor/' | relative_url }}">Mayor</a>
+<a class="sv-link sv-wardmap" href="{{ city_cfg.ward_map_url }}">Not sure of your ward?<span class="sv-sr"> {{ city }} ward map</span></a>
+<a class="sv-chip"{% unless is_ward %} aria-current="page"{% endunless %} href="{{ base_url | append: 'mayor/' | relative_url }}">Mayor<span class="sv-sr">, {{ city }}</span></a>
 {%- for w in (1..city_cfg.wards) %}
-<a class="sv-chip"{% if is_ward and w == ward_i %} aria-current="page"{% endif %} href="{{ base_url | append: 'ward-' | append: w | append: '/' | relative_url }}">Ward {{ w }}</a>
+<a class="sv-chip"{% if is_ward and w == ward_i %} aria-current="page"{% endif %} href="{{ base_url | append: 'ward-' | append: w | append: '/' | relative_url }}">Ward {{ w }}<span class="sv-sr">, {{ city }}</span></a>
 {%- endfor %}
 </div>
 </nav>
@@ -80,7 +80,7 @@ layout: default
 <section aria-labelledby="sv-legend-h" class="sv-legend">
 <h2 id="sv-legend-h" class="sv-h-legend">How to Read the Scores</h2>
 <p class="sv-text sv-intro">Each response was scored from 0 to 4 in four categories. Filled icons show the score: three filled icons = 3 out of 4, and a half-filled icon is half a point. <a class="sv-link" href="{{ '/elections/municipal-2026#how-well-grade-responses' | relative_url }}">How we grade responses</a></p>
-<ul class="sv-legend-grid">
+<ul class="sv-legend-grid" role="list">
 {%- for cat in categories %}
 <li class="sv-legend-item"><svg class="sv-ico is-on sv-ico-legend" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ cat.icon }}"/></svg><span class="sv-legend-label">{{ cat.label }}</span></li>
 {%- endfor %}
@@ -135,7 +135,7 @@ layout: default
 <span class="sv-who">
 <svg class="sv-chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg>
 <span class="sv-who-text">
-<span class="sv-name">{{ cand.name | escape }}</span>
+<h3 class="sv-name">{{ cand.name | escape }}</h3>
 <span class="sv-dateline"><span>{{ date_line | escape }}</span>{% if late %}<span class="sv-badge">Late</span>{% endif %}</span>
 </span>
 </span>
@@ -183,14 +183,14 @@ layout: default
 {%- endif %}
 </div>
 
-<ol class="sv-qa">
+<ol class="sv-qa" role="list">
 {%- for q in questions %}
 {%- assign resp = cand.responses[q.id] | default: "" | strip -%}
 {%- assign paras = resp | split: "
 
 " %}
 <li id="{{ cid }}-q{{ q.number }}" class="sv-q">
-<h3 class="sv-q-title"><span class="sv-q-num">Q{{ q.number }}.</span> {{ q.text | escape }}</h3>
+<h4 class="sv-q-title"><span class="sv-q-num">Q{{ q.number }}.</span> {{ q.text | escape }}</h4>
 <div id="{{ cid }}-q{{ q.number }}-a" class="sv-answer" data-q="{{ q.number }}">
 {%- if resp == "" %}
 <p class="sv-noanswer">No response to this question.</p>
@@ -239,10 +239,10 @@ layout: default
 {%- endfor %}
 </ol>
 
-<nav aria-label="Jump within these responses" class="sv-bar">
+<nav aria-label="Jump within {{ cand.name | escape }}’s responses" class="sv-bar">
 <div class="sv-bar-qs">
 {%- for q in questions %}
-<a class="sv-qchip" href="#{{ cid }}-q{{ q.number }}" title="Question {{ q.number }}"><span class="sv-sr">Question </span><span aria-hidden="true">Q</span>{{ q.number }}</a>
+<a class="sv-qchip" href="#{{ cid }}-q{{ q.number }}" title="Question {{ q.number }}">Q{{ q.number }}</a>
 {%- endfor %}
 </div>
 <div class="sv-bar-nav">
