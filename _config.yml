@@ -51,6 +51,8 @@ defaults:
     custom_css:
     - municipal-survey
 header_pages:
+- url: "/elections/municipal-2026"
+  title: Election
 - url: "/events"
 - url: "/get-involved"
 - url: "/news"

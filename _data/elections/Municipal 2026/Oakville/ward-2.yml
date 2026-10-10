@@ -41,7 +41,10 @@ races:
   - id: race-regional
     title: "Regional & Town Councillor"
     note: "Sits on both Oakville Town Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Zena Al-Mudaris"
+        status: late-pending
+        received: "October 5, 2026"
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
@@ -86,3 +89,11 @@ races:
             The roads crossing that creek already carry the most traffic relative to their capacity of any in town. The Town's own forecasts show demand across the creek exceeding what the roads can handle by 2051. Meanwhile, the Kerr Street underpass that would ease pressure at the rail crossing sits deferred. Council voted yes on Midtown's growth before the transit and crossings to carry it were funded. I would not have.
 
             The deeper problem is how we've built. Most of Oakville's land is single detached homes, which makes walking or cycling to daily needs harder. Yet two-thirds of trips that stay inside Oakville are 5 km or less, and short car trips are especially common in Kerr Village and Downtown. My answer is not towers. New homes should fit the neighbourhood, with height stepping down toward existing streets. Transit, sidewalks and safe crossings should be funded before people move in, not after. And everyday services should be within walking distance.
+      - name: "Ray Chisholm"
+        website: "https://www.raychisholm.ca/"
+        status: late-pending
+        received: "October 5, 2026"
+      - name: "Ayesha Khawaja"
+        website: "https://ayeshakhawaja.ca/"
+        status: late-pending
+        received: "October 5, 2026"
