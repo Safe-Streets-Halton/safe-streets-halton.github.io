@@ -49,6 +49,11 @@ races:
       - name: "Morgan Elliott"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 4
+          money: 2.5
+          network: 4
+          health: 4
         responses:
           transport-mode: |
             Like most Oakville residents, I get around town mainly by car. For trips close to home I often walk. I occasionally take Oakville Transit when I need to get across town, and whenever I head to downtown Toronto, for business or leisure, I take the GO Train.

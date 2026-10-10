@@ -45,6 +45,11 @@ races:
       - name: "Mackenzie Grant"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 3.5
+          money: 3
+          network: 3.5
+          health: 3
         responses:
           transport-mode: |
             I get around by car, public transportation and walking and recognize the importance of having reliable, accessible transit and safe cycling infrastructure. Oakville is a large and growing community, and not everyone has the same transportation needs. I believe residents should have safe, convenient and affordable options, regardless of how they choose to travel.
@@ -121,6 +126,11 @@ races:
       - name: "Michael Reid"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 0.5
+          money: 2
+          network: 2
+          health: 3
         responses:
           transport-mode: |
             I use a combination of driving and walking. As a Ward 5 resident for over 20 years, I understand the need for practical transportation choices that reflect how residents actually live.
@@ -143,6 +153,11 @@ races:
       - name: "Orla Johnston"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 1.5
+          money: 2.5
+          network: 3
+          health: 1.5
         responses:
           transport-mode: |
             My primary mode of transportation is my car, although I also enjoy walking whenever practical.
@@ -231,6 +246,11 @@ races:
       - name: "Jerome Adamo"
         status: on-time
         received: "September 21, 2026"
+        scores:
+          ambition: 2
+          money: 4
+          network: 3
+          health: 0.5
         responses:
           transport-mode: |
             Well, I use a combination of transportation, including our family car and walking. There are times when a car is necessary for mobility needs and distance, for example. But I don’t think living in Oakville should mean that owning a car is the only practical way to get around.
@@ -307,6 +327,11 @@ races:
       - name: "Matt Ray Smith"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 0.5
+          money: 1
+          network: 1
+          health: 3
         responses:
           transport-mode: |
             Walk, bike, electric car, and I used to drive the bus

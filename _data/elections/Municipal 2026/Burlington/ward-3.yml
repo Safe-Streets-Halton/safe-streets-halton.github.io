@@ -45,6 +45,11 @@ races:
       - name: "Katy Moore"
         status: on-time
         received: "September 24, 2026"
+        scores:
+          ambition: 4
+          money: 4
+          network: 4
+          health: 3.5
         responses:
           transport-mode: |
             I drive. I live in Lowville, where there's no transit service, so a car is how our family gets around, and that's the reality for much of rural Burlington. But it also gives me a clear view of the problem: in too much of the city, driving is the only realistic choice, even for people who would rather walk, bike or take the bus. My goal is to make those options safe and convenient enough that people choose them because they work, not because they have no alternative.
@@ -109,6 +114,11 @@ races:
       - name: "Kyle Hutton"
         status: on-time
         received: "September 21, 2026"
+        scores:
+          ambition: 4
+          money: 3
+          network: 3
+          health: 3.5
         responses:
           transport-mode: |
             Primarily walking for regular shopping (I live next door to my primary grocery store), daily walks, etc., otherwise by personal vehicle.
@@ -145,6 +155,11 @@ races:
       - name: "Lisa Cooper"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 2.5
+          money: 1.5
+          network: 1
+          health: 1.5
         responses:
           transport-mode: |
             I drive a F150
@@ -169,6 +184,11 @@ races:
       - name: "Tony Brecknock"
         status: on-time
         received: "September 21, 2026"
+        scores:
+          ambition: 1.5
+          money: 2
+          network: 1.5
+          health: 0
         responses:
           transport-mode: |
             I use a combination of car, bike, motorcycle and walking

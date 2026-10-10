@@ -244,6 +244,10 @@ html {
 .sv-ico.is-on {
   fill: var(--sv-green);
 }
+/* Half point: left half green, right half empty. Colours are set on the gradient in survey-icon-sprite.html. */
+.sv-ico.is-half {
+  fill: url(#sv-half-fill);
+}
 .sv-ico-legend {
   width: 1.75rem;
   height: 1.75rem;

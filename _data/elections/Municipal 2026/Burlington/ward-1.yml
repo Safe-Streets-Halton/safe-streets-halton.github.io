@@ -45,6 +45,11 @@ races:
       - name: "Cheryl Hurst"
         status: on-time
         received: "September 25, 2026"
+        scores:
+          ambition: 4
+          money: 2.5
+          network: 0.5
+          health: 0.5
         responses:
           transport-mode: |
             I currently work in a different community and am required to have a vehicle for my job a requirement, so I drive (commute).
@@ -65,6 +70,11 @@ races:
       - name: "Kelvin Galbraith"
         status: on-time
         received: "September 23, 2026"
+        scores:
+          ambition: 4
+          money: 2
+          network: 3
+          health: 2.5
         responses:
           transport-mode: |
             I use several things to get around.  I do drive a pick up truck as I tow trailers, boats and plow the snow at my business so it really is a work vehicle for me and my family.  My wife drives a Hybrid van.

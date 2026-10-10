@@ -79,7 +79,7 @@ layout: default
 
 <section aria-labelledby="sv-legend-h" class="sv-legend">
 <h2 id="sv-legend-h" class="sv-h-legend">How to Read the Scores</h2>
-<p class="sv-text sv-intro">Each response was scored from 0 to 4 in four categories. Filled icons show the score: three filled icons = 3 out of 4. <a class="sv-link" href="{{ '/elections/municipal-2026#how-well-grade-responses' | relative_url }}">How we grade responses</a></p>
+<p class="sv-text sv-intro">Each response was scored from 0 to 4 in four categories. Filled icons show the score: three filled icons = 3 out of 4, and a half-filled icon is half a point. <a class="sv-link" href="{{ '/elections/municipal-2026#how-well-grade-responses' | relative_url }}">How we grade responses</a></p>
 <ul class="sv-legend-grid">
 {%- for cat in categories %}
 <li class="sv-legend-item"><svg class="sv-ico is-on sv-ico-legend" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ cat.icon }}"/></svg><span class="sv-legend-label">{{ cat.label }}</span></li>

@@ -45,6 +45,11 @@ races:
       - name: "Bianca Bielski"
         status: on-time
         received: "October 2, 2026"
+        scores:
+          ambition: 4
+          money: 2
+          network: 2.5
+          health: 1.5
         responses:
           transport-mode: |
             My feet and my vehicle.
@@ -73,6 +78,11 @@ races:
       - name: "Frank Domenic"
         status: on-time
         received: "September 25, 2026"
+        scores:
+          ambition: 2
+          money: 1
+          network: 2
+          health: 2.5
         responses:
           transport-mode: |
             I mostly drive my hybrid plug in minivan
@@ -93,6 +103,11 @@ races:
       - name: "Rowen Fraser"
         status: on-time
         received: "September 22, 2026"
+        scores:
+          ambition: 4
+          money: 1.5
+          network: 2
+          health: 1.5
         responses:
           transport-mode: |
             Currently I use my vehicle or walking to get most places.

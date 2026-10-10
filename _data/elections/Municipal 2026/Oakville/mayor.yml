@@ -45,6 +45,11 @@ races:
       - name: "Arvind Choudhary"
         status: on-time
         received: "September 25, 2026"
+        scores:
+          ambition: 4
+          money: 4
+          network: 4
+          health: 4
         responses:
           transport-mode: |
             Most days, my car. I want to be straight with you about that rather than dress it up.
@@ -133,6 +138,11 @@ races:
       - name: "Julia Hanna"
         status: on-time
         received: "September 23, 2026"
+        scores:
+          ambition: 4
+          money: 4
+          network: 4
+          health: 4
         responses:
           transport-mode: |
             I get around Oakville by car. I recognize that residents have different transportation needs, and our town needs to work for people who drive, take transit, walk or cycle.
@@ -205,6 +215,11 @@ races:
       - name: "Rob Burton"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 4
+          money: 2.5
+          network: 3
+          health: 3.5
         responses:
           transport-mode: |
             Like most residents, I get around Oakville by driving, walking our local trails, cycling, and taking Oakville Transit or the GO train.
@@ -245,6 +260,11 @@ races:
       - name: "Sean O'Meara"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 4
+          money: 2.5
+          network: 2.5
+          health: 1
         responses:
           transport-mode: |
             I mostly use a mix of car and personal vehicle. I am a frequent user of Go transit as well.

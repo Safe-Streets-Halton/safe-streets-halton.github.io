@@ -49,6 +49,11 @@ races:
       - name: "Smita Tulsani"
         status: on-time
         received: "September 24, 2026"
+        scores:
+          ambition: 3.5
+          money: 3
+          network: 3
+          health: 1.5
         responses:
           transport-mode: |
             I primarily use a car. Between work, family and community commitments, it is currently the most practical way for me to get around Oakville.

@@ -45,6 +45,11 @@ races:
       - name: "Marianne Meed Ward"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 4
+          money: 3
+          network: 2.5
+          health: 3
         responses:
           transport-mode: |
             I walk to work, cycle and take public transit, including the bus and the GO train. For longer distances, I drive a hybrid.
@@ -77,6 +82,11 @@ races:
       - name: "Rory Nisan"
         status: on-time
         received: "September 24, 2026"
+        scores:
+          ambition: 4
+          money: 4
+          network: 4
+          health: 4
         responses:
           transport-mode: |
             I drive a 2008 Toyota Camry Hybrid, I take the bus when it makes sense, I walk and I ride my bike.
@@ -97,6 +107,11 @@ races:
       - name: "Yugalkeesor Ramdhonee"
         status: on-time
         received: "October 3, 2026"
+        scores:
+          ambition: 1.5
+          money: 2.5
+          network: 2
+          health: 0.5
         responses:
           transport-mode: |
             Car, sometimes bus

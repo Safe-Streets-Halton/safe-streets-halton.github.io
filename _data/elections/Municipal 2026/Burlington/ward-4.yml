@@ -45,6 +45,11 @@ races:
       - name: "Chris Carter"
         status: on-time
         received: "September 23, 2026"
+        scores:
+          ambition: 3
+          money: 4
+          network: 3.5
+          health: 2
         responses:
           transport-mode: |
             Most often, I drive. As a father of two, business owner, volunteer and someone who spends a lot of time travelling throughout Burlington, a vehicle is currently the most practical option for many of my trips.
@@ -111,6 +116,11 @@ races:
       - name: "Olivia Duke"
         status: on-time
         received: "September 27, 2026"
+        scores:
+          ambition: 4
+          money: 3.5
+          network: 4
+          health: 3.5
         responses:
           transport-mode: |
             I use a mix of transportation depending on where I am going. I primarily drive and walk, and I have also used Burlington Transit.

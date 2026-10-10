@@ -45,6 +45,11 @@ races:
       - name: "Vick Walia"
         status: on-time
         received: "September 23, 2026"
+        scores:
+          ambition: 3
+          money: 3
+          network: 3.5
+          health: 3
         responses:
           transport-mode: |
             For most of my day-to-day travel, I use a car, largely because of the nature of my work in real estate, which requires me to travel throughout Oakville and the surrounding area. I also walk for shorter trips when practical.
@@ -129,6 +134,11 @@ races:
       - name: "Zulfi Malik"
         status: on-time
         received: "October 2, 2026"
+        scores:
+          ambition: 2
+          money: 3
+          network: 3
+          health: 2
         responses:
           transport-mode: |
             I primarily drive, like many residents in Ward 7. But I also recognize that not everyone drives or has access to a car. Whether someone is driving, walking, cycling or taking transit, they should be able to get around Oakville safely and conveniently.

@@ -45,6 +45,11 @@ races:
       - name: "Roger Lapworth"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 3
+          money: 0.5
+          network: 0.5
+          health: 1
         responses:
           transport-mode: |
             Automobile.
@@ -65,6 +70,11 @@ races:
       - name: "Suzan Chong"
         status: on-time
         received: "September 20, 2026"
+        scores:
+          ambition: 3
+          money: 1
+          network: 2
+          health: 2.5
         responses:
           transport-mode: |
             I mostly drive my EV, and I rely a lot on the 407 to get across the region.
@@ -85,6 +95,11 @@ races:
       - name: "Vandana Giri"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 1.5
+          money: 2.5
+          network: 2.5
+          health: 2.5
         responses:
           transport-mode: |
             I prefer walking when a place is within walking distance. For longer trips, I use other transportation depending on where I need to go.
