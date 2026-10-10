@@ -1,6 +1,7 @@
 ---
 title: 2026 Halton Region Municipal Elections
-description: Election Day is October 26. See where Burlington and Oakville candidates stand on transit, road safety and active transportation, and get ready to vote.
+description: Election Day is October 26. See where Burlington and Oakville candidates
+  stand on transit, road safety and active transportation, and get ready to vote.
 layout: base-layout
 custom_css: municipal-election-2026
 ---
