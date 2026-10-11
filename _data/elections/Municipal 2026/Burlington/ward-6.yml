@@ -47,7 +47,7 @@ races:
         status: on-time
         received: "October 2, 2026"
         scores:
-          ambition: 4
+          ambition: 3.5
           money: 2
           network: 2.5
           health: 1.5
@@ -81,7 +81,7 @@ races:
         status: on-time
         received: "September 25, 2026"
         scores:
-          ambition: 2
+          ambition: 1.5
           money: 1
           network: 2
           health: 2.5
@@ -108,7 +108,7 @@ races:
         received: "September 22, 2026"
         scores:
           ambition: 4
-          money: 1.5
+          money: 1
           network: 2
           health: 1.5
         responses:

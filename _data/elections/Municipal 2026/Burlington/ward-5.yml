@@ -47,8 +47,8 @@ races:
         status: on-time
         received: "October 4, 2026"
         scores:
-          ambition: 0.5
-          money: 1.5
+          ambition: 0
+          money: 1
           network: 0
           health: 0.5
         responses:
@@ -99,9 +99,9 @@ races:
         status: on-time
         received: "September 27, 2026"
         scores:
-          ambition: 2.5
+          ambition: 3
           money: 2
-          network: 1.5
+          network: 2
           health: 1.5
         responses:
           transport-mode: |

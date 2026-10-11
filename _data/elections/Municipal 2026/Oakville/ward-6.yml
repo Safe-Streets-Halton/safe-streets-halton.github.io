@@ -51,7 +51,7 @@ races:
         status: on-time
         received: "September 24, 2026"
         scores:
-          ambition: 3.5
+          ambition: 4
           money: 3
           network: 3
           health: 1.5

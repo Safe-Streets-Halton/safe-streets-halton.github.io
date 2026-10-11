@@ -49,7 +49,7 @@ races:
         scores:
           ambition: 4
           money: 3
-          network: 2.5
+          network: 2
           health: 3
         responses:
           transport-mode: |

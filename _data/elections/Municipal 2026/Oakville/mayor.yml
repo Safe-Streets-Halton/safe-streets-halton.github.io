@@ -220,7 +220,7 @@ races:
         received: "October 4, 2026"
         scores:
           ambition: 4
-          money: 2.5
+          money: 2
           network: 3
           health: 3.5
         responses:
@@ -266,7 +266,7 @@ races:
         received: "October 4, 2026"
         scores:
           ambition: 4
-          money: 2.5
+          money: 3
           network: 2.5
           health: 1
         responses:

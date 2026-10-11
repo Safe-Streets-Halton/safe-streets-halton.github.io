@@ -52,8 +52,8 @@ races:
         received: "October 4, 2026"
         scores:
           ambition: 4
-          money: 2.5
-          network: 4
+          money: 2
+          network: 3.5
           health: 4
         responses:
           transport-mode: |

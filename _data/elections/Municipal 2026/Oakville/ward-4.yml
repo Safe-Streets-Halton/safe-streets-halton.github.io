@@ -73,8 +73,8 @@ races:
         status: on-time
         received: "September 20, 2026"
         scores:
-          ambition: 3
-          money: 1
+          ambition: 2.5
+          money: 0
           network: 2
           health: 2.5
         responses:

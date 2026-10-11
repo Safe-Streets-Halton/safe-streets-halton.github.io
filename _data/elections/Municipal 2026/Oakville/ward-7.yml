@@ -137,10 +137,10 @@ races:
         status: on-time
         received: "October 2, 2026"
         scores:
-          ambition: 2
+          ambition: 1.5
           money: 3
           network: 3
-          health: 2
+          health: 1.5
         responses:
           transport-mode: |
             I primarily drive, like many residents in Ward 7. But I also recognize that not everyone drives or has access to a car. Whether someone is driving, walking, cycling or taking transit, they should be able to get around Oakville safely and conveniently.

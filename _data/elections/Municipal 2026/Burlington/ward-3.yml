@@ -119,7 +119,7 @@ races:
         scores:
           ambition: 4
           money: 3
-          network: 3
+          network: 2.5
           health: 3.5
         responses:
           transport-mode: |
@@ -158,7 +158,7 @@ races:
         status: on-time
         received: "October 4, 2026"
         scores:
-          ambition: 2.5
+          ambition: 2
           money: 1.5
           network: 1
           health: 1.5
@@ -189,7 +189,7 @@ races:
         received: "September 21, 2026"
         scores:
           ambition: 1.5
-          money: 2
+          money: 1
           network: 1.5
           health: 0
         responses:
