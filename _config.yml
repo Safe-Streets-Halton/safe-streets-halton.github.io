@@ -48,6 +48,7 @@ defaults:
     type: municipal-election-2026
   values:
     layout: municipal-survey
+    image: "/assets/municipal-election-2026/social-preview.png"
     custom_css:
     - municipal-survey
 header_pages:
@@ -73,7 +74,7 @@ plugins:
 description: Safe Streets Halton is a grass-roots organization on a mission to eliminate
   all traffic-related deaths and serious injuries in Halton, Ontario.
 baseurl: 
-url: 
+url: "https://safestreetshalton.ca"
 permalink: "/:categories/:title"
 twitter_username: HaltonStreets
 facebook_username: HaltonStreets

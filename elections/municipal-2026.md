@@ -4,6 +4,7 @@ description: Election Day is October 26. See where Burlington and Oakville candi
   stand on transit, road safety and active transportation, and get ready to vote.
 layout: base-layout
 custom_css: municipal-election-2026
+image: "/assets/municipal-election-2026/social-preview.png"
 ---
 
 {%- comment -%}
