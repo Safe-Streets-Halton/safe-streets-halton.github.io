@@ -74,7 +74,7 @@ plugins:
 description: Safe Streets Halton is a grass-roots organization on a mission to eliminate
   all traffic-related deaths and serious injuries in Halton, Ontario.
 baseurl: 
-url: "https://safestreetshalton.ca"
+url: https://safestreetshalton.ca
 permalink: "/:categories/:title"
 twitter_username: HaltonStreets
 facebook_username: HaltonStreets
