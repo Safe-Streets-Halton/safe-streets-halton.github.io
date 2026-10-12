@@ -89,7 +89,7 @@ image: "/assets/municipal-election-2026/social-preview.png"
 <p class="m26-text">Every response is reviewed against a detailed rubric so candidates are assessed consistently and fairly. We don’t publish the rubric itself, but each response is scored from 0 to 4 in the four categories below. Across every category we’re looking for the same thing: real awareness of the issue, and a willingness to act on it – not just supportive language.</p>
 <ul class="m26-cats" role="list">
 {%- for cat in m26.categories %}
-<li class="m26-cat"><svg class="m26-cat-ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ cat.icon }}"/></svg><span class="m26-cat-label">{{ cat.label }}</span></li>
+<li class="m26-cat"><svg class="m26-cat-ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ cat.icon }}"/></svg><span class="m26-cat-label">{{ cat.label }}</span><span class="m26-cat-desc">{{ cat.description }}</span></li>
 {%- endfor %}
 </ul>
 </div>
