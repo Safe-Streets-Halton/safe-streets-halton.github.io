@@ -41,7 +41,9 @@ races:
   - id: race-regional
     title: "Regional & Town Councillor"
     note: "Sits on both Oakville Town Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Jonathan McNeice"
+        status: no-response
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
@@ -150,3 +152,7 @@ races:
             I believe active transportation is an absolute necessity for a growing community. However, decisions about how we implement it need to be informed by people who understand the challenges firsthand.That means listening to cyclists, pedestrians, transit users and residents who experience these transportation networks every day, while also considering the broader needs of the community.
           land-use: |
             I wish I had a simple answer to this one. In many parts of Oakville, particularly established neighbourhoods, the available land is already spoken for.That's why I think the implementation of active transportation needs to be done with intention. We need to identify opportunities when roads, parks and other public infrastructure are being redesigned rather than trying to retrofit every existing neighbourhood after the fact. In terms of Oakville's development, and certainly in Ward 1, we may be somewhat past the point where we can easily incorporate active transportation into a blank slate. That makes it even more important to be strategic about the opportunities we do have.
+      - name: "Amir Henry"
+        status: no-response
+      - name: "Nancy Ortenburg"
+        status: no-response

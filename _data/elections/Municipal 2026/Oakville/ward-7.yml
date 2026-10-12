@@ -128,6 +128,14 @@ races:
             I support thoughtful, transit-supportive growth in appropriate locations, but not a one-size-fits-all approach to intensification.
 
             Growth should make neighbourhoods more connected and livable, not create additional congestion and infrastructure pressures without a clear plan to address them.
+      - name: "Gaganpreet Darar"
+        status: no-response
+      - name: "Bilal Kader"
+        status: no-response
+      - name: "Nav Nanda"
+        status: no-response
+      - name: "Ajay Rosha"
+        status: no-response
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
@@ -182,3 +190,5 @@ races:
         website: "http://www.votealihosny.ca"
         status: late-pending
         received: "October 5, 2026"
+      - name: "Scott Xie"
+        status: no-response

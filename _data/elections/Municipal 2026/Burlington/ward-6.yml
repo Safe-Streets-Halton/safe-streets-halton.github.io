@@ -135,3 +135,7 @@ races:
         website: "https://www.osobward6.ca/"
         status: late-pending
         received: "October 5, 2026"
+      - name: "Angelo Bentivegna"
+        status: no-response
+      - name: "Edmond Jodhi"
+        status: no-response

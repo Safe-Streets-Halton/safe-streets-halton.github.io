@@ -41,7 +41,9 @@ races:
   - id: race-regional
     title: "Regional & Town Councillor"
     note: "Sits on both Oakville Town Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Janet Haslett-Theall"
+        status: no-response
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
@@ -130,3 +132,5 @@ races:
             • Walkable from day one: asking that any new Midtown development come with direct, comfortable walking routes to the GO station, Cornwall Road, and elsewhere.
 
             • Everyday destinations closer to home: making it easier for a smaller shops or businesses to open within walking distance of where people live.
+      - name: "Jen Zhou"
+        status: no-response

@@ -124,6 +124,10 @@ races:
         website: "https://www.hleeforward4.ca/"
         status: late-pending
         received: "October 5, 2026"
+      - name: "Kashif (Kash) Chaudry"
+        status: no-response
+      - name: "Farah Shamim"
+        status: no-response
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
@@ -132,3 +136,7 @@ races:
         website: "http://www.syedtahir.ca/"
         status: late-pending
         received: "October 6, 2026"
+      - name: "Peter Longo"
+        status: no-response
+      - name: "Luba Slanina"
+        status: no-response

@@ -45,6 +45,12 @@ races:
       - name: "Zena Al-Mudaris"
         status: late-pending
         received: "October 5, 2026"
+      - name: "Desmond Jordan"
+        status: no-response
+      - name: "Sarah Perkin"
+        status: no-response
+      - name: "Stacey Saunders"
+        status: no-response
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."

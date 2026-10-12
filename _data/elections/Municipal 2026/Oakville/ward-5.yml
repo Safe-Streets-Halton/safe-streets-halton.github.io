@@ -362,3 +362,7 @@ races:
         website: "https://www.audreyw.ca/"
         status: late-pending
         received: "October 5, 2026"
+      - name: "Sue Heddle"
+        status: no-response
+      - name: "Thane Mitches"
+        status: no-response

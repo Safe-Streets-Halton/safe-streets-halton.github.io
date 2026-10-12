@@ -41,7 +41,9 @@ races:
   - id: race-regional
     title: "Regional & Town Councillor"
     note: "Sits on both Oakville Town Council and Halton Regional Council."
-    candidates: []
+    candidates:
+      - name: "Tom Adams"
+        status: no-response
   - id: race-town
     title: "Town Councillor"
     note: "Sits on Oakville Town Council."
@@ -152,3 +154,7 @@ races:
             For me, infrastructure-first growth means exactly that: roads, transit, safety and community infrastructure cannot continually be an afterthought to development.
 
             Good growth should build connected communities, not simply add homes and traffic.
+      - name: "Natalia Lishchyna"
+        status: no-response
+      - name: "Pierre Sauvageot"
+        status: no-response

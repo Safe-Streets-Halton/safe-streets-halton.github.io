@@ -106,3 +106,5 @@ races:
         website: "https://voterobertradway.com/"
         status: late-pending
         received: "October 5, 2026"
+      - name: "James Kerr"
+        status: no-response
