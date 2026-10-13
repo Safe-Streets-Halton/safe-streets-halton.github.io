@@ -155,4 +155,30 @@ races:
       - name: "Amir Henry"
         status: no-response
       - name: "Nancy Ortenburg"
-        status: no-response
+        status: on-time
+        received: "October 4, 2026"
+        responses:
+          transport-mode: |
+            Depends on where I'm going.  For commuting, primarily GO trains. To events in Bronte, bicycle.  Errands/appointments/groceries, car or walk.
+          transit: |
+            I have a 30 year career in public transit and have worked with 120+ transit systems across Canada, the US and Europe from as small as Prince Albert, SK to Chicago and recently as Head of Marketing and Customer Experience at the TTC.
+
+            I've worked for PRESTO, Metrolinx and MiWay as well.
+
+            Oakville's primary issue is frequency.  That requires rolling stock, operators, mechanics and a general investment in transit. We will never solve our traffic problems by building more roads.
+
+            Oakville's website is grossly behind in making it easy to find information and the lack of staff to support API updates is telling. Route 14 was detoured off of Rebecca for 2 months and TransitApp/GoogleTransit were never updated. Information and real-time information are now table-stakes in the transit customer experience and Oakville has not invested in the staff necessary to deliver this experience.
+          vision-zero: |
+            I don't have the statistics, but from my observation I would think that we have reversed on creating pedestrian and cyclist-friendly environments.  There was a huge effort on Speers Rd. between 3rd and 4th, but I did hear from some that the green paint gets slippery in the rain.  There are many great examples around the globe, but I think that the best model is Edmonton's citizen-led streets project;  people who live there know the patterns best, far better than a snippet in time traffic study.  Engaging them in teh best solution in their neighbourhood makes a lot of sense.
+          safety-investment: |
+            Yes, I will be voting and advocating to increase the Oakville Transit budget and to equip the team with the necessary staff to create the appropriate product for a Town with 220,000 people.
+          walking-cycling: |
+            I'm a fan of separate pathways, similar to Umea, Sweden.  If Sweden can figure out how to create cycling pathways that are attractive in the winter, we should be able to as well!  I would like to see pedestrian/cycling only services that run north/south outside of the vehicle corridors to the GO Stations.
+          bike-infrastructure: |
+            Fundamentally yes and each case needs to be looked at for optimal safety and design considerations.
+          health-environment: |
+            This answer could take an essay, however, I can offer that I worked with Natural Resources Canada to develop SmartDrive for Transit:  a Fuel Efficiency driving program to reduce emissions, brake wear and tear and elevate the smooth operation of vehicles.  My team at CUTA (Canadian Urban Transit Association) where I worked for 10 years rolled the program out to 80 transit systems where we taught senior leadership and frontline staff about the benefits of transit and also the negative impacts of idling, harsh braking and improper vehicle operations contributing to pollution and climate change.
+          land-use: |
+            Yes!  It's obviously much more difficult retroactively, but I would recommend that in established neighbourhoods, the Town identify "as the crow flies" optimal routes and as housing is available, purchase lots to create pedestrian by passes so that accessing a bus stop doesn't require walking around 400-800m of winding streets.
+
+            For new subdivisions, I would like to see plannign requirements that all developments measure the customer journey to a bus stop and that the most direct route, less than 400m is required to make taking transit or cycle EASY.
