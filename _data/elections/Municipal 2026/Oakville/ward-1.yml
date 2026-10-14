@@ -157,6 +157,11 @@ races:
       - name: "Nancy Ortenburg"
         status: on-time
         received: "October 4, 2026"
+        scores:
+          ambition: 2.5
+          money: 1.5
+          network: 2
+          health: 1.5
         responses:
           transport-mode: |
             Depends on where I'm going.  For commuting, primarily GO trains. To events in Bronte, bicycle.  Errands/appointments/groceries, car or walk.
