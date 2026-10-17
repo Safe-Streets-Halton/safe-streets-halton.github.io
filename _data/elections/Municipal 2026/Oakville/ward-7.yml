@@ -188,7 +188,57 @@ races:
             For me, the goal is creating complete communities where residents have more choices in how they get around while protecting the quality of life that people value in Oakville.
       - name: "Ali Hosny"
         website: "http://www.votealihosny.ca"
-        status: late-pending
+        status: late
         received: "October 5, 2026"
+        scores:
+          ambition: 4
+          money: 3
+          network: 3
+          health: 3
+        responses:
+          transport-mode: |
+            I walk, drive my car, and during the summertime, I enjoy using my motorcycle. My wife has used transit for many years to get to work.
+          transit: |
+            The number one concern I hear from Ward 7 residents is bus frequency and the lack of direct routes. Students, seniors and families tell me they need multiple transfers just to reach key destinations. One resident told me he currently needs three buses to get to the Oakville GO station to go to work every morning. With roughly 14,000 new residential units coming to Ward 7 by 2031, transit has to be built in as part of growth, not added afterward.
+
+            Oakville Transit's Five-Year Business Plan, approved in 2024, is the starting point. If elected, I will push for a Ward 7 review within that plan, built around Ward 7's actual demographics and travel patterns, and I'll ask for clear timelines and public reporting on the results. I'll also push for better coordination with Metrolinx on connections to the GO station and demand to have accessible, safe routes to bus stops so seniors and people with disabilities can use the service.
+          vision-zero: |
+            Oakville has built a foundation, but the results aren't there yet. Council approved the Neighbourhood Traffic Safety Program in 2021 with Vision Zero as one of its components, and a Vision Zero study followed in 2022. Since then the Town has added Community Safety Zones, pedestrian crossovers, speed cushions on residential streets and traffic calming near schools. I would build on that work.
+
+            The outcomes are harder to look at. Across Halton, injury collisions rose from 764 in 2021 to 1,012 in 2025, and fatal collisions went from 6 to 13. Provincial legislation also ended Oakville's speed camera program in November 2025, so we have lost a tool and need to replace it with better design. Residents in Ward 7 still tell me about speeding, aggressive driving and stop-sign running on their streets. To me, that says progress has been too slow.
+
+            Many of our busiest corridors, including Dundas Street and Trafalgar Road, are Regional roads, which are not under the jurisdiction of a Town Councillor. For those, I will bring motions to Council asking the Region to act and work with whoever is elected as our Regional Councillor. And on Town roads, we can act directly.
+
+            I will move a motion for a ward-level safety audit using the Town's existing screening data and publish a hotspot map. I will also ask police and the Region for Oakville-specific collision data so residents can see the real numbers.
+
+            E-scooters are currently prohibited in Oakville, and staff are due to report to Council this year on whether to join the provincial pilot. If Council opts in, I will push for permit conditions that include live data sharing, designated parking and insurance. I will also ask Halton Region Public Health and our hospital for aggregated, anonymous data on e-bike and e-scooter injuries, because we cannot fix what we cannot see.
+
+            I will ask for the results of Oakville's 40 km/h default speed pilot and push to move it forward. I will work to expedite school-zone calming and extend daylighting to mid-block crossings, starting with low-cost posts and moving to permanent concrete curb extensions through the capital budget. When roads are rebuilt, I will ask staff to review lane-width and complete-streets standards, since safety features cost far less when the road is already open. For new development, I will push to phase local pedestrian crossings in with new homes through subdivision and site-plan agreements, within what Ontario law allows.
+
+            Other places show this can work. Hoboken, New Jersey has gone 9 years without a traffic death. It started with inexpensive plastic bollards at corners, about $20 each, then added curb extensions, better crosswalks and lower speeds. Edmonton cut traffic deaths by about 50% between 2015 and 2021 under a dedicated Vision Zero program, and its 40 km/h residential default later brought 25% fewer collisions and 31% fewer injuries and fatalities. Toronto recorded 39 deaths in 2025, the fewest since its Vision Zero plan began.
+
+            Oakville is a different community, but the approach carries over: start with steady, low-cost fixes, then build permanent design where it matters most.
+          safety-investment: |
+            Yes, I will vote for spending that improves the safety of everyone travelling in Oakville, whether they are driving, cycling, walking or taking transit.
+
+            I will back investments guided by data, starting with a ward-level safety audit and the necessary traffic studies. Good data is what shows us the real risks and helps us unlock and pursue any available provincial and regional funding. I will favour low-cost fixes that can be delivered quickly, such as interim daylighting and school-zone calming, as well as permanent safety features built into roads where they are already being reconstructed, when the added cost is much lower.
+
+            I will also vote in favour of a well-funded, reliable transit system, and for bike lanes where studies show they are feasible and safe. I will support public awareness campaigns so residents know their options. As the Town considers whether to allow e-scooters, I will push for conditions that protect pedestrians and give us the data needed to track safety.
+          walking-cycling: |
+            Streets and sidewalks are a core Town responsibility, and keeping them clear and accessible matters most for seniors, families with children and people with disabilities. The Town already clears sidewalks, with school routes first. I will ask staff to review whether those winter standards meet residents’ needs, particularly on routes to schools and transit.
+
+            I will support safer crossings through measures like curb extensions and daylighting at crosswalks, starting where the safety audit shows the greatest need. I will back bike lanes where feasibility and safety studies support them, designed to suit each neighbourhood’s layout. To protect people on sidewalks and trails, I will push for conditions on e-scooters if Council opts into the provincial pilot, and ask staff to review how e-bikes are managed on our trails.
+
+            Some of the biggest barriers are not the Town’s to build. Dundas Street, Neyagawa Boulevard and Trafalgar Road are Halton Regional roads, and the provincial highways belong to the Province. I will bring motions to Council asking the Region to improve crossings, work with whoever is elected as our Regional Councillor, and press the Ministry of Transportation to prioritize safe crossings where our routes meet provincial highways.
+          bike-infrastructure: |
+            Yes, I support expanding this infrastructure, including protected bike lanes where studies show they are feasible and safe, and where provincial rules allow. I also support slower speeds on residential streets and safer intersection design, such as curb extensions at crossings. Edmonton’s move to a 40 km/h residential default produced 25% fewer collisions and 31% fewer injuries and fatalities, so I would ask staff for the results of Oakville’s own 40 km/h pilot. Each project should follow a proper safety study and be designed with the neighbourhood, so it is built right and will last.
+          health-environment: |
+            Transportation shapes our health and our environment, both locally and globally. Heavy reliance on cars increases greenhouse gas emissions, worsens local air quality and, when crashes happen, causes serious injuries and deaths. Car-centred design also reduces opportunities for an active lifestyle, and when parents don’t feel safe letting their children walk or bike, children lose daily activity.
+
+            By investing in transit, safe crossings and accessible sidewalks, the Town can help reduce emissions, improve air quality and make walking and cycling an easy daily routine.
+          land-use: |
+            Suburban planning was designed around the car, and that model is no longer sustainable. Ward 7 is expected to see significant growth, and I support responsible growth that builds complete, walkable and safe communities, with homes, shops, schools and parks close to transit so daily needs don't require a car. Infrastructure must keep pace with that growth: roads, transit, parks, schools and safe walking and cycling connections.
+
+            If elected, I will push for development charges that recover the cost of growth to the full extent provincial law allows. I will also push to phase local pedestrian crossings and pathways in with new homes through subdivision and site-plan agreements, subject to legal review. I will hold developers to their commitments, review each application on its merits after hearing from residents, and oppose zoning amendments and height increases that don’t deliver clear benefits to our community.
       - name: "Scott Xie"
         status: no-response

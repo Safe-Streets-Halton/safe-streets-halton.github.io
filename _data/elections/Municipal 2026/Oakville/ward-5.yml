@@ -356,12 +356,84 @@ races:
             We should be turning more of our mandated high density into livable retirement villages. We should look at alternatives to the forced typical density that we build. New areas developed with walkable amenities make it possible to overall reduce the increase in traffic.
       - name: "Mirsab Fasih"
         website: "https://mirsabfasih.ca/"
-        status: late-pending
+        status: late
         received: "October 5, 2026"
+        scores:
+          ambition: 2
+          money: 2
+          network: 1.5
+          health: 0.5
+        responses:
+          transport-mode: |
+            I mainly travel by car, the GO train and Oakville transit busses when going DT Toronto, and my bicycle when weather permits, which is my favourite by far.
+          transit: |
+            Transit is a daily necessity to all Oakvillians, Oakville Transit had brought 4.88 million riders to where they needed to go in 2024. With our growing population, our transit systems needs to continue innovating and providing a robust network that residence can depend on. I envision a transit system that is more accepted by folks who decide to opt-out given societal pressures and self perceptions that individuals want to uphold. It is as if “taking the bus” is looked down upon nowadays, as if it is a representation of what class you belong to, which is the completely wrong thinking. Taking the bus needs to be encouraged, by calling this fact out, and showing that no one is too good for the bus. I like to look at the system NYC recently implemented. Faster buses, more buses, and more routes. Data has shown that in New York, white collar professionals who would have never taken the bus before, have started to take it now because of how fast, convenient and pleasant it is overall. I envision Oakville transit getting to that level. It would solve the grid lock issues immensely if we had express busses in Oakville during rush hour times bringing people to and from where they need to go. A prime example is Cornwall and Trafalgar intersection where people need to take the LW GO train to get to and from DT Toronto. The grid lock that occurs during rush hour causes an increase in commute time by 3 times at least, causes unnecessary dollars lost as there is generally only one person per car, and increases risk given the traffic that is caused. I want to bring in SMEs and re-engineer the process around transit so that we reach optimal efficiency.
+          vision-zero: |
+            I feel like Oakville has made a great push, but we still have our troubles. I believe raising awareness to the traffic calming strategies and how we can harness our cities transit instead of privately owned vehicles to get from place to place, will be a big milestone towards achieving vision zero. The loss of even one life that could’ve been prevented, is like the loss of all humanity.
+          safety-investment: |
+            Safety, is the #1 priority, always. I will always vote in favour of spending a little extra on city run transportation and innovation, and hope that it can be a daily part of every residence in Oakville. This will take encouraging the community of the benefits, where we can also incentivize the community through programs during rush hour times so that there are less vehicles on the road. Less vehicles on the road are less vehicles that are prone to error.
+          walking-cycling: |
+            Dedicated bike lanes in high traffic and densely populated areas, with dedicated paths off normal roads to get under or over provincial highways.
+          bike-infrastructure: |
+            Big yes! I ditto my points listed in question #5 above and #7 below.
+          health-environment: |
+            The Netherlands is where we can take an example from. ~36% of Dutch people have listed their bicycle as their primary mode of transportation on a daily basis, where in big cities like Utrecht, this number jumps up to 51%. This along with having a uniquely robust transit systems, it is common for people to not own a car, around 49% of the entire population. The benefits of cycling are immense as you can imagine, and the environmental implications are in favour of a sustainable and eco-friendly result. Somewhere closer to home, Montreal has adapted a dedicated bike path network, so much so, that in January 2025, in -8 degrees weather, the counter on the southbound bike path registered 13,116 trips - a nearly 90 per cent increase from the same month in 2021, according to City of Montreal data. In densely populated areas, biking has proven to be a more faster method of commuting than driving has. So let’s get back to being healthy, and vote to have such infrastructure planned and built for in densely populated areas of Oakville.
+          land-use: |
+            MZOs are definitely trouble-some, as they look to implement quickly and solve issues later rather than planning responsibly to consider and manage risks before they materialize into unresolvable issues. I would definitely vote and advocate to eliminate the power of MZOs on municipalities such as Oakville, as it only benefits private investors at the detriment to peoples communities and homes. Let us not destroy the very essence of what makes Oakville our home.
       - name: "Audrey Wubbenhorst"
         website: "https://www.audreyw.ca/"
-        status: late-pending
+        status: late
         received: "October 5, 2026"
+        scores:
+          ambition: 3
+          money: 2
+          network: 2
+          health: 3
+        responses:
+          transport-mode: |
+            Like many Oakville residents, I use a mix of transportation. I drive for many trips, but I also walk and bike when it is practical. My mother is in a wheelchair and we use the Care-a-Van service often. My kids use the free Oakville transit. We need to recognize that many residents still depend on cars while creating realistic, safe and convenient alternatives.
+
+            The goal should not be to make it harder to drive. It should be to make walking, cycling and public transit safe and convenient enough that people have a genuine choice about how they get around.
+          transit: |
+            Oakville Transit surpassed five million boardings in 2025, and the Town has already begun implementing a Frequent Transit Network, initially improving service on Trafalgar and Dundas. We need to build on that progress. My priorities would be frequency, reliability, connections and accessibility. People are much more likely to use transit when they know a bus will arrive frequently and get them where they need to go without multiple lengthy transfers.
+
+            Accessibility needs to be designed into the system rather than treated as an add-on. I strongly support the Town's decision to make care-A-van free for registered riders using PRESTO.  I would also offer free use of the service to Sheridan College students, as well as youth and seniors (which is already in place).  In areas where deman is infrequent, we can offer more Ride-on Demand services.
+          vision-zero: |
+            Oakville has made progress, but Vision Zero is ultimately measured by outcomes: the objective must be to prevent deaths and serious injuries. The Town has introduced or expanded traffic calming, pedestrian crossovers, community safety zones and automated speed enforcement, which began in 2025. These are positive steps.
+
+            I would support a data-driven approach that identifies locations with collisions, speeding or repeated resident concerns and prioritizes those locations for intervention. Solutions can include traffic calming, safer crossings, better lighting and visibility, protected infrastructure, redesigned intersections and appropriate speed reductions.
+
+            As a school trustee, I hear a lot about safety in and around student drop-off areas.  These areas need to be clearly marked and there needs to be enforcement of speed limits in school zones.
+          safety-investment: |
+            Yes.
+
+            Transportation spending should consider everyone who uses our streets: drivers, transit riders, pedestrians, cyclists and people using mobility devices.
+
+            I will support investments where there is evidence that they will meaningfully improve safety, accessibility or mobility. At the same time, I believe Council has a responsibility to consider costs, measurable benefits and competing priorities when spending taxpayers' money.  Oakville's new Transportation Master Plan is intended to provide more transportation choices while accommodating growth through 2051. I support that balanced approach.  This should not become a debate about cars versus bicycles or drivers versus pedestrians. Most of us are different kinds of road users at different times. Our transportation system should reflect that reality.
+          walking-cycling: |
+            Walking and cycling become realistic transportation choices when people feel safe, comfortable and connected to where they need to go.
+
+            I would prioritize closing gaps in sidewalks and cycling routes rather than creating disconnected pieces of infrastructure. We should improve crossings, lighting, signage, shade and accessibility and ensure trails and active transportation routes connect residents with schools, parks, commercial areas, transit and community facilities.  Major roads, highways and interchanges can create significant barriers. Some of these are outside the Town's direct jurisdiction, so Oakville needs to work actively with Halton Region, the Province and other transportation agencies to improve crossings and connections.
+
+            As Oakville grows, we also have an opportunity to make new communities more walkable from the beginning instead of trying to retrofit them decades later.
+          bike-infrastructure: |
+            Yes, where it creates a safe, connected and useful network. I support expanding cycling infrastructure, including protected bicycle lanes where appropriate, safer intersections, multi-use paths and traffic-calming measures. A bike lane that suddenly ends at a dangerous intersection is not a complete transportation solution. We should focus investments on creating continuous routes that allow people to reach schools, transit, shopping, parks, employment areas and other destinations safely.
+
+            Oakville's 2025 Transportation Master Plan specifically calls for more walkable, cycling and transit-friendly neighbourhoods and accessible transportation choices. I support implementing that objective thoughtfully and evaluating results as projects are completed.
+          health-environment: |
+            Transportation affects our health, environment and quality of life in many ways. When neighbourhoods make it safe and convenient to walk, cycle or take transit, physical activity can become part of people's everyday routines rather than something they have to schedule separately. Safe transportation options can also increase independence for young people, older adults, people with disabilities and residents who do not drive.
+
+            There are environmental benefits as well. More opportunities to walk, cycle, carpool and use transit can reduce congestion and transportation-related emissions.  Oakville is a suburban community, and cars will continue to be an important part of our transportation system. Our objective should be to give residents more choices.
+          land-use: |
+            Yes. Transportation and land-use planning cannot be separated.
+
+            I support the concept of complete communities: neighbourhoods where people can reasonably reach everyday needs such as groceries, parks, schools, recreation, services and transit without having to drive for every trip. Oakville's current growth strategy similarly calls for mixed-use communities with access to greenspace, retail, schools, libraries, recreation and transit hubs. We should direct appropriate density toward areas that can support it, particularly major transit corridors and transit hubs, while ensuring that infrastructure and community services keep pace with development.
+
+            At the same time, transit-oriented development should not simply mean putting as many high-rise buildings as possible beside a GO station. Midtown needs to become a complete community, with appropriate transportation infrastructure, parks, services, employment and public spaces alongside housing. Oakville's adopted Midtown planning framework similarly envisions a transit-supportive complete community.
+
+            Good land-use planning can reduce the number of trips people have to make by car. That benefits people who walk, cycle and take transit, but it also benefits drivers by reducing pressure on our roads.
+
+            My overall approach is about choice, accessibility and practicality: making it easier and safer for people to walk, cycle and take transit while recognizing that cars will remain an important part of life in Oakville.
       - name: "Sue Heddle"
         status: no-response
       - name: "Thane Mitches"

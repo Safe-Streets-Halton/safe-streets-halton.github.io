@@ -104,7 +104,35 @@ races:
             We need to stop building communities that sprawl onto green spaces and create car dependency.  Intensifying from within our cities is the path that I would support moving forward.
       - name: "Robert Radway"
         website: "https://voterobertradway.com/"
-        status: late-pending
+        status: late
         received: "October 5, 2026"
+        scores:
+          ambition: 3
+          money: 1
+          network: 1
+          health: 3
+        responses:
+          transport-mode: |
+            Primarily, I drive my personal vehicle.
+          transit: |
+            What I’m hearing from residents in regards to major new developments is concerns of how it will impact already busy traffic in Burlington - this is the opportunity that transit provides - to limit the traffic strain
+
+            As we build more condos and apartments, we must make transit more accessible and consistent so that residents can interact in their community without needing to use a personal vehicle
+          vision-zero: |
+            The bike lanes in Aldershot have helped safety and accessibility for riders, but as we’ve seen with tragic incidents on Maple and on North Shore in the last few years, we are not close to achieving Vision Zero in Burlington
+
+            There are many opportunities in Ward 1 for improvements - lengthening crossing times at major intersections and creating more cross walks on major streets like King Rd would drastically help pedestrian safety
+          safety-investment: |
+            Definitely. As mentioned, we should be understanding what can drive ridership for our transit and building routes that enable that growth. More transit use means less traffic and a better environmental impact
+          walking-cycling: |
+            It starts by listening to those who use our trails and streets and understanding areas for improvement. My goal as an elected representative is to be truly connected with my constituents so we can respond and make changes quicker.
+          bike-infrastructure: |
+            Hopefully, completing the Plains Road bike lanes will increase their usage because more places will become safely accessible to users
+
+            Streets around our neighbourhood schools could also offer opportunity to enhance infrastructure; hopefully building a culture of bicycle usage
+          health-environment: |
+            We know that traffic and congestion are not helpful in our climate change fight. Making it easier to get around our city has immense environmental benefits but also health benefits like reducing stress and sedentary behaviour. More people moving equals a healthier Burlington!
+          land-use: |
+            As our Ward develops and densifies, making sure we put a focus on supporting those developments with quality, nearby retail (groceries, day cares, pharmacies) that makes life more convenient and brings us closer to the reality of not needing a vehicle for most day-to-day tasks
       - name: "James Kerr"
         status: no-response
