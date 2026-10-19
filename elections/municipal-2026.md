@@ -57,7 +57,7 @@ image: "/assets/municipal-election-2026/social-preview.png"
 </section>
 <section id="survey" class="m26-section" aria-labelledby="survey-h">
 <h2 id="survey-h" class="m26-h2">Where the <span class="m26-accent">Candidates</span> Stand</h2>
-<p class="m26-text">We asked every municipal candidate in Burlington and Oakville the same eight questions about transit, road safety and active transportation. Choose your city, then your ward or the mayor’s race, to read their answers and see how we scored them.<br><a href="#how-well-grade-responses">How we score responses</a></p>
+<p class="m26-text">We asked every municipal candidate in Burlington and Oakville the same eight questions about transit, road safety and active transportation. Choose your city, then your ward or the mayor’s race, to read their answers and see how we scored their responses.<br><a href="#how-well-grade-responses">How we score responses</a></p>
 <div class="m26-cities">
 {%- for entry in m26.cities %}
 {%- assign city = entry[0] %}
@@ -87,6 +87,7 @@ image: "/assets/municipal-election-2026/social-preview.png"
 <div class="m26-score">
 <h3 id="how-well-grade-responses" class="m26-h3">How We Score Responses</h3>
 <p class="m26-text">Every response is reviewed against a detailed rubric so candidates are assessed consistently and fairly. We don’t publish the rubric itself, but each response is scored from 0 to 4 in the four categories below. Across every category we’re looking for the same thing: real awareness of the issue, and a willingness to act on it – not just supportive language.</p>
+<p class="m26-note"><strong>Scores are based only on survey responses.</strong> We score what each candidate wrote in their survey, not their voting record, past statements or campaign platform. <strong>A score is not an endorsement.</strong> Safe Streets Halton is non-partisan and does not endorse any candidate.</p>
 <ul class="m26-cats" role="list">
 {%- for cat in m26.categories %}
 <li class="m26-cat"><svg class="m26-cat-ico" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><use href="#sv-icon-{{ cat.icon }}"/></svg><span class="m26-cat-label">{{ cat.label }}</span><span class="m26-cat-desc">{{ cat.description }}</span></li>
@@ -113,6 +114,6 @@ image: "/assets/municipal-election-2026/social-preview.png"
 </div>
 <a class="m26-btn-light" href="{% link get-involved/volunteer.html %}">Volunteer in Your Community</a>
 </section>
-<p class="m26-footnote">Safe Streets Halton is a non-partisan organization. We do not endorse any party or candidate.</p>
+<p class="m26-footnote">Safe Streets Halton is a non-partisan organization. We do not endorse any party or candidate, and survey scores are not endorsements.</p>
 </div>
 </div>
