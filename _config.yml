@@ -60,7 +60,7 @@ header_pages:
 - url: "/about"
 - url: "/contact-us"
 announcement:
-  show: true
+  show: false
   icon: "\U0001F5F3️"
   danger_level: none
   text: Municipal Elections are coming! Are you well informed?
